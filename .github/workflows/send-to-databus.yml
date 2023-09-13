@@ -22,8 +22,8 @@ jobs:
                     "group": "artsdata-planet-ville-de-laval",
                     "artifact": "calendrier-activites",
                     "version": "calendrier-activites-${{ steps.version.outputs.dumpdate }}",
-                    "downloadUrl": "https:///grandtheatre-qc-ca-.json",
-                    "downloadFile": "calendrier-activites.rdf",
+                    "downloadUrl": "https://raw.githubusercontent.com/culturecreates/artsdata-planet-ville-de-laval/main/dumps/calendrier-activites-2023-09-12.rdf",
+                    "downloadFile": "calendrier-activites-${{ steps.version.outputs.dumpdate }}.rdf",
                     "comment": "Dump of events from Ville de Laval using Github workflows",
                     "reportCallbackUrl": "",
                     "shacl": "artsdata"
