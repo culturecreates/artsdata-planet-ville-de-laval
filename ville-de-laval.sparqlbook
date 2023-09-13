@@ -1,0 +1,8 @@
+[
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "# [endpoint=http://kg.artsdata.ca/query]\n\nPREFIX schema: <http://schema.org/>\n\nselect ?name ?id  (count(?subEvent) as ?subEvents) ?date where {\n ?id a schema:Event .\n  graph <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites> {\n\n   ?id  schema:name ?name ; schema:startDate ?date ; a ?type .\n    filter(not exists {\n        ?superEvent schema:subEvent ?id\n        })\n   OPTIONAL {\n    ?id schema:subEvent ?subEvent .\n   }\n   \n  }\n  \n}group by ?name ?id ?date  order by  ?date  limit 5",
+    "metadata": {}
+  }
+]

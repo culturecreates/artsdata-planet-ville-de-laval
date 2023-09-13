@@ -1,0 +1,30 @@
+name: Send to Artsdata databus
+on:
+  workflow_dispatch:
+jobs:
+  deploy:
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.S3_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY }}
+      AWS_REGION: ca-central-1 
+      WEBHOSTING_BUCKET_NAME: huginn-data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set current date as output
+        id: version  # this is used on variable path
+        run: echo "dumpdate=$(date +'%Y-%m-%dT%H-%M-%S')" >> $GITHUB_OUTPUT
+      - name: Register dump in Artsdata Databus  # TODO add "reportCallbackUrl" to Github logs
+        run: |
+          curl \
+          -H 'Content-Type: application/json' \
+          -X POST http://api.artsdata.ca/databus/  \
+          --data '{ "publisher": "https://saumier.github.io/gregory-saumier-finch.ttl%23this",
+                    "group": "artsdata-planet-ville-de-laval",
+                    "artifact": "calendrier-activites",
+                    "version": "calendrier-activites-${{ steps.version.outputs.dumpdate }}",
+                    "downloadUrl": "https:///grandtheatre-qc-ca-.json",
+                    "downloadFile": "calendrier-activites.rdf",
+                    "comment": "Dump of events from Ville de Laval using Github workflows",
+                    "reportCallbackUrl": "",
+                    "shacl": "artsdata"
+                  }'   
