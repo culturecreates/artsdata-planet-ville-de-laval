@@ -1,0 +1,31 @@
+PREFIX schema: <http://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+select reduced ?date ?code (count(?s) as ?count) (sample(?s) as ?s_sample) (sample(?g) as ?g_sample) where {
+    values ?g {
+        <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites>
+    }
+    graph  ?g {
+        ?s a schema:Event .
+    }
+    ?g  schema:url/dct:issued ?issuedDate .
+    ?s a schema:Event ;
+       schema:startDate ?startDate ;
+       schema:name ?name  ;
+       schema:description ?desc ;
+       schema:location/schema:sameAs/schema:address/schema:postalCode ?code .
+    bind(strdt(substr(str(?startDate),1,10),xsd:date) as ?date )
+    filter (?startDate  > now())
+    filter not exists {
+        ?focusNode sh:focusNode ?s .
+    }
+    values ?type {
+        <http://laval.ca/rdf/52ff792f-a72e-4b2b-859e-2b9faf17491a> # Bibliothèques
+        <http://laval.ca/rdf/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>  # Expositions et spectacles
+        <http://laval.ca/rdf/685b3eae-7097-4a44-8e72-1c769ed8f6cf> # Événements et festivals
+    }
+    ?s schema:additionalType ?type .
+} 
+group by ?code ?date 
+having(count(?s) < 2)

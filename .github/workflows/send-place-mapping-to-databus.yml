@@ -1,0 +1,25 @@
+name: Send place mapping to Artsdata databus
+on:
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set current date as output
+        id: version  # this is used on variable path
+        run: echo "dumpdate=$(date +'%Y-%m-%dT%H-%M-%S')" >> $GITHUB_OUTPUT
+      - name: Register dump in Artsdata Databus  # TODO add "reportCallbackUrl" to Github logs
+        run: |
+          curl \
+          -H 'Content-Type: application/json' \
+          -X POST http://api.artsdata.ca/databus/  \
+          --data '{ "publisher": "https://saumier.github.io/gregory-saumier-finch.ttl%23this",
+                    "group": "artsdata-planet-ville-de-laval",
+                    "artifact": "place-mapping-to-artsdata",
+                    "version": "place-mapping-to-artsdata-${{ steps.version.outputs.dumpdate }}",
+                    "downloadUrl": "",
+                    "downloadFile": "place-mapping-to-artsdata-${{ steps.version.outputs.dumpdate }}.ttl",
+                    "comment": "",
+                    "reportCallbackUrl": "https://footlight-condenser.herokuapp.com/messages/webhook.json?artifact=place-mapping-to-artsdata",
+                    "shacl": "artsdata"
+                  }'   
