@@ -25,6 +25,6 @@ jobs:
                     "downloadUrl": "https://raw.githubusercontent.com/culturecreates/artsdata-planet-ville-de-laval/main/dumps/calendrier-activites-2023-09-12.rdf",
                     "downloadFile": "calendrier-activites-${{ steps.version.outputs.dumpdate }}.rdf",
                     "comment": "Dump of events from Ville de Laval using Github workflows",
-                    "reportCallbackUrl": "",
+                    "reportCallbackUrl": "https://footlight-condenser.herokuapp.com/messages/webhook.json?artifact=calendrier-activites",
                     "shacl": "artsdata"
                   }'   
