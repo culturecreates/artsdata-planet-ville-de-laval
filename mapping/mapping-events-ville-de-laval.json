@@ -2,7 +2,8 @@
   "baseIRI": "http://laval.ca/rdf/",
   "namespaces": {
     "schema": "http://schema.org/",
-    "skos": "http://www.w3.org/2004/02/skos/core#"
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
   "subjectMappings": [
     {
@@ -79,12 +80,12 @@
                 "type": "datatype_literal",
                 "datatype": {
                   "transformation": {
-                    "expression": "schema",
+                    "expression": "xsd",
                     "language": "prefix"
                   },
                   "valueSource": {
                     "source": "constant",
-                    "constant": "DateTime"
+                    "constant": "dateTime"
                   }
                 }
               }
@@ -194,7 +195,7 @@
                 "type": "datatype_literal",
                 "datatype": {
                   "transformation": {
-                    "expression": "schema",
+                    "expression": "xsd",
                     "language": "prefix"
                   },
                   "valueSource": {
@@ -233,8 +234,12 @@
         }
       ],
       "subject": {
+        "transformation": {
+          "expression": "cells[\"_ - PageUrl\"].value.substring(1,-1) + \"-\" + cells[\"_ - EventDate\"].value.substring(0, 10)",
+          "language": "grel"
+        },
         "valueSource": {
-          "source": "record_id"
+          "source": "row_index"
         }
       },
       "typeMappings": [
