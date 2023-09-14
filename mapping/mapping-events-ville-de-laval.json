@@ -1,5 +1,5 @@
 {
-  "baseIRI": "http://laval.ca/rdf/",
+  "baseIRI": "https://www.laval.ca/",
   "namespaces": {
     "schema": "http://schema.org/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
@@ -72,9 +72,12 @@
           },
           "values": [
             {
+              "transformation": {
+                "expression": "cells[\"_ - EventDate\"].value + \"Z\"",
+                "language": "grel"
+              },
               "valueSource": {
-                "columnName": "_ - EventDate",
-                "source": "column"
+                "source": "row_index"
               },
               "valueType": {
                 "type": "datatype_literal",
@@ -187,9 +190,12 @@
           },
           "values": [
             {
+              "transformation": {
+                "expression": "cells[\"_ - EndDate\"].value + \"Z\"",
+                "language": "grel"
+              },
               "valueSource": {
-                "columnName": "_ - EndDate",
-                "source": "column"
+                "source": "row_index"
               },
               "valueType": {
                 "type": "datatype_literal",
@@ -235,7 +241,7 @@
       ],
       "subject": {
         "transformation": {
-          "expression": "cells[\"_ - PageUrl\"].value.substring(1,-1) + \"-\" + cells[\"_ - EventDate\"].value.substring(0, 10)",
+          "expression": "cells[\"_ - PageUrl\"].value.substring(1,-1) + \"#\" + cells[\"_ - EventDate\"].value.substring(0, 10)",
           "language": "grel"
         },
         "valueSource": {

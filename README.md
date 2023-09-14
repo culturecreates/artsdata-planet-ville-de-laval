@@ -3,6 +3,11 @@ Data pipeline to import events from Ville de Laval to Artsdata.
 
 Ville de Laval events on [Donnees Quebec](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005).
 
+Minting
+========
+This data pipeline assumes that events can be consistently minted using the page url + date.
+<https://www.laval.ca/Pages/Fr/Calendrier/rencontrez-votre-elue-louise-lortie.asp#2023-06-14> 
+
 History
 ==========
 * In the summer of 2023 the City of Laval fixed their export of JSON event data which is sent to the Données Quebec Portal.
@@ -12,7 +17,7 @@ History
   * Événements et festivals (http://laval.ca/rdf/685b3eae-7097-4a44-8e72-1c769ed8f6cf)
   * Expositions et spectacles (http://laval.ca/rdf/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb)
 * 2023-09-11: Culture Creates starting loading City of Laval events into Artsdata.
-* 
+  
 
 Supporting Graphs
 ===============
