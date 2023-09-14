@@ -17,7 +17,7 @@ jobs:
                     "group": "artsdata-planet-ville-de-laval",
                     "artifact": "calendrier-activites",
                     "version": "calendrier-activites-${{ steps.version.outputs.dumpdate }}",
-                    "downloadUrl": "https://raw.githubusercontent.com/culturecreates/artsdata-planet-ville-de-laval/main/dumps/calendrier-activites-2023-09-12.ttl",
+                    "downloadUrl": "https://raw.githubusercontent.com/culturecreates/artsdata-planet-ville-de-laval/main/dumps/calendrier-activites-2023-09-14.ttl",
                     "downloadFile": "calendrier-activites-${{ steps.version.outputs.dumpdate }}.ttl",
                     "comment": "Dump of events from Ville de Laval using Github workflows",
                     "reportCallbackUrl": "https://footlight-condenser.herokuapp.com/messages/webhook.json?artifact=calendrier-activites",
