@@ -17,9 +17,9 @@ jobs:
                     "group": "artsdata-planet-ville-de-laval",
                     "artifact": "place-mapping-to-artsdata",
                     "version": "place-mapping-to-artsdata-${{ steps.version.outputs.dumpdate }}",
-                    "downloadUrl": "",
+                    "downloadUrl": "https://raw.githubusercontent.com/culturecreates/artsdata-planet-ville-de-laval/main/mapping/place-mapping-to-artsdata.ttl",
                     "downloadFile": "place-mapping-to-artsdata-${{ steps.version.outputs.dumpdate }}.ttl",
-                    "comment": "",
+                    "comment": "Mapping of Laval Place IDs to Artsdata Place URIs",
                     "reportCallbackUrl": "https://footlight-condenser.herokuapp.com/messages/webhook.json?artifact=place-mapping-to-artsdata",
                     "shacl": "artsdata"
                   }'   
