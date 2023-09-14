@@ -241,7 +241,7 @@
       ],
       "subject": {
         "transformation": {
-          "expression": "cells[\"_ - PageUrl\"].value.substring(1,-1) + \"#\" + cells[\"_ - EventDate\"].value.substring(0, 10)",
+          "expression": "cells[\"_ - PageUrl\"].value.substring(1) + \"#\" + cells[\"_ - EventDate\"].value.substring(0, 10)",
           "language": "grel"
         },
         "valueSource": {
