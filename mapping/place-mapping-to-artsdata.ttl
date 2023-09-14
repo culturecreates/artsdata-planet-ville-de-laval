@@ -1,5 +1,5 @@
 @prefix schema: <http://schema.org/> .
-@prefix adr: <http://schema.org/> .
+@prefix adr: <http://kg.artsdata.ca/resource/> .
 @prefix laval: <https://www.laval.ca/> .
 
 laval:82ebc34d-7364-423f-a279-3ad55ad5df0e schema:sameAs adr:K5-361 .
