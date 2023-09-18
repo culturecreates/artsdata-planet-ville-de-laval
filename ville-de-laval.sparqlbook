@@ -1,8 +1,44 @@
 [
   {
+    "kind": 1,
+    "language": "markdown",
+    "value": "View all events loaded from Données Québec",
+    "metadata": {}
+  },
+  {
     "kind": 2,
     "language": "sparql",
-    "value": "# [endpoint=http://kg.artsdata.ca/query]\n\nPREFIX schema: <http://schema.org/>\n\nselect ?name ?id  (count(?subEvent) as ?subEvents) ?date where {\n ?id a schema:Event .\n  graph <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites> {\n\n   ?id  schema:name ?name ; schema:startDate ?date ; a ?type .\n    filter(not exists {\n        ?superEvent schema:subEvent ?id\n        })\n   OPTIONAL {\n    ?id schema:subEvent ?subEvent .\n   }\n   \n  }\n  \n}group by ?name ?id ?date  order by  ?date  limit 5",
+    "value": "# [endpoint=http://kg.artsdata.ca/query]\n\nPREFIX schema: <http://schema.org/>\n\nselect ?name ?id  (count(?subEvent) as ?subEvents) ?date where {\n ?id a schema:Event .\n  graph <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites> {\n\n   ?id  schema:name ?name ; schema:startDate ?date ; a ?type .\n    filter(not exists {\n        ?superEvent schema:subEvent ?id\n        })\n   OPTIONAL {\n    ?id schema:subEvent ?subEvent .\n   }\n   \n  }\n  \n}group by ?name ?id ?date  order by  ?date  ",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "Events that are upcoming in the 3 selected categories:\n* Bibliothèques\n* Expositions et spectacles\n* Événements et festivals",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "# [endpoint=http://kg.artsdata.ca/query]\n\nPREFIX schema: <http://schema.org/>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX sh: <http://www.w3.org/ns/shacl#>\nselect reduced ?startDate ?name\nwhere {\n    \n            values ?g {\n                <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites>\n            }\n            graph  ?g {\n                ?s a schema:Event .\n            }\n           \n            ?s a schema:Event ;\n               schema:startDate ?startDate ;\n               schema:name ?name  .\n            filter (?startDate  > now())\n            values ?type {\n                <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a> # Bibliothèques\n                <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>  # Expositions et spectacles\n                <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf> # Événements et festivals\n            }\n            ?s schema:additionalType ?type .\n        } \n  ",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "Upcoming events in the 3 selected categories with a single startDate and location (pass Artsdata SHACL)",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "# [endpoint=http://kg.artsdata.ca/query]\n\nPREFIX schema: <http://schema.org/>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX sh: <http://www.w3.org/ns/shacl#>\nselect *\nwhere {\n    \n    values ?g {\n        <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites>\n    }\n    graph  ?g {\n        ?s a schema:Event .\n    }\n          \n            ?s a schema:Event ;\n               schema:startDate ?startDate ;\n               schema:name ?name  ;\n               schema:location/schema:sameAs/schema:address/schema:postalCode ?code ;\n               schema:location/schema:name ?location_name .\n            bind(strdt(substr(str(?startDate),1,10),xsd:date) as ?date )\n            filter (?startDate  > now())\n\n    OPTIONAL {\n         ?event2 a schema:Event ;\n            schema:name ?name2  ;\n            schema:startDate ?startDate2 ; \n            schema:location/schema:sameAs/schema:address/schema:postalCode ?code2 .\n            filter (?s != ?event_dup)\n            bind(strdt(substr(str(?startDate),1,10),xsd:date) as ?date2 )\n            filter(?code2 != ?code)\n             filter(?date2 != ?date)\n    }\n           \n} \n        \n    \n",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "",
     "metadata": {}
   }
 ]

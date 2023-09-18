@@ -5,7 +5,7 @@ Ville de Laval events on [Donnees Quebec](https://www.donneesquebec.ca/recherche
 
 Minting
 ========
-This data pipeline assumes that events can be consistently minted using the page url + date.
+This data pipeline assumes that events can be consistently minted using the page url + date (without time).
 <https://www.laval.ca/Pages/Fr/Calendrier/rencontrez-votre-elue-louise-lortie.asp#2023-06-14> 
 
 History
