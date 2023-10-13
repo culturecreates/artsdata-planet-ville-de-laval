@@ -3,6 +3,21 @@ Data pipeline to import events from Ville de Laval to Artsdata.
 
 Ville de Laval events on [Donnees Quebec](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005).
 
+Directories
+============
+
+Description of the directories and the files they contain.
+
+dumps
+------
+
+The dumps directory contains the JSON dumps from Donnees Quebec and the converted RDF in turtle.
+
+mapping
+-------
+
+The mapping directory contains the OntoRefine mappings in JSON to convert to RDF and the place mapping in turtle.
+
 Minting
 ========
 This data pipeline assumes that events can be consistently minted using the page url + date (without time).
