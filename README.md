@@ -32,7 +32,10 @@ History
   * Événements et festivals (http://laval.ca/rdf/685b3eae-7097-4a44-8e72-1c769ed8f6cf)
   * Expositions et spectacles (http://laval.ca/rdf/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb)
 * 2023-09-11: Culture Creates starting loading City of Laval events into Artsdata.
-  
+* 2023-09-18: Culture Creates confirms that the feed from Ville de Laval is broken.
+* 2023-11-07: Culture Creates confirms that the feed from Ville de Laval is starting to work again.
+* 2023-12-04: CUlture Creates resumes weekly imports to  Artsdata.
+
 
 Supporting Graphs
 ===============
@@ -45,3 +48,12 @@ Artsdata Export to Footlight CMS
 On-demand [5 events JSON](http://api.artsdata.ca/query.json?limit=5&frame=event_footlight&sparql=query_footlight_events&source=http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites) 
 
 
+Manual Process
+============
+1. Download CSV dump from Données Quebec
+1. Store in /dumps
+1. Run OntoRefine Docker image (load mapping file in mapping/)
+1. Convert dump to turtle and store in /dumps
+1. update name of file to upload in workflow
+1. run workflow
+1. Mint new Artsdata IDs for new events using Satelitte Minter with Artsdata authority credentials.
