@@ -19,11 +19,12 @@ where {
             ?g  schema:url/dct:issued ?issuedDate .
             ?s a schema:Event ;
                schema:startDate ?startDate ;
+               schema:endDate ?endDate ;
                schema:name ?name  ;
                schema:description ?desc ;
                schema:location/schema:sameAs/schema:address/schema:postalCode ?code .
             bind(strdt(substr(str(?startDate),1,10),xsd:date) as ?date )
-            filter (?startDate  > now())
+            filter (?startDate  > now() || ?endDate > now() )
             filter not exists {
                 ?focusNode sh:focusNode ?s .
             }
