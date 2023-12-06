@@ -3,7 +3,10 @@ PREFIX schema: <http://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX sh: <http://www.w3.org/ns/shacl#>
-select distinct ?s ?location_name  where {
+construct {
+    ?s a schema:Event .
+}  
+where {
     values ?g {
         <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites>
     }

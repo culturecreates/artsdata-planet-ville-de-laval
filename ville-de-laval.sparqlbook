@@ -26,7 +26,7 @@
   {
     "kind": 1,
     "language": "markdown",
-    "value": "Upcoming events in the 3 selected categories with a single startDate and location (pass Artsdata SHACL)",
+    "value": "Upcoming events in the 3 selected categories with no Artsdata SHACL errors (a single startDate and location)",
     "metadata": {}
   },
   {
@@ -46,7 +46,7 @@
   {
     "kind": 2,
     "language": "sparql",
-    "value": "# [endpoint=http://kg.artsdata.ca/query]\n\nPREFIX schema: <http://schema.org/>\n\nselect distinct ?location ?location_name where { \n\t values ?g {\n        <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites>\n    }\n    graph  ?g {\n        ?s a schema:Event ;\n           schema:name ?name ;\n           schema:location ?location ;\n           schema:url ?url .\n    }\n    OPTIONAL {\n         ?location schema:sameAs ?sameas_location .\n    }\n    OPTIONAL {\n         ?location schema:name ?location_name .\n    }\n\n    filter(!bound(?sameas_location))\n} limit 100 \n",
+    "value": "# [endpoint=http://kg.artsdata.ca/query]\n\nPREFIX schema: <http://schema.org/>\n\nselect distinct ?location ?location_name where { \n\t values ?g {\n        <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites>\n    }\n    graph  ?g {\n        ?s a schema:Event ;\n           schema:name ?name ;\n           schema:location ?location ;\n           schema:url ?url .\n           values ?type {\n               <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a> # Bibliothèques\n               <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>  # Expositions et spectacles\n               <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf> # Événements et festivals\n               \n          }\n          ?s schema:additionalType ?type .\n    }\n    OPTIONAL {\n         ?location schema:sameAs ?sameas_location .\n    }\n    OPTIONAL {\n         ?location schema:name ?location_name .\n    }\n\n    filter(!bound(?sameas_location))\n} limit 100 \n",
     "metadata": {}
   },
   {
