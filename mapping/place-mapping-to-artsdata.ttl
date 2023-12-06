@@ -33,3 +33,9 @@ laval:afa7201f-6aab-4196-b349-66674653729b schema:sameAs adr:K5-49 .
 laval:03e1dcf2-1201-4c36-8ba2-4fd7da85b80b schema:sameAs adr:K5-50 .
 laval:6f9829c4-7499-4341-84d3-c9c2e1cf749a schema:sameAs adr:K5-234 .
 laval:659ac9d7-fb91-4346-b138-a9485d043fac schema:sameAs adr:K5-326 .
+laval:3eae705c-98bd-4d09-8a59-6796136ace5a schema:sameAs adr:K5-237 .
+laval:88f11dbe-1345-4760-b4ee-c3d15bb09d36 schema:sameAs adr:K5-307 .
+laval:52caaaa2-2df3-45fb-8f4f-024abf189411 schema:sameAs adr:K5-356  .
+laval:20fbb844-faba-487d-83ec-46a04ddb47a3 schema:sameAs adr:K5-146 .
+laval:083742f6-aebe-4e14-ab33-e2a2828835d9 schema:sameAs adr:K5-145 .
+laval:26ee7560-4e01-4e14-928a-7a906adb4a81 schema:sameAs adr:K5-353 .

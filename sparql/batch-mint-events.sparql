@@ -47,4 +47,4 @@ select distinct ?s ?location_name  where {
             filter(?g != ?other_g)
         
     }
-}
+} order by ?s

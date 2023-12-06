@@ -50,11 +50,13 @@ On-demand [5 events JSON](http://api.artsdata.ca/query.json?limit=5&frame=event_
 
 Manual Process
 ============
-1. Download CSV dump from Données Quebec
-1. Store in /dumps
-1. Run OntoRefine Docker image (load mapping file in mapping/)
-1. Convert dump to turtle and store in /dumps
-1. update name of file to upload in workflow
-1. run workflow
+1. Download CSV dump from Données Quebec and store in /dumps
+1. Run OntoRefine Docker image (load mapping file from /mapping)
+1. Convert dump to turtle and store in /dumps (must fill down the 2 fields needed to generate the event URI (PageUrl and EventDate) in order to get the multiple locations, categories, tags, etc.)
+1. update name of file to upload in workflow.yml
+1. Run workflow to upload RDF to Artsdata
 1. Check Artsdata for places mising Artsdata IDs and mint places (see Sparql Notebook)
-1. Mint new Artsdata IDs for new events using Satelitte Minter with Artsdata authority credentials. Use batch with sparql - which of 2?
+1. Make sure CMS events are uploaded to Artsdata (to detect duplicates)
+1. Mint new Artsdata IDs for new events using "bulk mint" Satelitte Minter with Artsdata authority credentials. Use batch with sparql - which of 2? --> Batch mint events.
+
+Future improvement: Check date of event within 23 hrs instead of truncating dateTime.
