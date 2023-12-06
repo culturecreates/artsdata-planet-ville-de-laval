@@ -57,4 +57,4 @@ Manual Process
 1. update name of file to upload in workflow
 1. run workflow
 1. Check Artsdata for places mising Artsdata IDs and mint places (see Sparql Notebook)
-1. Mint new Artsdata IDs for new events using Satelitte Minter with Artsdata authority credentials. Use batch with sparql 
+1. Mint new Artsdata IDs for new events using Satelitte Minter with Artsdata authority credentials. Use batch with sparql - which of 2?
