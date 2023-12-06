@@ -254,6 +254,47 @@
               }
             }
           ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "keywords"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "_ - Categories - _ - Label",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            },
+            {
+              "valueSource": {
+                "columnName": "_ - Subcategories - _ - Label",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            },
+            {
+              "valueSource": {
+                "columnName": "_ - Clienteles - _ - Label",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
         }
       ],
       "subject": {
