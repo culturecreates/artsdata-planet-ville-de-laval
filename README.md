@@ -51,7 +51,7 @@ On-demand [5 events JSON](http://api.artsdata.ca/query.json?limit=5&frame=event_
 Manual Process
 ============
 1. Download CSV dump from Données Quebec and store in /dumps
-1. Run OntoRefine Docker image (load mapping file from /mapping)
+1. Run OntoRefine Docker image (load mapping file from /mapping) v.1.1.0
 1. Convert dump to turtle and store in /dumps (must fill down the 2 fields needed to generate the event URI (PageUrl and EventDate) in order to get the multiple locations, categories, tags, etc.)
 1. update name of file to upload in workflow.yml
 1. Run workflow to upload RDF to Artsdata
