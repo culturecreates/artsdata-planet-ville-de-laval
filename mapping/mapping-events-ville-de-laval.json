@@ -3,7 +3,8 @@
   "namespaces": {
     "schema": "http://schema.org/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "adr": "http://kg.artsdata.ca/resource/"
   },
   "subjectMappings": [
     {
@@ -252,6 +253,17 @@
                 "type": "iri",
                 "typeMappings": []
               }
+            },
+            {
+              "valueSource": {
+                "columnName": "_ - Tags - _ - Id",
+                "source": "column"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
+              }
             }
           ]
         },
@@ -292,6 +304,44 @@
               },
               "valueType": {
                 "type": "literal"
+              }
+            },
+            {
+              "valueSource": {
+                "columnName": "_ - Tags - _ - Label",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "literal"
+              }
+            }
+          ]
+        },
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "organizer"
+            }
+          },
+          "values": [
+            {
+              "transformation": {
+                "expression": "adr",
+                "language": "prefix"
+              },
+              "valueSource": {
+                "source": "constant",
+                "constant": "K16-116"
+              },
+              "valueType": {
+                "propertyMappings": [],
+                "type": "iri",
+                "typeMappings": []
               }
             }
           ]
@@ -456,6 +506,57 @@
       "subject": {
         "valueSource": {
           "columnName": "_ - Clienteles - _ - Id",
+          "source": "column"
+        }
+      },
+      "typeMappings": [
+        {
+          "transformation": {
+            "expression": "skos",
+            "language": "prefix"
+          },
+          "valueSource": {
+            "source": "constant",
+            "constant": "Concept"
+          }
+        }
+      ]
+    },
+    {
+      "propertyMappings": [
+        {
+          "property": {
+            "transformation": {
+              "expression": "schema",
+              "language": "prefix"
+            },
+            "valueSource": {
+              "source": "constant",
+              "constant": "name"
+            }
+          },
+          "values": [
+            {
+              "valueSource": {
+                "columnName": "_ - Tags - _ - Label",
+                "source": "column"
+              },
+              "valueType": {
+                "type": "language_literal",
+                "language": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "fr"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "valueSource": {
+          "columnName": "_ - Tags - _ - Id",
           "source": "column"
         }
       },
