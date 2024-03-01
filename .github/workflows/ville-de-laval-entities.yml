@@ -50,19 +50,21 @@ jobs:
     needs: transform-entities
     runs-on: ubuntu-latest
     outputs:
+        file-path: ${{ steps.download-step.outputs.download-path }}
         commit-hash: ${{ steps.get_commit_hash.outputs.commit-hash }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Download artifacts
+        id: download-step
         uses: actions/download-artifact@v4
         with:
           name: entities
           path: ./entities.ttl
     
       - name: Copy file
-        run: cp /home/runner/work/artsdata-planet-ville-de-laval/artsdata-planet-ville-de-laval/entities/entities.ttl ./dumps/entities.ttl
+        run: cp -r ${{steps.download-step.outputs.download-path}} ./dumps/entities.ttl
 
       - name: Commit file to GitHub
         run: |
