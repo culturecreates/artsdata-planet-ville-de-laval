@@ -64,7 +64,7 @@ jobs:
           path: ./entities.ttl
     
       - name: Copy file
-        run: cp -r ${{steps.download-step.outputs.download-path}} ./dumps/entities.ttl
+        run: cp ${{steps.download-step.outputs.download-path}}/entities.ttl ./dumps/entities.ttl
 
       - name: Commit file to GitHub
         run: |
