@@ -1,0 +1,91 @@
+name: Export Ville de Laval entities to Artsdata
+
+on:
+  workflow_dispatch:
+
+jobs:
+  transform-entities:
+    runs-on: ubuntu-latest
+    container:
+      image: ontotext/refine:1.2.0
+      options: --user root
+      ports:
+        - 7333:7333
+    steps:
+      - name: Install requirements
+        id: step-1
+        run: apk update && apk add curl && apk add util-linux && apk add coreutils
+            
+      - name: Run Onto Refine server
+        id: step-2
+        run: /opt/ontorefine/dist/bin/ontorefine &
+
+      - name: Download entities
+        id: step-3
+        run: |
+            curl 'https://www.donneesquebec.ca/recherche/dataset/df7add74-a741-4374-b3bd-22da8921c8b3/resource/b51a25de-bd06-4247-87ba-2b1ea8228005/download/calendrier-activites.json' >> entities.json
+      
+      - name: Download mapping file
+        id: step-4
+        run: |
+            curl 'https://raw.githubusercontent.com/culturecreates/artsdata-planet-ville-de-laval/main/mapping/config.json' >> config.json
+
+      - name: Transform entities in JSON  to RDF
+        id: step-5
+        run: |
+            /opt/ontorefine/dist/bin/ontorefine-cli \
+            transform entities.json \
+            -u http://localhost:7333 \
+            --configurations config.json \
+            -f json >> entities.ttl
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: entities
+          path: ./entities.ttl
+          retention-days: 1
+
+  commit-file-to-github:
+    needs: transform-entities
+    runs-on: ubuntu-latest
+    outputs:
+        commit-hash: ${{ steps.get_commit_hash.outputs.commit-hash }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: entities
+          path: ./entities.ttl
+    
+      - name: Copy file
+        run: cp /home/runner/work/artsdata-planet-ville-de-laval/artsdata-planet-ville-de-laval/entities/entities.ttl ./dumps/entities.ttl
+
+      - name: Commit file to GitHub
+        run: |
+            git pull
+            git config --global user.email "actions@github.com"
+            git config --global user.name "GitHub Actions"
+            git add "dumps/entities.ttl"
+            git commit -m "Push Ville-de-Laval entities TTL file"
+            git push
+
+      - name: Get commit hash
+        id: get_commit_hash
+        run: |
+            commit_hash=$(git rev-parse HEAD)
+            echo "commit-hash=$commit_hash" >> $GITHUB_OUTPUT
+
+  artsdata-push:
+    runs-on: ubuntu-latest
+    needs: commit-file-to-github
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v1.1.0
+        with:
+          artifact: donnees-quebec-ca
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-ville-de-laval/${{ needs.commit-file-to-github.outputs.commit-hash }}/dumps/entities.ttl

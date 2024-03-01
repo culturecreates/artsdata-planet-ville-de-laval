@@ -1,0 +1,919 @@
+{
+  "importOptions": [
+    {
+      "recordPath": [
+        "_",
+        "_"
+      ],
+      "limit": -1,
+      "trimStrings": false,
+      "guessCellValueTypes": false,
+      "storeEmptyStrings": true,
+      "includeFileSources": false,
+      "includeArchiveFileName": false,
+      "disableAutoPreview": false,
+      "projectName": "villedelaval json",
+      "projectTags": [],
+      "fileSource": "villedelaval.json",
+      "archiveFileName": null
+    }
+  ],
+  "operations": [
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Sites - _ - CustomProperties",
+      "description": "Fill down cells in column _ - Sites - _ - CustomProperties"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Sites - _ - TargetUrl",
+      "description": "Fill down cells in column _ - Sites - _ - TargetUrl"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Sites - _ - Label",
+      "description": "Fill down cells in column _ - Sites - _ - Label"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Sites - _ - Id",
+      "description": "Fill down cells in column _ - Sites - _ - Id"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Clienteles - _ - CustomProperties",
+      "description": "Fill down cells in column _ - Clienteles - _ - CustomProperties"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Clienteles - _ - TargetUrl",
+      "description": "Fill down cells in column _ - Clienteles - _ - TargetUrl"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Clienteles - _ - Label",
+      "description": "Fill down cells in column _ - Clienteles - _ - Label"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Clienteles - _ - Id",
+      "description": "Fill down cells in column _ - Clienteles - _ - Id"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Subcategories - _ - CustomProperties",
+      "description": "Fill down cells in column _ - Subcategories - _ - CustomProperties"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Subcategories - _ - TargetUrl",
+      "description": "Fill down cells in column _ - Subcategories - _ - TargetUrl"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Subcategories - _ - Label",
+      "description": "Fill down cells in column _ - Subcategories - _ - Label"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Subcategories - _ - Id",
+      "description": "Fill down cells in column _ - Subcategories - _ - Id"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Locations - _ - CustomProperties",
+      "description": "Fill down cells in column _ - Locations - _ - CustomProperties"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Locations - _ - TargetUrl",
+      "description": "Fill down cells in column _ - Locations - _ - TargetUrl"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Locations - _ - Label",
+      "description": "Fill down cells in column _ - Locations - _ - Label"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Locations - _ - Id",
+      "description": "Fill down cells in column _ - Locations - _ - Id"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Categories - _ - CustomProperties",
+      "description": "Fill down cells in column _ - Categories - _ - CustomProperties"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Categories - _ - TargetUrl",
+      "description": "Fill down cells in column _ - Categories - _ - TargetUrl"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Categories - _ - Label",
+      "description": "Fill down cells in column _ - Categories - _ - Label"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Categories - _ - Id",
+      "description": "Fill down cells in column _ - Categories - _ - Id"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Tags - _ - CustomProperties - TagType",
+      "description": "Fill down cells in column _ - Tags - _ - CustomProperties - TagType"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Tags - _ - CustomProperties",
+      "description": "Fill down cells in column _ - Tags - _ - CustomProperties"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Tags - _ - TargetUrl",
+      "description": "Fill down cells in column _ - Tags - _ - TargetUrl"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Tags - _ - Label",
+      "description": "Fill down cells in column _ - Tags - _ - Label"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Tags - _ - Id",
+      "description": "Fill down cells in column _ - Tags - _ - Id"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - ActivityInscriptionUrl.Url",
+      "description": "Fill down cells in column _ - ActivityInscriptionUrl.Url"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - ActivityInscriptionUrl.Description",
+      "description": "Fill down cells in column _ - ActivityInscriptionUrl.Description"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - EndDate",
+      "description": "Fill down cells in column _ - EndDate"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - EventDate",
+      "description": "Fill down cells in column _ - EventDate"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - ActivityInscriptionUrl",
+      "description": "Fill down cells in column _ - ActivityInscriptionUrl"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - ActivityInscriptionLabel",
+      "description": "Fill down cells in column _ - ActivityInscriptionLabel"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - ImageUrl",
+      "description": "Fill down cells in column _ - ImageUrl"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - PageUrl",
+      "description": "Fill down cells in column _ - PageUrl"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Excerpt",
+      "description": "Fill down cells in column _ - Excerpt"
+    },
+    {
+      "op": "core/fill-down",
+      "engineConfig": {
+        "facets": [],
+        "mode": "record-based"
+      },
+      "columnName": "_ - Title",
+      "description": "Fill down cells in column _ - Title"
+    },
+    {
+      "op": "mapping-editor/save-rdf-mapping",
+      "mapping": {
+        "baseIRI": "https://www.laval.ca/",
+        "namespaces": {
+          "schema": "http://schema.org/",
+          "skos": "http://www.w3.org/2004/02/skos/core#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "adr": "http://kg.artsdata.ca/resource/"
+        },
+        "subjectMappings": [
+          {
+            "subject": {
+              "valueSource": {
+                "source": "row_index"
+              },
+              "transformation": {
+                "language": "grel",
+                "expression": "cells[\"_ - PageUrl\"].value.substring(1) + \"#\" + cells[\"_ - EventDate\"].value.substring(0, 10)"
+              }
+            },
+            "typeMappings": [
+              {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "Event"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "schema"
+                }
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "name"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Title"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "fr"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "image"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "'https://www.laval.ca' + cells['_ - ImageUrl'].value "
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "startDate"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "cells[\"_ - EventDate\"].value + \"Z\""
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "dateTime"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "xsd"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "location"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Locations - _ - Id"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "url"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "'https://www.laval.ca' + cells['_ - PageUrl'].value"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "description"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Excerpt"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "fr"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "endDate"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "row_index"
+                    },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "cells[\"_ - EndDate\"].value + \"Z\""
+                    },
+                    "valueType": {
+                      "type": "datatype_literal",
+                      "datatype": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "dateTime"
+                        },
+                        "transformation": {
+                          "language": "prefix",
+                          "expression": "xsd"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "additionalType"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Categories - _ - Id"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Clienteles - _ - Id"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Tags - _ - Id"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "keywords"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Categories - _ - Label"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Subcategories - _ - Label"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Clienteles - _ - Label"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  },
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Tags - _ - Label"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "organizer"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "K16-116"
+                    },
+                    "transformation": {
+                      "language": "prefix",
+                      "expression": "adr"
+                    },
+                    "valueType": {
+                      "type": "iri",
+                      "typeMappings": [],
+                      "propertyMappings": []
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "subject": {
+              "valueSource": {
+                "source": "column",
+                "columnName": "_ - Locations - _ - Id"
+              }
+            },
+            "typeMappings": [
+              {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "Place"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "schema"
+                }
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "name"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Locations - _ - Label"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "fr"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "subject": {
+              "valueSource": {
+                "source": "column",
+                "columnName": "_ - Categories - _ - Id"
+              }
+            },
+            "typeMappings": [
+              {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "Concept"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "skos"
+                }
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "name"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Categories - _ - Label"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "fr"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "subject": {
+              "valueSource": {
+                "source": "column",
+                "columnName": "_ - Clienteles - _ - Id"
+              }
+            },
+            "typeMappings": [
+              {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "Concept"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "skos"
+                }
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "name"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Clienteles - _ - Label"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "fr"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "subject": {
+              "valueSource": {
+                "source": "column",
+                "columnName": "_ - Tags - _ - Id"
+              }
+            },
+            "typeMappings": [
+              {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "Concept"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "skos"
+                }
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "name"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "schema"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "column",
+                      "columnName": "_ - Tags - _ - Label"
+                    },
+                    "valueType": {
+                      "type": "language_literal",
+                      "language": {
+                        "valueSource": {
+                          "source": "constant",
+                          "constant": "fr"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "description": "Save RDF Mapping"
+    }
+  ]
+}
