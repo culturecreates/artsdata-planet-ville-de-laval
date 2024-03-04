@@ -4,18 +4,45 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix adr: <http://kg.artsdata.ca/resource/> .
 
-<Pages/Fr/Calendrier/biblio-arts-ruche.aspx#2024-02-29> a schema:Event;
-  schema:name "La ruche d’art"@fr;
-  schema:image <PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-ruche-art-335x215.jpg>;
-  schema:startDate "2024-02-29T23:00:00Z"^^xsd:dateTime;
+<Pages/Fr/Calendrier/maf-atelier-cuisine-cest-moi-chef.aspx#2024-03-04> a schema:Event;
+  schema:name "Atelier de cuisine : C’est moi le chef! "@fr;
+  schema:image <PublishingImages/Pages/Fr/Activites/calendrier-des-activites/maf-cest-moi-chef-335x215.jpg>;
+  schema:startDate "2024-03-04T18:00:00Z"^^xsd:dateTime, "2024-03-04T19:00:00Z"^^xsd:dateTime;
+  schema:location <4c6b62dd-569a-407b-98b0-a43ff20ff060>;
+  schema:url <Pages/Fr/Calendrier/maf-atelier-cuisine-cest-moi-chef.aspx>;
+  schema:description "<p>Dans cet atelier de cuisine, les enfants découvrent le plaisir de cuisiner et de bien manger.&#160;<br></p><p>Au menu &#58; Wrap aux légumes arc-en-ciel!</p>"@fr;
+  schema:endDate "2024-03-10T17:30:00Z"^^xsd:dateTime, "2024-03-10T18:30:00Z"^^xsd:dateTime;
+  schema:additionalType <35846724-d9aa-4e51-b625-4ddb0820ca4a>, <019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
+    <26765e4d-4479-4c1e-8a24-568f2ba06f97>;
+  schema:keywords "Communautaire et organismes", "Activités de nos partenaires", "Familles",
+    "Saint-Martin";
+  schema:organizer adr:K16-116 .
+
+<4c6b62dd-569a-407b-98b0-a43ff20ff060> a schema:Place;
+  schema:name "Musée de la santé Armand-Frappier"@fr .
+
+<35846724-d9aa-4e51-b625-4ddb0820ca4a> a skos:Concept;
+  schema:name "Communautaire et organismes"@fr .
+
+<019b445a-815c-49a2-8adc-2ceb9b48cd9a> a skos:Concept;
+  schema:name "Familles"@fr .
+
+<26765e4d-4479-4c1e-8a24-568f2ba06f97> a skos:Concept;
+  schema:name "Saint-Martin"@fr .
+
+<Pages/Fr/Calendrier/biblio-techno-studio-relache-au-studio.aspx#2024-03-04> a schema:Event;
+  schema:name "La relâche au Studio"@fr;
+  schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/biblio-relâche-studio-335x215.jpg>;
+  schema:startDate "2024-03-04T18:30:00Z"^^xsd:dateTime;
   schema:location <98205b68-5745-4687-b461-2e214e81389d>;
-  schema:url <Pages/Fr/Calendrier/biblio-arts-ruche.aspx>;
-  schema:description "<p>​​Pour ceux qui ne connaissaient pas l'expression, une ruche d'art est un atelier d'art communautaire qui accueille tout le monde en tant qu'artiste.&#160;<br></p>"@fr;
-  schema:endDate "2024-03-01T01:30:00Z"^^xsd:dateTime;
-  schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
-    <ed4057c0-6826-43fb-9211-2ab94429c593>, <120836d9-e77a-4c6b-a300-87071827c2a0>, <bcc29691-ef6f-4449-9d03-656185b4d7f9>;
-  schema:keywords "Bibliothèques", "Conférences", "Adultes", "Activités de la ville",
-    "Arts", "Chomedey";
+  schema:url <Pages/Fr/Calendrier/biblio-techno-studio-relache-au-studio.aspx>;
+  schema:description "<p>Pas de pause pour la techno! Le Studio sera ouvert&#160;pendant&#160;la semaine de relâche. Profite de l'occasion pour participer aux activités offertes.<br></p>"@fr;
+  schema:endDate "2024-03-04T21:30:00Z"^^xsd:dateTime;
+  schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <0272c940-f2e7-41db-9eb1-549fd4dbe222>,
+    <bcc29691-ef6f-4449-9d03-656185b4d7f9>, <ed4057c0-6826-43fb-9211-2ab94429c593>, <bde5907b-ecee-45d9-9051-bfc09e259843>,
+    <985427f3-f98a-48de-9c33-8a5bfa32975b>;
+  schema:keywords "Bibliothèques", "Conférences", "Adolescents", "Chomedey", "Activités de la ville",
+    "Techno", "Relâche scolaire";
   schema:organizer adr:K16-116 .
 
 <98205b68-5745-4687-b461-2e214e81389d> a schema:Place;
@@ -24,63 +51,20 @@
 <52ff792f-a72e-4b2b-859e-2b9faf17491a> a skos:Concept;
   schema:name "Bibliothèques"@fr .
 
-<c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a skos:Concept;
-  schema:name "Adultes"@fr .
-
-<ed4057c0-6826-43fb-9211-2ab94429c593> a skos:Concept;
-  schema:name "Activités de la ville"@fr .
-
-<120836d9-e77a-4c6b-a300-87071827c2a0> a skos:Concept;
-  schema:name "Arts"@fr .
+<0272c940-f2e7-41db-9eb1-549fd4dbe222> a skos:Concept;
+  schema:name "Adolescents"@fr .
 
 <bcc29691-ef6f-4449-9d03-656185b4d7f9> a skos:Concept;
   schema:name "Chomedey"@fr .
 
-<Pages/Fr/Calendrier/assemblee-consultation-publique-sadr-1-6-cdu-1-8.aspx#2024-03-01>
-  a schema:Event;
-  schema:name "Assemblée publique de consultation – 29 février 2024"@fr;
-  schema:image <PublishingImages/Calendrier-des-activites/vue-aerienne-secteur-bois-equerre-314x202.jpg>;
-  schema:startDate "2024-03-01T00:00:00Z"^^xsd:dateTime;
-  schema:location <c62843eb-d9d1-440a-9c38-632da61f7ff3>;
-  schema:url <Pages/Fr/Calendrier/assemblee-consultation-publique-sadr-1-6-cdu-1-8.aspx>;
-  schema:description "<p>La Ville de Laval tiendra une assemblée de consultation publique en mode présentiel et en mode virtuel concernant le projet de règlement S.A.D.R.-1.6 et le projet de règlement CDU-1-8.<span style=\"font-size&#58;16px;color&#58;#666666;\"></span></p>"@fr;
-  schema:endDate "2024-03-01T03:00:00Z"^^xsd:dateTime;
-  schema:additionalType <ed4057c0-6826-43fb-9211-2ab94429c593>, <482bdb3a-10be-43c9-83a6-c724ac44334f>;
-  schema:keywords "Activités de la ville", "Consultations publiques et assemblées",
-    "Consultations publiques de la ville";
-  schema:organizer adr:K16-116 .
+<ed4057c0-6826-43fb-9211-2ab94429c593> a skos:Concept;
+  schema:name "Activités de la ville"@fr .
 
-<c62843eb-d9d1-440a-9c38-632da61f7ff3> a schema:Place;
-  schema:name "Hôtel de ville"@fr .
+<bde5907b-ecee-45d9-9051-bfc09e259843> a skos:Concept;
+  schema:name "Techno"@fr .
 
-<482bdb3a-10be-43c9-83a6-c724ac44334f> a skos:Concept;
-  schema:name "Consultations publiques de la ville"@fr .
-
-<Pages/Fr/Calendrier/mda-danse-sacre-de-lila.aspx#2024-03-01> a schema:Event;
-  schema:name "Danse - Le sacre de Lila"@fr;
-  schema:image <PublishingImages/Calendrier-des-activites/maison-des-arts/2023/le-sacre-de-lila-335x215.jpg>;
-  schema:startDate "2024-03-01T00:30:00Z"^^xsd:dateTime;
-  schema:location <b881c7a8-00ac-40fc-81d4-296229eb64d6>;
-  schema:url <Pages/Fr/Calendrier/mda-danse-sacre-de-lila.aspx>;
-  schema:description "<p>​​​​​​Spectacle de danse d'Ismaël Mouaraki.<br></p><p>Une​ production de Destins Croisés.<br></p>"@fr;
-  schema:endDate "2024-03-01T01:30:00Z"^^xsd:dateTime;
-  schema:additionalType <ed4057c0-6826-43fb-9211-2ab94429c593>, <bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>, <71245944-c666-484c-9885-16598009f4bf>;
-  schema:keywords "Activités de la ville", "Maison des arts", "Laval-des-Rapides", "Expositions et spectacles",
-    "Arts de la scène";
-  schema:organizer adr:K16-116 .
-
-<b881c7a8-00ac-40fc-81d4-296229eb64d6> a schema:Place;
-  schema:name "Maison des arts de Laval"@fr .
-
-<bc509603-3c51-46fc-a6a9-b54f2cc27617> a skos:Concept;
-  schema:name "Laval-des-Rapides"@fr .
-
-<03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a skos:Concept;
-  schema:name "Expositions et spectacles"@fr .
-
-<71245944-c666-484c-9885-16598009f4bf> a skos:Concept;
-  schema:name "Arts de la scène"@fr .
+<985427f3-f98a-48de-9c33-8a5bfa32975b> a skos:Concept;
+  schema:name "Relâche scolaire"@fr .
 
 <Pages/Fr/Calendrier/visite-libre-circuits-patrimoniaux-parcourir-laval.aspx#2022-09-23>
   a schema:Event;
@@ -124,8 +108,14 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     "Arts";
   schema:organizer adr:K16-116 .
 
+<c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a skos:Concept;
+  schema:name "Adultes"@fr .
+
 <2fc6ba3c-690b-452b-a79e-6452816d68ad> a skos:Concept;
   schema:name "Activités virtuelles"@fr .
+
+<120836d9-e77a-4c6b-a300-87071827c2a0> a skos:Concept;
+  schema:name "Arts"@fr .
 
 <Pages/Fr/Calendrier/exposition-photo-centre-de-la-nature.aspx#2023-06-22> a schema:Event;
   schema:name "Îlots d’exposition photographique : Jean-François LeBlanc"@fr;
@@ -144,6 +134,9 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
 <6f9829c4-7499-4341-84d3-c9c2e1cf749a> a schema:Place;
   schema:name "Centre de la nature"@fr .
 
+<03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a skos:Concept;
+  schema:name "Expositions et spectacles"@fr .
+
 <3cfa266d-5b1a-466c-9356-0a2cc9be5db8> a skos:Concept;
   schema:name "Centre de la nature"@fr .
 
@@ -159,9 +152,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>, <ed4057c0-6826-43fb-9211-2ab94429c593>;
   schema:keywords "Bibliothèques", "Familles", "Jeunesse", "Activités de la ville";
   schema:organizer adr:K16-116 .
-
-<019b445a-815c-49a2-8adc-2ceb9b48cd9a> a skos:Concept;
-  schema:name "Familles"@fr .
 
 <6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9> a skos:Concept;
   schema:name "Jeunesse"@fr .
@@ -180,6 +170,9 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   schema:keywords "Activités de la ville", "Consultations publiques et assemblées",
     "PPCMOI", "Archives des consultations publiques";
   schema:organizer adr:K16-116 .
+
+<c62843eb-d9d1-440a-9c38-632da61f7ff3> a schema:Place;
+  schema:name "Hôtel de ville"@fr .
 
 <ec868e0e-9f9b-414e-8af0-6f5a58345d45> a skos:Concept;
   schema:name "PPCMOI"@fr .
@@ -207,6 +200,9 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
 <acf5a6e1-1134-408d-908f-8404134ef3cc> a skos:Concept;
   schema:name "Sports"@fr .
 
+<bc509603-3c51-46fc-a6a9-b54f2cc27617> a skos:Concept;
+  schema:name "Laval-des-Rapides"@fr .
+
 <ca32aae2-90a6-4767-b4d3-26ab89c40c4d> a skos:Concept;
   schema:name "Laval-Ouest"@fr .
 
@@ -221,9 +217,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
 
 <5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc> a skos:Concept;
   schema:name "Auteuil"@fr .
-
-<985427f3-f98a-48de-9c33-8a5bfa32975b> a skos:Concept;
-  schema:name "Relâche scolaire"@fr .
 
 <Pages/Fr/Calendrier/biblio-arts-litterature-balade-litteraire.aspx#2023-10-01> a
     schema:Event;
@@ -319,9 +312,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   schema:additionalType <03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>, <bcc29691-ef6f-4449-9d03-656185b4d7f9>;
   schema:keywords "Expositions et spectacles", "Activités de nos partenaires", "Chomedey";
   schema:organizer adr:K16-116 .
-
-<4c6b62dd-569a-407b-98b0-a43ff20ff060> a schema:Place;
-  schema:name "Musée de la santé Armand-Frappier"@fr .
 
 <Pages/Fr/Calendrier/maf-exposition-sante.aspx#2023-11-30> a schema:Event;
   schema:name "Exposition - 4, 3, 2, 1... Santé!"@fr;
@@ -447,6 +437,9 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     "Exposition";
   schema:organizer adr:K16-116 .
 
+<b881c7a8-00ac-40fc-81d4-296229eb64d6> a schema:Place;
+  schema:name "Maison des arts de Laval"@fr .
+
 <Pages/Fr/Calendrier/groupe-promo-sante-laval-papa-enfant-venez-bouger.aspx#2024-01-30>
   a schema:Event;
   schema:name "Papa-enfant, venez bouger!"@fr;
@@ -463,9 +456,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
 
 <e0bc7953-e0b0-4090-911e-32d8e4b86b7d> a schema:Place;
   schema:name "Centre communautaire Montrougeau"@fr .
-
-<35846724-d9aa-4e51-b625-4ddb0820ca4a> a skos:Concept;
-  schema:name "Communautaire et organismes"@fr .
 
 <Pages/Fr/Calendrier/biblio-arts-litterature-simon-boulerice.aspx#2024-02-01> a schema:Event;
   schema:name "Balade littéraire : nouvel épisode avec Simon Boulerice"@fr;
@@ -523,102 +513,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>, <ed4057c0-6826-43fb-9211-2ab94429c593>, <2fc6ba3c-690b-452b-a79e-6452816d68ad>;
   schema:keywords "Bibliothèques", "Conférences", "Familles", "Jeunesse", "Activités de la ville",
     "Activités virtuelles";
-  schema:organizer adr:K16-116 .
-
-<Pages/Fr/Calendrier/biblio-jeunesse-petit-cirque-emotions-patapouf.aspx#2024-03-02>
-  a schema:Event;
-  schema:name "Le petit cirque d'émotions de Patapouf"@fr;
-  schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/biblio-cirque-emotions-patapouf-335x215.jpg>;
-  schema:startDate "2024-03-02T15:30:00Z"^^xsd:dateTime;
-  schema:location <98205b68-5745-4687-b461-2e214e81389d>, <4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  schema:url <Pages/Fr/Calendrier/biblio-jeunesse-petit-cirque-emotions-patapouf.aspx>;
-  schema:description "<p>Grâce à une approche douce et amusante, du matériel coloré, des livres et des jeux de cirque stimulants, découvrez Patapouf et ses émotions.</p>"@fr;
-  schema:endDate "2024-03-02T16:15:00Z"^^xsd:dateTime;
-  schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <ed4057c0-6826-43fb-9211-2ab94429c593>, <8f39fafb-9ebc-469c-b84f-8aa5224b47e8>, <bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <e397bf4b-aeed-48cc-aa70-66c277727360>;
-  schema:keywords "Bibliothèques", "Jeunesse", "Activités de la ville", "Cirque", "Chomedey",
-    "Sainte-Dorothée";
-  schema:organizer adr:K16-116 .
-
-<4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a schema:Place;
-  schema:name "Bibliothèque Yves-Thériault"@fr .
-
-<8f39fafb-9ebc-469c-b84f-8aa5224b47e8> a skos:Concept;
-  schema:name "Cirque"@fr .
-
-<Pages/Fr/Calendrier/biblio-ados-soiree-interdit-adultes-special-jeux-video.aspx#2024-03-03>
-  a schema:Event;
-  schema:name "Soirée interdit aux adultes"@fr;
-  schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/biblio-soiree-interdit-adultes-335x215.jpg>;
-  schema:startDate "2024-03-03T00:00:00Z"^^xsd:dateTime;
-  schema:location <a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>;
-  schema:url <Pages/Fr/Calendrier/biblio-ados-soiree-interdit-adultes-special-jeux-video.aspx>;
-  schema:description "<p>45, 44, 43 minutes... Il ne reste plus beaucoup de temps pour chasser Bowser et sa gang de la bibliothèque et sauver le monde. Personnages de jeux vidéo survoltés et énigmes insolubles. Un jeu d'évasion en temps réel à la bibliothèque Émile-Nelligan.<br></p>"@fr;
-  schema:endDate "2024-03-03T03:00:00Z"^^xsd:dateTime;
-  schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <0272c940-f2e7-41db-9eb1-549fd4dbe222>,
-    <bde5907b-ecee-45d9-9051-bfc09e259843>, <ed4057c0-6826-43fb-9211-2ab94429c593>, <748dbb96-8c5e-4ec8-8875-e5540a7c41e8>;
-  schema:keywords "Bibliothèques", "Conférences", "Adolescents", "Techno", "Activités de la ville",
-    "Danse";
-  schema:organizer adr:K16-116 .
-
-<0272c940-f2e7-41db-9eb1-549fd4dbe222> a skos:Concept;
-  schema:name "Adolescents"@fr .
-
-<bde5907b-ecee-45d9-9051-bfc09e259843> a skos:Concept;
-  schema:name "Techno"@fr .
-
-<748dbb96-8c5e-4ec8-8875-e5540a7c41e8> a skos:Concept;
-  schema:name "Danse"@fr .
-
-<Pages/Fr/Calendrier/biblio-jeunesse-univers-origami.aspx#2024-03-04> a schema:Event;
-  schema:name "Les univers de l’origami"@fr;
-  schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/biblio-origami-335x215.jpg>;
-  schema:startDate "2024-03-04T18:00:00Z"^^xsd:dateTime;
-  schema:location <a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>;
-  schema:url <Pages/Fr/Calendrier/biblio-jeunesse-univers-origami.aspx>;
-  schema:description "<p>Venez découvrir l'art de l'origami lors de cet atelier intergénérationnel! Apprenez à plier du papier et à créer toutes sortes de créations amusantes.&#160;<br></p>"@fr;
-  schema:endDate "2024-03-04T20:30:00Z"^^xsd:dateTime;
-  schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>, <ed4057c0-6826-43fb-9211-2ab94429c593>, <82169223-2ce5-4113-adf5-99cea8b461d8>,
-    <985427f3-f98a-48de-9c33-8a5bfa32975b>;
-  schema:keywords "Bibliothèques", "Conférences", "Familles", "Jeunesse", "Activités de la ville",
-    "Laval-sur-le-Lac", "Relâche scolaire";
-  schema:organizer adr:K16-116 .
-
-<82169223-2ce5-4113-adf5-99cea8b461d8> a skos:Concept;
-  schema:name "Laval-sur-le-Lac"@fr .
-
-<Pages/Fr/Calendrier/maf-atelier-cuisine-cest-moi-chef.aspx#2024-03-04> a schema:Event;
-  schema:name "Atelier de cuisine : C’est moi le chef! "@fr;
-  schema:image <PublishingImages/Pages/Fr/Activites/calendrier-des-activites/maf-cest-moi-chef-335x215.jpg>;
-  schema:startDate "2024-03-04T18:00:00Z"^^xsd:dateTime, "2024-03-04T19:00:00Z"^^xsd:dateTime;
-  schema:location <4c6b62dd-569a-407b-98b0-a43ff20ff060>;
-  schema:url <Pages/Fr/Calendrier/maf-atelier-cuisine-cest-moi-chef.aspx>;
-  schema:description "<p>Dans cet atelier de cuisine, les enfants découvrent le plaisir de cuisiner et de bien manger.&#160;<br></p><p>Au menu &#58; Wrap aux légumes arc-en-ciel!</p>"@fr;
-  schema:endDate "2024-03-10T17:30:00Z"^^xsd:dateTime, "2024-03-10T18:30:00Z"^^xsd:dateTime;
-  schema:additionalType <35846724-d9aa-4e51-b625-4ddb0820ca4a>, <019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <26765e4d-4479-4c1e-8a24-568f2ba06f97>;
-  schema:keywords "Communautaire et organismes", "Activités de nos partenaires", "Familles",
-    "Saint-Martin";
-  schema:organizer adr:K16-116 .
-
-<26765e4d-4479-4c1e-8a24-568f2ba06f97> a skos:Concept;
-  schema:name "Saint-Martin"@fr .
-
-<Pages/Fr/Calendrier/biblio-techno-studio-relache-au-studio.aspx#2024-03-04> a schema:Event;
-  schema:name "La relâche au Studio"@fr;
-  schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/biblio-relâche-studio-335x215.jpg>;
-  schema:startDate "2024-03-04T18:30:00Z"^^xsd:dateTime;
-  schema:location <98205b68-5745-4687-b461-2e214e81389d>;
-  schema:url <Pages/Fr/Calendrier/biblio-techno-studio-relache-au-studio.aspx>;
-  schema:description "<p>Pas de pause pour la techno! Le Studio sera ouvert&#160;pendant&#160;la semaine de relâche. Profite de l'occasion pour participer aux activités offertes.<br></p>"@fr;
-  schema:endDate "2024-03-04T21:30:00Z"^^xsd:dateTime;
-  schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <0272c940-f2e7-41db-9eb1-549fd4dbe222>,
-    <bcc29691-ef6f-4449-9d03-656185b4d7f9>, <ed4057c0-6826-43fb-9211-2ab94429c593>, <bde5907b-ecee-45d9-9051-bfc09e259843>,
-    <985427f3-f98a-48de-9c33-8a5bfa32975b>;
-  schema:keywords "Bibliothèques", "Conférences", "Adolescents", "Chomedey", "Activités de la ville",
-    "Techno", "Relâche scolaire";
   schema:organizer adr:K16-116 .
 
 <Pages/Fr/Calendrier/biblio-jeunesse-univers-lego-monde-minecraft.aspx#2024-03-05>
@@ -715,6 +609,9 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
 <f4084c5d-aff7-4998-9e04-16a20732ad55> a schema:Place;
   schema:name "Bibliothèque Gabrielle-Roy"@fr .
 
+<8f39fafb-9ebc-469c-b84f-8aa5224b47e8> a skos:Concept;
+  schema:name "Cirque"@fr .
+
 <Pages/Fr/Calendrier/biblio-jeunesse-univers-lego-ville-amis.aspx#2024-03-06> a schema:Event;
   schema:name "Les univers LEGO : Ville et amis"@fr;
   schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/kokobrik-lego-ville-amis-335x215.jpg>;
@@ -791,16 +688,19 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   schema:startDate "2024-03-07T14:00:00Z"^^xsd:dateTime;
   schema:location <43eeb32b-11f8-4719-bee8-d1e15c5f16ed>;
   schema:url <Pages/Fr/Calendrier/initiation-ringuette-bbb.aspx>;
-  schema:description "<p>Le 7 mars, venez vous initier à la ringuette à la patinoire Bleu Blanc Bouge.<br></p>"@fr;
+  schema:description "<p>Venez vous initier à la ringuette à la patinoire Bleu Blanc Bouge.<br></p>"@fr;
   schema:endDate "2024-03-07T17:00:00Z"^^xsd:dateTime;
   schema:additionalType <b2263ec5-6cbf-4c6f-8887-6acf6b2188fe>, <019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <bc509603-3c51-46fc-a6a9-b54f2cc27617>, <6722dd24-a6cf-4dd5-8669-f9cbe1756922>;
-  schema:keywords "Dehors", "Activités dans les parcs", "Familles", "Laval-des-Rapides",
-    "Cet hiver dans mon quartier";
+    <4522ed32-e73f-4b1c-92ac-2d009f9cf510>, <6722dd24-a6cf-4dd5-8669-f9cbe1756922>, <bc509603-3c51-46fc-a6a9-b54f2cc27617>;
+  schema:keywords "Dehors", "Activités dans les parcs", "Familles", "Initiation patinage",
+    "Cet hiver dans mon quartier", "Laval-des-Rapides";
   schema:organizer adr:K16-116 .
 
 <43eeb32b-11f8-4719-bee8-d1e15c5f16ed> a schema:Place;
   schema:name "Parc Émile"@fr .
+
+<4522ed32-e73f-4b1c-92ac-2d009f9cf510> a skos:Concept;
+  schema:name "Initiation patinage"@fr .
 
 <Pages/Fr/Calendrier/biblio-jeunesse-etoiles-cirque.aspx#2024-03-07> a schema:Event;
   schema:name "Les étoiles du cirque!"@fr;
@@ -821,50 +721,17 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
 <Pages/Fr/Calendrier/biblio-techno-studio-relache-au-studio.aspx#2024-03-07> a schema:Event;
   schema:name "La relâche au Studio"@fr;
   schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/biblio-relâche-studio-335x215.jpg>;
-  schema:startDate "2024-03-07T18:30:00Z"^^xsd:dateTime;
-  schema:location <98205b68-5745-4687-b461-2e214e81389d>;
-  schema:url <Pages/Fr/Calendrier/biblio-techno-studio-relache-au-studio.aspx>;
-  schema:description "<p>Pas de pause pour la techno! Le Studio sera ouvert&#160;pendant&#160;la semaine de relâche. Profite de l'occasion pour participer aux activités offertes.<br></p>"@fr;
-  schema:endDate "2024-03-07T19:30:00Z"^^xsd:dateTime;
-  schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <0272c940-f2e7-41db-9eb1-549fd4dbe222>,
-    <bcc29691-ef6f-4449-9d03-656185b4d7f9>, <ed4057c0-6826-43fb-9211-2ab94429c593>, <bde5907b-ecee-45d9-9051-bfc09e259843>;
-  schema:keywords "Bibliothèques", "Conférences", "Adolescents", "Chomedey";
-  schema:organizer adr:K16-116;
-  a schema:Event;
-  schema:keywords "Activités de la ville", "Conférences", "Adolescents", "Techno", "Relâche scolaire",
-    "Bibliothèques", "Chomedey";
-  schema:organizer adr:K16-116;
-  schema:name "La relâche au Studio"@fr;
-  schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/biblio-relâche-studio-335x215.jpg>;
   schema:startDate "2024-03-07T18:30:00Z"^^xsd:dateTime, "2024-03-07T20:30:00Z"^^xsd:dateTime;
   schema:location <98205b68-5745-4687-b461-2e214e81389d>;
   schema:url <Pages/Fr/Calendrier/biblio-techno-studio-relache-au-studio.aspx>;
   schema:description "<p>Pas de pause pour la techno! Le Studio sera ouvert&#160;pendant&#160;la semaine de relâche. Profite de l'occasion pour participer aux activités offertes.<br></p>"@fr;
   schema:endDate "2024-03-07T19:30:00Z"^^xsd:dateTime, "2024-03-07T21:30:00Z"^^xsd:dateTime;
-  schema:additionalType <ed4057c0-6826-43fb-9211-2ab94429c593>, <0272c940-f2e7-41db-9eb1-549fd4dbe222>,
-    <985427f3-f98a-48de-9c33-8a5bfa32975b>, <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <bde5907b-ecee-45d9-9051-bfc09e259843> .
-
-<98205b68-5745-4687-b461-2e214e81389d> a schema:Place;
-  schema:name "Bibliothèque Multiculturelle"@fr .
-
-<ed4057c0-6826-43fb-9211-2ab94429c593> a skos:Concept;
-  schema:name "Activités de la ville"@fr .
-
-<0272c940-f2e7-41db-9eb1-549fd4dbe222> a skos:Concept;
-  schema:name "Adolescents"@fr .
-
-<bde5907b-ecee-45d9-9051-bfc09e259843> a skos:Concept;
-  schema:name "Techno"@fr .
-
-<985427f3-f98a-48de-9c33-8a5bfa32975b> a skos:Concept;
-  schema:name "Relâche scolaire"@fr .
-
-<52ff792f-a72e-4b2b-859e-2b9faf17491a> a skos:Concept;
-  schema:name "Bibliothèques"@fr .
-
-<bcc29691-ef6f-4449-9d03-656185b4d7f9> a skos:Concept;
-  schema:name "Chomedey"@fr .
+  schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <0272c940-f2e7-41db-9eb1-549fd4dbe222>,
+    <bcc29691-ef6f-4449-9d03-656185b4d7f9>, <ed4057c0-6826-43fb-9211-2ab94429c593>, <bde5907b-ecee-45d9-9051-bfc09e259843>,
+    <985427f3-f98a-48de-9c33-8a5bfa32975b>;
+  schema:keywords "Bibliothèques", "Conférences", "Adolescents", "Chomedey", "Activités de la ville",
+    "Techno", "Relâche scolaire";
+  schema:organizer adr:K16-116 .
 
 <Pages/Fr/Calendrier/biblio-arts-ruche.aspx#2024-03-07> a schema:Event;
   schema:name "La ruche d’art"@fr;
@@ -880,12 +747,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     "Arts", "Chomedey";
   schema:organizer adr:K16-116 .
 
-<c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a skos:Concept;
-  schema:name "Adultes"@fr .
-
-<120836d9-e77a-4c6b-a300-87071827c2a0> a skos:Concept;
-  schema:name "Arts"@fr .
-
 <Pages/Fr/Calendrier/mda-ulster-american.aspx#2024-03-08> a schema:Event;
   schema:name "Théâtre - Ulster American"@fr;
   schema:image <PublishingImages/Calendrier-des-activites/maison-des-arts/2023/ulster-american-335x215.jpg>;
@@ -900,17 +761,8 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     "Laval-des-Rapides";
   schema:organizer adr:K16-116 .
 
-<b881c7a8-00ac-40fc-81d4-296229eb64d6> a schema:Place;
-  schema:name "Maison des arts de Laval"@fr .
-
 <71245944-c666-484c-9885-16598009f4bf> a skos:Concept;
   schema:name "Arts de la scène"@fr .
-
-<03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a skos:Concept;
-  schema:name "Expositions et spectacles"@fr .
-
-<bc509603-3c51-46fc-a6a9-b54f2cc27617> a skos:Concept;
-  schema:name "Laval-des-Rapides"@fr .
 
 <Pages/Fr/Calendrier/biblio-jeunesse-etoiles-cirque.aspx#2024-03-08> a schema:Event;
   schema:name "Les étoiles du cirque!"@fr;
@@ -928,30 +780,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     "Jeunesse", "Relâche scolaire", "Cirque";
   schema:organizer adr:K16-116 .
 
-<e38a50b9-3e67-4c0e-84ee-040293125a45> a schema:Place;
-  schema:name "Bibliothèque Germaine-Guèvremont"@fr .
-
-<2a5da81d-9c3c-4d7f-822d-d4593f2afc05> a skos:Concept;
-  schema:name "Duvernay"@fr .
-
-<03e1dcf2-1201-4c36-8ba2-4fd7da85b80b> a schema:Place;
-  schema:name "Bibliothèque Laure-Conan"@fr .
-
-<5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc> a skos:Concept;
-  schema:name "Auteuil"@fr .
-
-<f4084c5d-aff7-4998-9e04-16a20732ad55> a schema:Place;
-  schema:name "Bibliothèque Gabrielle-Roy"@fr .
-
-<eab9ad14-6874-4c9b-8704-3fd73027b0ea> a skos:Concept;
-  schema:name "Fabreville"@fr .
-
-<6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9> a skos:Concept;
-  schema:name "Jeunesse"@fr .
-
-<8f39fafb-9ebc-469c-b84f-8aa5224b47e8> a skos:Concept;
-  schema:name "Cirque"@fr .
-
 <Pages/Fr/Calendrier/biblio-jeunesse-univers-lego-mozaiques.aspx#2024-03-08> a schema:Event;
   schema:name "Les univers LEGO : Mozaïques "@fr;
   schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/kokobrik-lego-ville-amis-335x215.jpg>;
@@ -966,15 +794,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   schema:keywords "Bibliothèques", "Conférences", "Familles", "Jeunesse", "Activités de la ville",
     "Sainte-Rose", "Relâche scolaire";
   schema:organizer adr:K16-116 .
-
-<8b694188-c831-4cd9-a679-df7613d442ba> a schema:Place;
-  schema:name "Bibliothèque Sylvain-Garneau"@fr .
-
-<019b445a-815c-49a2-8adc-2ceb9b48cd9a> a skos:Concept;
-  schema:name "Familles"@fr .
-
-<68d3e20f-bbb7-484f-945e-6bf9aeba46d9> a skos:Concept;
-  schema:name "Sainte-Rose"@fr .
 
 <Pages/Fr/Calendrier/biblio-arts-litterature-plaisir-lire.aspx#2024-03-08> a schema:Event;
   schema:name "Oh! Plaisir de lire (No 2)"@fr;
@@ -999,13 +818,41 @@ participants.<br></p>"""@fr;
   schema:location <98205b68-5745-4687-b461-2e214e81389d>;
   schema:url <Pages/Fr/Calendrier/biblio-techno-studio-relache-au-studio.aspx>;
   schema:description "<p>Pas de pause pour la techno! Le Studio sera ouvert&#160;pendant&#160;la semaine de relâche. Profite de l'occasion pour participer aux activités offertes.<br></p>"@fr;
+  a schema:Event;
   schema:endDate "2024-03-09T01:00:00Z"^^xsd:dateTime;
   schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <0272c940-f2e7-41db-9eb1-549fd4dbe222>,
     <bcc29691-ef6f-4449-9d03-656185b4d7f9>, <ed4057c0-6826-43fb-9211-2ab94429c593>, <bde5907b-ecee-45d9-9051-bfc09e259843>,
     <985427f3-f98a-48de-9c33-8a5bfa32975b>;
   schema:keywords "Bibliothèques", "Conférences", "Adolescents", "Chomedey", "Activités de la ville",
     "Techno", "Relâche scolaire";
-  schema:organizer adr:K16-116 .
+  schema:organizer adr:K16-116;
+  schema:name "La relâche au Studio"@fr;
+  schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/biblio-relâche-studio-335x215.jpg>;
+  schema:startDate "2024-03-08T23:00:00Z"^^xsd:dateTime;
+  schema:location <98205b68-5745-4687-b461-2e214e81389d>;
+  schema:url <Pages/Fr/Calendrier/biblio-techno-studio-relache-au-studio.aspx>;
+  schema:description "<p>Pas de pause pour la techno! Le Studio sera ouvert&#160;pendant&#160;la semaine de relâche. Profite de l'occasion pour participer aux activités offertes.<br></p>"@fr .
+
+<98205b68-5745-4687-b461-2e214e81389d> a schema:Place;
+  schema:name "Bibliothèque Multiculturelle"@fr .
+
+<52ff792f-a72e-4b2b-859e-2b9faf17491a> a skos:Concept;
+  schema:name "Bibliothèques"@fr .
+
+<0272c940-f2e7-41db-9eb1-549fd4dbe222> a skos:Concept;
+  schema:name "Adolescents"@fr .
+
+<bcc29691-ef6f-4449-9d03-656185b4d7f9> a skos:Concept;
+  schema:name "Chomedey"@fr .
+
+<ed4057c0-6826-43fb-9211-2ab94429c593> a skos:Concept;
+  schema:name "Activités de la ville"@fr .
+
+<bde5907b-ecee-45d9-9051-bfc09e259843> a skos:Concept;
+  schema:name "Techno"@fr .
+
+<985427f3-f98a-48de-9c33-8a5bfa32975b> a skos:Concept;
+  schema:name "Relâche scolaire"@fr .
 
 <Pages/Fr/Calendrier/mois-autisme-astro-tranquille.aspx#2024-03-09> a schema:Event;
   schema:name "Astro-Tranquille"@fr;
@@ -1052,11 +899,35 @@ participants.<br></p>"""@fr;
 <a8ade198-5ee7-4f7d-9c79-120c8d0e1be5> a schema:Place;
   schema:name "Bibliothèque Émile-Nelligan"@fr .
 
+<019b445a-815c-49a2-8adc-2ceb9b48cd9a> a skos:Concept;
+  schema:name "Familles"@fr .
+
+<6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9> a skos:Concept;
+  schema:name "Jeunesse"@fr .
+
+<8b694188-c831-4cd9-a679-df7613d442ba> a schema:Place;
+  schema:name "Bibliothèque Sylvain-Garneau"@fr .
+
+<bc509603-3c51-46fc-a6a9-b54f2cc27617> a skos:Concept;
+  schema:name "Laval-des-Rapides"@fr .
+
 <4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a schema:Place;
   schema:name "Bibliothèque Yves-Thériault"@fr .
 
+<68d3e20f-bbb7-484f-945e-6bf9aeba46d9> a skos:Concept;
+  schema:name "Sainte-Rose"@fr .
+
+<f4084c5d-aff7-4998-9e04-16a20732ad55> a schema:Place;
+  schema:name "Bibliothèque Gabrielle-Roy"@fr .
+
 <e397bf4b-aeed-48cc-aa70-66c277727360> a skos:Concept;
   schema:name "Sainte-Dorothée"@fr .
+
+<e38a50b9-3e67-4c0e-84ee-040293125a45> a schema:Place;
+  schema:name "Bibliothèque Germaine-Guèvremont"@fr .
+
+<03e1dcf2-1201-4c36-8ba2-4fd7da85b80b> a schema:Place;
+  schema:name "Bibliothèque Laure-Conan"@fr .
 
 <ca32aae2-90a6-4767-b4d3-26ab89c40c4d> a skos:Concept;
   schema:name "Laval-Ouest"@fr .
@@ -1064,11 +935,20 @@ participants.<br></p>"""@fr;
 <4870618a-b491-4abd-947e-9e1f4888b897> a schema:Place;
   schema:name "Bibliothèque Marius-Barbeau"@fr .
 
+<eab9ad14-6874-4c9b-8704-3fd73027b0ea> a skos:Concept;
+  schema:name "Fabreville"@fr .
+
 <fe639097-75cf-4e8d-8733-ecb9b808d2eb> a skos:Concept;
   schema:name "Vimont"@fr .
 
 <8620bd60-4ce9-48a8-b327-90a368764774> a schema:Place;
   schema:name "Bibliothèque Philippe-Panneton"@fr .
+
+<5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc> a skos:Concept;
+  schema:name "Auteuil"@fr .
+
+<2a5da81d-9c3c-4d7f-822d-d4593f2afc05> a skos:Concept;
+  schema:name "Duvernay"@fr .
 
 <cb5f24bc-8b43-4afe-9233-33960a97a039> a skos:Concept;
   schema:name "Saint-François"@fr .
@@ -1128,8 +1008,14 @@ participants.<br></p>"""@fr;
     "Laval-des-Rapides";
   schema:organizer adr:K16-116 .
 
+<b881c7a8-00ac-40fc-81d4-296229eb64d6> a schema:Place;
+  schema:name "Maison des arts de Laval"@fr .
+
 <db9f974a-e5ae-4857-bab3-c4cde4c07f50> a skos:Concept;
   schema:name "Jeune public"@fr .
+
+<03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a skos:Concept;
+  schema:name "Expositions et spectacles"@fr .
 
 <Pages/Fr/Calendrier/mda-ecole-papa-ours.aspx#2024-03-12> a schema:Event;
   schema:name "Papa Ours"@fr;
@@ -1164,6 +1050,12 @@ participants.<br></p>"""@fr;
   schema:keywords "Bibliothèques", "Conférences", "Adultes", "Activités de la ville",
     "Sainte-Dorothée", "Arts";
   schema:organizer adr:K16-116 .
+
+<c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a skos:Concept;
+  schema:name "Adultes"@fr .
+
+<120836d9-e77a-4c6b-a300-87071827c2a0> a skos:Concept;
+  schema:name "Arts"@fr .
 
 <Pages/Fr/Calendrier/assemblee-ordinaire-conseil-municipal.aspx#2024-03-12> a schema:Event;
   schema:name "Séance ordinaire du conseil municipal"@fr;
@@ -1580,37 +1472,12 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:location <98205b68-5745-4687-b461-2e214e81389d>;
   schema:url <Pages/Fr/Calendrier/biblio-arts-ruche.aspx>;
   schema:description "<p>​​Pour ceux qui ne connaissaient pas l'expression, une ruche d'art est un atelier d'art communautaire qui accueille tout le monde en tant qu'artiste.&#160;<br></p>"@fr;
-  a schema:Event;
   schema:endDate "2024-03-20T20:00:00Z"^^xsd:dateTime;
   schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
     <ed4057c0-6826-43fb-9211-2ab94429c593>, <120836d9-e77a-4c6b-a300-87071827c2a0>, <bcc29691-ef6f-4449-9d03-656185b4d7f9>;
   schema:keywords "Bibliothèques", "Conférences", "Adultes", "Activités de la ville",
     "Arts", "Chomedey";
-  schema:organizer adr:K16-116;
-  schema:name "La ruche d’art"@fr;
-  schema:image <PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-ruche-art-335x215.jpg>;
-  schema:startDate "2024-03-20T17:30:00Z"^^xsd:dateTime;
-  schema:location <98205b68-5745-4687-b461-2e214e81389d>;
-  schema:url <Pages/Fr/Calendrier/biblio-arts-ruche.aspx>;
-  schema:description "<p>​​Pour ceux qui ne connaissaient pas l'expression, une ruche d'art est un atelier d'art communautaire qui accueille tout le monde en tant qu'artiste.&#160;<br></p>"@fr .
-
-<98205b68-5745-4687-b461-2e214e81389d> a schema:Place;
-  schema:name "Bibliothèque Multiculturelle"@fr .
-
-<52ff792f-a72e-4b2b-859e-2b9faf17491a> a skos:Concept;
-  schema:name "Bibliothèques"@fr .
-
-<c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a skos:Concept;
-  schema:name "Adultes"@fr .
-
-<ed4057c0-6826-43fb-9211-2ab94429c593> a skos:Concept;
-  schema:name "Activités de la ville"@fr .
-
-<120836d9-e77a-4c6b-a300-87071827c2a0> a skos:Concept;
-  schema:name "Arts"@fr .
-
-<bcc29691-ef6f-4449-9d03-656185b4d7f9> a skos:Concept;
-  schema:name "Chomedey"@fr .
+  schema:organizer adr:K16-116 .
 
 <Pages/Fr/Calendrier/biblio-techno-club-robotique.aspx#2024-03-20> a schema:Event;
   schema:name "Club de robotique"@fr;
@@ -1624,12 +1491,6 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
     <bde5907b-ecee-45d9-9051-bfc09e259843>, <ed4057c0-6826-43fb-9211-2ab94429c593>;
   schema:keywords "Bibliothèques", "Conférences", "Adolescents", "Techno", "Activités de la ville";
   schema:organizer adr:K16-116 .
-
-<0272c940-f2e7-41db-9eb1-549fd4dbe222> a skos:Concept;
-  schema:name "Adolescents"@fr .
-
-<bde5907b-ecee-45d9-9051-bfc09e259843> a skos:Concept;
-  schema:name "Techno"@fr .
 
 <Pages/Fr/Calendrier/biblio-ados-angoisse-sac-chips.aspx#2024-03-20> a schema:Event;
   schema:name "Angoisse et sac de chips"@fr;
@@ -1646,27 +1507,6 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:keywords "Bibliothèques", "Conférences", "Adolescents", "Jouer", "Activités de la ville",
     "Duvernay", "Auteuil", "Fabreville";
   schema:organizer adr:K16-116 .
-
-<e38a50b9-3e67-4c0e-84ee-040293125a45> a schema:Place;
-  schema:name "Bibliothèque Germaine-Guèvremont"@fr .
-
-<84db1b61-2f48-4879-9ca7-f5ffe4299e45> a skos:Concept;
-  schema:name "Jouer"@fr .
-
-<f4084c5d-aff7-4998-9e04-16a20732ad55> a schema:Place;
-  schema:name "Bibliothèque Gabrielle-Roy"@fr .
-
-<2a5da81d-9c3c-4d7f-822d-d4593f2afc05> a skos:Concept;
-  schema:name "Duvernay"@fr .
-
-<03e1dcf2-1201-4c36-8ba2-4fd7da85b80b> a schema:Place;
-  schema:name "Bibliothèque Laure-Conan"@fr .
-
-<5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc> a skos:Concept;
-  schema:name "Auteuil"@fr .
-
-<eab9ad14-6874-4c9b-8704-3fd73027b0ea> a skos:Concept;
-  schema:name "Fabreville"@fr .
 
 <Pages/Fr/Calendrier/biblio-arts-ruche.aspx#2024-03-21> a schema:Event;
   schema:name "La ruche d’art"@fr;
@@ -1713,53 +1553,65 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
 <26ee7560-4e01-4e14-928a-7a906adb4a81> a schema:Place;
   schema:name "Pavillon du Bois-Papineau"@fr .
 
-<35846724-d9aa-4e51-b625-4ddb0820ca4a> a skos:Concept;
-  schema:name "Communautaire et organismes"@fr .
-
 <Pages/Fr/Calendrier/biblio-jeunesse-contes-compagnie.aspx#2024-03-22> a schema:Event;
   schema:name "Contes et compagnie"@fr;
   schema:image <PublishingImages/Pages/Fr/Activites/bibliotheques/karinefortin-335x215.jpg>;
   schema:startDate "2024-03-22T14:30:00Z"^^xsd:dateTime;
   schema:location <a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>, <8b694188-c831-4cd9-a679-df7613d442ba>,
-    <4fe6717e-916d-4d5f-9c41-59f9f294b1c8>, <f4084c5d-aff7-4998-9e04-16a20732ad55>, <e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>, <4870618a-b491-4abd-947e-9e1f4888b897>, <98205b68-5745-4687-b461-2e214e81389d>,
-    <8620bd60-4ce9-48a8-b327-90a368764774>;
+    <4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
   schema:url <Pages/Fr/Calendrier/biblio-jeunesse-contes-compagnie.aspx>;
   schema:description "<p>L<span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">es enfants découvriront l'univers merveilleux des livres dans une ambiance de jeu et de plaisir.</span></p>"@fr;
   schema:endDate "2024-03-22T15:15:00Z"^^xsd:dateTime;
   schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>, <ed4057c0-6826-43fb-9211-2ab94429c593>, <bc509603-3c51-46fc-a6a9-b54f2cc27617>,
+    <6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>, <ed4057c0-6826-43fb-9211-2ab94429c593>, <bc509603-3c51-46fc-a6a9-b54f2cc27617>;
+  schema:keywords "Bibliothèques", "Conférences", "Familles", "Jeunesse", "Activités de la ville",
+    "Laval-des-Rapides";
+  schema:organizer adr:K16-116;
+  a schema:Event;
+  schema:url <Pages/Fr/Calendrier/biblio-jeunesse-contes-compagnie.aspx>;
+  schema:description "<p>L<span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">es enfants découvriront l'univers merveilleux des livres dans une ambiance de jeu et de plaisir.</span></p>"@fr;
+  schema:endDate "2024-03-22T15:15:00Z"^^xsd:dateTime;
+  schema:additionalType <ed4057c0-6826-43fb-9211-2ab94429c593>, <019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
     <68d3e20f-bbb7-484f-945e-6bf9aeba46d9>, <e397bf4b-aeed-48cc-aa70-66c277727360>, <bcc29691-ef6f-4449-9d03-656185b4d7f9>,
     <ca32aae2-90a6-4767-b4d3-26ab89c40c4d>, <eab9ad14-6874-4c9b-8704-3fd73027b0ea>, <fe639097-75cf-4e8d-8733-ecb9b808d2eb>,
     <5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>, <2a5da81d-9c3c-4d7f-822d-d4593f2afc05>, <cb5f24bc-8b43-4afe-9233-33960a97a039>;
-  schema:keywords "Bibliothèques", "Conférences", "Familles", "Jeunesse", "Activités de la ville",
-    "Laval-des-Rapides", "Sainte-Rose", "Sainte-Dorothée", "Chomedey", "Laval-Ouest",
-    "Fabreville", "Vimont", "Auteuil", "Duvernay", "Saint-François";
-  schema:organizer adr:K16-116 .
-
-<a8ade198-5ee7-4f7d-9c79-120c8d0e1be5> a schema:Place;
-  schema:name "Bibliothèque Émile-Nelligan"@fr .
-
-<019b445a-815c-49a2-8adc-2ceb9b48cd9a> a skos:Concept;
-  schema:name "Familles"@fr .
-
-<6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9> a skos:Concept;
-  schema:name "Jeunesse"@fr .
-
-<8b694188-c831-4cd9-a679-df7613d442ba> a schema:Place;
-  schema:name "Bibliothèque Sylvain-Garneau"@fr .
-
-<bc509603-3c51-46fc-a6a9-b54f2cc27617> a skos:Concept;
-  schema:name "Laval-des-Rapides"@fr .
+  schema:keywords "Activités de la ville", "Conférences", "Familles", "Sainte-Rose",
+    "Sainte-Dorothée", "Chomedey", "Laval-Ouest", "Fabreville", "Vimont", "Auteuil", "Duvernay",
+    "Saint-François";
+  schema:organizer adr:K16-116;
+  schema:name "Contes et compagnie"@fr;
+  schema:image <PublishingImages/Pages/Fr/Activites/bibliotheques/karinefortin-335x215.jpg>;
+  schema:startDate "2024-03-22T14:30:00Z"^^xsd:dateTime;
+  schema:location <f4084c5d-aff7-4998-9e04-16a20732ad55>, <e38a50b9-3e67-4c0e-84ee-040293125a45>,
+    <03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>, <4870618a-b491-4abd-947e-9e1f4888b897>, <98205b68-5745-4687-b461-2e214e81389d>,
+    <8620bd60-4ce9-48a8-b327-90a368764774> .
 
 <4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a schema:Place;
   schema:name "Bibliothèque Yves-Thériault"@fr .
 
+<ed4057c0-6826-43fb-9211-2ab94429c593> a skos:Concept;
+  schema:name "Activités de la ville"@fr .
+
+<019b445a-815c-49a2-8adc-2ceb9b48cd9a> a skos:Concept;
+  schema:name "Familles"@fr .
+
 <68d3e20f-bbb7-484f-945e-6bf9aeba46d9> a skos:Concept;
   schema:name "Sainte-Rose"@fr .
 
+<f4084c5d-aff7-4998-9e04-16a20732ad55> a schema:Place;
+  schema:name "Bibliothèque Gabrielle-Roy"@fr .
+
 <e397bf4b-aeed-48cc-aa70-66c277727360> a skos:Concept;
   schema:name "Sainte-Dorothée"@fr .
+
+<e38a50b9-3e67-4c0e-84ee-040293125a45> a schema:Place;
+  schema:name "Bibliothèque Germaine-Guèvremont"@fr .
+
+<bcc29691-ef6f-4449-9d03-656185b4d7f9> a skos:Concept;
+  schema:name "Chomedey"@fr .
+
+<03e1dcf2-1201-4c36-8ba2-4fd7da85b80b> a schema:Place;
+  schema:name "Bibliothèque Laure-Conan"@fr .
 
 <ca32aae2-90a6-4767-b4d3-26ab89c40c4d> a skos:Concept;
   schema:name "Laval-Ouest"@fr .
@@ -1767,11 +1619,23 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
 <4870618a-b491-4abd-947e-9e1f4888b897> a schema:Place;
   schema:name "Bibliothèque Marius-Barbeau"@fr .
 
+<eab9ad14-6874-4c9b-8704-3fd73027b0ea> a skos:Concept;
+  schema:name "Fabreville"@fr .
+
+<98205b68-5745-4687-b461-2e214e81389d> a schema:Place;
+  schema:name "Bibliothèque Multiculturelle"@fr .
+
 <fe639097-75cf-4e8d-8733-ecb9b808d2eb> a skos:Concept;
   schema:name "Vimont"@fr .
 
 <8620bd60-4ce9-48a8-b327-90a368764774> a schema:Place;
   schema:name "Bibliothèque Philippe-Panneton"@fr .
+
+<5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc> a skos:Concept;
+  schema:name "Auteuil"@fr .
+
+<2a5da81d-9c3c-4d7f-822d-d4593f2afc05> a skos:Concept;
+  schema:name "Duvernay"@fr .
 
 <cb5f24bc-8b43-4afe-9233-33960a97a039> a skos:Concept;
   schema:name "Saint-François"@fr .
@@ -1792,6 +1656,21 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:keywords "Bibliothèques", "Familles", "Jeunesse", "Activités de la ville",
     "Laval-Ouest", "Laval-des-Rapides", "Sainte-Rose", "Fabreville", "Duvernay";
   schema:organizer adr:K16-116 .
+
+<52ff792f-a72e-4b2b-859e-2b9faf17491a> a skos:Concept;
+  schema:name "Bibliothèques"@fr .
+
+<6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9> a skos:Concept;
+  schema:name "Jeunesse"@fr .
+
+<bc509603-3c51-46fc-a6a9-b54f2cc27617> a skos:Concept;
+  schema:name "Laval-des-Rapides"@fr .
+
+<a8ade198-5ee7-4f7d-9c79-120c8d0e1be5> a schema:Place;
+  schema:name "Bibliothèque Émile-Nelligan"@fr .
+
+<8b694188-c831-4cd9-a679-df7613d442ba> a schema:Place;
+  schema:name "Bibliothèque Sylvain-Garneau"@fr .
 
 <Pages/Fr/Calendrier/biblio-jeunesse-arbres-plantes.aspx#2024-03-23> a schema:Event;
   schema:name "Arbres et plantes "@fr;
@@ -1843,6 +1722,12 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
     "Arts", "Fabreville";
   schema:organizer adr:K16-116 .
 
+<c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a skos:Concept;
+  schema:name "Adultes"@fr .
+
+<120836d9-e77a-4c6b-a300-87071827c2a0> a skos:Concept;
+  schema:name "Arts"@fr .
+
 <Pages/Fr/Calendrier/biblio-jeunesse-heures-contes-3-5-ans.aspx#2024-03-24> a schema:Event;
   schema:name "Heures du conte pour les 3 à 5 ans"@fr;
   schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/heure-conte-3-5-(3)-335x215.jpg>;
@@ -1878,6 +1763,9 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:keywords "Bibliothèques", "Conférences", "Familles", "Jeunesse", "Activités de la ville",
     "Techno", "Chomedey";
   schema:organizer adr:K16-116 .
+
+<bde5907b-ecee-45d9-9051-bfc09e259843> a skos:Concept;
+  schema:name "Techno"@fr .
 
 <Pages/Fr/Calendrier/mda-visite-commentee-passeurs-passeuses.aspx#2024-03-24> a schema:Event;
   schema:name "Visite commentée de l'exposition Passeurs Passeuses"@fr;
@@ -1938,6 +1826,9 @@ Denis Rousseau.</span></p>"""@fr;
     "Laval-des-Rapides", "Jouer";
   schema:organizer adr:K16-116 .
 
+<84db1b61-2f48-4879-9ca7-f5ffe4299e45> a skos:Concept;
+  schema:name "Jouer"@fr .
+
 <Pages/Fr/Calendrier/biblio-arts-ruche.aspx#2024-03-27> a schema:Event;
   schema:name "La ruche d’art"@fr;
   schema:image <PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-ruche-art-335x215.jpg>;
@@ -1965,6 +1856,9 @@ Denis Rousseau.</span></p>"""@fr;
   schema:keywords "Bibliothèques", "Conférences", "Adolescents", "Techno", "Activités de la ville";
   schema:organizer adr:K16-116 .
 
+<0272c940-f2e7-41db-9eb1-549fd4dbe222> a skos:Concept;
+  schema:name "Adolescents"@fr .
+
 <Pages/Fr/Calendrier/biblio-ados-angoisse-sac-chips.aspx#2024-03-27> a schema:Event;
   schema:name "Angoisse et sac de chips"@fr;
   schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/biblio-angoisse-sac-chips-335x215.jpg>;
@@ -1984,7 +1878,7 @@ Denis Rousseau.</span></p>"""@fr;
 <Pages/Fr/Calendrier/service-populaire-atelier-developpement-personnel-sexprimer-apprivoiser.aspx#2024-03-27>
   a schema:Event;
   schema:name "Atelier de développement personnel: S'exprimer et apprivoiser sa vie émotive"@fr;
-  schema:image <PublishingImages/Calendrier-des-activites/atelier-developpement-personnel-335x215.jpg>;
+  schema:image <PublishingImages/Calendrier-des-activites/atelier-developpement-personnel-vie-emotive_335x215.jpg>;
   schema:startDate "2024-03-27T22:30:00Z"^^xsd:dateTime;
   schema:url <Pages/Fr/Calendrier/service-populaire-atelier-developpement-personnel-sexprimer-apprivoiser.aspx>;
   schema:description "<p>L'organisme Service populaire de psychothérapie&#160;(SPP) offre un groupe de développement personnel de&#160;rencontres hebdomadaires, aux Lavallois à revenu modeste.&#160;<strong>Inscription requise</strong>.<br></p><br>"@fr;
@@ -1992,6 +1886,9 @@ Denis Rousseau.</span></p>"""@fr;
   schema:additionalType <35846724-d9aa-4e51-b625-4ddb0820ca4a>, <41955ca4-ff20-46f1-94e5-30e670708401>;
   schema:keywords "Communautaire et organismes", "Pont-Viau";
   schema:organizer adr:K16-116 .
+
+<35846724-d9aa-4e51-b625-4ddb0820ca4a> a skos:Concept;
+  schema:name "Communautaire et organismes"@fr .
 
 <41955ca4-ff20-46f1-94e5-30e670708401> a skos:Concept;
   schema:name "Pont-Viau"@fr .
@@ -2289,8 +2186,7 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
     "Jouer", "Chomedey", "Parents", "Auteuil";
   schema:organizer adr:K16-116 .
 
-<Pages/Fr/Calendrier/mda-jeune-public-alice-de-lautre-cote.aspx#2024-04-07> a schema:Event,
-    schema:Event;
+<Pages/Fr/Calendrier/mda-jeune-public-alice-de-lautre-cote.aspx#2024-04-07> a schema:Event;
   schema:name "Jeune Public - Alice de l'autre côté"@fr;
   schema:image <PublishingImages/Calendrier-des-activites/maison-des-arts/2023/alice-335x215.jpg>;
   schema:startDate "2024-04-07T18:00:00Z"^^xsd:dateTime;
@@ -2305,20 +2201,8 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
     "Laval-des-Rapides";
   schema:organizer adr:K16-116 .
 
-<b881c7a8-00ac-40fc-81d4-296229eb64d6> a schema:Place;
-  schema:name "Maison des arts de Laval"@fr .
-
-<ed4057c0-6826-43fb-9211-2ab94429c593> a skos:Concept;
-  schema:name "Activités de la ville"@fr .
-
 <db9f974a-e5ae-4857-bab3-c4cde4c07f50> a skos:Concept;
   schema:name "Jeune public"@fr .
-
-<03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a skos:Concept;
-  schema:name "Expositions et spectacles"@fr .
-
-<bc509603-3c51-46fc-a6a9-b54f2cc27617> a skos:Concept;
-  schema:name "Laval-des-Rapides"@fr .
 
 <Pages/Fr/Calendrier/mda-ecole-alice-de-lautre-cote.aspx#2024-04-08> a schema:Event;
   schema:name "Alice de l'autre côté"@fr;
@@ -2354,21 +2238,6 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
     "Sainte-Dorothée", "Arts";
   schema:organizer adr:K16-116 .
 
-<4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a schema:Place;
-  schema:name "Bibliothèque Yves-Thériault"@fr .
-
-<52ff792f-a72e-4b2b-859e-2b9faf17491a> a skos:Concept;
-  schema:name "Bibliothèques"@fr .
-
-<c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a skos:Concept;
-  schema:name "Adultes"@fr .
-
-<e397bf4b-aeed-48cc-aa70-66c277727360> a skos:Concept;
-  schema:name "Sainte-Dorothée"@fr .
-
-<120836d9-e77a-4c6b-a300-87071827c2a0> a skos:Concept;
-  schema:name "Arts"@fr .
-
 <Pages/Fr/Calendrier/biblio-techno-facebook-reseaux-sociaux.aspx#2024-04-09> a schema:Event;
   schema:name "Facebook et les réseaux sociaux"@fr;
   schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/biblio-facebook-reseaux-sociaux-335x215.jpg>;
@@ -2383,21 +2252,6 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:keywords "Bibliothèques", "Conférences", "Adultes", "Activités de la ville",
     "Techno", "Saint-François", "Fabreville";
   schema:organizer adr:K16-116 .
-
-<4870618a-b491-4abd-947e-9e1f4888b897> a schema:Place;
-  schema:name "Bibliothèque Marius-Barbeau"@fr .
-
-<f4084c5d-aff7-4998-9e04-16a20732ad55> a schema:Place;
-  schema:name "Bibliothèque Gabrielle-Roy"@fr .
-
-<bde5907b-ecee-45d9-9051-bfc09e259843> a skos:Concept;
-  schema:name "Techno"@fr .
-
-<cb5f24bc-8b43-4afe-9233-33960a97a039> a skos:Concept;
-  schema:name "Saint-François"@fr .
-
-<eab9ad14-6874-4c9b-8704-3fd73027b0ea> a skos:Concept;
-  schema:name "Fabreville"@fr .
 
 <Pages/Fr/Calendrier/assemblee-ordinaire-conseil-municipal.aspx#2024-04-09> a schema:Event;
   schema:name "Séance ordinaire du conseil municipal"@fr;
@@ -2432,12 +2286,6 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
     "Chomedey", "Arts";
   schema:organizer adr:K16-116 .
 
-<98205b68-5745-4687-b461-2e214e81389d> a schema:Place;
-  schema:name "Bibliothèque Multiculturelle"@fr .
-
-<bcc29691-ef6f-4449-9d03-656185b4d7f9> a skos:Concept;
-  schema:name "Chomedey"@fr .
-
 <Pages/Fr/Calendrier/biblio-arts-litterature-oh-plaisir-lire-no1.aspx#2024-04-10>
   a schema:Event;
   schema:name "Oh! Plaisir de lire (No 1)"@fr;
@@ -2446,12 +2294,37 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:location <f4084c5d-aff7-4998-9e04-16a20732ad55>;
   schema:url <Pages/Fr/Calendrier/biblio-arts-litterature-oh-plaisir-lire-no1.aspx>;
   schema:description "<p>​Un espace de discussion animé par Karine Fortin autour d’un même livre lu par tous les participants.&#160;<br></p>"@fr;
+  a schema:Event;
   schema:endDate "2024-04-10T19:30:00Z"^^xsd:dateTime;
   schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
     <ed4057c0-6826-43fb-9211-2ab94429c593>, <eab9ad14-6874-4c9b-8704-3fd73027b0ea>, <120836d9-e77a-4c6b-a300-87071827c2a0>;
   schema:keywords "Bibliothèques", "Conférences", "Adultes", "Activités de la ville",
     "Fabreville", "Arts";
-  schema:organizer adr:K16-116 .
+  schema:organizer adr:K16-116;
+  schema:name "Oh! Plaisir de lire (No 1)"@fr;
+  schema:image <PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-karine-fortin-335x215.jpg>;
+  schema:startDate "2024-04-10T17:30:00Z"^^xsd:dateTime;
+  schema:location <f4084c5d-aff7-4998-9e04-16a20732ad55>;
+  schema:url <Pages/Fr/Calendrier/biblio-arts-litterature-oh-plaisir-lire-no1.aspx>;
+  schema:description "<p>​Un espace de discussion animé par Karine Fortin autour d’un même livre lu par tous les participants.&#160;<br></p>"@fr .
+
+<f4084c5d-aff7-4998-9e04-16a20732ad55> a schema:Place;
+  schema:name "Bibliothèque Gabrielle-Roy"@fr .
+
+<52ff792f-a72e-4b2b-859e-2b9faf17491a> a skos:Concept;
+  schema:name "Bibliothèques"@fr .
+
+<c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a skos:Concept;
+  schema:name "Adultes"@fr .
+
+<ed4057c0-6826-43fb-9211-2ab94429c593> a skos:Concept;
+  schema:name "Activités de la ville"@fr .
+
+<eab9ad14-6874-4c9b-8704-3fd73027b0ea> a skos:Concept;
+  schema:name "Fabreville"@fr .
+
+<120836d9-e77a-4c6b-a300-87071827c2a0> a skos:Concept;
+  schema:name "Arts"@fr .
 
 <Pages/Fr/Calendrier/biblio-arts-ruche.aspx#2024-04-10> a schema:Event;
   schema:name "La ruche d’art"@fr;
@@ -2466,6 +2339,12 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:keywords "Bibliothèques", "Conférences", "Adultes", "Activités de la ville",
     "Arts", "Chomedey";
   schema:organizer adr:K16-116 .
+
+<98205b68-5745-4687-b461-2e214e81389d> a schema:Place;
+  schema:name "Bibliothèque Multiculturelle"@fr .
+
+<bcc29691-ef6f-4449-9d03-656185b4d7f9> a skos:Concept;
+  schema:name "Chomedey"@fr .
 
 <Pages/Fr/Calendrier/biblio-techno-club-robotique.aspx#2024-04-10> a schema:Event;
   schema:name "Club de robotique"@fr;
@@ -2482,6 +2361,9 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
 
 <0272c940-f2e7-41db-9eb1-549fd4dbe222> a skos:Concept;
   schema:name "Adolescents"@fr .
+
+<bde5907b-ecee-45d9-9051-bfc09e259843> a skos:Concept;
+  schema:name "Techno"@fr .
 
 <Pages/Fr/Calendrier/biblio-arts-ruche.aspx#2024-04-11> a schema:Event;
   schema:name "La ruche d’art"@fr;
@@ -2510,6 +2392,12 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:keywords "Activités de la ville", "Conférences", "Sainte-Dorothée", "Bibliothèques",
     "Adultes", "Arts";
   schema:organizer adr:K16-116 .
+
+<4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a schema:Place;
+  schema:name "Bibliothèque Yves-Thériault"@fr .
+
+<e397bf4b-aeed-48cc-aa70-66c277727360> a skos:Concept;
+  schema:name "Sainte-Dorothée"@fr .
 
 <Pages/Fr/Calendrier/mois-autisme-astro-tranquille.aspx#2024-04-13> a schema:Event;
   schema:name "Astro-Tranquille"@fr;
@@ -2593,6 +2481,12 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
 <e38a50b9-3e67-4c0e-84ee-040293125a45> a schema:Place;
   schema:name "Bibliothèque Germaine-Guèvremont"@fr .
 
+<cb5f24bc-8b43-4afe-9233-33960a97a039> a skos:Concept;
+  schema:name "Saint-François"@fr .
+
+<4870618a-b491-4abd-947e-9e1f4888b897> a schema:Place;
+  schema:name "Bibliothèque Marius-Barbeau"@fr .
+
 <2a5da81d-9c3c-4d7f-822d-d4593f2afc05> a skos:Concept;
   schema:name "Duvernay"@fr .
 
@@ -2604,6 +2498,9 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
 
 <68d3e20f-bbb7-484f-945e-6bf9aeba46d9> a skos:Concept;
   schema:name "Sainte-Rose"@fr .
+
+<bc509603-3c51-46fc-a6a9-b54f2cc27617> a skos:Concept;
+  schema:name "Laval-des-Rapides"@fr .
 
 <Pages/Fr/Calendrier/osl-carte-blanche-madeleine-doyon-robitaille.aspx#2024-04-13>
   a schema:Event;
@@ -2997,6 +2894,12 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
     "Laval-des-Rapides";
   schema:organizer adr:K16-116 .
 
+<b881c7a8-00ac-40fc-81d4-296229eb64d6> a schema:Place;
+  schema:name "Maison des arts de Laval"@fr .
+
+<03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a skos:Concept;
+  schema:name "Expositions et spectacles"@fr .
+
 <d1a01a8d-f1ab-4bf6-aa31-c2b0df375121> a skos:Concept;
   schema:name "Exposition"@fr .
 
@@ -3032,41 +2935,11 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:description "<p>Une activité ludique durant laquelle votre bébé&#160;est&#160;stimulé par la lecture, les comptines et le massage.&#160;</p>"@fr;
   schema:endDate "2024-04-29T15:15:00Z"^^xsd:dateTime;
   schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>;
-  a schema:Event;
+    <6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>, <ed4057c0-6826-43fb-9211-2ab94429c593>, <bc509603-3c51-46fc-a6a9-b54f2cc27617>,
+    <84db1b61-2f48-4879-9ca7-f5ffe4299e45>;
   schema:keywords "Bibliothèques", "Familles", "Jeunesse", "Activités de la ville",
     "Laval-des-Rapides", "Jouer";
-  schema:organizer adr:K16-116;
-  schema:name "Heure du conte pour les 0-12 mois"@fr;
-  schema:image <PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-heure-conte-12mois-335x215.jpg>;
-  schema:startDate "2024-04-29T14:30:00Z"^^xsd:dateTime;
-  schema:location <a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>;
-  schema:url <Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-0-12-mois.aspx>;
-  schema:description "<p>Une activité ludique durant laquelle votre bébé&#160;est&#160;stimulé par la lecture, les comptines et le massage.&#160;</p>"@fr;
-  schema:endDate "2024-04-29T15:15:00Z"^^xsd:dateTime;
-  schema:additionalType <ed4057c0-6826-43fb-9211-2ab94429c593>, <019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <bc509603-3c51-46fc-a6a9-b54f2cc27617>, <84db1b61-2f48-4879-9ca7-f5ffe4299e45> .
-
-<a8ade198-5ee7-4f7d-9c79-120c8d0e1be5> a schema:Place;
-  schema:name "Bibliothèque Émile-Nelligan"@fr .
-
-<52ff792f-a72e-4b2b-859e-2b9faf17491a> a skos:Concept;
-  schema:name "Bibliothèques"@fr .
-
-<019b445a-815c-49a2-8adc-2ceb9b48cd9a> a skos:Concept;
-  schema:name "Familles"@fr .
-
-<6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9> a skos:Concept;
-  schema:name "Jeunesse"@fr .
-
-<ed4057c0-6826-43fb-9211-2ab94429c593> a skos:Concept;
-  schema:name "Activités de la ville"@fr .
-
-<bc509603-3c51-46fc-a6a9-b54f2cc27617> a skos:Concept;
-  schema:name "Laval-des-Rapides"@fr .
-
-<84db1b61-2f48-4879-9ca7-f5ffe4299e45> a skos:Concept;
-  schema:name "Jouer"@fr .
+  schema:organizer adr:K16-116 .
 
 <Pages/Fr/Calendrier/mda-exposition-libby-hague.aspx#2024-04-30> a schema:Event;
   schema:name "Exposition : Libby Hague - Tout à la fois"@fr;
@@ -3081,15 +2954,6 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:keywords "Expositions et spectacles", "Maison des arts", "Exposition", "Activités de la ville",
     "Laval-des-Rapides";
   schema:organizer adr:K16-116 .
-
-<b881c7a8-00ac-40fc-81d4-296229eb64d6> a schema:Place;
-  schema:name "Maison des arts de Laval"@fr .
-
-<03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a skos:Concept;
-  schema:name "Expositions et spectacles"@fr .
-
-<d1a01a8d-f1ab-4bf6-aa31-c2b0df375121> a skos:Concept;
-  schema:name "Exposition"@fr .
 
 <Pages/Fr/Calendrier/mda-exposition-julie-picard.aspx#2024-04-30> a schema:Event;
   schema:name "Exposition : Julie Picard - Les lignes contours"@fr;
@@ -3119,18 +2983,6 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
     "Arts", "Chomedey";
   schema:organizer adr:K16-116 .
 
-<98205b68-5745-4687-b461-2e214e81389d> a schema:Place;
-  schema:name "Bibliothèque Multiculturelle"@fr .
-
-<c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a skos:Concept;
-  schema:name "Adultes"@fr .
-
-<120836d9-e77a-4c6b-a300-87071827c2a0> a skos:Concept;
-  schema:name "Arts"@fr .
-
-<bcc29691-ef6f-4449-9d03-656185b4d7f9> a skos:Concept;
-  schema:name "Chomedey"@fr .
-
 <Pages/Fr/Calendrier/biblio-vivre-cocktails-reussis-fete-meres.aspx#2024-05-01> a
     schema:Event;
   schema:name "Des cocktails réussis pour la fête des mères "@fr;
@@ -3145,9 +2997,6 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:keywords "Bibliothèques", "Conférences", "Adultes", "Activités de la ville",
     "Vivre", "Chomedey";
   schema:organizer adr:K16-116 .
-
-<137817ca-3f2b-4269-a8f3-839c395db32a> a skos:Concept;
-  schema:name "Vivre"@fr .
 
 <Pages/Fr/Calendrier/biblio-arts-ruche.aspx#2024-05-02> a schema:Event;
   schema:name "La ruche d’art"@fr;
@@ -3172,10 +3021,26 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:description "<p>​Évaluer son stress financier, reconnaître une situation de surendettement, énumérer les principales conséquences et, bien sûr, trouver différentes pistes de solution.<br></p>"@fr;
   schema:endDate "2024-05-03T00:30:00Z"^^xsd:dateTime;
   schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
-    <ed4057c0-6826-43fb-9211-2ab94429c593>, <137817ca-3f2b-4269-a8f3-839c395db32a>, <2fc6ba3c-690b-452b-a79e-6452816d68ad>;
+    <ed4057c0-6826-43fb-9211-2ab94429c593>, <137817ca-3f2b-4269-a8f3-839c395db32a>;
   schema:keywords "Bibliothèques", "Conférences", "Adultes", "Activités de la ville",
-    "Vivre", "Activités virtuelles";
-  schema:organizer adr:K16-116 .
+    "Vivre";
+  schema:organizer adr:K16-116;
+  a schema:Event;
+  schema:organizer adr:K16-116;
+  schema:name "Surendettement : des solutions pour s’en sortir"@fr;
+  schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/biblio-surendettement-solutions-335x215.jpg>;
+  schema:startDate "2024-05-02T23:00:00Z"^^xsd:dateTime;
+  schema:url <Pages/Fr/Calendrier/biblio-vivre-surendettement-solutions-en-sortir.aspx>;
+  schema:description "<p>​Évaluer son stress financier, reconnaître une situation de surendettement, énumérer les principales conséquences et, bien sûr, trouver différentes pistes de solution.<br></p>"@fr;
+  schema:endDate "2024-05-03T00:30:00Z"^^xsd:dateTime;
+  schema:additionalType <ed4057c0-6826-43fb-9211-2ab94429c593>, <2fc6ba3c-690b-452b-a79e-6452816d68ad>;
+  schema:keywords "Activités de la ville", "Conférences", "Activités virtuelles" .
+
+<ed4057c0-6826-43fb-9211-2ab94429c593> a skos:Concept;
+  schema:name "Activités de la ville"@fr .
+
+<137817ca-3f2b-4269-a8f3-839c395db32a> a skos:Concept;
+  schema:name "Vivre"@fr .
 
 <2fc6ba3c-690b-452b-a79e-6452816d68ad> a skos:Concept;
   schema:name "Activités virtuelles"@fr .
@@ -3193,6 +3058,15 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:keywords "Activités de la ville", "Maison des arts", "Laval-des-Rapides", "Expositions et spectacles",
     "Arts de la scène";
   schema:organizer adr:K16-116 .
+
+<b881c7a8-00ac-40fc-81d4-296229eb64d6> a schema:Place;
+  schema:name "Maison des arts de Laval"@fr .
+
+<bc509603-3c51-46fc-a6a9-b54f2cc27617> a skos:Concept;
+  schema:name "Laval-des-Rapides"@fr .
+
+<03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a skos:Concept;
+  schema:name "Expositions et spectacles"@fr .
 
 <71245944-c666-484c-9885-16598009f4bf> a skos:Concept;
   schema:name "Arts de la scène"@fr .
@@ -3216,6 +3090,15 @@ participants.<br></p>"""@fr;
 <e38a50b9-3e67-4c0e-84ee-040293125a45> a schema:Place;
   schema:name "Bibliothèque Germaine-Guèvremont"@fr .
 
+<52ff792f-a72e-4b2b-859e-2b9faf17491a> a skos:Concept;
+  schema:name "Bibliothèques"@fr .
+
+<c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a skos:Concept;
+  schema:name "Adultes"@fr .
+
+<120836d9-e77a-4c6b-a300-87071827c2a0> a skos:Concept;
+  schema:name "Arts"@fr .
+
 <2a5da81d-9c3c-4d7f-822d-d4593f2afc05> a skos:Concept;
   schema:name "Duvernay"@fr .
 
@@ -3236,6 +3119,15 @@ participants.<br></p>"""@fr;
 
 <8620bd60-4ce9-48a8-b327-90a368764774> a schema:Place;
   schema:name "Bibliothèque Philippe-Panneton"@fr .
+
+<019b445a-815c-49a2-8adc-2ceb9b48cd9a> a skos:Concept;
+  schema:name "Familles"@fr .
+
+<6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9> a skos:Concept;
+  schema:name "Jeunesse"@fr .
+
+<a8ade198-5ee7-4f7d-9c79-120c8d0e1be5> a schema:Place;
+  schema:name "Bibliothèque Émile-Nelligan"@fr .
 
 <ca32aae2-90a6-4767-b4d3-26ab89c40c4d> a skos:Concept;
   schema:name "Laval-Ouest"@fr .
@@ -3306,11 +3198,17 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
 <4870618a-b491-4abd-947e-9e1f4888b897> a schema:Place;
   schema:name "Bibliothèque Marius-Barbeau"@fr .
 
+<98205b68-5745-4687-b461-2e214e81389d> a schema:Place;
+  schema:name "Bibliothèque Multiculturelle"@fr .
+
 <4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a schema:Place;
   schema:name "Bibliothèque Yves-Thériault"@fr .
 
 <e397bf4b-aeed-48cc-aa70-66c277727360> a skos:Concept;
   schema:name "Sainte-Dorothée"@fr .
+
+<bcc29691-ef6f-4449-9d03-656185b4d7f9> a skos:Concept;
+  schema:name "Chomedey"@fr .
 
 <Pages/Fr/Calendrier/osl-carte-blanche-marie-josee-arpin.aspx#2024-05-04> a schema:Event;
   schema:name "OSL : Carte blanche à Marie-Josée Arpin"@fr;
@@ -3749,7 +3647,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   schema:startDate "2024-05-18T14:30:00Z"^^xsd:dateTime;
   schema:location <a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>, <f4084c5d-aff7-4998-9e04-16a20732ad55>,
     <e38a50b9-3e67-4c0e-84ee-040293125a45>, <03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>, <4870618a-b491-4abd-947e-9e1f4888b897>,
-    <98205b68-5745-4687-b461-2e214e81389d>, <8b694188-c831-4cd9-a679-df7613d442ba>;
+    <98205b68-5745-4687-b461-2e214e81389d>, <8b694188-c831-4cd9-a679-df7613d442ba>, <4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
   schema:url <Pages/Fr/Calendrier/biblio-jeunesse-heures-contes-3-5-ans.aspx>;
   schema:description """<p>Initiez vos enfants aux livres et au plaisir de la lecture&#160;grâce
 aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">telles que des histoires, du bricolage et des comptines.</span></p>"""@fr;
@@ -3757,48 +3655,12 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:additionalType <52ff792f-a72e-4b2b-859e-2b9faf17491a>, <019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
     <6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>, <ed4057c0-6826-43fb-9211-2ab94429c593>, <5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
     <cb5f24bc-8b43-4afe-9233-33960a97a039>, <eab9ad14-6874-4c9b-8704-3fd73027b0ea>, <2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <ca32aae2-90a6-4767-b4d3-26ab89c40c4d>, <68d3e20f-bbb7-484f-945e-6bf9aeba46d9>;
+    <ca32aae2-90a6-4767-b4d3-26ab89c40c4d>, <68d3e20f-bbb7-484f-945e-6bf9aeba46d9>, <e397bf4b-aeed-48cc-aa70-66c277727360>,
+    <bc509603-3c51-46fc-a6a9-b54f2cc27617>, <bcc29691-ef6f-4449-9d03-656185b4d7f9>;
   schema:keywords "Bibliothèques", "Familles", "Jeunesse", "Activités de la ville",
-    "Auteuil", "Saint-François", "Fabreville", "Duvernay", "Laval-Ouest", "Sainte-Rose";
-  schema:organizer adr:K16-116;
-  a schema:Event;
-  schema:organizer adr:K16-116;
-  schema:name "Heures du conte pour les 3 à 5 ans"@fr;
-  schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/heure-conte-3-5-(3)-335x215.jpg>;
-  schema:startDate "2024-05-18T14:30:00Z"^^xsd:dateTime;
-  schema:location <4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  schema:url <Pages/Fr/Calendrier/biblio-jeunesse-heures-contes-3-5-ans.aspx>;
-  schema:description """<p>Initiez vos enfants aux livres et au plaisir de la lecture&#160;grâce
-aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">telles que des histoires, du bricolage et des comptines.</span></p>"""@fr;
-  schema:endDate "2024-05-18T15:30:00Z"^^xsd:dateTime;
-  schema:additionalType <ed4057c0-6826-43fb-9211-2ab94429c593>, <019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <e397bf4b-aeed-48cc-aa70-66c277727360>, <bc509603-3c51-46fc-a6a9-b54f2cc27617>, <bcc29691-ef6f-4449-9d03-656185b4d7f9>;
-  schema:keywords "Activités de la ville", "Familles", "Sainte-Dorothée", "Laval-des-Rapides",
-    "Chomedey" .
-
-<8b694188-c831-4cd9-a679-df7613d442ba> a schema:Place;
-  schema:name "Bibliothèque Sylvain-Garneau"@fr .
-
-<ed4057c0-6826-43fb-9211-2ab94429c593> a skos:Concept;
-  schema:name "Activités de la ville"@fr .
-
-<019b445a-815c-49a2-8adc-2ceb9b48cd9a> a skos:Concept;
-  schema:name "Familles"@fr .
-
-<68d3e20f-bbb7-484f-945e-6bf9aeba46d9> a skos:Concept;
-  schema:name "Sainte-Rose"@fr .
-
-<4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a schema:Place;
-  schema:name "Bibliothèque Yves-Thériault"@fr .
-
-<e397bf4b-aeed-48cc-aa70-66c277727360> a skos:Concept;
-  schema:name "Sainte-Dorothée"@fr .
-
-<bc509603-3c51-46fc-a6a9-b54f2cc27617> a skos:Concept;
-  schema:name "Laval-des-Rapides"@fr .
-
-<bcc29691-ef6f-4449-9d03-656185b4d7f9> a skos:Concept;
-  schema:name "Chomedey"@fr .
+    "Auteuil", "Saint-François", "Fabreville", "Duvernay", "Laval-Ouest", "Sainte-Rose",
+    "Sainte-Dorothée", "Laval-des-Rapides", "Chomedey";
+  schema:organizer adr:K16-116 .
 
 <Pages/Fr/Calendrier/biblio-arts-ruche.aspx#2024-05-18> a schema:Event;
   schema:name "La ruche d’art"@fr;
@@ -3814,18 +3676,6 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
     "Arts", "Chomedey";
   schema:organizer adr:K16-116 .
 
-<98205b68-5745-4687-b461-2e214e81389d> a schema:Place;
-  schema:name "Bibliothèque Multiculturelle"@fr .
-
-<52ff792f-a72e-4b2b-859e-2b9faf17491a> a skos:Concept;
-  schema:name "Bibliothèques"@fr .
-
-<c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a skos:Concept;
-  schema:name "Adultes"@fr .
-
-<120836d9-e77a-4c6b-a300-87071827c2a0> a skos:Concept;
-  schema:name "Arts"@fr .
-
 <Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-5-7-ans.aspx#2024-05-19> a schema:Event;
   schema:name "Heure du conte pour les 5 à 7 ans"@fr;
   schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/biblio-heure-conte-5-7-ans-335x215.jpg>;
@@ -3838,9 +3688,6 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
     <ed4057c0-6826-43fb-9211-2ab94429c593>, <bcc29691-ef6f-4449-9d03-656185b4d7f9>;
   schema:keywords "Bibliothèques", "Jeunesse", "Activités de la ville", "Chomedey";
   schema:organizer adr:K16-116 .
-
-<6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9> a skos:Concept;
-  schema:name "Jeunesse"@fr .
 
 <Pages/Fr/Calendrier/biblio-arts-ruche.aspx#2024-05-22> a schema:Event;
   schema:name "La ruche d’art"@fr;
@@ -3870,15 +3717,6 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
     "Fabreville", "Vivre";
   schema:organizer adr:K16-116 .
 
-<f4084c5d-aff7-4998-9e04-16a20732ad55> a schema:Place;
-  schema:name "Bibliothèque Gabrielle-Roy"@fr .
-
-<eab9ad14-6874-4c9b-8704-3fd73027b0ea> a skos:Concept;
-  schema:name "Fabreville"@fr .
-
-<137817ca-3f2b-4269-a8f3-839c395db32a> a skos:Concept;
-  schema:name "Vivre"@fr .
-
 <Pages/Fr/Calendrier/biblio-arts-ruche.aspx#2024-05-23> a schema:Event;
   schema:name "La ruche d’art"@fr;
   schema:image <PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-ruche-art-335x215.jpg>;
@@ -3906,13 +3744,11 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
     "Arts";
   schema:organizer adr:K16-116 .
 
-<2fc6ba3c-690b-452b-a79e-6452816d68ad> a skos:Concept;
-  schema:name "Activités virtuelles"@fr .
-
 <Pages/Fr/Calendrier/biblio-jeunesse-heures-contes-3-5-ans.aspx#2024-05-25> a schema:Event;
   schema:name "Heures du conte pour les 3 à 5 ans"@fr;
   schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/heure-conte-3-5-(3)-335x215.jpg>;
   schema:startDate "2024-05-25T14:30:00Z"^^xsd:dateTime;
+  a schema:Event;
   schema:location <a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>, <f4084c5d-aff7-4998-9e04-16a20732ad55>,
     <e38a50b9-3e67-4c0e-84ee-040293125a45>, <03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>, <4870618a-b491-4abd-947e-9e1f4888b897>,
     <98205b68-5745-4687-b461-2e214e81389d>, <8b694188-c831-4cd9-a679-df7613d442ba>, <4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
@@ -3928,10 +3764,28 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:keywords "Bibliothèques", "Familles", "Jeunesse", "Activités de la ville",
     "Auteuil", "Saint-François", "Fabreville", "Duvernay", "Laval-Ouest", "Sainte-Rose",
     "Sainte-Dorothée", "Laval-des-Rapides", "Chomedey";
-  schema:organizer adr:K16-116 .
+  schema:organizer adr:K16-116;
+  schema:name "Heures du conte pour les 3 à 5 ans"@fr;
+  schema:image <PublishingImages/Calendrier-des-activites/bibliotheque/heure-conte-3-5-(3)-335x215.jpg>;
+  schema:startDate "2024-05-25T14:30:00Z"^^xsd:dateTime .
 
 <a8ade198-5ee7-4f7d-9c79-120c8d0e1be5> a schema:Place;
   schema:name "Bibliothèque Émile-Nelligan"@fr .
+
+<52ff792f-a72e-4b2b-859e-2b9faf17491a> a skos:Concept;
+  schema:name "Bibliothèques"@fr .
+
+<019b445a-815c-49a2-8adc-2ceb9b48cd9a> a skos:Concept;
+  schema:name "Familles"@fr .
+
+<6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9> a skos:Concept;
+  schema:name "Jeunesse"@fr .
+
+<f4084c5d-aff7-4998-9e04-16a20732ad55> a schema:Place;
+  schema:name "Bibliothèque Gabrielle-Roy"@fr .
+
+<ed4057c0-6826-43fb-9211-2ab94429c593> a skos:Concept;
+  schema:name "Activités de la ville"@fr .
 
 <5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc> a skos:Concept;
   schema:name "Auteuil"@fr .
@@ -3945,14 +3799,38 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
 <03e1dcf2-1201-4c36-8ba2-4fd7da85b80b> a schema:Place;
   schema:name "Bibliothèque Laure-Conan"@fr .
 
+<eab9ad14-6874-4c9b-8704-3fd73027b0ea> a skos:Concept;
+  schema:name "Fabreville"@fr .
+
 <4870618a-b491-4abd-947e-9e1f4888b897> a schema:Place;
   schema:name "Bibliothèque Marius-Barbeau"@fr .
 
 <2a5da81d-9c3c-4d7f-822d-d4593f2afc05> a skos:Concept;
   schema:name "Duvernay"@fr .
 
+<98205b68-5745-4687-b461-2e214e81389d> a schema:Place;
+  schema:name "Bibliothèque Multiculturelle"@fr .
+
 <ca32aae2-90a6-4767-b4d3-26ab89c40c4d> a skos:Concept;
   schema:name "Laval-Ouest"@fr .
+
+<8b694188-c831-4cd9-a679-df7613d442ba> a schema:Place;
+  schema:name "Bibliothèque Sylvain-Garneau"@fr .
+
+<68d3e20f-bbb7-484f-945e-6bf9aeba46d9> a skos:Concept;
+  schema:name "Sainte-Rose"@fr .
+
+<4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a schema:Place;
+  schema:name "Bibliothèque Yves-Thériault"@fr .
+
+<e397bf4b-aeed-48cc-aa70-66c277727360> a skos:Concept;
+  schema:name "Sainte-Dorothée"@fr .
+
+<bc509603-3c51-46fc-a6a9-b54f2cc27617> a skos:Concept;
+  schema:name "Laval-des-Rapides"@fr .
+
+<bcc29691-ef6f-4449-9d03-656185b4d7f9> a skos:Concept;
+  schema:name "Chomedey"@fr .
 
 <Pages/Fr/Calendrier/mda-jeune-public-plastique.aspx#2024-05-26> a schema:Event;
   schema:name "Jeune Public - Plastique"@fr;
@@ -4046,6 +3924,12 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   schema:keywords "Bibliothèques", "Conférences", "Adultes", "Activités de la ville",
     "Arts", "Chomedey";
   schema:organizer adr:K16-116 .
+
+<c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a skos:Concept;
+  schema:name "Adultes"@fr .
+
+<120836d9-e77a-4c6b-a300-87071827c2a0> a skos:Concept;
+  schema:name "Arts"@fr .
 
 <Pages/Fr/Calendrier/biblio-arts-ruche.aspx#2024-05-30> a schema:Event;
   schema:name "La ruche d’art"@fr;
