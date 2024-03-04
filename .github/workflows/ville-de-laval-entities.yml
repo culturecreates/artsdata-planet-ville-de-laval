@@ -88,6 +88,6 @@ jobs:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v1.1.0
         with:
-          artifact: donnees-quebec-ca
+          artifact: calendrier-activites
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-ville-de-laval/${{ needs.commit-file-to-github.outputs.commit-hash }}/dumps/entities.ttl
