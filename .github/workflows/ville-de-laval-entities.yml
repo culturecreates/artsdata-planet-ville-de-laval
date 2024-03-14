@@ -48,7 +48,7 @@ jobs:
             ./entities.json
           retention-days: 1
 
-  transform-and-commit-to-github:
+  transform-places-and-commit-to-github:
     needs: transform-entities
     runs-on: ubuntu-latest
     outputs:
@@ -98,11 +98,11 @@ jobs:
 
   artsdata-push:
     runs-on: ubuntu-latest
-    needs: transform-and-commit-to-github
+    needs: transform-places-and-commit-to-github
     steps:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v1.1.0
         with:
           artifact: calendrier-activites
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-ville-de-laval/${{ needs.commit-file-to-github.outputs.commit-hash }}/dumps/entities.ttl
+          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-ville-de-laval/${{ needs.transform-places-and-commit-to-github.outputs.commit-hash }}/dumps/entities.ttl
