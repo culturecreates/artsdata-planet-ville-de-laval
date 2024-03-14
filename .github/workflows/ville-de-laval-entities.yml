@@ -86,14 +86,10 @@ jobs:
             git config --global user.email "actions@github.com"
             git config --global user.name "GitHub Actions"
             git pull
-            if git diff -- dumps/entities.ttl; then
-              echo "No changes in dumps/entities.ttl. Skipping commit.";
-            else
-              git add "dumps/entities.ttl";
-              git commit -m "Push Ville-de-Laval entities TTL file";
-              git push;
-            fi
-  
+            git add "dumps/entities.ttl"
+            git commit -m "Push Ville-de-Laval entities TTL file" || echo "No changes to commit"
+            git push
+
       - name: Get commit hash
         id: get_commit_hash
         run: |
