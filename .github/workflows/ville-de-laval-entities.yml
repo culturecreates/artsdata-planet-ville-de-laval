@@ -83,9 +83,9 @@ jobs:
 
       - name: Commit file to GitHub
         run: |
-            git pull
             git config --global user.email "actions@github.com"
             git config --global user.name "GitHub Actions"
+            git pull
             git add "dumps/entities.ttl"
             git commit -m "Push Ville-de-Laval entities TTL file"
             git push
