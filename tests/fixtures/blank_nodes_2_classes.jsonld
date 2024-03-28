@@ -1,0 +1,12 @@
+[
+  {
+    "@context":"http://schema.org",
+    "@type":"Place",
+    "name":"My Place"
+  },
+  {
+    "@context":"http://schema.org",
+    "@type":"BreadcrumbList",
+    "name":"My BreadcrumbList"
+  }
+]
