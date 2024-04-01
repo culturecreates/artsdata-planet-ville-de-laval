@@ -7,6 +7,7 @@ json_data = File.read(file_path)
 graph = RDF::Graph.new
 base_url = "https://www.laval.ca"
 replace_blank_nodes_sparql_file = File.read('./sparql/replace-blank-nodes.sparql')
+add_derived_from_sparql_file = File.read('./sparql/add-derived-from.sparql')
 
 # Parse JSON
 data = JSON.parse(json_data)
@@ -29,8 +30,10 @@ location_info.each do |key, value|
   id = "https://www.laval.ca/" + key
   puts id
   place_graph = RDF::Graph.load(url)
-  sparql_file_with_id = replace_blank_nodes_sparql_file.gsub("place_url", id)
-  place_graph.query(SPARQL.parse(sparql_file_with_id, update: true))
+  replace_blank_node_sparql_file_with_id = replace_blank_nodes_sparql_file.gsub("place_url", id)
+  place_graph.query(SPARQL.parse(replace_blank_node_sparql_file_with_id, update: true))
+  add_derived_from_sparql_file_with_id = add_derived_from_sparql_file.gsub("subject_url", url)
+  place_graph.query(SPARQL.parse(add_derived_from_sparql_file_with_id, update: true))
   graph << place_graph
   rescue StandardError => e
     puts "Error loading RDF from #{url}: #{e.message}"

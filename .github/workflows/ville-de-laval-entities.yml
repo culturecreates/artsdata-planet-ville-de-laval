@@ -2,6 +2,8 @@ name: Export Ville de Laval entities to Artsdata
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 9 * * 3'
 
 jobs:
   transform-entities:

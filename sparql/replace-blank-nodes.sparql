@@ -1,5 +1,5 @@
 # This SPARQL replaces blank nodes in subject position at the top level.
-
+PREFIX schema: <http://schema.org/>
 DELETE {
   ?blank_node ?p ?o 
 }
@@ -13,6 +13,7 @@ WHERE {
     SELECT distinct ?blank_node  
     WHERE {
       ?blank_node ?any_p ?any_o . 
+      ?blank_node a schema:Place .
       FILTER (isBLANK(?blank_node))
       FILTER NOT EXISTS { ?other_s ?other_p ?blank_node }
     }
