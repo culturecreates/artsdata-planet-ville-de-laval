@@ -13,7 +13,7 @@ WHERE {
     SELECT distinct ?blank_node  
     WHERE {
       ?blank_node ?any_p ?any_o . 
-      ?blank_node a schema:Place .
+      ?blank_node a schema:LocalBusiness .
       FILTER (isBLANK(?blank_node))
       FILTER NOT EXISTS { ?other_s ?other_p ?blank_node }
     }
