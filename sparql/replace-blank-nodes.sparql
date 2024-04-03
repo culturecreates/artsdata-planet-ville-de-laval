@@ -12,15 +12,9 @@ WHERE {
   {
     SELECT DISTINCT ?blank_node  
     WHERE {
-      ?blank_node ?any_p ?any_o . 
+      values ?type { schema:LocalBusiness schema:Place }
+      ?blank_node a ?type . 
       FILTER (isBLANK(?blank_node))
-      { 
-        ?blank_node a schema:LocalBusiness .
-      }
-      UNION
-      {
-        ?blank_node a schema:Place .
-      }
       FILTER NOT EXISTS { ?other_s ?other_p ?blank_node }
     }
   }
