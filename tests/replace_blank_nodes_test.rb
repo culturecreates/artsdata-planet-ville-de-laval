@@ -11,7 +11,7 @@ class ReplaceBlankNodesTest < Minitest::Test
     graph = RDF::Graph.load("./tests/fixtures/blank_nodes_2_entities.jsonld")
     # puts "before: #{graph.dump(:jsonld)}"
     graph.query(@sparql)
-    puts "after: #{graph.dump(:jsonld)}"
+    # puts "after: #{graph.dump(:jsonld)}"
 
     expected = false
     actual = graph.query([RDF::URI('http://my_place.com'), RDF::type, RDF::Vocab::SCHEMA.Place])&.first&.node?
@@ -20,9 +20,17 @@ class ReplaceBlankNodesTest < Minitest::Test
     expected = 1
     actual = graph.query([RDF::URI('http://my_place.com'), RDF::Vocab::SCHEMA.name, nil]).count
     assert_equal expected, actual, "Different entities should not be merged"
+  end
 
+  def test_place_subtypes
+    graph = RDF::Graph.load("./tests/fixtures/place_subtypes.jsonld")
+    # puts "before: #{graph.dump(:jsonld)}"
+    graph.query(@sparql)
+    puts "after: #{graph.dump(:jsonld)}"
 
-
+    expected = 1
+    actual = graph.query([nil, RDF::Vocab::SCHEMA.name, nil]).select { |s| s.node? }.count
+    assert_equal expected, actual, "Additional types of place should not be a blank node"
   end
 
 

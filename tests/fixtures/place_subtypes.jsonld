@@ -1,0 +1,37 @@
+
+  {
+    "@context":"http://schema.org",
+    "@graph": [
+      {
+        "@type":"Accommodation",
+        "name":"Type of Place"
+      },{
+        "@type":"AdministrativeArea",
+        "name":"Type of Place"
+      },{
+        "@type":"CivicStructure",
+        "name":"Type of Place"
+      },{
+        "@type":"Landform",
+        "name":"Type of Place"
+      },{
+        "@type":"LandmarksOrHistoricalBuildings",
+        "name":"Type of Place"
+      },{
+        "@type":"LocalBusiness",
+        "name":"Type of Place"
+      },{
+        "@type":"Residence",
+        "name":"Type of Place"
+      },{
+        "@type":"TouristAttraction",
+        "name":"Type of Place"
+      },{
+        "@type":"TouristDestination",
+        "name":"Type of Place"
+      },{
+        "@type":"BreadcrumbList",
+        "name":"This should be the only blank node"
+      }
+    ]
+  }
