@@ -2149,24 +2149,6 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
   <http://schema.org/startDate> "2024-09-01T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/fete-famille.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/groupe-promo-sante-laval-papa-enfant-venez-bouger.aspx#2024-01-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/35846724-d9aa-4e51-b625-4ddb0820ca4a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/acf5a6e1-1134-408d-908f-8404134ef3cc>;
-  <http://schema.org/description> "<p>Activités&#160;sportives&#160;pour papa et enfant. Exploration de différents sports dans le plaisir et l'entraide. Inscription requise.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-04-02T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/danse-coccinelles-335x215.jpg>;
-  <http://schema.org/keywords> "Communautaire et organismes",
-    "Familles",
-    "Fabreville",
-    "Sports";
-  <http://schema.org/location> <https://www.laval.ca/e0bc7953-e0b0-4090-911e-32d8e4b86b7d>;
-  <http://schema.org/name> "Papa-enfant, venez bouger!"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-01-30T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/groupe-promo-sante-laval-papa-enfant-venez-bouger.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/heure-conte-pyjama-bambi-dextrous.aspx#2024-05-17> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
     <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
@@ -4115,28 +4097,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 <https://www.laval.ca/d58b3763-55a5-4832-8b87-ff4862ff9bb4> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Fêtes de quartier"@fr .
 
-<https://www.laval.ca/e0bc7953-e0b0-4090-911e-32d8e4b86b7d> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7P 3M1";
-    <http://schema.org/streetAddress> "725 montée Montrougeau"
-  ];
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,58044896";
-    <http://schema.org/longitude> "-73,81397559"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/725+montée+Montrougeau,+Laval,+QC+H7P+3M1>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/centre_communautaire/montrougeau.jpg>;
-  <http://schema.org/name> "Centre communautaire Montrougeau"@fr,
-    "Centre communautaire Montrougeau";
-  <http://schema.org/telephone> "450 628-2698";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-montrougeau.aspx> .
-
 <https://www.laval.ca/lieux/Pages/Fr/centre-sportif-honore-mercier.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Centre sportif Honoré-Mercier" .
 
@@ -4176,6 +4136,9 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/985427f3-f98a-48de-9c33-8a5bfa32975b> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Relâche scolaire"@fr .
+
+<https://www.laval.ca/acf5a6e1-1134-408d-908f-8404134ef3cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Sports"@fr .
 
 <https://www.laval.ca/ec868e0e-9f9b-414e-8af0-6f5a58345d45> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "PPCMOI"@fr .
@@ -4267,14 +4230,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://ogp.me/ns#type> "place"@fr-fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/centre-communautaire-laval-ouest.aspx"@fr-fr;
   <http://schema.org/name> "Centre communautaire Laval-Ouest" .
-
-<https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-montrougeau.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "​​​​Centre communautaire Montrougeau​"@fr-fr;
-  <http://ogp.me/ns#image> "https://www.laval.ca/lieux/PublishingImages/centre_communautaire/montrougeau.jpg"@fr-fr;
-  <http://ogp.me/ns#title> "Centre communautaire Montrougeau"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/centre-communautaire-montrougeau.aspx"@fr-fr;
-  <http://schema.org/name> "Centre communautaire Montrougeau" .
 
 <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-raymond-fortin.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> "Centre communautaire Raymond-Fortin"@fr-fr;
@@ -4435,9 +4390,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 <https://www.laval.ca/3cfa266d-5b1a-466c-9356-0a2cc9be5db8> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Centre de la nature"@fr .
 
-<https://www.laval.ca/acf5a6e1-1134-408d-908f-8404134ef3cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Sports"@fr .
-
 <https://www.laval.ca/bde5907b-ecee-45d9-9051-bfc09e259843> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Techno"@fr .
 
@@ -4521,6 +4473,9 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/telephone> "450 978-8959";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-jean-paul-campeau.aspx> .
 
+<https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Centres communautaires" .
+
 <https://www.laval.ca/0d59b435-622f-4247-baf9-9dade6ddacc4> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
@@ -4545,9 +4500,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/915f8ed2-3795-4a2f-bbb9-38a538cd195e> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Saint-Vincent-de-Paul"@fr .
-
-<https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Centres communautaires" .
 
 <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Exposition"@fr .
@@ -4856,14 +4808,14 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Laval-Ouest"@fr .
 
-<https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Auteuil"@fr .
-
 <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Fabreville"@fr .
 
 <https://www.laval.ca/35846724-d9aa-4e51-b625-4ddb0820ca4a> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Communautaire et organismes"@fr .
+
+<https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Auteuil"@fr .
 
 <https://www.laval.ca/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Accueil" .
@@ -5135,27 +5087,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     ], [
       a <http://schema.org/ListItem>;
       <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-montrougeau.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
