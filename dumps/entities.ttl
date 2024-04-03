@@ -611,31 +611,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/startDate> "2023-10-01T04:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-histoire-bout-fil.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-histoire-eclipse-astre-ombre-un-autre.aspx#2024-04-03> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>;
-  <http://schema.org/description> "<p>Événement rare, une éclipse solaire totale aura lieu le 8 avril prochain.</p>"@fr;
-  <http://schema.org/endDate> "2024-04-04T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-eclipse-astre-ombre-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
-    "Familles",
-    "Adultes",
-    "Activités de la ville",
-    "Jeunesse",
-    "Histoire",
-    "Sainte-Dorothée";
-  <http://schema.org/location> <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Éclipse, l'astre dans l'ombre d'un autre"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-04-03T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-histoire-eclipse-astre-ombre-un-autre.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-histoire-islande-terre-glace-terre-feu.aspx#2024-04-16> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
@@ -886,7 +861,8 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>,
     <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
     <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>;
+    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>,
+    <https://www.laval.ca/4762f5c1-c60c-4d99-aff1-a30d460495e3>;
   <http://schema.org/description> "<p>L<span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">es enfants découvriront l'univers merveilleux des livres dans une ambiance de jeu et de plaisir.</span></p>"@fr;
   <http://schema.org/endDate> "2024-05-10T15:15:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/karinefortin-335x215.jpg>;
@@ -904,7 +880,8 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     "Vimont",
     "Auteuil",
     "Duvernay",
-    "Saint-François";
+    "Saint-François",
+    "Festival Petits bonheurs";
   <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
     <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>,
     <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>,
@@ -933,7 +910,8 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>,
     <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
     <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>;
+    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>,
+    <https://www.laval.ca/4762f5c1-c60c-4d99-aff1-a30d460495e3>;
   <http://schema.org/description> "<p>L<span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">es enfants découvriront l'univers merveilleux des livres dans une ambiance de jeu et de plaisir.</span></p>"@fr;
   <http://schema.org/endDate> "2024-05-11T15:15:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/karinefortin-335x215.jpg>;
@@ -951,7 +929,8 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     "Vimont",
     "Auteuil",
     "Duvernay",
-    "Saint-François";
+    "Saint-François",
+    "Festival Petits bonheurs";
   <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
     <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>,
     <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>,
@@ -2008,26 +1987,18 @@ aux animations ludiques et conviviales&#160;<span style=\"font-family&#58;arial,
 <https://www.laval.ca/Pages/Fr/Calendrier/cosm-petits-bonheurs-univers-tout-petits.aspx#2024-05-11> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
     <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121>,
     <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf>,
-    <https://www.laval.ca/4762f5c1-c60c-4d99-aff1-a30d460495e3>,
-    <https://www.laval.ca/35846724-d9aa-4e51-b625-4ddb0820ca4a>,
-    <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>;
+    <https://www.laval.ca/35846724-d9aa-4e51-b625-4ddb0820ca4a>;
   <http://schema.org/description> "<p>Sciences<br>0-5 ans<br>Entre 8 h et 10 h<br>Gratuit sur réservation</p>"@fr;
   <http://schema.org/endDate> "2024-05-11T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/cosmodome-petits-bonheurs-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
     "Activités scientifiques",
     "Familles",
-    "Exposition",
     "Événements et festivals",
     "Activités de nos partenaires",
-    "Festival Petits bonheurs",
     "Communautaire et organismes",
-    "Maison des arts",
-    "Jeune public",
-    "Chomedey";
+    "Maison des arts";
   <http://schema.org/location> <https://www.laval.ca/afa7201f-6aab-4196-b349-66674653729b>;
   <http://schema.org/name> "Petits bonheurs : Dans l'univers des tout-petits au Cosmodôme"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -3900,7 +3871,11 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
     <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>,
     <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>,
-    <https://www.laval.ca/1e9e6613-0402-4d1f-b7e9-91a837684b74>;
+    <https://www.laval.ca/1e9e6613-0402-4d1f-b7e9-91a837684b74>,
+    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
+    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
+    <https://www.laval.ca/41955ca4-ff20-46f1-94e5-30e670708401>,
+    <https://www.laval.ca/06df1aab-8580-4e44-94f9-2f5386ac20f1>;
   <http://schema.org/description> "<p>Partez à la découverte des dizaines&#160;de bijoux patrimoniaux à découvrir,&#160;lesquels regorgent d'histoires à vous raconter. Choisissez un parcours,&#160;naviguez à travers ses différents points d'intérêt,&#160;et laissez-vous emporter par leur histoire. Les&#160;plus anciens lieux et bâtiments lavallois&#160;n'auront plus aucun secret pour vous!&#160;<br></p>"@fr;
   <http://schema.org/endDate> "2024-09-24T01:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/histoire-et-patrimoine/PublishingImages/header-mobile-couleur_175x110.jpg>;
@@ -3909,11 +3884,18 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     "Chomedey",
     "Sainte-Rose",
     "Saint-François",
-    "Virée patrimoniale";
+    "Virée patrimoniale",
+    "Sainte-Dorothée",
+    "Laval-des-Rapides",
+    "Pont-Viau",
+    "Classique";
   <http://schema.org/name> "Parcourir Laval : circuits patrimoniaux "@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2022-09-23T12:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/visite-libre-circuits-patrimoniaux-parcourir-laval.aspx> .
+
+<https://www.laval.ca/06df1aab-8580-4e44-94f9-2f5386ac20f1> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Classique"@fr .
 
 <https://www.laval.ca/095e2f7b-9320-48ed-96a2-dfc01327b1e4> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -4099,6 +4081,9 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/lieux/Pages/Fr/centre-sportif-honore-mercier.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Centre sportif Honoré-Mercier" .
+
+<https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Histoire"@fr .
 
 <https://www.laval.ca/26765e4d-4479-4c1e-8a24-568f2ba06f97> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Saint-Martin"@fr .
@@ -4339,9 +4324,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Adolescents"@fr .
 
-<https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Histoire"@fr .
-
 <https://www.laval.ca/20fbb844-faba-487d-83ec-46a04ddb47a3> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
@@ -4513,9 +4495,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 <https://www.laval.ca/3e79ae30-b8d7-41e2-a729-af0a366b4a83> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Parents"@fr .
 
-<https://www.laval.ca/41955ca4-ff20-46f1-94e5-30e670708401> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Pont-Viau"@fr .
-
 <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
@@ -4549,6 +4528,9 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/f5d84cb0-fd36-4751-8992-44022fcb2eaf> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Enseignants et étudiants"@fr .
+
+<https://www.laval.ca/41955ca4-ff20-46f1-94e5-30e670708401> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Pont-Viau"@fr .
 
 <https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Jouer"@fr .
@@ -4628,6 +4610,33 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/telephone> "311 ou 450 978-8000 (de l'extérieur de Laval)";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/hotel-de-ville.aspx> .
 
+<https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7X 1G1";
+    <http://schema.org/streetAddress> "670 rue de la Place-Publique"
+  ];
+  <http://schema.org/description> """<p>
+   <span class=\"icon-website\">​</span>Nous joindre &#58;&#160;​<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre​</a></p> ​<span>​A​​utobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 46, 56, 66, 144 et 404​</a><span class=\"icon-website-inline\"></span><br>""";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,52855459";
+    <http://schema.org/longitude> "-73,820769"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/670+rue+de+la+Place-Publique,+Laval,+QC+H7X+1G1>;
+  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/bibliotheque-yves-theriault-175x110.jpg>;
+  <http://schema.org/name> "Bibliothèque Yves-Thériault"@fr,
+    "Bibliothèque Yves-Thériault";
+  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
+    <https://fr-ca.facebook.com/bibliothequeslaval>,
+    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
+  <http://schema.org/telephone> "450 978-6599";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx> .
+
 <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
@@ -4655,33 +4664,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
   <http://schema.org/telephone> "450 978-3940";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-sylvain-garneau.aspx> .
-
-<https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7X 1G1";
-    <http://schema.org/streetAddress> "670 rue de la Place-Publique"
-  ];
-  <http://schema.org/description> """<p>
-   <span class=\"icon-website\">​</span>Nous joindre &#58;&#160;​<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre​</a></p> ​<span>​A​​utobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 46, 56, 66, 144 et 404​</a><span class=\"icon-website-inline\"></span><br>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,52855459";
-    <http://schema.org/longitude> "-73,820769"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/670+rue+de+la+Place-Publique,+Laval,+QC+H7X+1G1>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/bibliotheque-yves-theriault-175x110.jpg>;
-  <http://schema.org/name> "Bibliothèque Yves-Thériault"@fr,
-    "Bibliothèque Yves-Thériault";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 978-6599";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx> .
 
 <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -4890,11 +4872,11 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     "Billetterie : 450 667-2040";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx> .
 
-<https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Arts"@fr .
-
 <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Jeunesse"@fr .
+
+<https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Arts"@fr .
 
 <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Jeune public"@fr .
@@ -4905,11 +4887,11 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Événements et festivals"@fr .
 
-<https://www.laval.ca/4762f5c1-c60c-4d99-aff1-a30d460495e3> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Festival Petits bonheurs"@fr .
-
 <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Expositions et spectacles"@fr .
+
+<https://www.laval.ca/4762f5c1-c60c-4d99-aff1-a30d460495e3> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Festival Petits bonheurs"@fr .
 
 <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Laval-des-Rapides"@fr .
@@ -4922,6 +4904,27 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Activités de la ville"@fr .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-multiculturelle.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
 
  [
     a <http://schema.org/BreadcrumbList>;
@@ -5107,48 +5110,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-multiculturelle.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
       <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-germaine-guevremont.aspx>;
       <http://schema.org/position> 4
     ]
@@ -5213,6 +5174,27 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     ], [
       a <http://schema.org/ListItem>;
       <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-sylvain-garneau.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
