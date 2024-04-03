@@ -3,13 +3,14 @@ Data pipeline to import events from Ville de Laval to Artsdata.
 
 Ville de Laval events on [Donnees Quebec](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005).
 
-The extraction in done in several steps:
-1. Download events in the JSON file [calendrier-activites.json](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005)
-2. Convert the JSON to an RDF Graph.
-3. Run `main.rb` to get a list of all event's places, crawl the URL of each place, extract the JSON-LD, transform it with SPARQL, and finally add it to the RDF graph.
-4. Store a version of the RDF graph in entities.ttl.
-5. Send the RDF graph as a versioned artifact "calendrier-activites" to the Artsdata Databus for loading into an [Artsdata graph](http://kg.artsdata.ca/entity?uri=http%3A%2F%2Fkg.artsdata.ca%2Fculture-creates%2Fartsdata-planet-ville-de-laval%2Fcalendrier-activites)
-6. Check for entities that should be minted for Signé Laval calendar using sparql upcoming-cultural-events.sparql.
+The extraction in done by the workflow in several steps:
+1. Download the JSON file [calendrier-activites.json](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005) from Donnèes Québec.
+2. Convert the JSON to an RDF Graph using the OntoRefine Docker image with config.json that contains the mapping of JSON to RDF.
+3. Run `main.rb` to get a list of all event's places and then crawl the URL of each place to extract the JSON-LD and add it to the RDF graph of events.
+4. Store a Github version of the RDF graph in dumps/entities.ttl
+5. Call the Artsdata Databus to register a new version of the artifact "calendrier-activites"
+6. Wait for Artsdata to load the artifact into an [Artsdata graph](http://kg.artsdata.ca/entity?uri=http%3A%2F%2Fkg.artsdata.ca%2Fculture-creates%2Fartsdata-planet-ville-de-laval%2Fcalendrier-activites)
+6. Check Artsdata for events and places that should be minted for use in the Signé Laval calendar using sparql upcoming-cultural-events.sparql.
 
 Directories
 ============
