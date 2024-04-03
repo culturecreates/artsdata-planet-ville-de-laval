@@ -1,0 +1,40 @@
+# [endpoint=https://artsdata-trifid-production.herokuapp.com/query]
+PREFIX schema: <http://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+select  ?startDate ?name ?endDate  (sample(?location_name) as ?location) ?code  ?uri
+where {
+    values ?g {
+        <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites>
+    }
+    graph  ?g {
+        ?uri a schema:Event .
+    }
+    ?uri a schema:Event ;
+       schema:startDate ?startDate ;
+       schema:name ?name  ;
+       schema:location ?location .
+       ?location schema:address/schema:postalCode ?code ;
+                  schema:name ?location_name .
+    OPTIONAL {
+        ?uri   schema:endDate ?endDate 
+    }
+    bind(strdt(substr(str(?startDate),1,10),xsd:date) as ?date )
+    filter (?startDate  > now() || ?endDate > now() )
+    values ?type {
+        <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a> # Bibliothèques
+        <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>  # Expositions et spectacles
+        <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf> # Événements et festivals
+       
+    }
+    ?uri schema:additionalType ?type .
+    filter not exists {
+        ?focusNode sh:focusNode ?uri .
+    }
+    filter not exists {
+        ?uri  schema:additionalType <https://www.laval.ca/f5d84cb0-fd36-4751-8992-44022fcb2eaf> # Enseignants
+    }
+    
+}  
+order by ?uri

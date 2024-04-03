@@ -1,0 +1,52 @@
+[
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "# Readme for SPARQLs\n\nThis sparls book lets you interact and run sparqls and also documents the logic in the ville-de-laval data pipleline.  These sparqls are connected to the Artsdata endpoint and will not modify any data in Artsdata.\n\nYou can also view all Ville-de-Laval events loaded from Données Québec in Artsdata.ca [here](http://kg.artsdata.ca/en/query/show?title=Event%20entities%20in%20calendrier-activites%20%285639%20triples%29&sparql=list_events&graph=http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites)\n",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Events for Signé Laval\nThe following sparql counts upcoming events in the 3 selected categories used by the Signé Laval calendar:\n* Bibliothèques\n* Expositions et spectacles\n* Événements et festivals",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "# [endpoint=https://artsdata-trifid-production.herokuapp.com/query]\n\nPREFIX schema: <http://schema.org/>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX sh: <http://www.w3.org/ns/shacl#>\nselect (count(distinct ?s) as ?count) # reduced ?startDate ?name\nwhere {\n    \n            values ?g {\n                <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites>\n            }\n            graph  ?g {\n                ?s a schema:Event .\n            }\n           \n            ?s a schema:Event ;\n               schema:startDate ?startDate ;\n                schema:name ?name  .\n               OPTIONAL {\n                ?s schema:endDate ?endDate .\n               }\n              \n            filter (?startDate  > now() || ?endDate > now())\n            values ?type {\n                <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a> # Bibliothèques\n                <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>  # Expositions et spectacles\n                <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf> # Événements et festivals\n            }\n            ?s schema:additionalType ?type .\n        } \n  ",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "List upcoming events in the 3 selected categories with no Artsdata SHACL errors (a single startDate and location)",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "# [endpoint=https://artsdata-trifid-production.herokuapp.com/query]\nPREFIX schema: <http://schema.org/>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX sh: <http://www.w3.org/ns/shacl#>\nselect  ?startDate ?name ?endDate  (sample(?location_name) as ?location) ?code  ?uri\nwhere {\n    values ?g {\n        <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites>\n    }\n    graph  ?g {\n        ?uri a schema:Event .\n    }\n    ?uri a schema:Event ;\n       schema:startDate ?startDate ;\n       schema:name ?name  ;\n       schema:location ?location .\n       ?location schema:address/schema:postalCode ?code ;\n                  schema:name ?location_name .\n    OPTIONAL {\n        ?uri   schema:endDate ?endDate \n    }\n    bind(strdt(substr(str(?startDate),1,10),xsd:date) as ?date )\n    filter (?startDate  > now() || ?endDate > now() )\n    values ?type {\n        <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a> # Bibliothèques\n        <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>  # Expositions et spectacles\n        <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf> # Événements et festivals\n       \n    }\n    ?uri schema:additionalType ?type .\n    filter not exists {\n        ?focusNode sh:focusNode ?uri .\n    }\n    filter not exists {\n        ?uri  schema:additionalType <https://www.laval.ca/f5d84cb0-fd36-4751-8992-44022fcb2eaf> # Enseignants\n    }\n    \n}  \norder by ?uri",
+    "metadata": {
+      "file": "sparql/batch-mint-events.sparql"
+    }
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "## Check for places not linked to an Artsdata ID\n\n\nPlaces in the Event activity feed from Ville de Laval only contain an internal ID, url and name. All event location urls are scraped for JSON-LD and added to the graph. The list of event locations can be viewed in ville-de-laval data feed in Artsdata [here](http://kg.artsdata.ca/en/query/show?title=Place%20entities%20in%20calendrier-activites%20%285639%20triples%29&sparql=list_places&graph=http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites).\n\nThe following SPARQL check that all places are linked to Artsdzta IDs. If this list is not empty, then those places should be minted in Artsdata.",
+    "metadata": {}
+  },
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "# [endpoint=https://artsdata-trifid-production.herokuapp.com/query]\n\nPREFIX schema: <http://schema.org/>\n\nselect distinct ?location ?location_name  ?postal_code ?sameas_location ?inverse_sameas_location where { \n\t values ?g {\n        <http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites>\n    }\n    graph  ?g {\n        ?s a schema:Event ;\n           schema:name ?name ;\n           schema:location ?location ;\n           schema:url ?url .\n    }\n    OPTIONAL {\n         ?location schema:sameAs ?sameas_location .\n         FILTER(strstarts(str(?sameas_location),\"http://kg.artsdata.ca/resource/K\"))\n    }\n     OPTIONAL {\n        ?inverse_sameas_location schema:sameAs  ?location  .\n        FILTER(strstarts(str(?inverse_sameas_location),\"http://kg.artsdata.ca/resource/K\"))\n    }\n    OPTIONAL {\n         ?location schema:name ?location_name .\n    }\n     OPTIONAL {\n         ?location schema:address/schema:postalCode ?postal_code .\n    }\n   \n    filter(!bound(?sameas_location) &&  !bound(?inverse_sameas_location))\n} limit 100 \n",
+    "metadata": {}
+  },
+  {
+    "kind": 1,
+    "language": "markdown",
+    "value": "",
+    "metadata": {}
+  }
+]

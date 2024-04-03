@@ -3,6 +3,14 @@ Data pipeline to import events from Ville de Laval to Artsdata.
 
 Ville de Laval events on [Donnees Quebec](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005).
 
+The extraction in done in several steps:
+1. Download events in the JSON file [calendrier-activites.json](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005)
+2. Convert the JSON to an RDF Graph.
+3. Run `main.rb` to get a list of all event's places, crawl the URL of each place, extract the JSON-LD, transform it with SPARQL, and finally add it to the RDF graph.
+4. Store a version of the RDF graph in entities.ttl.
+5. Send the RDF graph as a versioned artifact "calendrier-activites" to the Artsdata Databus for loading into an [Artsdata graph](http://kg.artsdata.ca/entity?uri=http%3A%2F%2Fkg.artsdata.ca%2Fculture-creates%2Fartsdata-planet-ville-de-laval%2Fcalendrier-activites)
+6. Check for entities that should be minted for Signé Laval calendar using sparql upcoming-cultural-events.sparql.
+
 Directories
 ============
 
@@ -11,17 +19,24 @@ Description of the directories and the files they contain.
 dumps
 ------
 
-The dumps directory contains the JSON dumps from Donnees Quebec and the converted RDF in turtle.
+The converted RDF in turtle. This file is versioned with each load of the data from Donnees Quebec.
 
 mapping
 -------
 
 The mapping directory contains the OntoRefine mappings in JSON to convert to RDF and the place mapping in turtle.
 
+sparqls
+-------
+* replace-blank-nodes.sparql assigns a place URI to all schema:Place and subtypes including schema:LocalBusiness.
+* add-derived-from.sparql adds the webpage to the Place for reference
+
 Minting
 ========
 This data pipeline assumes that events can be consistently minted using the page url + date (without time).
 <https://www.laval.ca/Pages/Fr/Calendrier/rencontrez-votre-elue-louise-lortie.aspx#2023-06-14> 
+
+
 
 History
 ==========
@@ -35,28 +50,16 @@ History
 * 2023-09-18: Culture Creates confirms that the feed from Ville de Laval is broken.
 * 2023-11-07: Culture Creates confirms that the feed from Ville de Laval is starting to work again.
 * 2023-12-04: CUlture Creates resumes weekly imports to  Artsdata.
+* 2024-03-15: Culture Creates automates pull from Donnees Quebec using this repo's [workflow](https://github.com/culturecreates/artsdata-planet-ville-de-laval/blob/main/.github/workflows/ville-de-laval-entities.yml)
 
 
-Supporting Graphs
-===============
-Places mapped to Artsdasta Places - http://laval.ca/place-mapping-to-artsdata-place
-File is stored here in mapping/place-mapping-to-artsdata-place.nq for easy import to Artsdata
 
 Artsdata Export to Footlight CMS
 ===========
+The events are loaded into Footlight CMS on a schedule located in the [Footlight Aggregator workflow](https://github.com/culturecreates/footlight-aggregator/blob/main/.github/workflows/import-data-ville-de-laval.yml).
 
-On-demand [5 events JSON](http://api.artsdata.ca/query.json?limit=5&frame=event_footlight&sparql=query_footlight_events&source=http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites) 
+Manual check [5 events JSON](http://api.artsdata.ca/query.json?limit=5&frame=event_footlight&sparql=query_footlight_events&source=http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites) 
 
 
-Manual Process
-============
-1. Download CSV dump from Données Quebec and store in /dumps
-1. Run OntoRefine Docker image (load mapping file from /mapping) v.1.1.0
-1. Convert dump to turtle and store in /dumps (must fill down the 2 fields needed to generate the event URI (PageUrl and EventDate) in order to get the multiple locations, categories, tags, etc.)
-1. update name of file to upload in workflow.yml
-1. Run workflow to upload RDF to Artsdata
-1. Check Artsdata for places mising Artsdata IDs and mint places (see Sparql Notebook)
-1. Make sure CMS events are uploaded to Artsdata (to detect duplicates)
-1. Mint new Artsdata IDs for new events using "bulk mint" Satelitte Minter with Artsdata authority credentials. Use batch with sparql - which of 2? --> Batch mint events.
 
 Future improvement: Check date of event within 23 hrs instead of truncating dateTime.
