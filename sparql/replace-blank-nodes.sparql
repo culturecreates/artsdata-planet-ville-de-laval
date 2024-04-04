@@ -15,6 +15,14 @@ WHERE {
       values ?type { 
         schema:Place
         schema:LocalBusiness
+        schema:Accommodation
+        schema:AdministrativeArea
+        schema:CivicStructure
+        schema:Landform
+        schema:LandmarksOrHistoricalBuildings
+        schema:Residence
+        schema:TouristAttraction
+        schema:TouristDestination
       }
       ?blank_node a ?type . 
       FILTER (isBLANK(?blank_node))
