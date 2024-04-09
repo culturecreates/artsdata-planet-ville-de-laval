@@ -10,7 +10,7 @@ The extraction in done by a [workflow](https://github.com/culturecreates/artsdat
 4. Store a Github version of the RDF graph in dumps/entities.ttl
 5. Call the Artsdata Databus to register a new version of the artifact "calendrier-activites"
 6. Wait for Artsdata to load the artifact into an [Artsdata graph](http://kg.artsdata.ca/entity?uri=http%3A%2F%2Fkg.artsdata.ca%2Fculture-creates%2Fartsdata-planet-ville-de-laval%2Fcalendrier-activites)
-6. Check Artsdata for events and places that should be minted for use in the Signé Laval calendar using sparql [upcoming-cultural-events.sparql](http://kg.artsdata.ca/query/show?sparql=https%3A%2F%2Fraw.githubusercontent.com%2Fculturecreates%2Fartsdata-planet-ville-de-laval%2Fmain%2Fsparql%2Fupcoming-cultural-events.sparql&title=Ville-de-Laval+events+for+Signé+Laval).
+6. Check Artsdata for events and places that should be minted for use in the Signé Laval calendar using sparql [upcoming-cultural-events.sparql](http://kg.artsdata.ca/query/show?sparql=https%3A%2F%2Fraw.githubusercontent.com%2Fculturecreates%2Fartsdata-planet-ville-de-laval%2Fmain%2Fsparql%2Fnebula%2Fupcoming-cultural-events.sparql&title=Ville-de-Laval+events+for+Signé+Laval).
 
 Directories
 ============
