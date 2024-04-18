@@ -1,4 +1,5 @@
-# [endpoint=http://kg.artsdata.ca/query]
+# [endpoint=https://artsdata-trifid-production.herokuapp.com/query]
+
 PREFIX schema: <http://schema.org/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX dct: <http://purl.org/dc/terms/>
@@ -28,12 +29,12 @@ where {
     }
     ?uri schema:additionalType ?type .
     filter not exists {
-        ?focusNode sh:focusNode ?uri .
+        ?focusNode sh:focusNode ?uri . # SHACL errors
     }
     filter not exists {
         ?uri  schema:additionalType <https://www.laval.ca/f5d84cb0-fd36-4751-8992-44022fcb2eaf> # Enseignants
     }
-
+    filter(!contains(?name,"Petits bonheurs"))
     {
         OPTIONAL {
             ?uri schema:sameAs ?same_as .
