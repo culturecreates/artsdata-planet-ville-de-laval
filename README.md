@@ -1,16 +1,25 @@
 # artsdata-planet-ville-de-laval
 Data pipeline to import events from Ville de Laval to Artsdata.
 
-Ville de Laval events on [Donnees Quebec](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005).
+Ville de Laval publishes events in a file called [callendrier-des-activites](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005) on the Donnees Quebec portal.
 
-The extraction in done by a [workflow](https://github.com/culturecreates/artsdata-planet-ville-de-laval/blob/main/.github/workflows/ville-de-laval-entities.yml) in several steps:
-1. Download the JSON file [calendrier-activites.json](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005) from Donnèes Québec.
+The [script](https://github.com/culturecreates/artsdata-planet-ville-de-laval/blob/main/.github/workflows/ville-de-laval-entities.yml) in this repository does the following: 
+1. Download the JSON file [calendrier-activites.json](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005) from Donnees Québec.
 2. Convert the JSON to an RDF Graph using the OntoRefine Docker image with config.json that contains the mapping of JSON to RDF.
-3. Run `main.rb` to get a list of all event's places and then crawl the URL of each place to extract the JSON-LD and add it to the RDF graph of events.
-4. Store a Github version of the RDF graph in dumps/entities.ttl
+3. Get a list of event places and then crawl the URL of each place to extract the JSON-LD and add it to the event data.
+4. Store a version of the RDF graph in Github dumps/entities.ttl
 5. Call the Artsdata Databus to register a new version of the artifact "calendrier-activites"
-6. Wait for Artsdata to load the artifact into an [Artsdata graph](http://kg.artsdata.ca/entity?uri=http%3A%2F%2Fkg.artsdata.ca%2Fculture-creates%2Fartsdata-planet-ville-de-laval%2Fcalendrier-activites)
-6. Check Artsdata for events and places that should be minted for use in the Signé Laval calendar using sparql [upcoming-cultural-events.sparql](http://kg.artsdata.ca/query/show?sparql=https%3A%2F%2Fraw.githubusercontent.com%2Fculturecreates%2Fartsdata-planet-ville-de-laval%2Fmain%2Fsparql%2Fnebula%2Fupcoming-cultural-events.sparql&title=Ville-de-Laval+events+for+Signé+Laval).
+6. Mint Artsdata URIs for events and places for use in the Signé Laval calendar  [upcoming-cultural-events.sparql](https://kg.artsdata.ca/fr/query/show?sparql=https%3A%2F%2Fraw.githubusercontent.com%2Fculturecreates%2Fartsdata-planet-ville-de-laval%2Fmain%2Fsparql%2Fnebula%2Fupcoming-cultural-events.sparql&title=Ville-de-Laval+événements+pour+Signé+Laval+CMS 
+).
+
+## Events to be sent to Signé Laval's CMS
+
+The events to be sent to Signé Laval's CMS must meet the following criteria:
+- event is tagged in atleaset one of 3 categories: Bibliothèques, Expositions et spectacles, Événements et festivals
+- event is NOT tagged "Enseignants"
+- event has a single startDate and location 
+- event title does not include "Petits bonheurs" series
+- location is not a webinar/online
 
 Directories
 ============
