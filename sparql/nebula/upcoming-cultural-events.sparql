@@ -26,6 +26,8 @@ where {
         <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a> # Bibliothèques
         <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>  # Expositions et spectacles
         <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf> # Événements et festivals
+        <https://www.laval.ca/1e9e6613-0402-4d1f-b7e9-91a837684b74> # Virée patrimoniale
+        <https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc> # Histoire
     }
     ?uri schema:additionalType ?type .
     filter not exists {
