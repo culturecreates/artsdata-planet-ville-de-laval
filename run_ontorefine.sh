@@ -12,10 +12,10 @@ echo "Server started!"
 
 # Send a command to the running container
 echo "Running OntoRefine CLI using config.json..."
-docker exec onto_refine /opt/ontorefine/dist/bin/ontorefine-cli transform ../data/entities.json \
+docker exec onto_refine /opt/ontorefine/dist/bin/ontorefine-cli transform ../data/dump/entities.json \
   -u http://localhost:7333  \
   --no-clean \
-  --configurations ../data/config.json  \
+  --configurations ../data/ontorefine/config.json  \
   -f json >> entities.ttl
 
 # Open the default browser
