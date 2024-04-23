@@ -81,7 +81,7 @@ jobs:
         run: bundle exec ruby main.rb
 
       - name: Delete dump files
-        run: rm ./dumps/entities.json ./dumps/places.ttl
+        run: rm ./dumps/places.ttl
 
       - name: Commit file to GitHub
         run: |
@@ -89,7 +89,7 @@ jobs:
             git config --global user.name "GitHub Actions"
             git pull
             git add "dumps/entities.ttl"
-            git add "ontorefine/entities.json"
+            git add "dumps/entities.json"
             git commit -m "Push Ville-de-Laval entities TTL file" || echo "No changes to commit"
             git push
 
