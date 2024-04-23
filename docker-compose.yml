@@ -5,4 +5,4 @@ services:
     ports:
       - '7333:7333'
     volumes:
-      - ./ontorefine:/opt/data
+      - ./:/opt/data
