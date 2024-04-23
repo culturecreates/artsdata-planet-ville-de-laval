@@ -30,7 +30,7 @@ jobs:
       - name: Download mapping file
         id: step-4
         run: |
-            curl 'https://raw.githubusercontent.com/culturecreates/artsdata-planet-ville-de-laval/main/mapping/config.json' >> config.json
+            curl 'https://raw.githubusercontent.com/culturecreates/artsdata-planet-ville-de-laval/main/ontorefine/config.json' >> config.json
 
       - name: Transform entities in JSON  to RDF
         id: step-5
