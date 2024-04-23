@@ -12,9 +12,9 @@
       "includeFileSources": false,
       "includeArchiveFileName": false,
       "disableAutoPreview": false,
-      "projectName": "villedelaval json",
+      "projectName": "cli-transform-entities.json-2024-04-23",
       "projectTags": [],
-      "fileSource": "villedelaval.json",
+      "fileSource": "entities.json",
       "archiveFileName": null
     }
   ],
@@ -25,134 +25,8 @@
         "facets": [],
         "mode": "record-based"
       },
-      "columnName": "_ - Sites - _ - CustomProperties",
-      "description": "Fill down cells in column _ - Sites - _ - CustomProperties"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Sites - _ - TargetUrl",
-      "description": "Fill down cells in column _ - Sites - _ - TargetUrl"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Sites - _ - Label",
-      "description": "Fill down cells in column _ - Sites - _ - Label"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Sites - _ - Id",
-      "description": "Fill down cells in column _ - Sites - _ - Id"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Clienteles - _ - CustomProperties",
-      "description": "Fill down cells in column _ - Clienteles - _ - CustomProperties"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Clienteles - _ - TargetUrl",
-      "description": "Fill down cells in column _ - Clienteles - _ - TargetUrl"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Clienteles - _ - Label",
-      "description": "Fill down cells in column _ - Clienteles - _ - Label"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
       "columnName": "_ - Clienteles - _ - Id",
       "description": "Fill down cells in column _ - Clienteles - _ - Id"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Subcategories - _ - CustomProperties",
-      "description": "Fill down cells in column _ - Subcategories - _ - CustomProperties"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Subcategories - _ - TargetUrl",
-      "description": "Fill down cells in column _ - Subcategories - _ - TargetUrl"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Subcategories - _ - Label",
-      "description": "Fill down cells in column _ - Subcategories - _ - Label"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Subcategories - _ - Id",
-      "description": "Fill down cells in column _ - Subcategories - _ - Id"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Locations - _ - CustomProperties",
-      "description": "Fill down cells in column _ - Locations - _ - CustomProperties"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Locations - _ - TargetUrl",
-      "description": "Fill down cells in column _ - Locations - _ - TargetUrl"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Locations - _ - Label",
-      "description": "Fill down cells in column _ - Locations - _ - Label"
     },
     {
       "op": "core/fill-down",
@@ -169,71 +43,8 @@
         "facets": [],
         "mode": "record-based"
       },
-      "columnName": "_ - Categories - _ - CustomProperties",
-      "description": "Fill down cells in column _ - Categories - _ - CustomProperties"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Categories - _ - TargetUrl",
-      "description": "Fill down cells in column _ - Categories - _ - TargetUrl"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Categories - _ - Label",
-      "description": "Fill down cells in column _ - Categories - _ - Label"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
       "columnName": "_ - Categories - _ - Id",
       "description": "Fill down cells in column _ - Categories - _ - Id"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Tags - _ - CustomProperties - TagType",
-      "description": "Fill down cells in column _ - Tags - _ - CustomProperties - TagType"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Tags - _ - CustomProperties",
-      "description": "Fill down cells in column _ - Tags - _ - CustomProperties"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Tags - _ - TargetUrl",
-      "description": "Fill down cells in column _ - Tags - _ - TargetUrl"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Tags - _ - Label",
-      "description": "Fill down cells in column _ - Tags - _ - Label"
     },
     {
       "op": "core/fill-down",
@@ -250,33 +61,6 @@
         "facets": [],
         "mode": "record-based"
       },
-      "columnName": "_ - ActivityInscriptionUrl.Url",
-      "description": "Fill down cells in column _ - ActivityInscriptionUrl.Url"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - ActivityInscriptionUrl.Description",
-      "description": "Fill down cells in column _ - ActivityInscriptionUrl.Description"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - EndDate",
-      "description": "Fill down cells in column _ - EndDate"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
       "columnName": "_ - EventDate",
       "description": "Fill down cells in column _ - EventDate"
     },
@@ -286,53 +70,8 @@
         "facets": [],
         "mode": "record-based"
       },
-      "columnName": "_ - ActivityInscriptionUrl",
-      "description": "Fill down cells in column _ - ActivityInscriptionUrl"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - ActivityInscriptionLabel",
-      "description": "Fill down cells in column _ - ActivityInscriptionLabel"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - ImageUrl",
-      "description": "Fill down cells in column _ - ImageUrl"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
       "columnName": "_ - PageUrl",
       "description": "Fill down cells in column _ - PageUrl"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Excerpt",
-      "description": "Fill down cells in column _ - Excerpt"
-    },
-    {
-      "op": "core/fill-down",
-      "engineConfig": {
-        "facets": [],
-        "mode": "record-based"
-      },
-      "columnName": "_ - Title",
-      "description": "Fill down cells in column _ - Title"
     },
     {
       "op": "mapping-editor/save-rdf-mapping",
@@ -415,7 +154,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "'https://www.laval.ca' + cells['_ - ImageUrl'].value "
+                      "expression": "if(cells['_ - ImageUrl'].value.startsWith(\"/\"), 'https://www.laval.ca' + cells['_ - ImageUrl'].value, cells['_ - ImageUrl'].value)"
                     },
                     "valueType": {
                       "type": "iri",
@@ -806,6 +545,29 @@
                     }
                   }
                 ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "inScheme"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "skos"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "<ConceptScheme#Categories>"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -857,6 +619,29 @@
                     }
                   }
                 ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "inScheme"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "skos"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "<ConceptScheme#Clienteles>"
+                    },
+                    "valueType": {
+                      "type": "literal"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -905,6 +690,29 @@
                           "constant": "fr"
                         }
                       }
+                    }
+                  }
+                ]
+              },
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "inScheme"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "skos"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "<ConceptScheme#Tags>"
+                    },
+                    "valueType": {
+                      "type": "literal"
                     }
                   }
                 ]

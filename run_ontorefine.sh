@@ -12,7 +12,7 @@ echo "Server started!"
 
 # Send a command to the running container
 echo "Running OntoRefine CLI using config.json..."
-docker exec onto_refine /opt/ontorefine/dist/bin/ontorefine-cli transform ../data/dump/entities.json \
+docker exec onto_refine /opt/ontorefine/dist/bin/ontorefine-cli transform ../data/dumps/entities.json \
   -u http://localhost:7333  \
   --no-clean \
   --configurations ../data/ontorefine/config.json  \
