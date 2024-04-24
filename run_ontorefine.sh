@@ -21,4 +21,4 @@ docker exec onto_refine /opt/ontorefine/dist/bin/ontorefine-cli transform ../dat
 # Open the default browser
 open http://localhost:7333
 
-echo "Open Project to edit the RDF Mapping."
+echo "In OntoRefine, open existing project to edit the RDF Mapping."
