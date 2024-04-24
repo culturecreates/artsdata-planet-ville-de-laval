@@ -47,6 +47,19 @@ This data pipeline assumes that events can be consistently minted using the page
 <https://www.laval.ca/Pages/Fr/Calendrier/rencontrez-votre-elue-louise-lortie.aspx#2023-06-14> 
 
 
+Editing the Mapping file
+===========
+To edit RDF mapping:
+
+- Run ./run_ontorefine.sh (if needed chmod +x run_ontorefine.sh)
+- Open localhost:7333 to use Open Refine workbench
+- Open the existing project
+- Click "Edit RDF Mapping"
+- When done making changes save RDF Mapping
+- Clean up the history (tab undo/redo) to keep only the steps needed.
+- Export > Export project configurations into Github /ontorefine/config.json
+
+
 
 History
 ==========
