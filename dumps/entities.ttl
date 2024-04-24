@@ -6,7 +6,6 @@
   <http://schema.org/endDate> "2024-12-14T04:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/vue-aerienne-secteur-bois-equerre-314x202.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Consultations publiques et assemblées",
     "Archives des consultations publiques";
   <http://schema.org/name> "Assemblée publique de consultation - 13 décembre 2023"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -21,7 +20,6 @@
   <http://schema.org/endDate> "2025-01-12T04:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/vue-aerienne-secteur-bois-equerre-314x202.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Consultations publiques et assemblées",
     "PPCMOI",
     "Archives des consultations publiques";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
@@ -37,7 +35,6 @@
   <http://schema.org/endDate> "2025-03-29T03:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/vue-aerienne-secteur-bois-equerre-314x202.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Consultations publiques et assemblées",
     "Archives des consultations publiques";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
   <http://schema.org/name> "Assemblée publique de consultation – 28 mars 2024"@fr;
@@ -52,7 +49,6 @@
   <http://schema.org/endDate> "2025-01-09T04:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/vue-aerienne-secteur-bois-equerre-314x202.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Consultations publiques et assemblées",
     "Archives des consultations publiques";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
   <http://schema.org/name> "Assemblée publique de consultation – 8 janvier 2024"@fr;
@@ -67,7 +63,6 @@
   <http://schema.org/endDate> "2025-03-01T04:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/vue-aerienne-secteur-bois-equerre-314x202.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Consultations publiques et assemblées",
     "Archives des consultations publiques";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
   <http://schema.org/name> "Assemblée publique de consultation – 29 février 2024"@fr;
@@ -83,7 +78,6 @@
   <http://schema.org/endDate> "2024-08-04T03:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/vue-aerienne-secteur-bois-equerre-314x202.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Consultations publiques et assemblées",
     "PPCMOI",
     "Archives des consultations publiques";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
@@ -98,8 +92,7 @@
 """@fr;
   <http://schema.org/endDate> "2024-05-08T03:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Administration/comite-executif-conseil-municipal-et-deputes-lavallois/hotel-ville-demenagement-adresse-335x215.jpg>;
-  <http://schema.org/keywords> "Consultations publiques et assemblées",
-    "conseil municipal";
+  <http://schema.org/keywords> "conseil municipal";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
   <http://schema.org/name> "Séance ordinaire du conseil municipal"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -112,8 +105,7 @@
 """@fr;
   <http://schema.org/endDate> "2024-06-05T03:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Administration/comite-executif-conseil-municipal-et-deputes-lavallois/hotel-ville-demenagement-adresse-335x215.jpg>;
-  <http://schema.org/keywords> "Consultations publiques et assemblées",
-    "conseil municipal";
+  <http://schema.org/keywords> "conseil municipal";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
   <http://schema.org/name> "Séance ordinaire du conseil municipal"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -126,8 +118,7 @@
 """@fr;
   <http://schema.org/endDate> "2024-07-10T03:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Administration/comite-executif-conseil-municipal-et-deputes-lavallois/hotel-ville-demenagement-adresse-335x215.jpg>;
-  <http://schema.org/keywords> "Consultations publiques et assemblées",
-    "conseil municipal";
+  <http://schema.org/keywords> "conseil municipal";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
   <http://schema.org/name> "Séance ordinaire du conseil municipal"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -140,8 +131,7 @@
 """@fr;
   <http://schema.org/endDate> "2024-08-14T03:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Administration/comite-executif-conseil-municipal-et-deputes-lavallois/hotel-ville-demenagement-adresse-335x215.jpg>;
-  <http://schema.org/keywords> "Consultations publiques et assemblées",
-    "conseil municipal";
+  <http://schema.org/keywords> "conseil municipal";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
   <http://schema.org/name> "Séance ordinaire du conseil municipal"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -154,8 +144,7 @@
 """@fr;
   <http://schema.org/endDate> "2024-09-11T03:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Administration/comite-executif-conseil-municipal-et-deputes-lavallois/hotel-ville-demenagement-adresse-335x215.jpg>;
-  <http://schema.org/keywords> "Consultations publiques et assemblées",
-    "conseil municipal";
+  <http://schema.org/keywords> "conseil municipal";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
   <http://schema.org/name> "Séance ordinaire du conseil municipal"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -168,8 +157,7 @@
 """@fr;
   <http://schema.org/endDate> "2024-10-02T03:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Administration/comite-executif-conseil-municipal-et-deputes-lavallois/hotel-ville-demenagement-adresse-335x215.jpg>;
-  <http://schema.org/keywords> "Consultations publiques et assemblées",
-    "conseil municipal";
+  <http://schema.org/keywords> "conseil municipal";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
   <http://schema.org/name> "Séance ordinaire du conseil municipal"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -182,8 +170,7 @@
 """@fr;
   <http://schema.org/endDate> "2024-11-06T04:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Administration/comite-executif-conseil-municipal-et-deputes-lavallois/hotel-ville-demenagement-adresse-335x215.jpg>;
-  <http://schema.org/keywords> "Consultations publiques et assemblées",
-    "conseil municipal";
+  <http://schema.org/keywords> "conseil municipal";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
   <http://schema.org/name> "Séance ordinaire du conseil municipal"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -196,8 +183,7 @@
 """@fr;
   <http://schema.org/endDate> "2024-12-04T04:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Administration/comite-executif-conseil-municipal-et-deputes-lavallois/hotel-ville-demenagement-adresse-335x215.jpg>;
-  <http://schema.org/keywords> "Consultations publiques et assemblées",
-    "conseil municipal";
+  <http://schema.org/keywords> "conseil municipal";
   <http://schema.org/location> <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3>;
   <http://schema.org/name> "Séance ordinaire du conseil municipal"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -267,9 +253,7 @@
     <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>;
   <http://schema.org/description> "<p>Les oiseaux sont présents dans nos bois, nos champs, nos plans d'eau, nos rivières et, bien souvent, nos jardins. Le conférencier vous entretiendra de 80 espèces facilement observables, principalement dans la région de Laval.&#160;<br></p>"@fr;
   <http://schema.org/endDate> "2024-06-05T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Saint-François",
     "Activités de la ville",
@@ -366,9 +350,7 @@
     <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>;
   <http://schema.org/description> "<p>Viens sculpter avec tes sens! Cet atelier te permettra d'apprendre les gestes de base du façonnage de la céramique. Les yeux bandés, tu prendras plaisir à te connecter à la matière et à façonner des pièces à ton image.<br></p>"@fr;
   <http://schema.org/endDate> "2024-06-02T18:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Arts",
     "Activités de la ville",
@@ -389,7 +371,6 @@
   <http://schema.org/endDate> "2024-05-08T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-eloge-lecture-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Adultes",
     "Activités de la ville",
     "Chomedey",
@@ -410,7 +391,6 @@
   <http://schema.org/endDate> "2024-05-14T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-oeuvrelue-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Adultes",
     "Activités de la ville",
     "Sainte-Dorothée",
@@ -430,7 +410,6 @@
   <http://schema.org/endDate> "2024-04-26T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-club-lecture-virturel-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Activités virtuelles",
     "Activités de la ville",
     "Arts";
@@ -448,7 +427,6 @@
   <http://schema.org/endDate> "2024-05-24T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-club-lecture-virturel-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Activités virtuelles",
     "Activités de la ville",
     "Arts";
@@ -466,10 +444,8 @@
   <http://schema.org/endDate> "2024-10-01T03:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-balade-litteraire-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Rencontres d'auteurs",
     "Adultes",
     "Activités de la ville",
-    "Conférences",
     "Activités virtuelles";
   <http://schema.org/name> "La balade littéraire - Micheline Duff et Sara Hébert"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -486,10 +462,8 @@
   <http://schema.org/endDate> "2025-01-20T04:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-balade-litteraire-jean-philippe-baril-guerard-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Activités virtuelles",
     "Activités de la ville",
-    "Rencontres d'auteurs",
     "Adultes",
     "Arts";
   <http://schema.org/name> "Balade Littéraire : Jean-Philippe Baril-Guérard"@fr;
@@ -506,7 +480,6 @@
   <http://schema.org/endDate> "2024-05-08T19:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-karine-fortin-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Adultes",
     "Activités de la ville",
     "Fabreville";
@@ -528,7 +501,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-03T19:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-plaisir-de-lire-2-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Adultes",
     "Activités de la ville",
     "Arts",
@@ -549,10 +521,8 @@ participants.<br></p>"""@fr;
   <http://schema.org/endDate> "2025-02-01T04:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-balade-litteraire-simon-boulerice-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Activités virtuelles",
     "Activités de la ville",
-    "Rencontres d'auteurs",
     "Adultes",
     "Arts";
   <http://schema.org/name> "Balade littéraire : nouvel épisode avec Simon Boulerice"@fr;
@@ -568,9 +538,7 @@ participants.<br></p>"""@fr;
     <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>;
   <http://schema.org/description> "<p>Qu'ont en commun l'auteur et son personnage? Comment les racines italiennes de Rabagliati s'immiscent-elles dans ses bandes dessinées bien québécoises?<br></p>"@fr;
   <http://schema.org/endDate> "2024-06-08T20:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Adultes",
     "Activités de la ville",
     "Arts",
@@ -647,7 +615,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-08T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-musique-cinema-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Adultes",
     "Activités de la ville",
     "Histoire",
@@ -666,9 +633,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc>;
   <http://schema.org/description> "<p>Le projet Pères en lumière, de la réalisatrice Marie-France Laval, présente cinq pères lavallois à travers autant de courts métrages. La projection sera suivie d'un échange avec le public, animé par la réalisatrice et ses collaborateurs.<br></p>"@fr;
   <http://schema.org/endDate> "2024-06-07T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Adultes",
     "Activités de la ville",
     "Sainte-Rose",
@@ -695,9 +660,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>;
   <http://schema.org/description> "<p><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\"></span><span style=\"font-style&#58;normal;font-weight&#58;400;font-size&#58;16px;font-family&#58;arial, helvetica, sans-serif;\"></span><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">Savais-tu que, lorsque la Terre tourne une fois autour du Soleil, cela s'appelle une révolution? Lors de cette activité, tu apprendras aussi à reconnaître les autres planètes et à les placer dans le bon ordre.</span><br></p>"@fr;
   <http://schema.org/endDate> "2024-06-18T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Jeunesse",
     "Activités de la ville",
     "Club de lecture TD",
@@ -740,9 +703,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>;
   <http://schema.org/description> "<p><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\"></span><span style=\"font-style&#58;normal;font-weight&#58;400;font-size&#58;16px;font-family&#58;arial, helvetica, sans-serif;\"></span><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">Savais-tu que, lorsque la Terre tourne une fois autour du Soleil, cela s'appelle une révolution? Lors de cette activité, tu apprendras aussi à reconnaître les autres planètes et à les placer dans le bon ordre.</span><br></p>"@fr;
   <http://schema.org/endDate> "2024-06-19T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Jeunesse",
     "Activités de la ville",
     "Club de lecture TD",
@@ -785,9 +746,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>;
   <http://schema.org/description> "<p><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\"></span><span style=\"font-style&#58;normal;font-weight&#58;400;font-size&#58;16px;font-family&#58;arial, helvetica, sans-serif;\"></span><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">Savais-tu que, lorsque la Terre tourne une fois autour du Soleil, cela s'appelle une révolution? Lors de cette activité, tu apprendras aussi à reconnaître les autres planètes et à les placer dans le bon ordre.</span><br></p>"@fr;
   <http://schema.org/endDate> "2024-06-25T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Jeunesse",
     "Activités de la ville",
     "Club de lecture TD",
@@ -831,9 +790,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/description> "<p><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\"></span><span style=\"font-style&#58;normal;font-weight&#58;400;font-size&#58;16px;font-family&#58;arial, helvetica, sans-serif;\"></span><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">Savais-tu que, lorsque la Terre tourne une fois autour du Soleil, cela s'appelle une révolution? Lors de cette activité, tu apprendras aussi à reconnaître les autres planètes et à les placer dans le bon ordre.</span><br></p>"@fr;
   <http://schema.org/endDate> "2024-06-26T16:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
     "2024-06-26T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Jeunesse",
     "Activités de la ville",
     "Club de lecture TD",
@@ -877,9 +834,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>;
   <http://schema.org/description> "<p><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\"></span><span style=\"font-style&#58;normal;font-weight&#58;400;font-size&#58;16px;font-family&#58;arial, helvetica, sans-serif;\"></span><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">Savais-tu que, lorsque la Terre tourne une fois autour du Soleil, cela s'appelle une révolution? Lors de cette activité, tu apprendras aussi à reconnaître les autres planètes et à les placer dans le bon ordre.</span><br></p>"@fr;
   <http://schema.org/endDate> "2024-06-29T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Jeunesse",
     "Activités de la ville",
     "Club de lecture TD",
@@ -922,9 +877,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>;
   <http://schema.org/description> "<p><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\"></span><span style=\"font-style&#58;normal;font-weight&#58;400;font-size&#58;16px;font-family&#58;arial, helvetica, sans-serif;\"></span><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">Savais-tu que, lorsque la Terre tourne une fois autour du Soleil, cela s'appelle une révolution? Lors de cette activité, tu apprendras aussi à reconnaître les autres planètes et à les placer dans le bon ordre.</span><br></p>"@fr;
   <http://schema.org/endDate> "2024-07-05T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Jeunesse",
     "Activités de la ville",
     "Club de lecture TD",
@@ -967,9 +920,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>;
   <http://schema.org/description> "<p><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\"></span><span style=\"font-style&#58;normal;font-weight&#58;400;font-size&#58;16px;font-family&#58;arial, helvetica, sans-serif;\"></span><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">Savais-tu que, lorsque la Terre tourne une fois autour du Soleil, cela s'appelle une révolution? Lors de cette activité, tu apprendras aussi à reconnaître les autres planètes et à les placer dans le bon ordre.</span><br></p>"@fr;
   <http://schema.org/endDate> "2024-07-21T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Jeunesse",
     "Activités de la ville",
     "Club de lecture TD",
@@ -1006,7 +957,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2025-01-01T04:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/bagatelle-hiver2022-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1026,7 +976,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-16T03:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/bagatelle-hiver2022-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1046,7 +995,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-16T03:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/bagatelle-hiver2022-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1066,7 +1014,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2025-01-01T04:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/bagatelle-hiver2022-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1096,7 +1043,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-10T15:15:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/karinefortin-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1145,7 +1091,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-11T15:15:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/karinefortin-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1193,7 +1138,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-17T15:15:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/karinefortin-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1273,7 +1217,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-03T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-conte-pyjama-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1299,7 +1242,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-10T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-conte-pyjama-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1394,7 +1336,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-04-27T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-compte-mesure-mots-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1422,7 +1363,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-04-28T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-compte-mesure-mots-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1445,9 +1385,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>;
   <http://schema.org/description> "<p>Avec des trouvailles que tu auras recueillies lors d'une marche exploratoire près de la bibliothèque, tu réaliseras ton propre mobile.<br></p>"@fr;
   <http://schema.org/endDate> "2024-06-08T17:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Jeunesse",
     "Activités de la ville",
     "Sainte-Rose",
@@ -1467,9 +1405,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>;
   <http://schema.org/description> "<p>Avec des trouvailles que tu auras recueillies lors d'une marche exploratoire près de la bibliothèque, tu réaliseras ton propre mobile.<br></p>"@fr;
   <http://schema.org/endDate> "2024-07-07T17:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Jeunesse",
     "Activités de la ville",
     "Sainte-Rose",
@@ -1534,7 +1470,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-01T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-toi-moi-cirque-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1559,7 +1494,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-03T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-contes-tout-petits-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1589,7 +1523,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-05T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-contes-tout-petits-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1619,7 +1552,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-09T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-contes-tout-petits-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1649,7 +1581,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-19T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-contes-tout-petits-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1680,7 +1611,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-02T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-contes-tout-petits-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Auteuil",
     "Activités de la ville",
@@ -1713,7 +1643,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-07T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-contes-tout-petits-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Auteuil",
     "Activités de la ville",
@@ -1746,7 +1675,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-09T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-contes-tout-petits-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Auteuil",
     "Activités de la ville",
@@ -1779,7 +1707,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-14T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-contes-tout-petits-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Auteuil",
     "Activités de la ville",
@@ -1812,7 +1739,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-23T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-contes-tout-petits-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Auteuil",
     "Activités de la ville",
@@ -1841,9 +1767,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>;
   <http://schema.org/description> "<p>Accompagnée de sa valise remplie d'accessoires, de comptines, de magie et d'imaginaire, l'artiste invite les tout-petits à explorer l'univers du cirque grâce à différents accessoires de jonglerie.<br></p>"@fr;
   <http://schema.org/endDate> "2024-06-08T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1871,7 +1795,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-10T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-yoga-histoire-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1906,7 +1829,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-12T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-yoga-histoire-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1941,7 +1863,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-17T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-yoga-histoire-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -1976,7 +1897,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-26T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-yoga-histoire-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -2011,7 +1931,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-01T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-yoga-histoire-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -2046,7 +1965,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-02T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-yoga-histoire-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -2081,7 +1999,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-07T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-yoga-histoire-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -2116,7 +2033,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-09T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-yoga-histoire-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -2151,7 +2067,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-14T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-yoga-histoire-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Familles",
     "Jeunesse",
     "Activités de la ville",
@@ -2181,7 +2096,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-23T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-cellulaire-voir-clair335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Adultes",
     "Activités de la ville",
     "Fabreville",
@@ -2202,7 +2116,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-02T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-cocktails-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Adultes",
     "Activités de la ville",
     "Vivre",
@@ -2223,7 +2136,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-04-26T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-retraite-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Adultes",
     "Activités de la ville",
     "Vivre",
@@ -2253,7 +2165,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-03T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-surendettement-solutions-335x215.jpg>;
   <http://schema.org/keywords> "Bibliothèques",
-    "Conférences",
     "Adultes",
     "Activités de la ville",
     "Vivre",
@@ -2326,11 +2237,9 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-11T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/cosmodome-petits-bonheurs-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Activités scientifiques",
     "Familles",
     "Festival Petits bonheurs",
     "Événements et festivals",
-    "Activités de nos partenaires",
     "Communautaire et organismes";
   <http://schema.org/location> <https://www.laval.ca/afa7201f-6aab-4196-b349-66674653729b>;
   <http://schema.org/name> "Petits bonheurs : Dans l'univers des tout-petits au Cosmodôme"@fr;
@@ -2365,7 +2274,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-06-20T02:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/art-et-culture/ilot-exposition-cdn-335x215.jpg>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Activités dans les parcs",
     "Saint-Vincent-de-Paul",
     "Activités de la ville",
     "Arts",
@@ -2386,7 +2294,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-04-30T02:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/art-et-culture/ilot-exposition-cdn-335x215.jpg>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Activités dans les parcs",
     "Saint-Vincent-de-Paul",
     "Activités de la ville",
     "Arts",
@@ -2406,7 +2313,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-10-30T02:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/art-et-culture/payette-perroquet-335x215.jpg>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Activités dans les parcs",
     "Laval-des-Rapides",
     "Activités de la ville",
     "Arts";
@@ -2429,7 +2335,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-09-01T22:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/fetedelafamille/PublishingImages/Pages/Fr/zone-plaine-jeux/fdf-plainejeux-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Activités dans les parcs",
     "Fête de la famille",
     "Événements et festivals",
     "Dehors",
@@ -2452,7 +2357,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-17T23:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-conte-dragqueen-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Conférences",
     "Familles",
     "Chomedey",
     "Bibliothèques",
@@ -2472,7 +2376,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-03T01:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/maurice-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Laval-des-Rapides",
     "Expositions et spectacles",
     "Arts de la scène";
@@ -2489,7 +2392,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-09-02T21:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/art-et-culture/exposition-manger-335x215.jpg>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Activités de nos partenaires",
     "Chomedey";
   <http://schema.org/location> <https://www.laval.ca/4c6b62dd-569a-407b-98b0-a43ff20ff060>;
   <http://schema.org/name> "Exposition : Manger! L'exposition qui nourrit "@fr;
@@ -2504,7 +2406,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-12-31T22:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/art-et-culture/maf-exposition-sante-335x215.jpg>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Activités de nos partenaires",
     "Chomedey";
   <http://schema.org/location> <https://www.laval.ca/4c6b62dd-569a-407b-98b0-a43ff20ff060>;
   <http://schema.org/name> "Exposition - 4, 3, 2, 1... Santé!"@fr;
@@ -2524,11 +2425,9 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-11T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-leve-tot-musee-armand-frappier-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Festival Petits bonheurs",
     "Communautaire et organismes",
-    "Activités scientifiques",
     "Jeune public",
     "Événements et festivals",
     "Laval-des-Rapides";
@@ -2559,9 +2458,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>;
   <http://schema.org/description> "<p>​Spectacle de cirque (planche coréenne)<br>Pour toute la famille<br></p>"@fr;
   <http://schema.org/endDate> "2024-12-07T22:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Arts de la scène",
     "Activités de la ville",
     "Cirque",
@@ -2579,12 +2476,9 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>;
   <http://schema.org/description> "<p>Conférence dansée en lien avec le spectacle Minuit quelque part, présenté le 2 avril 2025.<br></p>"@fr;
   <http://schema.org/endDate> "2025-02-12T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Conférences",
     "Arts de la scène",
     "Expositions et spectacles",
-    "Maison des arts",
     "Danse",
     "Laval-des-Rapides";
   <http://schema.org/location> <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6>;
@@ -2600,9 +2494,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf>;
   <http://schema.org/description> "<p>​​​5 à 7 conte présenté au Studio de la Maison des arts de Laval. Conte pour adultes et enfants de 12 ans et plus.<br>Inspiré&#160;d'une histoire vraie d'un village englouti dans la rivière Gatineau.<br></p><p><br></p>"@fr;
   <http://schema.org/endDate> "2024-11-02T22:15:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Laval-des-Rapides",
     "Expositions et spectacles",
     "Arts de la scène";
@@ -2621,12 +2513,9 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/35846724-d9aa-4e51-b625-4ddb0820ca4a>;
   <http://schema.org/description> "<p>​​Festival de danse Krump - édition 2024<br>Compétitions, spectacles, ateliers<br><br></p>"@fr;
   <http://schema.org/endDate> "2024-10-06T03:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Activités de nos partenaires",
     "Danse",
     "Événements et festivals",
-    "Maison des arts",
     "Laval-des-Rapides",
     "Expositions et spectacles",
     "Communautaire et organismes";
@@ -2646,9 +2535,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>;
   <http://schema.org/description> "<p>​​​​​Spectacle de danse présentant les oeuvres de 8 chorégraphes québécois de renom,&#160;a<span style=\"font-family&#58;roboto, arial, helvetica, sans-serif;font-size&#58;16px;font-weight&#58;400;\">vec 10 interprètes virtuoses.</span><br></p><p>Spectacle présenté à la salle André-Mathieu, en codiffusion avec co-motion.<br></p>"@fr;
   <http://schema.org/endDate> "2025-04-03T00:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Arts de la scène",
     "Activités de la ville",
     "co-motion",
@@ -2667,9 +2554,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf>;
   <http://schema.org/description> "<p>Spectacle de danse contemporaine<br>Anne Plamondon Productions<br></p>"@fr;
   <http://schema.org/endDate> "2025-02-28T01:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Danse",
     "Expositions et spectacles",
     "Laval-des-Rapides",
@@ -2688,9 +2573,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/35846724-d9aa-4e51-b625-4ddb0820ca4a>;
   <http://schema.org/description> "<p>​​Programme double de danse<br>Présentation d'œuvres de chorégraphes et d’artistes indépendants<br></p>"@fr;
   <http://schema.org/endDate> "2024-10-18T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Danse",
     "Expositions et spectacles",
     "Laval-des-Rapides",
@@ -2709,9 +2592,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf>;
   <http://schema.org/description> "<p>​Spectacle de danse&#160;inspiré du break, du ballet classique et du théâtre dansé.<br></p><p>Chorégraphe &#58; Victor Quijada<br></p>"@fr;
   <http://schema.org/endDate> "2024-11-22T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Danse",
     "Activités de la ville",
     "Laval-des-Rapides",
@@ -2732,9 +2613,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/c2216882-0cf7-4b08-8b18-feae09a80e9f>;
   <http://schema.org/description> "Danse | 5e-6e année | sec. 1-2<br>Durée &#58; 65 minutes<br>* 27 novembre&#58; réservé aux groupes du secondaire"@fr;
   <http://schema.org/endDate> "2024-11-27T16:05:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Expositions et spectacles",
@@ -2761,7 +2640,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     "2024-05-09T15:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/archipel-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Festival Petits bonheurs",
     "Événements et festivals",
@@ -2788,7 +2666,6 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-05-10T15:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/archipel-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Festival Petits bonheurs",
     "Événements et festivals",
@@ -2811,9 +2688,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/c2216882-0cf7-4b08-8b18-feae09a80e9f>;
   <http://schema.org/description> "Théâtre | 4 ans à 2e année<br>Durée &#58; 50 min <br>"@fr;
   <http://schema.org/endDate> "2025-03-12T14:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Activités de la ville",
@@ -2836,9 +2711,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
     <https://www.laval.ca/c2216882-0cf7-4b08-8b18-feae09a80e9f>;
   <http://schema.org/description> "Arts du cirque et musique | maternelle à 4e année<br>Durée &#58; 60 minutes <br>"@fr;
   <http://schema.org/endDate> "2025-02-07T16:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Activités de la ville",
@@ -2862,9 +2735,7 @@ nationale des peuples autochtones du 21 juin.<br></p>"""@fr;
   <http://schema.org/description> """ 
 Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
   <http://schema.org/endDate> "2024-12-06T15:55:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Activités de la ville",
@@ -2887,9 +2758,7 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
     <https://www.laval.ca/c2216882-0cf7-4b08-8b18-feae09a80e9f>;
   <http://schema.org/description> "Théâtre et marionnettes | 5e-6e année | sec. 1-2<br>Durée &#58; 60 minutes<br>* 20 février&#58; réservé aux groupes du secondaire "@fr;
   <http://schema.org/endDate> "2025-02-20T16:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Activités de la ville",
@@ -2912,9 +2781,7 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
     <https://www.laval.ca/c2216882-0cf7-4b08-8b18-feae09a80e9f>;
   <http://schema.org/description> "Théâtre | 3e à 6e année<br>Durée &#58; 50 minutes <br>"@fr;
   <http://schema.org/endDate> "2025-03-28T14:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Expositions et spectacles",
@@ -2937,9 +2804,7 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
     <https://www.laval.ca/c2216882-0cf7-4b08-8b18-feae09a80e9f>;
   <http://schema.org/description> "Art de la parole et musique | 3 ans à 2e année<br>Durée &#58; 35 minutes <br>"@fr;
   <http://schema.org/endDate> "2024-12-13T15:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Activités de la ville",
@@ -2962,7 +2827,6 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
   <http://schema.org/endDate> "2024-05-05T15:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/potager-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Jeune public",
     "Expositions et spectacles",
     "Laval-des-Rapides",
@@ -2985,7 +2849,6 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
     "2024-05-08T15:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/potager-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Festival Petits bonheurs",
     "Expositions et spectacles",
     "Jeune public",
@@ -3008,7 +2871,6 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
   <http://schema.org/endDate> "2024-05-08T15:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/potager-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Festival Petits bonheurs",
     "Expositions et spectacles",
     "Jeune public",
@@ -3030,7 +2892,6 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
   <http://schema.org/endDate> "2024-05-27T14:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/plastique-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Laval-des-Rapides",
     "Expositions et spectacles",
@@ -3052,7 +2913,6 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
   <http://schema.org/endDate> "2024-05-29T14:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/plastique-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Expositions et spectacles",
@@ -3077,7 +2937,6 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
     "2024-05-06T15:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/potager-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Festival Petits bonheurs",
     "Événements et festivals",
@@ -3104,7 +2963,6 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
     "2024-05-08T15:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/potager-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Festival Petits bonheurs",
     "Événements et festivals",
@@ -3129,7 +2987,6 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
   <http://schema.org/endDate> "2024-05-08T15:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/potager-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Festival Petits bonheurs",
     "Événements et festivals",
@@ -3151,7 +3008,6 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
   <http://schema.org/endDate> "2024-07-14T21:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/expo-julie-picard-335x215.jpg>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Exposition",
     "Activités de la ville",
     "Laval-des-Rapides";
@@ -3170,7 +3026,6 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
   <http://schema.org/endDate> "2024-07-14T21:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/expo-libby-hague-335x215.jpg>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Exposition",
     "Activités de la ville",
     "Laval-des-Rapides";
@@ -3189,9 +3044,7 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
     <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>;
   <http://schema.org/description> "<p>Spectacle de danse<br>Public cible &#58; 10 ans et plus<br></p><p><br></p>"@fr;
   <http://schema.org/endDate> "2024-11-24T20:05:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Arts de la scène",
     "Expositions et spectacles",
     "Danse",
@@ -3214,9 +3067,7 @@ Théâtre musical |1re à 6e année<br>Durée &#58; 55 minutes<br>"""@fr;
 
 Durée &#58; 50 min <br></div>"""@fr;
   <http://schema.org/endDate> "2025-03-09T18:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Arts de la scène",
     "Expositions et spectacles",
     "Jeune public",
@@ -3237,9 +3088,7 @@ Durée &#58; 50 min <br></div>"""@fr;
     <https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3>;
   <http://schema.org/description> "Arts du cirque et musique<div>5 ans et +&#160;</div><div>Durée &#58; 60 minutes <br></div>"@fr;
   <http://schema.org/endDate> "2025-02-02T20:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Arts de la scène",
     "Expositions et spectacles",
     "Jeune public",
@@ -3260,9 +3109,7 @@ Durée &#58; 50 min <br></div>"""@fr;
     <https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3>;
   <http://schema.org/description> "<p>Théâtre musical<br>6 ans et plus<br>Durée &#58; 55 minutes<br></p>"@fr;
   <http://schema.org/endDate> "2024-12-01T19:55:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Arts de la scène",
     "Activités de la ville",
     "Jeune public",
@@ -3284,9 +3131,7 @@ Durée &#58; 50 min <br></div>"""@fr;
   <http://schema.org/description> """Théâtre et marionnettes<div>10 ans et +&#160;</div><div>
 Durée &#58; 75 minutes <br></div>"""@fr;
   <http://schema.org/endDate> "2025-02-16T20:15:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Arts de la scène",
     "Expositions et spectacles",
     "Jeune public",
@@ -3308,9 +3153,7 @@ Durée &#58; 75 minutes <br></div>"""@fr;
   <http://schema.org/description> """Théâtre<div>8 ans et +&#160;</div><div>
 Durée &#58; 50 minutes<br></div>"""@fr;
   <http://schema.org/endDate> "2025-03-23T18:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Arts de la scène",
     "Expositions et spectacles",
     "Jeune public",
@@ -3333,9 +3176,7 @@ Durée &#58; 50 minutes<br></div>"""@fr;
 Durée &#58; 35 minutes </div>"""@fr;
   <http://schema.org/endDate> "2024-12-15T16:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
     "2024-12-15T19:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Arts de la scène",
     "Expositions et spectacles",
     "Jeune public",
@@ -3355,9 +3196,7 @@ Durée &#58; 35 minutes </div>"""@fr;
     <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>;
   <http://schema.org/description> "<p>​​​​Spectacle de marionnettes<br>6 ans et +<br></p>"@fr;
   <http://schema.org/endDate> "2024-10-27T15:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Jeune public",
     "Expositions et spectacles",
     "Laval-des-Rapides";
@@ -3377,7 +3216,6 @@ Durée &#58; 35 minutes </div>"""@fr;
   <http://schema.org/endDate> "2024-05-26T18:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/plastique-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Jeune public",
     "Expositions et spectacles",
     "Laval-des-Rapides";
@@ -3394,9 +3232,7 @@ Durée &#58; 35 minutes </div>"""@fr;
     <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>;
   <http://schema.org/description> "<p>Spectacle théâtre<br>Artistes autochtones et allochtones<br><span style=\"font-size&#58;16px;background-color&#58;transparent;\">6 ans et plus</span></p>"@fr;
   <http://schema.org/endDate> "2024-11-17T19:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Arts de la scène",
     "Expositions et spectacles",
     "Jeune public";
@@ -3418,7 +3254,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-11T15:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/archipel-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Jeune public",
     "Événements et festivals",
     "Laval-des-Rapides",
@@ -3442,7 +3277,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     "2024-05-05T19:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/mda-atelier-cirque-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Festival Petits bonheurs",
     "Événements et festivals",
@@ -3469,7 +3303,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     "2024-05-12T19:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-theatre-papier-335x215r.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Jeune public",
     "Expositions et spectacles",
@@ -3496,7 +3329,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-05T21:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/jardin-petites-ames-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Jeune public",
     "Expositions et spectacles",
@@ -3523,7 +3355,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-06T20:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/jardin-petites-ames-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Jeune public",
     "Expositions et spectacles",
@@ -3550,7 +3381,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-07T20:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/jardin-petites-ames-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Jeune public",
     "Expositions et spectacles",
@@ -3577,7 +3407,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-08T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/jardin-petites-ames-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Jeune public",
     "Expositions et spectacles",
@@ -3606,7 +3435,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-05T14:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/payzages-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Théâtre",
     "Événements et festivals",
@@ -3630,9 +3458,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3>;
   <http://schema.org/description> "<p>​​Spectacle de théâtre et de lutte.&#160;<br>Proposition inusitée &#58; l'épopée de la Guerre de Troie tranposée dans le monde de la lutte.&#160;<br></p>"@fr;
   <http://schema.org/endDate> "2024-12-20T02:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Arts de la scène",
     "Expositions et spectacles",
     "Laval-des-Rapides",
@@ -3651,9 +3477,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf>;
   <http://schema.org/description> "<p>​​Comédie - adaptation théâtrale et contemporaine du film à succès des années 1970.<br></p>"@fr;
   <http://schema.org/endDate> "2024-11-30T01:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "co-motion",
     "Expositions et spectacles",
     "Laval-des-Rapides",
@@ -3675,9 +3499,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/22ea72c1-f4ac-4873-be24-c94e7d742d5f>;
   <http://schema.org/description> "<p>​Tragédie contemporaine<br>Production Duceppe<br>Spectacle présenté en codiffusion avec co-motion<br></p>"@fr;
   <http://schema.org/endDate> "2025-03-29T01:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Arts de la scène",
     "Expositions et spectacles",
     "Laval-des-Rapides",
@@ -3696,9 +3518,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3>;
   <http://schema.org/description> "<p>Portrait d'André Brasard&#160;de la compagnie L'Activité<br>Solo théâtral de&#160;Violette Chauveau.<br></p>"@fr;
   <http://schema.org/endDate> "2025-03-21T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Arts de la scène",
     "Expositions et spectacles",
     "Laval-des-Rapides",
@@ -3716,9 +3536,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3>;
   <http://schema.org/description> "<p>​​​​Théâtre d'inspiration autobiographique, prise de parole singulière<br>Compagnie de Vancouver<br></p>"@fr;
   <http://schema.org/endDate> "2024-10-11T00:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Laval-des-Rapides",
     "Expositions et spectacles",
     "Théâtre";
@@ -3736,9 +3554,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3>;
   <http://schema.org/description> "<p>​Théâtre d'improvisation&#160;<br>Théâtre de la LNI<br></p>"@fr;
   <http://schema.org/endDate> "2025-02-14T02:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Arts de la scène",
     "Expositions et spectacles",
     "Laval-des-Rapides",
@@ -3758,7 +3574,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-04-28T21:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/expo-libby-hague-335x215.jpg>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Exposition",
     "Activités de la ville",
     "Laval-des-Rapides";
@@ -3777,7 +3592,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-26T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2023/expo-libby-hague-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Exposition",
     "Expositions et spectacles",
     "Laval-des-Rapides";
@@ -3797,9 +3611,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/c2216882-0cf7-4b08-8b18-feae09a80e9f>;
   <http://schema.org/description> "Marionnettes | 1 re à 4e année<br>Durée &#58; 50 minutes<br>"@fr;
   <http://schema.org/endDate> "2024-11-06T15:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Expositions et spectacles",
@@ -3822,9 +3634,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/c2216882-0cf7-4b08-8b18-feae09a80e9f>;
   <http://schema.org/description> "MDA en tournée<br>Marionnettes | 1re à 4e année<br>Durée &#58; 50 minutes<br>"@fr;
   <http://schema.org/endDate> "2024-11-08T15:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Expositions et spectacles",
@@ -3846,9 +3656,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/c2216882-0cf7-4b08-8b18-feae09a80e9f>;
   <http://schema.org/description> "Théâtre | maternelle à 4e année<br>Durée &#58; 50 minutes "@fr;
   <http://schema.org/endDate> "2024-11-15T15:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Activités de la ville",
@@ -3872,9 +3680,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/description> "MDA en tournée<br>Marionnettes | 1re à 4e année<br>Durée &#58; 50 minutes<br>"@fr;
   <http://schema.org/endDate> "2024-10-29T14:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>,
     "2024-10-29T17:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Activités de la ville",
@@ -3898,9 +3704,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/c2216882-0cf7-4b08-8b18-feae09a80e9f>;
   <http://schema.org/description> "MDA en tournée<br>Marionnettes | 1re à 4e année<br>Durée &#58; 50 minutes<br>"@fr;
   <http://schema.org/endDate> "2024-10-30T14:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Expositions et spectacles",
-    "Maison des arts",
     "Enseignants et étudiants",
     "Arts de la scène",
     "Activités de la ville",
@@ -4073,9 +3877,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/26765e4d-4479-4c1e-8a24-568f2ba06f97>;
   <http://schema.org/description> "<p>Accompagnés d'animateurs scientifiques, les campeurs participent à des activités ludiques et relèvent des défis scientifiques dans des laboratoires.<br></p>"@fr;
   <http://schema.org/endDate> "2024-08-23T20:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Communautaire et organismes",
-    "Activités scientifiques",
     "Adolescents",
     "Saint-Martin";
   <http://schema.org/location> <https://www.laval.ca/4c6b62dd-569a-407b-98b0-a43ff20ff060>;
@@ -4090,9 +3892,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>;
   <http://schema.org/description> "<p>Dans le but de vous faire découvrir les excellent.e.s musicien.ne.s de votre orchestre, l’OSL vous propose, pour clore la saison 2023-2024, les Variations Enigma d’Elgar dirigées par le chef chevronné Jacques Lacombe, ainsi que le romantique Premier concerto pour violoncelle de Saint-Saëns interprété par le brillant violoncelliste Stéphane Tétreault ; le reste du programme met spécialement en vedette les différentes sections de l’orchestre.<br></p>"@fr;
   <http://schema.org/endDate> "2024-05-16T01:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Communautaire et organismes",
-    "Activités de nos partenaires",
     "Orchestre symphonique de Laval",
     "Expositions et spectacles";
   <http://schema.org/name> "OSL-L'Orchestre virtuose"@fr;
@@ -4108,7 +3908,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-04T19:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/arts-et-culture/osl-marie-josee-arpin-335x215.jpg>;
   <http://schema.org/keywords> "Communautaire et organismes",
-    "Activités de nos partenaires",
     "Orchestre symphonique de Laval",
     "Saint-Martin";
   <http://schema.org/name> "OSL : Carte blanche à Marie-Josée Arpin"@fr;
@@ -4129,7 +3928,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     "2024-05-11T20:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-jeunes-musiciens-monde-335x2115.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Chomedey",
     "Événements et festivals",
@@ -4155,7 +3953,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-05T14:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-danser-ensemble335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Pont-Viau",
     "Événements et festivals",
@@ -4180,7 +3977,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-04T15:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-eveil-danse-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Chomedey",
     "Événements et festivals",
@@ -4205,7 +4001,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-12T18:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-initiation-theatre-ombres-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Saint-François",
     "Événements et festivals",
@@ -4230,7 +4025,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-05T14:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-initiation-theatre-ombres-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Pont-Viau",
     "Événements et festivals",
@@ -4255,7 +4049,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-05T14:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-musique-nez-air-cheveux-vent-3-5-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Pont-Viau",
     "Événements et festivals",
@@ -4282,7 +4075,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-04T14:15:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-musique-nez-air-cheveux-vent-0-2-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Festival Petits bonheurs",
     "Événements et festivals",
@@ -4307,7 +4099,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-11T14:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-paysages-assemblage-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Laval-des-Rapides",
     "Événements et festivals",
@@ -4332,7 +4123,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-11T14:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-petites-bouchees-cirque-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Ateliers culturels",
     "Événements et festivals",
@@ -4357,7 +4147,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-11T16:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-theatre-pas-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Laval-Ouest",
     "Événements et festivals",
@@ -4382,7 +4171,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-05T16:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-theatre-pas-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Jeune public",
     "Événements et festivals",
@@ -4411,7 +4199,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     "2024-05-10T17:05:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/babula-laina-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Arts",
     "Expositions et spectacles",
@@ -4444,7 +4231,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     "2024-05-11T17:05:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/babula-laina-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Arts",
     "Expositions et spectacles",
@@ -4477,7 +4263,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     "2024-05-12T18:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/chapeau-mer-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Laval-des-Rapides",
     "Expositions et spectacles",
@@ -4506,14 +4291,11 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-12T16:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/atelier-cieau-leve-tot-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Festival Petits bonheurs",
     "Événements et festivals",
-    "Activités scientifiques",
     "Jeune public",
     "Communautaire et organismes",
-    "Activités de nos partenaires",
     "Sainte-Rose";
   <http://schema.org/name> "Petits bonheurs - Lève-tôt au C.I.EAU"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -4532,7 +4314,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-03T15:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/danse-afro-contemporaine-maman-bebe-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Festival Petits bonheurs",
     "Événements et festivals",
@@ -4559,7 +4340,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-03T14:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/tout-brille-voit-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Chomedey",
     "Expositions et spectacles",
@@ -4589,7 +4369,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     "2024-05-04T15:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/tout-brille-voit-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Chomedey",
     "Expositions et spectacles",
@@ -4620,7 +4399,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-12T14:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/maison-des-arts/petit-capuchon-rouge-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Arts",
     "Expositions et spectacles",
@@ -4651,7 +4429,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-13T14:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/maison-des-arts/petit-capuchon-rouge-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Arts",
     "Expositions et spectacles",
@@ -4682,7 +4459,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-10T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/maison-des-arts/petit-capuchon-rouge-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Jeune public",
     "Expositions et spectacles",
@@ -4713,7 +4489,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-11T14:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/maison-des-arts/petit-capuchon-rouge-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Jeune public",
     "Expositions et spectacles",
@@ -4745,7 +4520,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     "2024-05-05T15:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/soudain-iles-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Jeune public",
     "Événements et festivals",
@@ -4777,7 +4551,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-06T14:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/soudain-iles-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Familles",
     "Jeune public",
     "Événements et festivals",
@@ -4963,7 +4736,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-04-27T21:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Calendrier/rendez-vous-archeologie-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Conférences",
     "Adultes",
     "Exposition",
     "Histoire";
@@ -4992,9 +4764,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121>,
     <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>;
   <http://schema.org/endDate> "2024-11-10T22:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Maison des arts",
     "Arts",
     "Expositions et spectacles",
     "Exposition",
@@ -5013,7 +4783,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-04-29T03:59:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/grand-ramassage-sac-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Environnement",
     "Semaine de la Terre",
     "Événements et festivals";
   <http://schema.org/name> "Grand ramassage du printemps"@fr;
@@ -5041,7 +4810,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-03T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/service-populaire-psychotherapie-sentier-hommes-soirees-thematiques_335x215.jpg>;
   <http://schema.org/keywords> "Communautaire et organismes",
-    "Activités de nos partenaires",
     "Pont-Viau";
   <http://schema.org/name> "Le sentier des hommes : soirées thématiques pour les hommes"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -5055,7 +4823,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
   <http://schema.org/endDate> "2024-05-16T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/societe-horticulture-ecologie-laval-graminees-ornementales-plantes-compagnes_335x215.jpg>;
   <http://schema.org/keywords> "Communautaire et organismes",
-    "Activités de nos partenaires",
     "Duvernay";
   <http://schema.org/location> <https://www.laval.ca/26ee7560-4e01-4e14-928a-7a906adb4a81>;
   <http://schema.org/name> "Soirée-conférence : graminées ornementales et plantes compagnes"@fr;
@@ -5120,7 +4887,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/8f5d1ac1-8e7c-44bd-88c0-f91a8eb6230a>,
     <https://www.laval.ca/5436d480-decf-4328-90f2-e079721e2306>;
   <http://schema.org/endDate> "2024-08-02T01:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Activités de la ville",
     "Touristes",
     "Zone Centre-Ville",
@@ -5144,7 +4910,6 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
     <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>;
   <http://schema.org/description> "<p>Un doux mélange de sonorités jazz et folk, saupoudré de rythmes latins.&#160;<br><br></p>"@fr;
   <http://schema.org/endDate> "2024-08-01T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/>;
   <http://schema.org/keywords> "Événements et festivals",
     "Arts de la scène",
     "Expositions et spectacles",
@@ -5158,7 +4923,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Aînés"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Clienteles>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
 <https://www.laval.ca/095e2f7b-9320-48ed-96a2-dfc01327b1e4> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5234,23 +4999,23 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/47e21b5a-2e0b-464b-b9f5-a4f2d0a6162d> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Zone Maison des arts"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/4d9e9803-3763-432c-a437-d0f8315f20e8> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Dehors"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/5436d480-decf-4328-90f2-e079721e2306> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Nouveaux Lavallois"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Clienteles>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
 <https://www.laval.ca/5c5fe10b-74e0-48f4-ac57-0e532d463e45> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Patrimoine"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/6267ac27-508e-4dd8-a947-795354f71924> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Zone Centre-Ville"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/659ac9d7-fb91-4346-b138-a9485d043fac> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5310,15 +5075,15 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/985427f3-f98a-48de-9c33-8a5bfa32975b> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Relâche scolaire"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/9ac217f2-cded-43d7-accd-fd844b12a972> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Fête de la famille"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/acf5a6e1-1134-408d-908f-8404134ef3cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Sports"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Categories>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
 <https://www.laval.ca/afa7201f-6aab-4196-b349-66674653729b> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5343,7 +5108,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/c3c7bb41-55b8-4a43-9f5b-7387f7966e37> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Touristes"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Clienteles>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
 <https://www.laval.ca/c89d6cf9-264c-4f11-bed5-d701716d5b47> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5379,11 +5144,11 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/ccdb365e-be22-4bf9-93ed-c57e26ed36ed> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Semaine de la Terre"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/d58b3763-55a5-4832-8b87-ff4862ff9bb4> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Fêtes de quartier"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/lieux/Pages/Fr/arenas.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Arénas" .
@@ -5393,19 +5158,19 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/1e9e6613-0402-4d1f-b7e9-91a837684b74> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Virée patrimoniale"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/26765e4d-4479-4c1e-8a24-568f2ba06f97> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Saint-Martin"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/2fe63b33-f6e8-4c18-8496-6e3240f36082> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Orchestre symphonique de Laval"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/3e79ae30-b8d7-41e2-a729-af0a366b4a83> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Parents"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/4b46f02d-9970-4f96-8a13-b042f1244836> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5484,14 +5249,14 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/821b5d78-d6f7-42bf-a949-13a6979937ae> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Bibliovente"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/cf8bb052-56d6-4cec-88ac-4877fe0cde59> a <http://schema.org/Place>;
   <http://schema.org/name> "Édifices municipaux"@fr .
 
 <https://www.laval.ca/ec868e0e-9f9b-414e-8af0-6f5a58345d45> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "PPCMOI"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-emile-nelligan.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> ""@fr-fr;
@@ -5723,7 +5488,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Histoire"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/083742f6-aebe-4e14-ab33-e2a2828835d9> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5772,7 +5537,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/22ea72c1-f4ac-4873-be24-c94e7d742d5f> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "co-motion"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/247ecd8b-4c60-4ba1-8e9d-e937222837f5> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5799,7 +5564,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/3cfa266d-5b1a-466c-9356-0a2cc9be5db8> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Centre de la nature"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Categories>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
 <https://www.laval.ca/5a785148-8eda-4423-a235-2844c9336205> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5828,7 +5593,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Vivre"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/4c6b62dd-569a-407b-98b0-a43ff20ff060> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5860,15 +5625,15 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Jouer"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/8f39fafb-9ebc-469c-b84f-8aa5224b47e8> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Cirque"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Vimont"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/13249ea2-c29b-45d1-b205-29d38f10d102> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5895,7 +5660,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/915f8ed2-3795-4a2f-bbb9-38a538cd195e> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Saint-Vincent-de-Paul"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/bbe8f8b8-2760-4000-9834-fcc66786fa2d> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5922,11 +5687,11 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/0967a7b1-6aae-4fb8-aec5-683d1e0a43c1> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Pour une première fois"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/098da71f-1e43-4f5e-b601-9fd281a8da0a> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Archives des consultations publiques"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/0d59b435-622f-4247-baf9-9dade6ddacc4> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5952,53 +5717,53 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Adolescents"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Clienteles>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
 <https://www.laval.ca/4e1291c1-3791-4787-96cb-9ed0f01bdb22> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Club de lecture TD"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Exposition"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/748dbb96-8c5e-4ec8-8875-e5540a7c41e8> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Danse"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/9b3d4798-72a2-4b24-afb9-4c7d12761dac> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "conseil municipal"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Centres communautaires" .
 
 <https://www.laval.ca/41955ca4-ff20-46f1-94e5-30e670708401> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Pont-Viau"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/cf97f0d9-fdbc-4a9a-a9df-4642d0e88ea5> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Yoga"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Bibliothèques" .
 
 <https://www.laval.ca/3ad7e779-373b-4684-9ec6-035c934dacd9> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Mois de l'autisme"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/6b7285d1-4b22-470d-aff3-3db53362df58> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Rencontrez votre élu"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/8f5d1ac1-8e7c-44bd-88c0-f91a8eb6230a> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Personnes handicapées"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Clienteles>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
 <https://www.laval.ca/2fc6ba3c-690b-452b-a79e-6452816d68ad> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Activités virtuelles"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -6025,19 +5790,19 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/44223d12-74ea-46ce-9f12-8e7441091318> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Ateliers culturels"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Adultes"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/c2216882-0cf7-4b08-8b18-feae09a80e9f> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Spectacles-école"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/f5d84cb0-fd36-4751-8992-44022fcb2eaf> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Enseignants et étudiants"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Clienteles>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
 <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -6096,11 +5861,11 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Théâtre"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Sainte-Dorothée"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -6131,7 +5896,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Auteuil"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -6217,7 +5982,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Fabreville"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -6249,7 +6014,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Laval-Ouest"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -6282,7 +6047,7 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/35846724-d9aa-4e51-b625-4ddb0820ca4a> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Communautaire et organismes"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Categories>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
 <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -6322,45 +6087,45 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Duvernay"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Accueil" .
 
 <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Saint-François"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Carte interactive" .
 
 <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Arts"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Sainte-Rose"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Chomedey"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/4762f5c1-c60c-4d99-aff1-a30d460495e3> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Festival Petits bonheurs"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Arts de la scène"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Événements et festivals"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Categories>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
 <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Jeunesse"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -6392,27 +6157,27 @@ Marionnettes<br><span style=\"font-family&#58;roboto, arial, helvetica, sans-ser
 
 <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Jeune public"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Familles"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Clienteles>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
 <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Bibliothèques"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Categories>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
 <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Expositions et spectacles"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Categories>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
 <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Laval-des-Rapides"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Tags>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Activités de la ville"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> "<ConceptScheme#Categories>" .
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
  [
     a <http://schema.org/BreadcrumbList>;
