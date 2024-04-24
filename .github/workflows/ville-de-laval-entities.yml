@@ -54,7 +54,6 @@ jobs:
     needs: transform-entities
     runs-on: ubuntu-latest
     outputs:
-        file-path: ${{ steps.download-step.outputs.download-path }}
         commit-hash: ${{ steps.get_commit_hash.outputs.commit-hash }}
     steps:
       - name: Checkout code
@@ -65,13 +64,8 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: entities
-          path: ./entities.ttl
-    
-      - name: Copy files
-        run: |
-          cp ${{steps.download-step.outputs.download-path}}/entities.ttl ./dumps/entities.ttl
-          cp ${{steps.download-step.outputs.download-path}}/entities.json ./dumps/entities.json
-
+          path: ./dumps
+  
       - name: Setup ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -79,9 +73,6 @@ jobs:
 
       - name: Run main script
         run: bundle exec ruby main.rb
-
-      - name: Delete dump files
-        run: rm ./dumps/places.ttl
 
       - name: Commit file to GitHub
         run: |
