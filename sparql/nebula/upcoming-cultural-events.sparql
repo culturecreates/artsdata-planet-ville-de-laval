@@ -16,7 +16,8 @@ where {
          schema:startDate ?startDate ;
          schema:name ?name  ;
          schema:location ?location .
-    ?location schema:address/schema:postalCode ?code ; schema:name ?location_name .
+    OPTIONAL { ?location schema:address/schema:postalCode ?code } .
+    OPTIONAL { ?location schema:name ?location_name  }.
     OPTIONAL {
         ?uri   schema:endDate ?endDate 
     }
