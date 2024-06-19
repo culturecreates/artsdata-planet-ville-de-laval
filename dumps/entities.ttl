@@ -879,50 +879,6 @@
   <http://schema.org/startDate> "2024-07-03T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-atelier-fabrication-baume-levres.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-autour-soleil.aspx#2024-06-18> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/4e1291c1-3791-4787-96cb-9ed0f01bdb22>,
-    <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>,
-    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>;
-  <http://schema.org/description> "<p><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\"></span><span style=\"font-style&#58;normal;font-weight&#58;400;font-size&#58;16px;font-family&#58;arial, helvetica, sans-serif;\"></span><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">Savais-tu que, lorsque la Terre tourne une fois autour du Soleil, cela s'appelle une révolution? Lors de cette activité, tu apprendras aussi à reconnaître les autres planètes et à les placer dans le bon ordre.</span><br></p>"@fr;
-  <http://schema.org/endDate> "2024-06-18T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-jeunesse-autour-soleil-335x215.png>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Jeunesse",
-    "Activités de la ville",
-    "Club de lecture TD",
-    "Auteuil",
-    "Chomedey",
-    "Duvernay",
-    "Fabreville",
-    "Laval-des-Rapides",
-    "Laval-Ouest",
-    "Sainte-Dorothée",
-    "Sainte-Rose",
-    "Saint-François";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
-    <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>,
-    <https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>,
-    <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Autour du Soleil"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-06-18T18:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-autour-soleil.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-autour-soleil.aspx#2024-06-19> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
@@ -3812,26 +3768,6 @@
   <http://schema.org/startDate> "2024-08-13T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-ilots-chaleur-benefices-arbres-programmes-offerts-ville.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-soin-mode-vie-simple-autonome.aspx#2024-06-19> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a>,
-    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>;
-  <http://schema.org/description> "<p>Cette conférence est basée sur le rythme des cinq saisons, une façon de vivre qui vous permet à la fois de vous maintenir en bonne santé, d'apaiser votre esprit, de réduire le stress, l'anxiété ou les symptômes de la dépression, d'être en symbiose avec la nature et bien plus.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-06-20T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-vivre-prendre-soin-335x215.png>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Sainte-Rose",
-    "Activités de la ville",
-    "Vivre",
-    "Adultes";
-  <http://schema.org/location> <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>;
-  <http://schema.org/name> "Prendre soin de soi en adoptant un mode de vie simple et autonome "@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-06-19T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-soin-mode-vie-simple-autonome.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/centre-nature-atelier-ruches-urbaines.aspx#2024-07-06> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/3cfa266d-5b1a-466c-9356-0a2cc9be5db8>,
     <https://www.laval.ca/915f8ed2-3795-4a2f-bbb9-38a538cd195e>;
@@ -4046,7 +3982,7 @@
     <https://www.laval.ca/6dfb1930-15b6-4ec1-bf4f-cdbf93a4d134>,
     <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>;
-  <http://schema.org/description> "Durant tout l'été, la Bibliomobile se déplace avec le Théâtre à ciel ouvert, le Théâtre petite enfance et le Cirque.&#160;Profitez-en pour emprunter des livres, faire vos retours et vous abonner aux services des bibliothèques.<br>"@fr;
+  <http://schema.org/description> "<p>Durant tout l'été, la Bibliomobile se déplace avec le Théâtre à ciel ouvert, le Théâtre petite enfance et le Cirque.&#160;Profitez-en pour emprunter des livres, faire vos retours et vous abonner aux services des bibliothèques.<br></p><br>"@fr;
   <http://schema.org/endDate> "2024-07-21T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/bibliomobile2-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
@@ -4055,7 +3991,7 @@
     "Bibliothèques",
     "Sainte-Rose";
   <http://schema.org/location> <https://www.laval.ca/5bb5905e-abc1-4d93-b77d-d638eeb8731d>;
-  <http://schema.org/name> "Bibliomobile à la Berge de baigneurs"@fr;
+  <http://schema.org/name> "Bibliomobile à la berge des Baigneurs"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-07-21T14:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/dehors-bibliomobile-berge-baigneurs.aspx> .
@@ -4066,7 +4002,7 @@
     <https://www.laval.ca/6dfb1930-15b6-4ec1-bf4f-cdbf93a4d134>,
     <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>;
-  <http://schema.org/description> "Durant tout l'été, la Bibliomobile se déplace avec le Théâtre à ciel ouvert, le Théâtre petite enfance et le Cirque.&#160;Profitez-en pour emprunter des livres, faire vos retours et vous abonner aux services des bibliothèques.<br>"@fr;
+  <http://schema.org/description> "<p>Durant tout l'été, la Bibliomobile se déplace avec le Théâtre à ciel ouvert, le Théâtre petite enfance et le Cirque.&#160;Profitez-en pour emprunter des livres, faire vos retours et vous abonner aux services des bibliothèques.<br></p><br>"@fr;
   <http://schema.org/endDate> "2024-08-02T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/bibliomobile2-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
@@ -4075,7 +4011,7 @@
     "Bibliothèques",
     "Sainte-Rose";
   <http://schema.org/location> <https://www.laval.ca/5bb5905e-abc1-4d93-b77d-d638eeb8731d>;
-  <http://schema.org/name> "Bibliomobile à la Berge de baigneurs"@fr;
+  <http://schema.org/name> "Bibliomobile à la berge des Baigneurs"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-08-01T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/dehors-bibliomobile-berge-baigneurs.aspx> .
@@ -5519,7 +5455,7 @@
     "Cinéma en plein air",
     "Sainte-Rose";
   <http://schema.org/location> <https://www.laval.ca/5bb5905e-abc1-4d93-b77d-d638eeb8731d>;
-  <http://schema.org/name> "Cinéma en plein air | Thor : Amour et Tonerre"@fr;
+  <http://schema.org/name> "Cinéma en plein air | Thor : Amour et Tonnerre"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-08-03T00:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/dehors-cinema2-berge-baigneurs.aspx> .
@@ -10823,7 +10759,7 @@ des arts du Centre de la nature!&#160;</span><br></p>"""@fr;
   <http://schema.org/additionalType> <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf>,
     <https://www.laval.ca/915f8ed2-3795-4a2f-bbb9-38a538cd195e>,
     <https://www.laval.ca/3cfa266d-5b1a-466c-9356-0a2cc9be5db8>;
-  <http://schema.org/description> "<p>Rendez-vous le 1er juillet, au Centre de la nature, pour célébrer la Fête du Canada en famille! </p>"@fr;
+  <http://schema.org/description> "<p>Rendez-vous le 1<sup>er</sup> juillet, au Centre de la nature, pour célébrer la Fête du Canada en famille! <br></p>"@fr;
   <http://schema.org/endDate> "2024-07-01T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/fete-canada-2023-335x215.png>;
   <http://schema.org/keywords> "Événements et festivals",
@@ -12595,7 +12531,7 @@ Venez profiter de la scène locale et du bar ouvert dans une ambiance festive !<
     <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf>,
     <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf>,
     <https://www.laval.ca/21042c97-019f-420f-af22-df0a18f83f24>;
-  <http://schema.org/description> "<p>​Tous les jeudis soir à partir de 19h, Co-Motion anime la station culturelle Momo avec une programmation variée &#58; hip-hop, électro, humour ou battles de danse urbaine. Venez profiter de la scène locale et du bar ouvert dans une ambiance festive!<br><br></p><br>"@fr;
+  <http://schema.org/description> "<p>Tous les jeudis soir à partir de 19h, Co-Motion anime la station culturelle Momo avec une programmation variée &#58; hip-hop, électro, humour ou battles de danse urbaine. Venez profiter de la scène locale et du bar ouvert dans une ambiance festive!<br><br></p><br>"@fr;
   <http://schema.org/endDate> "2024-09-05T23:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/momo/momo-jeudi-comotion-sam-vigneault-335x215.png>;
   <http://schema.org/keywords> "Expositions et spectacles",
@@ -15251,6 +15187,10 @@ francophone.<br></p>"""@fr;
   <http://schema.org/name> "Histoire"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
+<https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Vivre"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
 <https://www.laval.ca/3ad7e779-373b-4684-9ec6-035c934dacd9> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Mois de l'autisme"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
@@ -15269,10 +15209,6 @@ francophone.<br></p>"""@fr;
 
 <https://www.laval.ca/098da71f-1e43-4f5e-b601-9fd281a8da0a> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Archives des consultations publiques"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Vivre"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/2fc6ba3c-690b-452b-a79e-6452816d68ad> a <http://www.w3.org/2004/02/skos/core#Concept>;
@@ -15826,10 +15762,6 @@ francophone.<br></p>"""@fr;
   <http://schema.org/name> "Centre de la nature"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
-<https://www.laval.ca/1530dcfd-c456-4fc8-873d-46bc1c00fcac> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Rendez-vous cardio"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
 <https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
@@ -15857,6 +15789,10 @@ francophone.<br></p>"""@fr;
     <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
   <http://schema.org/telephone> "450 662-4005";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-marius-barbeau.aspx> .
+
+<https://www.laval.ca/1530dcfd-c456-4fc8-873d-46bc1c00fcac> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Rendez-vous cardio"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/4d9e9803-3763-432c-a437-d0f8315f20e8> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Dehors"@fr;
@@ -15890,10 +15826,6 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "450 978-8919";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-philippe-panneton.aspx> .
 
-<https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Théâtre"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
 <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
@@ -15921,11 +15853,12 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "450 978-6599";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx> .
 
+<https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Théâtre"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
 <https://www.laval.ca/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Accueil" .
-
-<https://www.laval.ca/lieux/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Carte interactive" .
 
 <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -15953,30 +15886,36 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "450 662-4973";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-emile-nelligan.aspx> .
 
-<https://www.laval.ca/6f9829c4-7499-4341-84d3-c9c2e1cf749a> a <http://schema.org/Place>,
+<https://www.laval.ca/lieux/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Carte interactive" .
+
+<https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Laval";
     <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7E 2T7";
-    <http://schema.org/streetAddress> "901 avenue du Parc"
+    <http://schema.org/postalCode> "H7L 1L5";
+    <http://schema.org/streetAddress> "187 boulevard Sainte-Rose"
   ];
-  <http://schema.org/description> "<p><br><br></p>";
-  <http://schema.org/email> "centrenature@laval.ca";
+  <http://schema.org/description> """<p> 
+   <span class=\"icon-website\">​</span>Nous joindre &#58;&#160;​<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre​</a></p>​<span>Autobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 63 et 73​</a><span>​</span><span class=\"icon-website-inline\"></span> 
+<br>""";
   <http://schema.org/geo> [
     a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,60547334";
-    <http://schema.org/longitude> "-73,66181308"
+    <http://schema.org/latitude> "45,61538067";
+    <http://schema.org/longitude> "-73,78493513"
   ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/901+avenue+du+Parc,+Laval,+QC+H7E+2T7>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
-  <http://schema.org/name> "Centre de la nature"@fr,
-    "Centre de la nature";
-  <http://schema.org/sameAs> <http://centredelanature.laval.ca/>;
-  <http://schema.org/telephone> "450 662-4942";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-de-la-nature.aspx> .
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/187+boulevard+Sainte-Rose,+Laval,+QC+H7L+1L5>;
+  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/sylvain_garneau.jpg>;
+  <http://schema.org/name> "Bibliothèque Sylvain-Garneau"@fr,
+    "Bibliothèque Sylvain-Garneau";
+  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
+    <https://fr-ca.facebook.com/bibliothequeslaval>,
+    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
+  <http://schema.org/telephone> "450 978-3940";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-sylvain-garneau.aspx> .
 
 <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -16006,33 +15945,30 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "450 978-8909";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-gabrielle-roy.aspx> .
 
-<https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba> a <http://schema.org/Place>,
+<https://www.laval.ca/6f9829c4-7499-4341-84d3-c9c2e1cf749a> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Laval";
     <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7L 1L5";
-    <http://schema.org/streetAddress> "187 boulevard Sainte-Rose"
+    <http://schema.org/postalCode> "H7E 2T7";
+    <http://schema.org/streetAddress> "901 avenue du Parc"
   ];
-  <http://schema.org/description> """<p> 
-   <span class=\"icon-website\">​</span>Nous joindre &#58;&#160;​<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre​</a></p>​<span>Autobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 63 et 73​</a><span>​</span><span class=\"icon-website-inline\"></span> 
-<br>""";
+  <http://schema.org/description> "<p><br><br></p>";
+  <http://schema.org/email> "centrenature@laval.ca";
   <http://schema.org/geo> [
     a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,61538067";
-    <http://schema.org/longitude> "-73,78493513"
+    <http://schema.org/latitude> "45,60547334";
+    <http://schema.org/longitude> "-73,66181308"
   ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/187+boulevard+Sainte-Rose,+Laval,+QC+H7L+1L5>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/sylvain_garneau.jpg>;
-  <http://schema.org/name> "Bibliothèque Sylvain-Garneau"@fr,
-    "Bibliothèque Sylvain-Garneau";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 978-3940";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-sylvain-garneau.aspx> .
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/901+avenue+du+Parc,+Laval,+QC+H7E+2T7>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Centre de la nature"@fr,
+    "Centre de la nature";
+  <http://schema.org/sameAs> <http://centredelanature.laval.ca/>;
+  <http://schema.org/telephone> "450 662-4942";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-de-la-nature.aspx> .
 
 <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -16126,6 +16062,10 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "450 978-5995";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-multiculturelle.aspx> .
 
+<https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Laval-Ouest"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
 <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
@@ -16153,10 +16093,6 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "450 662-4440",
     "Billetterie : 450 667-2040";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx> .
-
-<https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Laval-Ouest"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Fabreville"@fr;
@@ -16611,7 +16547,7 @@ francophone.<br></p>"""@fr;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-saint-martin.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-des-saules.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
@@ -16632,7 +16568,7 @@ francophone.<br></p>"""@fr;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-des-saules.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-saint-martin.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
@@ -16695,7 +16631,7 @@ francophone.<br></p>"""@fr;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-saint-claude.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-isabelle.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
@@ -16716,7 +16652,7 @@ francophone.<br></p>"""@fr;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-isabelle.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-saint-claude.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
@@ -16779,7 +16715,7 @@ francophone.<br></p>"""@fr;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-cure-coursol.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-lescale.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
@@ -16800,7 +16736,7 @@ francophone.<br></p>"""@fr;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-lescale.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-cure-coursol.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
