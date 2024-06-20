@@ -55,7 +55,7 @@
               },
               "transformation": {
                 "language": "grel",
-                "expression": "cells[\"_ - PageUrl\"].value.substring(1) + \"#\" + cells[\"_ - EventDate\"].value.substring(0, 10)"
+                "expression": "cells[\"_ - PageUrl\"].value.substring(1) + \"#\" + cells[\"_ - EventDate\"].value.substring(0, 13) + \"-\" +  cells[\"_ - EventDate\"].value.substring(14, 16)"
               }
             },
             "typeMappings": [
