@@ -14721,21 +14721,100 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "450 662-4964 ";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/piscine-du-centre-sportif-josee-faucher.aspx> .
 
-<https://www.laval.ca/1162effc-a6da-4ac8-a611-2aa8996c4544> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc Saint-Martin"@fr .
+<https://www.laval.ca/1162effc-a6da-4ac8-a611-2aa8996c4544> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/streetAddress> "4025 rue Gaboury"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,55259208";
+    <http://schema.org/longitude> "-73,7652917"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/4025+rue+Gaboury,+Laval,+QC+>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc Saint-Martin"@fr,
+    "Parc Saint-Martin";
+  <http://schema.org/telephone> "450 978-8978";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-saint-martin.aspx> .
 
-<https://www.laval.ca/2102e151-72ac-4d19-b3e2-ab47bc3c12b7> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc René-Patenaude"@fr .
+<https://www.laval.ca/2102e151-72ac-4d19-b3e2-ab47bc3c12b7> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7G 2H3";
+    <http://schema.org/streetAddress> "80 rue Ouimet Est"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,5738806";
+    <http://schema.org/longitude> "-73,69132336"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/80+rue+Ouimet+Est,+Laval,+QC+H7G+2H3>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc René-Patenaude"@fr,
+    "Parc René-Patenaude";
+  <http://schema.org/telephone> "450 662-5187";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-rene-patenaude.aspx> .
 
-<https://www.laval.ca/4dbd4404-5f29-4d93-92c2-724da296c0c6> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc Couvrette"@fr .
+<https://www.laval.ca/4dbd4404-5f29-4d93-92c2-724da296c0c6> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7X 2K4";
+    <http://schema.org/streetAddress> "665 rue des Jardins-Sainte-Dorothée"
+  ];
+  <http://schema.org/description> "<p><span class=\"icon-important\"></span>À noter que les terrains de tennis&#160;sont&#160;gérés&#160;par&#160;<a href=\"https&#58;//www.tennislaval.com/\" target=\"_blank\" style=\"font-family&#58;arial;\">Tennis&#160;Laval</a><span class=\"icon-website-inline\">.</span></p><br> ";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,52136982";
+    <http://schema.org/longitude> "-73,80818603"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/665+rue+des+Jardins-Sainte-Dorothée,+Laval,+QC+H7X+2K4>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc Couvrette"@fr,
+    "Parc Couvrette";
+  <http://schema.org/telephone> "450 689-9535";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-couvrette.aspx> .
 
 <https://www.laval.ca/5c5fe10b-74e0-48f4-ac57-0e532d463e45> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Patrimoine"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/5da4cbaf-127b-4af1-a005-ebd03c5973ea> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc l'Escale"@fr .
+<https://www.laval.ca/5da4cbaf-127b-4af1-a005-ebd03c5973ea> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7A 1G3";
+    <http://schema.org/streetAddress> "8050 rue Mylène"
+  ];
+  <http://schema.org/description> """<div id=\"__publishingReusableFragmentIdSection\"><a href=\"/ReusableContent/327_.000\">a</a></div><div> 
+   <span id=\"__publishingReusableFragment\"></span>Site sans surveillance.<br> 
+   <p></p></div>""";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,666480107";
+    <http://schema.org/longitude> "-73,5867997221"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/8050+rue+Mylène,+Laval,+QC+H7A+1G3>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc l'Escale"@fr,
+    "Parc l'Escale";
+  <http://schema.org/telephone> "450 665-9163";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-lescale.aspx> .
 
 <https://www.laval.ca/71aabb2c-dd54-4bb6-8725-a3b9e97dde34> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -14770,8 +14849,28 @@ francophone.<br></p>"""@fr;
   <http://schema.org/name> "Préscolaire et maternelle"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/8b977b45-a8fe-495b-87ed-a4b14653636b> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc Rosaire-Gauthier"@fr .
+<https://www.laval.ca/8b977b45-a8fe-495b-87ed-a4b14653636b> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/streetAddress> "125 boulevard Lévesque Est"
+  ];
+  <http://schema.org/description> """<p><span class=\"icon-important\"></span>Il est à noter qu'en raison d'un bris de filage,&#160;les lumières des terrains de tennis&#160;ne sont pas fonctionnelles. <br>
+</p>""";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,5636907";
+    <http://schema.org/longitude> "-73,67693096"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/125+boulevard+Lévesque+Est,+Laval,+QC+>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc Rosaire-Gauthier"@fr,
+    "Parc Rosaire-Gauthier";
+  <http://schema.org/telephone> "450 662-5186";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-rosaire-gauthier.aspx> .
 
 <https://www.laval.ca/985427f3-f98a-48de-9c33-8a5bfa32975b> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Relâche scolaire"@fr;
@@ -14781,15 +14880,61 @@ francophone.<br></p>"""@fr;
   <http://schema.org/name> "Fête de la famille"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/afcef30e-54b4-4741-9da8-5d37bb120b9b> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc Berthiaume-Du Tremblay"@fr .
+<https://www.laval.ca/afcef30e-54b4-4741-9da8-5d37bb120b9b> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7W 2P8";
+    <http://schema.org/streetAddress> "4250 boulevard Lévesque Ouest"
+  ];
+  <http://schema.org/description> """<p> 
+   <img class=\"ms-asset-icon ms-rtePosition-4\" src=\"/_layouts/images/icpdf.png\" alt=\"\" /> 
+   <a href=\"/Documents/Pages/Fr/Activites/sports-et-loisirs/regles-utilisation-terrains-synthetiques.pdf\" target=\"_blank\" style=\"font-size&#58;16px;background-color&#58;#eeeeee;\">Règles et conditions d’utilisation des terrains ​à surface synthétique</a>, 287&#160;ko<br></p>
+
+<p> 
+   <span class=\"icon-important\"></span>Retrait définitif des terrains de tennis. Découvrez les 
+   <a href=\"/Pages/Fr/Activites/terrains-tennis.aspx\" target=\"_blank\">terrains de tennis</a> à proximité.<br></p>""";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,53005504";
+    <http://schema.org/longitude> "-73,7483566"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/4250+boulevard+Lévesque+Ouest,+Laval,+QC+H7W+2P8>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc Berthiaume-Du Tremblay"@fr,
+    "Parc Berthiaume-Du Tremblay";
+  <http://schema.org/telephone> "450 978-8972";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-berthiaume-du-tremblay.aspx> .
 
 <https://www.laval.ca/b82c3b94-fa4b-411b-b8f4-1d329c36e14d> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Semaine lavalloise des aînés"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/bbe8f8b8-2760-4000-9834-fcc66786fa2d> a <http://schema.org/Place>;
-  <http://schema.org/name> "Centre communautaire Laval-Ouest"@fr .
+<https://www.laval.ca/bbe8f8b8-2760-4000-9834-fcc66786fa2d> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7R 3M3";
+    <http://schema.org/streetAddress> "6600 29e Avenue"
+  ];
+  <http://schema.org/description> "<p><br><br></p>";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,54445883";
+    <http://schema.org/longitude> "-73,86945162"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/6600+29e+Avenue,+Laval,+QC+H7R+3M3>;
+  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/centre_communautaire/laval_ouest.jpg>;
+  <http://schema.org/name> "Centre communautaire Laval-Ouest"@fr,
+    "Centre communautaire Laval-Ouest";
+  <http://schema.org/telephone> "450 627-0534";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-laval-ouest.aspx> .
 
 <https://www.laval.ca/c70f4fdf-0f50-4a07-a743-4637dccf365b> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -14855,8 +15000,27 @@ francophone.<br></p>"""@fr;
 <https://www.laval.ca/cf8bb052-56d6-4cec-88ac-4877fe0cde59> a <http://schema.org/Place>;
   <http://schema.org/name> "Édifices municipaux"@fr .
 
-<https://www.laval.ca/d4b4e98f-688f-4ef3-bf36-53125515ff49> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc-école Raymond"@fr .
+<https://www.laval.ca/d4b4e98f-688f-4ef3-bf36-53125515ff49> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7R 3M3";
+    <http://schema.org/streetAddress> "6460 29e Avenue"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,54456756";
+    <http://schema.org/longitude> "-73,87060743"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/6460+29e+Avenue,+Laval,+QC+H7R+3M3>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc-école Raymond"@fr,
+    "Parc-école Raymond";
+  <http://schema.org/telephone> "450 627-6906";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-ecole-raymond.aspx> .
 
 <https://www.laval.ca/d58b3763-55a5-4832-8b87-ff4862ff9bb4> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Fêtes de quartier"@fr;
@@ -14888,11 +15052,36 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "450 662-5201";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-louis-durocher.aspx> .
 
+<https://www.laval.ca/lieux/Pages/Fr/bois-et-boises.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Bois et boisés" .
+
 <https://www.laval.ca/lieux/Pages/Fr/centre-sportif-honore-mercier.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Centre sportif Honoré-Mercier" .
 
-<https://www.laval.ca/1c34ad3c-dfc4-46a2-abe6-5a75778c99b3> a <http://schema.org/Place>;
-  <http://schema.org/name> "Centre d'art de Sainte-Rose"@fr .
+<https://www.laval.ca/lieux/Pages/Fr/parc-ecole-des-chenes.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Parc-école des Chênes" .
+
+<https://www.laval.ca/1c34ad3c-dfc4-46a2-abe6-5a75778c99b3> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7L 1L6";
+    <http://schema.org/streetAddress> "214 boulevard Sainte-Rose"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,613915492";
+    <http://schema.org/longitude> "-73,7863147933"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/214+boulevard+Sainte-Rose,+Laval,+QC+H7L+1L6>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Centre d'art de Sainte-Rose"@fr,
+    "Centre d'art de Sainte-Rose";
+  <http://schema.org/telephone> "450 978-6888, poste 4429";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-art-sainte-rose.aspx> .
 
 <https://www.laval.ca/2fe63b33-f6e8-4c18-8496-6e3240f36082> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Orchestre symphonique de Laval"@fr;
@@ -14938,11 +15127,51 @@ francophone.<br></p>"""@fr;
   <http://schema.org/name> "Laval-sur-le-Lac"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/918698ac-13eb-4a11-9103-9f3d1f5652dd> a <http://schema.org/Place>;
-  <http://schema.org/name> "Club de curling Laval-sur-le-Lac"@fr .
+<https://www.laval.ca/918698ac-13eb-4a11-9103-9f3d1f5652dd> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7R 1C7";
+    <http://schema.org/streetAddress> "10 rue les Pins"
+  ];
+  <http://schema.org/description> "<div> ​&#160;​<span class=\"icon-website-inline\">​​​</span>​<a href=\"http&#58;//curlinglaval.ca/\" target=\"_blank\">​Site Internet du Club de curling Laval-sur-le-Lac​​​​​</a><br></div>";
+  <http://schema.org/email> "curlinglaval@videotron.ca​​​​​​";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,52452391";
+    <http://schema.org/longitude> "-73,8814671"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/10+rue+les+Pins,+Laval,+QC+H7R+1C7>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Club de curling Laval-sur-le-Lac"@fr,
+    "Club de curling Laval-sur-le-Lac";
+  <http://schema.org/telephone> "450 627-4791";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/club-de-curling-laval-sur-le-lac.aspx> .
 
-<https://www.laval.ca/9bb12710-a2df-47e8-ab75-c30cf7d0c757> a <http://schema.org/Place>;
-  <http://schema.org/name> "Théâtre du Vieux-St-Vincent-de-Paul"@fr .
+<https://www.laval.ca/9bb12710-a2df-47e8-ab75-c30cf7d0c757> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7C 1W7";
+    <http://schema.org/streetAddress> "1086 avenue du Collège"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,6147529441";
+    <http://schema.org/longitude> "-73,6474061141"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/1086+avenue+du+Collège,+Laval,+QC+H7C+1W7>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Théâtre du Vieux-St-Vincent-de-Paul"@fr,
+    "Théâtre du Vieux-St-Vincent-de-Paul";
+  <http://schema.org/telephone> "450 978-6888, poste 4429";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/theatre-vieux-st-vincent.aspx> .
 
 <https://www.laval.ca/a948151b-9188-46b3-8585-0b988f4b6245> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Zone berge aux Quatre-Vents"@fr;
@@ -14969,8 +15198,26 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "450 628-4082";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-marc-aurele-fortin.aspx> .
 
-<https://www.laval.ca/bf10b737-cba7-40d0-bb26-cc3b18b7a0a9> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc Sylvie"@fr .
+<https://www.laval.ca/bf10b737-cba7-40d0-bb26-cc3b18b7a0a9> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7X 2X2";
+    <http://schema.org/streetAddress> "645 rue Sylvie"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,52686904";
+    <http://schema.org/longitude> "-73,80235148"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/645+rue+Sylvie,+Laval,+QC+H7X+2X2>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc Sylvie"@fr,
+    "Parc Sylvie";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-sylvie.aspx> .
 
 <https://www.laval.ca/c3c7bb41-55b8-4a43-9f5b-7387f7966e37> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Touristes"@fr;
@@ -14980,8 +15227,31 @@ francophone.<br></p>"""@fr;
   <http://schema.org/name> "Zone Saint-François"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/e63ee82a-da16-4247-bc91-6710773eb4cf> a <http://schema.org/Place>;
-  <http://schema.org/name> "Bois de l'Équerre"@fr .
+<https://www.laval.ca/e63ee82a-da16-4247-bc91-6710773eb4cf> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7L 6A3";
+    <http://schema.org/streetAddress> "49 rang de l'Équerre"
+  ];
+  <http://schema.org/description> """<p>Stationnements&#160;&#58;</p><ol><li>Principal (P1) &#58;&#160;<a href=\"https&#58;//www.google.com/maps/place/49+Rang+de+l%27Équerre,+Laval,+QC+H7L+6A3/@45.6074961,-73.764535,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc926b55afb294f&#58;0xae4899921c3ff415!8m2!3d45.6074961!4d-73.764535!16s/g/11gm7dfnrn?entry=ttu\" target=\"_blank\">49, rang de l'Équerre</a><br></li><li>Sud (P2) &#58;&#160;<a href=\"https&#58;//www.google.com/maps/place/4204+Boul+Industriel,+Laval,+QC+H7L+0E3/@45.6014876,-73.7555649,16z/data=!3m1!4b1!4m6!3m5!1s0x4cc92135fdb868fd&#58;0x80fcfceda30b43d6!8m2!3d45.6014876!4d-73.7555649!16s/g/11c5nt09wl?entry=ttu\" target=\"_blank\">4204, boul. Industriel&#160;</a></li><li>Nord (P3) &#58; <a href=\"https&#58;//www.google.com/maps/place/Stationnement+Bois+de+l%27Équerre/@45.6078349,-73.7646901,17z/data=!4m6!3m5!1s0x4cc927fdb788b247&#58;0xb3e4c782803b56b9!8m2!3d45.6075009!4d-73.7645077!16s/g/11hz_3_vf2?entry=ttu\" target=\"_blank\">Chemin de l'Équerre</a><a href=\"https&#58;//www.google.com/maps/place/4204+Boul+Industriel,+Laval,+QC+H7L+0E3/@45.6014876,-73.7555649,16z/data=!3m1!4b1!4m6!3m5!1s0x4cc92135fdb868fd&#58;0x80fcfceda30b43d6!8m2!3d45.6014876!4d-73.7555649!16s/g/11c5nt09wl?entry=ttu\" target=\"_blank\"></a><br></li></ol><p>
+ <strong>Le stationnement est désormais interdit sur le Rang de l’Équerre pour une durée indéterminée.</strong></p>""";
+  <http://schema.org/email> "info@reseaucanopee.org";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,6075881214";
+    <http://schema.org/longitude> "-73,7642251526"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/49+rang+de+l'Équerre,+Laval,+QC+H7L+6A3>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Bois de l'Équerre"@fr,
+    "Bois de l'Équerre";
+  <http://schema.org/sameAs> <https://www.reseaucanopee.org/fr/le-bois-de-lequerre/>,
+    <https://www.facebook.com/reseaucanopee>;
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bois-equerre.aspx> .
 
 <https://www.laval.ca/ec868e0e-9f9b-414e-8af0-6f5a58345d45> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "PPCMOI"@fr;
@@ -14990,6 +15260,25 @@ francophone.<br></p>"""@fr;
 <https://www.laval.ca/ed77826d-2d89-4258-8361-0b268cfda333> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Zone Chomedey"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/lieux/Pages/Fr/berge-aux-quatre-vents.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "Berge aux Quatre-Vents"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Berge aux Quatre-Vents"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/berge-aux-quatre-vents.aspx"@fr-fr;
+  <http://schema.org/name> "Berge aux Quatre-Vents" .
+
+<https://www.laval.ca/lieux/Pages/Fr/berge-des-baigneurs.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "Berge des Baigneurs &#58; fiche de lieu (horaire, coordonnées, activités...)"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc de la Rivière-des-Mille-Îles, secteur de la berge des Baigneurs"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/berge-des-baigneurs.aspx"@fr-fr;
+  <http://schema.org/name> "Parc de la Rivière-des-Mille-Îles, secteur de la berge des Baigneurs" .
+
+<https://www.laval.ca/lieux/Pages/Fr/berges.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Berges" .
 
 <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-emile-nelligan.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> ""@fr-fr;
@@ -15063,8 +15352,51 @@ francophone.<br></p>"""@fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/bibliotheque-yves-theriault.aspx"@fr-fr;
   <http://schema.org/name> "Bibliothèque Yves-Thériault" .
 
-<https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Édifices municipaux" .
+<https://www.laval.ca/lieux/Pages/Fr/bois-equerre.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> ""@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Bois de l'Équerre"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/bois-equerre.aspx"@fr-fr;
+  <http://schema.org/name> "Bois de l'Équerre" .
+
+<https://www.laval.ca/lieux/Pages/Fr/centre-art-sainte-rose.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Centre d’art de Sainte-Rose" .
+
+<https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-laval-ouest.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​​​​Centre communautaire Laval-Ouest​"@fr-fr;
+  <http://ogp.me/ns#image> "https://www.laval.ca/lieux/PublishingImages/centre_communautaire/laval_ouest.jpg"@fr-fr;
+  <http://ogp.me/ns#title> "Centre communautaire Laval-Ouest"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/centre-communautaire-laval-ouest.aspx"@fr-fr;
+  <http://schema.org/name> "Centre communautaire Laval-Ouest" .
+
+<https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-le-sorbier.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​​​​​Centre communautaire Le Sorbier​"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Centre communautaire Le Sorbier"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/centre-communautaire-le-sorbier.aspx"@fr-fr;
+  <http://schema.org/name> "Centre communautaire Le Sorbier" .
+
+<https://www.laval.ca/lieux/Pages/Fr/centre-de-la-nature.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "Voyez les informations générales du Centre de la nature et les conditions de ses plateaux sportifs."@fr-fr;
+  <http://ogp.me/ns#image> "https://www.laval.ca/centredelanature/PublishingImages/Pages/Fr/visite-parc/activites-hiver/medias-sociaux-hiver-1200x628.jpg"@fr-fr;
+  <http://ogp.me/ns#title> "Centre de la nature"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/centre-de-la-nature.aspx"@fr-fr;
+  <http://schema.org/name> "Centre de la nature" .
+
+<https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Centres communautaires" .
+
+<https://www.laval.ca/lieux/Pages/Fr/club-de-curling-laval-sur-le-lac.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​​​​​Club de curling Laval-sur-le-Lac"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Club de curling Laval-sur-le-Lac"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/club-de-curling-laval-sur-le-lac.aspx"@fr-fr;
+  <http://schema.org/name> "Club de curling Laval-sur-le-Lac" .
 
 <https://www.laval.ca/lieux/Pages/Fr/hotel-de-ville.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> ""@fr-fr;
@@ -15073,6 +15405,14 @@ francophone.<br></p>"""@fr;
   <http://ogp.me/ns#type> "place"@fr-fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/hotel-de-ville.aspx"@fr-fr;
   <http://schema.org/name> "Hôtel de ville" .
+
+<https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​​​​​​Maison des arts de Laval, située près du Métro Montmorency"@fr-fr;
+  <http://ogp.me/ns#image> "https://www.laval.ca/lieux/PublishingImages/edifice_municipal/maison-des-arts-175X110.jpg"@fr-fr;
+  <http://ogp.me/ns#title> "Maison des arts de Laval"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/maison-des-arts-de-laval.aspx"@fr-fr;
+  <http://schema.org/name> "Maison des arts de Laval" .
 
 <https://www.laval.ca/lieux/Pages/Fr/musee-armand-frappier.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> ""@fr-fr;
@@ -15090,6 +15430,22 @@ francophone.<br></p>"""@fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-bernard-landry.aspx"@fr-fr;
   <http://schema.org/name> "Parc Bernard-Landry" .
 
+<https://www.laval.ca/lieux/Pages/Fr/parc-berthiaume-du-tremblay.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​​​​​​​​​​​​​​​​Parc Berthiaume-Du Tremblay"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc Berthiaume-Du Tremblay"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-berthiaume-du-tremblay.aspx"@fr-fr;
+  <http://schema.org/name> "Parc Berthiaume-Du Tremblay" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parc-champfleury.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "Parc Champfleury"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc Champfleury"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-champfleury.aspx"@fr-fr;
+  <http://schema.org/name> "Parc Champfleury" .
+
 <https://www.laval.ca/lieux/Pages/Fr/parc-chopin.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> "Parc Chopin"@fr-fr;
   <http://ogp.me/ns#image> ""@fr-fr;
@@ -15097,6 +15453,22 @@ francophone.<br></p>"""@fr;
   <http://ogp.me/ns#type> "place"@fr-fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-chopin.aspx"@fr-fr;
   <http://schema.org/name> "Parc Chopin" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parc-couvrette.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "Parc Couvrette"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc Couvrette"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-couvrette.aspx"@fr-fr;
+  <http://schema.org/name> "Parc Couvrette" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parc-cure-coursol.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> ""@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> ""@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-cure-coursol.aspx"@fr-fr;
+  <http://schema.org/name> "Parc Curé-Coursol" .
 
 <https://www.laval.ca/lieux/Pages/Fr/parc-de-lausanne.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> ""@fr-fr;
@@ -15114,6 +15486,14 @@ francophone.<br></p>"""@fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-des-coccinelles.aspx"@fr-fr;
   <http://schema.org/name> "Parc des Coccinelles" .
 
+<https://www.laval.ca/lieux/Pages/Fr/parc-des-saules.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​​​​​​​​​Parc des Saules"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc des Saules"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-des-saules.aspx"@fr-fr;
+  <http://schema.org/name> "Parc des Saules" .
+
 <https://www.laval.ca/lieux/Pages/Fr/parc-du-moulin.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> "Parc du Moulin"@fr-fr;
   <http://ogp.me/ns#image> ""@fr-fr;
@@ -15121,6 +15501,30 @@ francophone.<br></p>"""@fr;
   <http://ogp.me/ns#type> "place"@fr-fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-du-moulin.aspx"@fr-fr;
   <http://schema.org/name> "Parc du Moulin" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parc-du-royal-22e-regiment.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "Parc du Royal-22 e -Régiment"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc du Royal-22e-Régiment"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-du-royal-22e-regiment.aspx"@fr-fr;
+  <http://schema.org/name> "Parc du Royal-22e-Régiment" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parc-ecole-jacques-bourdon.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​​​​​​Parc-école Jacques-Bourdon"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc-école Jacques-Bourdon"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-ecole-jacques-bourdon.aspx"@fr-fr;
+  <http://schema.org/name> "Parc-école Jacques-Bourdon" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parc-ecole-raymond.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​​Parc-école Raymond"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc-école Raymond"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-ecole-raymond.aspx"@fr-fr;
+  <http://schema.org/name> "Parc-école Raymond" .
 
 <https://www.laval.ca/lieux/Pages/Fr/parc-isabelle.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> "Parc Isabelle"@fr-fr;
@@ -15138,6 +15542,30 @@ francophone.<br></p>"""@fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-jolibourg.aspx"@fr-fr;
   <http://schema.org/name> "Parc Jolibourg" .
 
+<https://www.laval.ca/lieux/Pages/Fr/parc-labelle.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​​​​​Parc Labelle"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc Labelle"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-labelle.aspx"@fr-fr;
+  <http://schema.org/name> "Parc Labelle" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parc-legare.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "Parc Légaré"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc Légaré"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-legare.aspx"@fr-fr;
+  <http://schema.org/name> "Parc Légaré" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parc-lescale.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​​​Parc l'Escale"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc l'Escale"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-lescale.aspx"@fr-fr;
+  <http://schema.org/name> "Parc l'Escale" .
+
 <https://www.laval.ca/lieux/Pages/Fr/parc-louis-durocher.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> "Parc Louis-Durocher"@fr-fr;
   <http://ogp.me/ns#image> ""@fr-fr;
@@ -15153,6 +15581,14 @@ francophone.<br></p>"""@fr;
   <http://ogp.me/ns#type> "place"@fr-fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-marc-aurele-fortin.aspx"@fr-fr;
   <http://schema.org/name> "Parc Marc-Aurèle-Fortin" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parc-prevost.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "&#160;Parc Prévost"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc Prévost"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-prevost.aspx"@fr-fr;
+  <http://schema.org/name> "Parc Prévost" .
 
 <https://www.laval.ca/lieux/Pages/Fr/parc-prince-rupert.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> "​​​​​​​Parc Prince-Rupert"@fr-fr;
@@ -15170,6 +15606,22 @@ francophone.<br></p>"""@fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-raymond-millar.aspx"@fr-fr;
   <http://schema.org/name> "Parc Raymond-Millar" .
 
+<https://www.laval.ca/lieux/Pages/Fr/parc-rene-patenaude.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​​​​​​​Parc René-Patenaude"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc René-Patenaude"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-rene-patenaude.aspx"@fr-fr;
+  <http://schema.org/name> "Parc René-Patenaude" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parc-ringuet.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​Parc Ringuet"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc Ringuet"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-ringuet.aspx"@fr-fr;
+  <http://schema.org/name> "Parc Ringuet" .
+
 <https://www.laval.ca/lieux/Pages/Fr/parc-rodolphe-lavoie.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> "​​​​​​Parc Rodolphe-Lavoie"@fr-fr;
   <http://ogp.me/ns#image> ""@fr-fr;
@@ -15178,6 +15630,14 @@ francophone.<br></p>"""@fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-rodolphe-lavoie.aspx"@fr-fr;
   <http://schema.org/name> "Parc Rodolphe-Lavoie" .
 
+<https://www.laval.ca/lieux/Pages/Fr/parc-rosaire-gauthier.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> ""@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> ""@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-rosaire-gauthier.aspx"@fr-fr;
+  <http://schema.org/name> "Parc Rosaire-Gauthier" .
+
 <https://www.laval.ca/lieux/Pages/Fr/parc-saint-claude.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> "​​​​​​Parc Saint-Claude​​​"@fr-fr;
   <http://ogp.me/ns#image> ""@fr-fr;
@@ -15185,6 +15645,22 @@ francophone.<br></p>"""@fr;
   <http://ogp.me/ns#type> "place"@fr-fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-saint-claude.aspx"@fr-fr;
   <http://schema.org/name> "Parc Saint-Claude" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parc-saint-martin.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "Parc Saint-Martin"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc Saint-Martin"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-saint-martin.aspx"@fr-fr;
+  <http://schema.org/name> "Parc Saint-Martin" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parc-sylvie.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "​Parc Sylvie"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Parc Sylvie"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-sylvie.aspx"@fr-fr;
+  <http://schema.org/name> "Parc Sylvie" .
 
 <https://www.laval.ca/lieux/Pages/Fr/piscine-du-centre-sportif-josee-faucher.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> "Piscine du centre sportif Josée-Faucher"@fr-fr;
@@ -15213,12 +15689,42 @@ francophone.<br></p>"""@fr;
 <https://www.laval.ca/lieux/Pages/Fr/piscines-interieures.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Piscines intérieures" .
 
+<https://www.laval.ca/lieux/Pages/Fr/theatre-vieux-st-vincent.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> ""@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> ""@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/theatre-vieux-st-vincent.aspx"@fr-fr;
+  <http://schema.org/name> "Théâtre Vieux St-Vincent" .
+
 <https://www.laval.ca/26765e4d-4479-4c1e-8a24-568f2ba06f97> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Saint-Martin"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/5a785148-8eda-4423-a235-2844c9336205> a <http://schema.org/Place>;
-  <http://schema.org/name> "Centre communautaire Le Sorbier"@fr .
+<https://www.laval.ca/5a785148-8eda-4423-a235-2844c9336205> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7L 1T5";
+    <http://schema.org/streetAddress> "140 rue Nadon"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,61471519";
+    <http://schema.org/longitude> "-73,78121183"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/140+rue+Nadon,+Laval,+QC+H7L+1T5>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Centre communautaire Le Sorbier"@fr,
+    "Centre communautaire Le Sorbier";
+  <http://schema.org/telephone> "450 625-5495";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-le-sorbier.aspx> .
+
+<https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Édifices municipaux" .
 
 <https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Vivre"@fr;
@@ -15270,8 +15776,27 @@ francophone.<br></p>"""@fr;
   <http://schema.org/name> "Zone Sainte-Rose"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/af690649-c262-40ca-b601-74c800305e8b> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc Labelle"@fr .
+<https://www.laval.ca/af690649-c262-40ca-b601-74c800305e8b> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7V 3L8";
+    <http://schema.org/streetAddress> "1630 rue Hébert"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,55152481";
+    <http://schema.org/longitude> "-73,75745742"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/1630+rue+Hébert,+Laval,+QC+H7V+3L8>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc Labelle"@fr,
+    "Parc Labelle";
+  <http://schema.org/telephone> "450 978-6538";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-labelle.aspx> .
 
 <https://www.laval.ca/b43f3437-24c8-4510-a488-68aed5b123f6> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Zone Sainte-Dorothée"@fr;
@@ -15285,11 +15810,47 @@ francophone.<br></p>"""@fr;
   <http://schema.org/name> "Techno"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/c69527a1-0627-42fd-bb6c-e959164d722a> a <http://schema.org/Place>;
-  <http://schema.org/name> "Berge aux Quatre-Vents"@fr .
+<https://www.laval.ca/c69527a1-0627-42fd-bb6c-e959164d722a> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/streetAddress> "925 rue Riviera"
+  ];
+  <http://schema.org/description> """<p>
+ <span class=\"icon-important\"></span>Des travaux pour <a href=\"/Pages/Fr/Citoyens/travaux-dans-parcs-et-espaces-verts.aspx#lavalouest\" target=\"_blank\">la construction d’un chalet</a> sont présentement en cours jusqu'en&#160;2025.<br></p><br>""";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,54203389";
+    <http://schema.org/longitude> "-73,87875678"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/925+rue+Riviera,+Laval,+QC+>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Berge aux Quatre-Vents"@fr,
+    "Berge aux Quatre-Vents";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/berge-aux-quatre-vents.aspx> .
 
-<https://www.laval.ca/de905d46-f9e9-418c-8761-edd7c676b66c> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc Ringuet"@fr .
+<https://www.laval.ca/de905d46-f9e9-418c-8761-edd7c676b66c> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/streetAddress> "4749 boulevard Arthur-Sauvé"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,55275659";
+    <http://schema.org/longitude> "-73,86850185"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/4749+boulevard+Arthur-Sauvé,+Laval,+QC+>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc Ringuet"@fr,
+    "Parc Ringuet";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-ringuet.aspx> .
 
 <https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Histoire"@fr;
@@ -15366,8 +15927,27 @@ francophone.<br></p>"""@fr;
   <http://schema.org/name> "Tai Chi"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/0a10d52a-82f0-4163-a891-dcc330777cce> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc Curé-Coursol"@fr .
+<https://www.laval.ca/0a10d52a-82f0-4163-a891-dcc330777cce> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7M 1T8";
+    <http://schema.org/streetAddress> "320 rue Richard"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,58363996";
+    <http://schema.org/longitude> "-73,71568935"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/320+rue+Richard,+Laval,+QC+H7M+1T8>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc Curé-Coursol"@fr,
+    "Parc Curé-Coursol";
+  <http://schema.org/telephone> "311 (ou 450 978-8000 de l'extérieur de Laval)";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-cure-coursol.aspx> .
 
 <https://www.laval.ca/bc6cc6d1-9f2c-4851-bf2c-44a7305eaf98> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Musiques du monde"@fr;
@@ -15411,8 +15991,25 @@ francophone.<br></p>"""@fr;
   <http://schema.org/name> "Jouer"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/3cde6968-94b0-46c9-af3b-01823467e35a> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc du Royal-22e-Régiment"@fr .
+<https://www.laval.ca/3cde6968-94b0-46c9-af3b-01823467e35a> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/streetAddress> "3325 avenue des Ambassadeurs"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,6224156";
+    <http://schema.org/longitude> "-73,68134869"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/3325+avenue+des+Ambassadeurs,+Laval,+QC+>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc du Royal-22e-Régiment"@fr,
+    "Parc du Royal-22e-Régiment";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-du-royal-22e-regiment.aspx> .
 
 <https://www.laval.ca/b9d995bc-2bbc-4920-aa5e-8165de197a34> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -15463,11 +16060,27 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "311 ou 450 978-8000 (de l'extérieur de Laval)";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/hotel-de-ville.aspx> .
 
-<https://www.laval.ca/lieux/Pages/Fr/parcs.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Parcs" .
-
-<https://www.laval.ca/b5d0999a-8f0b-4d37-a3fb-033cf814a5de> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc Prévost"@fr .
+<https://www.laval.ca/b5d0999a-8f0b-4d37-a3fb-033cf814a5de> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7M 4L2";
+    <http://schema.org/streetAddress> "110 rue de Toulouse"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,60001";
+    <http://schema.org/longitude> "-73,71910064"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/110+rue+de+Toulouse,+Laval,+QC+H7M+4L2>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc Prévost"@fr,
+    "Parc Prévost";
+  <http://schema.org/telephone> "450 662-5195";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-prevost.aspx> .
 
 <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Exposition"@fr;
@@ -15526,18 +16139,75 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "450 978-6888 poste 4980";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-de-lausanne.aspx> .
 
-<https://www.laval.ca/6d1377fc-5392-43f7-adce-ed9180923b68> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc-école Jacques-Bourdon"@fr .
+<https://www.laval.ca/6d1377fc-5392-43f7-adce-ed9180923b68> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7E 3M8";
+    <http://schema.org/streetAddress> "55 croissant De Callières"
+  ];
+  <http://schema.org/description> "<div id=\"__publishingReusableFragmentIdSection\"><a href=\"/ReusableContent/316_.000\">a</a></div><div>&#160; &#160; &#160;<span>De l'extérieur de Laval &#58;</span></div><div><span><br><span id=\"__publishingReusableFragment\"></span>&#160;450 978-8000</span><br></div>";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,59011207";
+    <http://schema.org/longitude> "-73,66824759"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/55+croissant+De+Callières,+Laval,+QC+H7E+3M8>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc-école Jacques-Bourdon"@fr,
+    "Parc-école Jacques-Bourdon";
+  <http://schema.org/telephone> "311";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-ecole-jacques-bourdon.aspx> .
 
-<https://www.laval.ca/e0b32207-2b24-45b0-930a-4ecfc9d4ec2e> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc Légaré"@fr .
+<https://www.laval.ca/e0b32207-2b24-45b0-930a-4ecfc9d4ec2e> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/streetAddress> "2245 rue Légaré"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,55447756";
+    <http://schema.org/longitude> "-73,77912833"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/2245+rue+Légaré,+Laval,+QC+>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc Légaré"@fr,
+    "Parc Légaré";
+  <http://schema.org/telephone> "450 978-8974";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-legare.aspx> .
 
 <https://www.laval.ca/94191cf9-eee0-4e11-8300-3b066afdbb14> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Découvrir"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/d824c85c-6647-435f-8cea-4a786bcbb867> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc des Saules"@fr .
+<https://www.laval.ca/d824c85c-6647-435f-8cea-4a786bcbb867> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7H 1J1";
+    <http://schema.org/streetAddress> "100 rue Saint-Saëns Ouest"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,63674816";
+    <http://schema.org/longitude> "-73,75560012"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/100+rue+Saint-Saëns+Ouest,+Laval,+QC+H7H+1J1>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc des Saules"@fr,
+    "Parc des Saules";
+  <http://schema.org/telephone> "450 628-0931";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-des-saules.aspx> .
 
 <https://www.laval.ca/22ea72c1-f4ac-4873-be24-c94e7d742d5f> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "co-motion"@fr;
@@ -15569,8 +16239,26 @@ francophone.<br></p>"""@fr;
   <http://schema.org/name> "Bouger"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/5bb5905e-abc1-4d93-b77d-d638eeb8731d> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc de la Rivière-des-Mille-Îles, secteur de la berge des Baigneurs"@fr .
+<https://www.laval.ca/5bb5905e-abc1-4d93-b77d-d638eeb8731d> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7L 2R2";
+    <http://schema.org/streetAddress> "13 rue Hotte"
+  ];
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,61579904";
+    <http://schema.org/longitude> "-73,78753473"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/13+rue+Hotte,+Laval,+QC+H7L+2R2>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc de la Rivière-des-Mille-Îles, secteur de la berge des Baigneurs"@fr,
+    "Berge des Baigneurs";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/berge-des-baigneurs.aspx> .
 
 <https://www.laval.ca/aabe3976-ad4c-413e-aa1c-bcd6879419b4> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Cinéma en plein air"@fr;
@@ -15636,22 +16324,37 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "450 978-8914";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-chopin.aspx> .
 
-<https://www.laval.ca/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Accueil" .
-
 <https://www.laval.ca/cf97f0d9-fdbc-4a9a-a9df-4642d0e88ea5> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Yoga"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/lieux/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Carte interactive" .
 
 <https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Aînés"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
-<https://www.laval.ca/dcee7c0d-8dcb-46af-bf77-61b14820bf94> a <http://schema.org/Place>;
-  <http://schema.org/name> "Parc Champfleury"@fr .
+<https://www.laval.ca/dcee7c0d-8dcb-46af-bf77-61b14820bf94> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7L 4M4";
+    <http://schema.org/streetAddress> "2585 boulevard des Oiseaux"
+  ];
+  <http://schema.org/description> """<div> 
+ <span class=\"icon-important\"></span>À noter que les terrains de tennis sont gérés par l'organisme <a href=\"https&#58;//champfleury.qc.ca/\" target=\"_blank\">ôChampfleury</a>.<span class=\"icon-website-inline\"></span><br> </div>""";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,58726629";
+    <http://schema.org/longitude> "-73,77739151"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/2585+boulevard+des+Oiseaux,+Laval,+QC+H7L+4M4>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Parc Champfleury"@fr,
+    "Parc Champfleury";
+  <http://schema.org/telephone> "311";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-champfleury.aspx> .
 
 <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Arts"@fr;
@@ -15660,6 +16363,9 @@ francophone.<br></p>"""@fr;
 <https://www.laval.ca/42818e29-e061-45ef-9486-0450ea3b2595> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Zumba"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/lieux/Pages/Fr/parcs.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Parcs" .
 
 <https://www.laval.ca/4e1291c1-3791-4787-96cb-9ed0f01bdb22> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Club de lecture TD"@fr;
@@ -15862,8 +16568,36 @@ francophone.<br></p>"""@fr;
   <http://schema.org/telephone> "450 978-3940";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-sylvain-garneau.aspx> .
 
-<https://www.laval.ca/6f9829c4-7499-4341-84d3-c9c2e1cf749a> a <http://schema.org/Place>;
-  <http://schema.org/name> "Centre de la nature"@fr .
+<https://www.laval.ca/6f9829c4-7499-4341-84d3-c9c2e1cf749a> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7E 2T7";
+    <http://schema.org/streetAddress> "901 avenue du Parc"
+  ];
+  <http://schema.org/description> "<p><br><br></p>";
+  <http://schema.org/email> "centrenature@laval.ca";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,60547334";
+    <http://schema.org/longitude> "-73,66181308"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/901+avenue+du+Parc,+Laval,+QC+H7E+2T7>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Centre de la nature"@fr,
+    "Centre de la nature";
+  <http://schema.org/sameAs> <http://centredelanature.laval.ca/>;
+  <http://schema.org/telephone> "450 662-4942";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-de-la-nature.aspx> .
+
+<https://www.laval.ca/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Accueil" .
+
+<https://www.laval.ca/lieux/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Carte interactive" .
 
 <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -15993,8 +16727,33 @@ francophone.<br></p>"""@fr;
   <http://schema.org/name> "Laval-Ouest"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6> a <http://schema.org/Place>;
-  <http://schema.org/name> "Maison des arts de Laval"@fr .
+<https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7N 5W1";
+    <http://schema.org/streetAddress> "1395 boulevard de la Concorde Ouest"
+  ];
+  <http://schema.org/email> "maisondesarts@laval.ca";
+  <http://schema.org/faxNumber> "450 662-4428";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,5586752";
+    <http://schema.org/longitude> "-73,71653785"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/1395+boulevard+de+la+Concorde+Ouest,+Laval,+QC+H7N+5W1>;
+  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/edifice_municipal/maison-des-arts-175X110.jpg>;
+  <http://schema.org/name> "Maison des arts de Laval"@fr,
+    "Maison des arts de Laval";
+  <http://schema.org/sameAs> <http://maisondesarts.laval.ca/>,
+    <https://www.facebook.com/maisondesartsdelaval>,
+    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27dion9lsLF7NdEek-s3jbEm>;
+  <http://schema.org/telephone> "450 662-4440",
+    "Billetterie : 450 667-2040";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx> .
 
 <https://www.laval.ca/4d9e9803-3763-432c-a437-d0f8315f20e8> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Dehors"@fr;
@@ -16644,5 +17403,581 @@ francophone.<br></p>"""@fr;
       a <http://schema.org/ListItem>;
       <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/piscine-poly-jeunesse.aspx>;
       <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-de-la-nature.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-des-saules.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-saint-martin.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-cure-coursol.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-lescale.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-prevost.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-couvrette.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-legare.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-champfleury.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/berges.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/berge-des-baigneurs.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-du-royal-22e-regiment.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-ecole-jacques-bourdon.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/berges.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/berge-aux-quatre-vents.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-rene-patenaude.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-berthiaume-du-tremblay.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-rosaire-gauthier.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-ecole-raymond.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-sylvie.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bois-et-boises.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bois-equerre.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-labelle.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-ringuet.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/theatre-vieux-st-vincent.aspx>;
+      <http://schema.org/position> 3
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-art-sainte-rose.aspx>;
+      <http://schema.org/position> 3
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-ecole-des-chenes.aspx>;
+      <http://schema.org/position> 4
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/club-de-curling-laval-sur-le-lac.aspx>;
+      <http://schema.org/position> 5
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-le-sorbier.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-laval-ouest.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
     ]
   ] .
