@@ -15,7 +15,7 @@ The [script](https://github.com/culturecreates/artsdata-planet-ville-de-laval/bl
 ## Events to be sent to Signé Laval's CMS
 
 The events to be sent to Signé Laval's CMS must meet the following criteria:
-- event is tagged in atleaset one of 3 categories: Bibliothèques, Expositions et spectacles, Événements et festivals
+- event is in atleaset one of 3 categories: Bibliothèques, Expositions et spectacles, Événements et festivals
 - event is NOT tagged "Enseignants"
 - event has a single startDate and location 
 - event title does not include "Petits bonheurs" series

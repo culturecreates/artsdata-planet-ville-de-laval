@@ -12,7 +12,7 @@
       "includeFileSources": false,
       "includeArchiveFileName": false,
       "disableAutoPreview": false,
-      "projectName": "cli-transform-entities.json-2024-04-23",
+      "projectName": "cli-transform-entities.json-2024-06-26",
       "projectTags": [],
       "fileSource": "entities.json",
       "archiveFileName": null
@@ -692,6 +692,47 @@
         ]
       },
       "description": "Save RDF Mapping"
+    },
+    {
+      "op": "core/row-star",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "_ - Categories - _ - Label",
+            "expression": "value",
+            "columnName": "_ - Categories - _ - Label",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Événements et festivals",
+                  "l": "Événements et festivals"
+                }
+              },
+              {
+                "v": {
+                  "v": "Bibliothèques",
+                  "l": "Bibliothèques"
+                }
+              },
+              {
+                "v": {
+                  "v": "Expositions et spectacles",
+                  "l": "Expositions et spectacles"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "record-based"
+      },
+      "starred": true,
+      "description": "Star rows"
     }
   ]
 }
