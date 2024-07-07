@@ -12,7 +12,7 @@
       "includeFileSources": false,
       "includeArchiveFileName": false,
       "disableAutoPreview": false,
-      "projectName": "cli-transform-entities.json-2024-06-26",
+      "projectName": "cli-transform-entities.json-2024-07-07",
       "projectTags": [],
       "fileSource": "entities.json",
       "archiveFileName": null
@@ -732,7 +732,36 @@
         "mode": "record-based"
       },
       "starred": true,
-      "description": "Star rows"
+      "description": "Star rows with certain categories"
+    },
+    {
+      "op": "core/row-star",
+      "engineConfig": {
+        "facets": [
+          {
+            "type": "list",
+            "name": "_ - Clienteles - _ - Label",
+            "expression": "value",
+            "columnName": "_ - Clienteles - _ - Label",
+            "invert": false,
+            "omitBlank": false,
+            "omitError": false,
+            "selection": [
+              {
+                "v": {
+                  "v": "Enseignants et étudiants",
+                  "l": "Enseignants et étudiants"
+                }
+              }
+            ],
+            "selectBlank": false,
+            "selectError": false
+          }
+        ],
+        "mode": "record-based"
+      },
+      "starred": false,
+      "description": "Unstar rows for certain clienteles"
     },
     {
       "op": "core/row-removal",
