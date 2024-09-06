@@ -22,8 +22,8 @@ The events to be sent to Signé Laval's CMS must meet the following criteria:
 
 ## Trouble shooting
 
-Use this URL to view the data for an event that will be sent to CMS.
--  https://api.artsdata.ca/query?uri=https://www.laval.ca/Pages/Fr/Calendrier/zones-musicales-2-freres.aspx%232024-07-07&frame=event_footlight&format=json&sparql=https://raw.githubusercontent.com/culturecreates/footlight-aggregator/main/sparql/query-event-uri-v2.sparql&source=http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites
+Use this URL to view the data for 5 events that will be sent to CMS.
+-  https://api.artsdata.ca/query?limit=5&frame=event_footlight&format=json&sparql=https://raw.githubusercontent.com/culturecreates/footlight-aggregator/main/sparql/query-events-v2.sparql&source=http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites
 
 Directories
 ============
