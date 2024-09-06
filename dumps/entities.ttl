@@ -19,6 +19,29 @@
   <http://schema.org/telephone> "450 978-8980";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-saint-norbert.aspx> .
 
+<https://www.laval.ca/083742f6-aebe-4e14-ab33-e2a2828835d9> a <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7R 3X7";
+    <http://schema.org/streetAddress> "6500 boulevard Arthur-Sauvé"
+  ];
+  <http://schema.org/description> """<p><br></p>
+<br>
+<br>""";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,54716046";
+    <http://schema.org/longitude> "-73,86459129"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/6500+boulevard+Arthur-Sauvé,+Laval,+QC+H7R+3X7>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
+  <http://schema.org/name> "Centre communautaire Accès";
+  <http://schema.org/telephone> "450 978-6888, poste 7691";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-acces.aspx> .
+
 <https://www.laval.ca/095e2f7b-9320-48ed-96a2-dfc01327b1e4> a <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
@@ -105,6 +128,27 @@
   <http://schema.org/name> "Centre communautaire Régent-Martimbeau";
   <http://schema.org/telephone> "450 978-6888 poste 4976";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-regent-martimbeau.aspx> .
+
+<https://www.laval.ca/4b46f02d-9970-4f96-8a13-b042f1244836> a <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7H 1N5";
+    <http://schema.org/streetAddress> "6200 boulevard des Laurentides"
+  ];
+  <http://schema.org/description> "<p><br><br></p>";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,63615";
+    <http://schema.org/longitude> "-73,75469824"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/6200+boulevard+des+Laurentides,+Laval,+QC+H7H+1N5>;
+  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/centre_communautaire/auteuil.jpg>;
+  <http://schema.org/name> "Centre communautaire Auteuil";
+  <http://schema.org/telephone> "450 628-5831";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-auteuil.aspx> .
 
 <https://www.laval.ca/4f685687-5509-4780-ba63-d654871ca6a8> a <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
@@ -344,6 +388,7 @@
     <https://www.laval.ca/bde5907b-ecee-45d9-9051-bfc09e259843>;
   <http://schema.org/description> "<p>Venez découvrir les secrets du succès de l'univers du jeu vidéo en ligne!<br></p>"@fr;
   <http://schema.org/endDate> "2024-11-21T00:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-ados-recherche-efficace-internet-335x215.png>;
   <http://schema.org/keywords> "Bibliothèques",
     "Adolescents",
     "Informatique et technologies",
@@ -581,6 +626,63 @@
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-10-15T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-apport-nature.aspx> .
+
+<https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-cafe-casse-tetes.aspx#2024-10-03T14-00> a <http://schema.org/Event>;
+  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
+    <https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5>,
+    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
+    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
+    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
+  <http://schema.org/description> "<p><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Une occasion&#160;de&#160;socialiser!&#160;</span><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Chaque premier jeudi du mois de 10h à 12h!&#160;</span><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Entrée libre.</span><span style=\"font-size&#58;16px;background-color&#58;transparent;\"></span><span style=\"font-size&#58;16px;background-color&#58;transparent;\"><br></span></p>"@fr;
+  <http://schema.org/endDate> "2024-10-03T16:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/keywords> "Bibliothèques",
+    "Aînés",
+    "Adultes",
+    "Activités de la ville",
+    "Laval-Ouest";
+  <http://schema.org/location> <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>;
+  <http://schema.org/name> "Café et casse-têtes"@fr;
+  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
+  <http://schema.org/startDate> "2024-10-03T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-cafe-casse-tetes.aspx> .
+
+<https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-cafe-casse-tetes.aspx#2024-11-07T15-00> a <http://schema.org/Event>;
+  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
+    <https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5>,
+    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
+    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
+    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
+  <http://schema.org/description> "<p><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Une occasion&#160;de&#160;socialiser!&#160;</span><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Chaque premier jeudi du mois de 10h à 12h!&#160;</span><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Entrée libre.</span><span style=\"font-size&#58;16px;background-color&#58;transparent;\"></span><span style=\"font-size&#58;16px;background-color&#58;transparent;\"><br></span></p>"@fr;
+  <http://schema.org/endDate> "2024-11-07T17:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/keywords> "Bibliothèques",
+    "Aînés",
+    "Adultes",
+    "Activités de la ville",
+    "Laval-Ouest";
+  <http://schema.org/location> <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>;
+  <http://schema.org/name> "Café et casse-têtes"@fr;
+  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
+  <http://schema.org/startDate> "2024-11-07T15:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-cafe-casse-tetes.aspx> .
+
+<https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-cafe-casse-tetes.aspx#2024-12-05T15-00> a <http://schema.org/Event>;
+  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
+    <https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5>,
+    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
+    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
+    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
+  <http://schema.org/description> "<p><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Une occasion&#160;de&#160;socialiser!&#160;</span><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Chaque premier jeudi du mois de 10h à 12h!&#160;</span><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Entrée libre.</span><span style=\"font-size&#58;16px;background-color&#58;transparent;\"></span><span style=\"font-size&#58;16px;background-color&#58;transparent;\"><br></span></p>"@fr;
+  <http://schema.org/endDate> "2024-12-05T17:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/keywords> "Bibliothèques",
+    "Aînés",
+    "Adultes",
+    "Activités de la ville",
+    "Laval-Ouest";
+  <http://schema.org/location> <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>;
+  <http://schema.org/name> "Café et casse-têtes"@fr;
+  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
+  <http://schema.org/startDate> "2024-12-05T15:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-cafe-casse-tetes.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-club-lecture-oeuvrelue.aspx#2024-10-15T17-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -1735,6 +1837,28 @@ participants.<br></p>"""@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-12-30T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-creation-zines-accordeons.aspx> .
+
+<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-cuisine-moleculaire.aspx#2024-10-19T14-30> a <http://schema.org/Event>;
+  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
+    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
+    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
+    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
+    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>,
+    <https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45>;
+  <http://schema.org/description> "<p><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">La science de l'atome entre dans la cuisine! Lors de cet atelier, les jeunes fabriqueront eux-mêmes leur caviar de jus de fruits, avant de le déguster.</span><br></p>"@fr;
+  <http://schema.org/endDate> "2024-10-19T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-jeunesse-cuisine-moleculaire-335x215.jpg>;
+  <http://schema.org/keywords> "Bibliothèques",
+    "Familles",
+    "Jeunesse",
+    "Activités de la ville",
+    "Laval-Ouest",
+    "Jouer";
+  <http://schema.org/location> <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>;
+  <http://schema.org/name> "Cuisine Moléculaire"@fr;
+  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
+  <http://schema.org/startDate> "2024-10-19T14:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-cuisine-moleculaire.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-fabrication-decoration-noel-papier.aspx#2024-11-30T18-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -6386,6 +6510,98 @@ participants.<br></p>"""@fr;
   <http://schema.org/startDate> "2024-12-15T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-yogistoires-tout-petits.aspx> .
 
+<https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-aines-branches.aspx#2024-09-17T22-00> a <http://schema.org/Event>;
+  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
+    <https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5>,
+    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
+    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
+    <https://www.laval.ca/c5344ab2-4101-46eb-aea3-528f4ebef18c>,
+    <https://www.laval.ca/bde5907b-ecee-45d9-9051-bfc09e259843>,
+    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
+  <http://schema.org/description> "<p><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Soirée d'aide technologique pour aînés</span></p>Nous pouvons vous aider!<br><br>Entrée libre<p><br></p>"@fr;
+  <http://schema.org/endDate> "2024-09-18T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/keywords> "Bibliothèques",
+    "Aînés",
+    "Adultes",
+    "Activités de la ville",
+    "Informatique et technologies",
+    "Techno",
+    "Laval-Ouest";
+  <http://schema.org/location> <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>;
+  <http://schema.org/name> "Aînés branchés"@fr;
+  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
+  <http://schema.org/startDate> "2024-09-17T22:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-aines-branches.aspx> .
+
+<https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-aines-branches.aspx#2024-10-22T22-00> a <http://schema.org/Event>;
+  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
+    <https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5>,
+    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
+    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
+    <https://www.laval.ca/c5344ab2-4101-46eb-aea3-528f4ebef18c>,
+    <https://www.laval.ca/bde5907b-ecee-45d9-9051-bfc09e259843>,
+    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
+  <http://schema.org/description> "<p><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Soirée d'aide technologique pour aînés</span></p>Nous pouvons vous aider!<br><br>Entrée libre<p><br></p>"@fr;
+  <http://schema.org/endDate> "2024-10-23T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/keywords> "Bibliothèques",
+    "Aînés",
+    "Adultes",
+    "Activités de la ville",
+    "Informatique et technologies",
+    "Techno",
+    "Laval-Ouest";
+  <http://schema.org/location> <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>;
+  <http://schema.org/name> "Aînés branchés"@fr;
+  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
+  <http://schema.org/startDate> "2024-10-22T22:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-aines-branches.aspx> .
+
+<https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-aines-branches.aspx#2024-11-19T23-00> a <http://schema.org/Event>;
+  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
+    <https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5>,
+    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
+    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
+    <https://www.laval.ca/c5344ab2-4101-46eb-aea3-528f4ebef18c>,
+    <https://www.laval.ca/bde5907b-ecee-45d9-9051-bfc09e259843>,
+    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
+  <http://schema.org/description> "<p><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Soirée d'aide technologique pour aînés</span></p>Nous pouvons vous aider!<br><br>Entrée libre<p><br></p>"@fr;
+  <http://schema.org/endDate> "2024-11-20T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/keywords> "Bibliothèques",
+    "Aînés",
+    "Adultes",
+    "Activités de la ville",
+    "Informatique et technologies",
+    "Techno",
+    "Laval-Ouest";
+  <http://schema.org/location> <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>;
+  <http://schema.org/name> "Aînés branchés"@fr;
+  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
+  <http://schema.org/startDate> "2024-11-19T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-aines-branches.aspx> .
+
+<https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-aines-branches.aspx#2024-12-10T23-00> a <http://schema.org/Event>;
+  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
+    <https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5>,
+    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
+    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
+    <https://www.laval.ca/c5344ab2-4101-46eb-aea3-528f4ebef18c>,
+    <https://www.laval.ca/bde5907b-ecee-45d9-9051-bfc09e259843>,
+    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
+  <http://schema.org/description> "<p><span style=\"font-size&#58;16px;background-color&#58;transparent;\">Soirée d'aide technologique pour aînés</span></p>Nous pouvons vous aider!<br><br>Entrée libre<p><br></p>"@fr;
+  <http://schema.org/endDate> "2024-12-11T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/keywords> "Bibliothèques",
+    "Aînés",
+    "Adultes",
+    "Activités de la ville",
+    "Informatique et technologies",
+    "Techno",
+    "Laval-Ouest";
+  <http://schema.org/location> <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>;
+  <http://schema.org/name> "Aînés branchés"@fr;
+  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
+  <http://schema.org/startDate> "2024-12-10T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-aines-branches.aspx> .
+
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-atelier-techno-pro.aspx#2024-10-05T17-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222>,
@@ -6910,6 +7126,30 @@ participants.<br></p>"""@fr;
   <http://schema.org/startDate> "2024-11-03T18:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-contes-animes.aspx> .
 
+<https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-danseurs-electromagnetiques.aspx#2024-11-23T18-30> a <http://schema.org/Event>;
+  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
+    <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222>,
+    <https://www.laval.ca/bde5907b-ecee-45d9-9051-bfc09e259843>,
+    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
+    <https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45>,
+    <https://www.laval.ca/94191cf9-eee0-4e11-8300-3b066afdbb14>,
+    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>;
+  <http://schema.org/description> "<p>Une activité qui allie magnétisme et électricité et qui permettra aux jeunes de découvrir les principes de l'électromagnétisme.<br></p>"@fr;
+  <http://schema.org/endDate> "2024-11-23T20:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/danseurs-electromagnetiques-335x215.jpg>;
+  <http://schema.org/keywords> "Bibliothèques",
+    "Adolescents",
+    "Techno",
+    "Activités de la ville",
+    "Jouer",
+    "Découvrir",
+    "Chomedey";
+  <http://schema.org/location> <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>;
+  <http://schema.org/name> "Danseurs électromagnétiques"@fr;
+  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
+  <http://schema.org/startDate> "2024-11-23T18:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-danseurs-electromagnetiques.aspx> .
+
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-nature-morte-restes-collation.aspx#2024-09-22T17-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
@@ -7390,8 +7630,8 @@ participants.<br></p>"""@fr;
     <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
     <https://www.laval.ca/4d9e9803-3763-432c-a437-d0f8315f20e8>,
     <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>;
-  <http://schema.org/description> """Lorsque la magie du conte s’allie à la puissance de la danse percussive, c’est une histoire aussi touchante que palpitante qui s’offre à nous !&#160;<div><br></div><div>
-Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 ans et +.<br></div>"""@fr;
+  <http://schema.org/description> """<p>ANNULÉ&#160;Lorsque la magie du conte s’allie à la puissance de la danse percussive, c’est une histoire aussi touchante que palpitante qui s’offre à nous !&#160;<br></p><p>
+Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 ans et +.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-09-15T14:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Calendrier/herisson-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
@@ -7402,7 +7642,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     "Expositions et spectacles",
     "Jeune public";
   <http://schema.org/location> <https://www.laval.ca/0290e691-0f2b-40ec-99ba-2e3791c8d8c2>;
-  <http://schema.org/name> "Spectacle petite enfance - Le hérisson au parc Chopin"@fr;
+  <http://schema.org/name> "ANNULÉ Spectacle petite enfance - Le hérisson au parc Chopin"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-09-15T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/dehors-culture-danse-herisson-parc-chopin.aspx> .
@@ -7416,8 +7656,8 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
     <https://www.laval.ca/4d9e9803-3763-432c-a437-d0f8315f20e8>,
     <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>;
-  <http://schema.org/description> """Lorsque la magie du conte s’allie à la puissance de la danse percussive, c’est une histoire aussi touchante que palpitante qui s’offre à nous !&#160;<div><br></div><div>
-Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 ans et +.<br></div>"""@fr;
+  <http://schema.org/description> """<p>ANNULÉ&#160;Lorsque la magie du conte s’allie à la puissance de la danse percussive, c’est une histoire aussi touchante que palpitante qui s’offre à nous !&#160;<br></p><p>
+Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 ans et +.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-09-08T14:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Calendrier/herisson-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
@@ -7428,7 +7668,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     "Expositions et spectacles",
     "Jeune public";
   <http://schema.org/location> <https://www.laval.ca/af690649-c262-40ca-b601-74c800305e8b>;
-  <http://schema.org/name> "Spectacle petite enfance - Le hérisson au parc Labelle"@fr;
+  <http://schema.org/name> "ANNULÉ Spectacle petite enfance - Le hérisson au parc Labelle"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-09-08T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/dehors-culture-danse-herisson-parc-labelle.aspx> .
@@ -7442,8 +7682,8 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
     <https://www.laval.ca/4d9e9803-3763-432c-a437-d0f8315f20e8>,
     <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>;
-  <http://schema.org/description> """Lorsque la magie du conte s’allie à la puissance de la danse percussive, c’est une histoire aussi touchante que palpitante qui s’offre à nous !&#160;<div><br></div><div>
-Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 ans et +.<br></div>"""@fr;
+  <http://schema.org/description> """<p>ANNULÉ&#160;Lorsque la magie du conte s’allie à la puissance de la danse percussive, c’est une histoire aussi touchante que palpitante qui s’offre à nous !&#160;<br></p><p>
+Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 ans et +.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-09-08T18:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Calendrier/herisson-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
@@ -7454,7 +7694,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     "Expositions et spectacles",
     "Jeune public";
   <http://schema.org/location> <https://www.laval.ca/af690649-c262-40ca-b601-74c800305e8b>;
-  <http://schema.org/name> "Spectacle petite enfance - Le hérisson au parc Labelle"@fr;
+  <http://schema.org/name> "ANNULÉ Spectacle petite enfance - Le hérisson au parc Labelle"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-09-08T18:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/dehors-culture-danse-herisson-parc-labelle.aspx> .
@@ -7468,8 +7708,8 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
     <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>,
     <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>;
-  <http://schema.org/description> """Lorsque la magie du conte s’allie à la puissance de la danse percussive, c’est une histoire aussi touchante que palpitante qui s’offre à nous !&#160;<div><br></div><div>
-Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 ans et +.<br></div>"""@fr;
+  <http://schema.org/description> """<p>ANNULÉ&#160;Lorsque la magie du conte s’allie à la puissance de la danse percussive, c’est une histoire aussi touchante que palpitante qui s’offre à nous !&#160;<br></p><p>
+Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 ans et +.<br></p>"""@fr;
   <http://schema.org/endDate> "2024-09-14T14:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Calendrier/herisson-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
@@ -7480,7 +7720,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     "Saint-François",
     "Jeune public";
   <http://schema.org/location> <https://www.laval.ca/396f4d05-fa87-423b-a5d9-205be02d689d>;
-  <http://schema.org/name> "Spectacle petite enfance - Le hérisson au parc du Moulin"@fr;
+  <http://schema.org/name> "ANNULÉ Spectacle petite enfance - Le hérisson au parc du Moulin"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-09-14T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/dehors-culture-danse-herisson-parc-moulin.aspx> .
@@ -7494,7 +7734,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
     <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>,
     <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>;
-  <http://schema.org/description> "<p>Lorsque la magie du conte s’allie à la puissance de la danse percussive, c’est une histoire aussi touchante que palpitante qui s’offre à nous !&#160;<br></p><div><br></div><p>Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 ans et +.<br></p>"@fr;
+  <http://schema.org/description> "<p>ANNULÉ -&#160;Lorsque la magie du conte s’allie à la puissance de la danse percussive, c’est une histoire aussi touchante que palpitante qui s’offre à nous !&#160;<br></p><div><br></div><p>Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 ans et +.<br></p>"@fr;
   <http://schema.org/endDate> "2024-09-07T14:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Calendrier/herisson-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
@@ -7504,7 +7744,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     "Expositions et spectacles",
     "Laval-Ouest",
     "Jeune public";
-  <http://schema.org/name> "Spectacle petite enfance - Le hérisson au parc Ringuet"@fr;
+  <http://schema.org/name> "ANNULÉ Spectacle petite enfance - Le hérisson au parc Ringuet"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-09-07T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/dehors-culture-danse-herisson-parc-ringuet.aspx> .
@@ -7518,7 +7758,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
     <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>,
     <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>;
-  <http://schema.org/description> "<p>Lorsque la magie du conte s’allie à la puissance de la danse percussive, c’est une histoire aussi touchante que palpitante qui s’offre à nous !&#160;<br></p><div><br></div><p>Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 ans et +.<br></p>"@fr;
+  <http://schema.org/description> "<p>ANNULÉ -&#160;Lorsque la magie du conte s’allie à la puissance de la danse percussive, c’est une histoire aussi touchante que palpitante qui s’offre à nous !&#160;<br></p><div><br></div><p>Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 ans et +.<br></p>"@fr;
   <http://schema.org/endDate> "2024-09-07T18:35:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Calendrier/herisson-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
@@ -7528,8 +7768,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     "Expositions et spectacles",
     "Laval-Ouest",
     "Jeune public";
-  <http://schema.org/location> <https://www.laval.ca/de905d46-f9e9-418c-8761-edd7c676b66c>;
-  <http://schema.org/name> "Spectacle petite enfance - Le hérisson au parc Ringuet"@fr;
+  <http://schema.org/name> "ANNULÉ Spectacle petite enfance - Le hérisson au parc Ringuet"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-09-07T18:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/dehors-culture-danse-herisson-parc-ringuet.aspx> .
@@ -7835,7 +8074,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
   <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
     <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
     <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Ateliers de création inspirée des œuvres de la Collection d’œuvres d’art de la Ville de Laval"@fr;
+  <http://schema.org/name> "Ateliers de création inspirés des œuvres de la Collection d’œuvres d’art de la Ville de Laval"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-09-29T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/journees-culture-biblio-jeunesse-atelier-creation-oeuvre-art.aspx> .
@@ -7871,7 +8110,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
   <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
     <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
     <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Ateliers de création inspirée des œuvres de la Collection d’œuvres d’art de la Ville de Laval"@fr;
+  <http://schema.org/name> "Ateliers de création inspirés des œuvres de la Collection d’œuvres d’art de la Ville de Laval"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-10-13T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/journees-culture-biblio-jeunesse-atelier-creation-oeuvre-art.aspx> .
@@ -7907,7 +8146,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
   <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
     <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
     <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Ateliers de création inspirée des œuvres de la Collection d’œuvres d’art de la Ville de Laval"@fr;
+  <http://schema.org/name> "Ateliers de création inspirés des œuvres de la Collection d’œuvres d’art de la Ville de Laval"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-11-17T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/journees-culture-biblio-jeunesse-atelier-creation-oeuvre-art.aspx> .
@@ -7933,18 +8172,18 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
 
 <https://www.laval.ca/Pages/Fr/Calendrier/journees-culture-theatre-comme-appel-air-residence.aspx#2024-09-29T18-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf>,
-    <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
     <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/19ee1148-8969-416f-8c54-e9d1c69042ff>;
+    <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
+    <https://www.laval.ca/19ee1148-8969-416f-8c54-e9d1c69042ff>,
+    <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>;
   <http://schema.org/description> "<p>Spectacle de théâtre - sortie de résidence<br>Public cible &#58; familles et enfants de&#160;10 ans et plus<br>Activité présentée dans le cadre des Journées de la culture<br></p>"@fr;
   <http://schema.org/endDate> "2024-09-29T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Calendrier/comme-appel-air-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
-    "Arts de la scène",
-    "Expositions et spectacles",
     "Laval-des-Rapides",
-    "Journées de la culture";
+    "Expositions et spectacles",
+    "Journées de la culture",
+    "Jeune public";
   <http://schema.org/location> <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6>;
   <http://schema.org/name> "Théâtre - Comme un appel d'air"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
@@ -7970,6 +8209,26 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
   <http://schema.org/startDate> "2024-09-28T17:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/journees-culture-viree-patrimoniale-st-francois.aspx> .
 
+<https://www.laval.ca/Pages/Fr/Calendrier/journees-culture-zoom-art-2024-conference-caroline-boileau.aspx#2024-09-29T20-00> a <http://schema.org/Event>;
+  <http://schema.org/additionalType> <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
+    <https://www.laval.ca/1f7a945a-da07-4183-a3aa-247b76faaa6b>,
+    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
+    <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121>,
+    <https://www.laval.ca/19ee1148-8969-416f-8c54-e9d1c69042ff>;
+  <http://schema.org/description> "<p>L'artiste Caroline Boileau participe au Projet Zoom Art où deux de ses œuvres sont reproduites sur un espace d’affichage du Métro Montmorency. Cette conférence lui permet de rencontrer les Lavallois pour leur présenter son parcours artistique.<br></p>"@fr;
+  <http://schema.org/endDate> "2024-09-29T20:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Calendrier/caroline-boileau-335x215.jpg>;
+  <http://schema.org/keywords> "Expositions et spectacles",
+    "Art public",
+    "Chomedey",
+    "Exposition",
+    "Journées de la culture";
+  <http://schema.org/location> <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6>;
+  <http://schema.org/name> "À toi Zoom Art : Conférence-échange avec l'artiste Caroline Boileau et la commissaire du Projet Zoom Art"@fr;
+  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
+  <http://schema.org/startDate> "2024-09-29T20:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/journees-culture-zoom-art-2024-conference-caroline-boileau.aspx> .
+
 <https://www.laval.ca/Pages/Fr/Calendrier/journees-culture-zoom-art-2024-conference-francis-macchiagodena.aspx#2024-09-29T19-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
     <https://www.laval.ca/1f7a945a-da07-4183-a3aa-247b76faaa6b>,
@@ -7978,6 +8237,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121>;
   <http://schema.org/description> "<p>L'artiste photographe lavallois Francis Macchiagodena participe au Projet Zoom Art où deux de ses œuvres sont reproduites sur des boites lumineuses de la station Cartier. Cette conférence lui permet de rencontrer les Lavallois pour leur présenter son parcours de photographe.<br><br></p>"@fr;
   <http://schema.org/endDate> "2024-09-29T19:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Calendrier/francis-macchiagodena-335x215.jpg>;
   <http://schema.org/keywords> "Expositions et spectacles",
     "Art public",
     "Chomedey",
@@ -8053,7 +8313,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
     <https://www.laval.ca/8f39fafb-9ebc-469c-b84f-8aa5224b47e8>,
     <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>;
-  <http://schema.org/description> "<p>Spectacle de cirque (planche coréenne)<br>Pour toute la famille<br>Tout public, à partir de 10 ans<br></p><p><br></p>"@fr;
+  <http://schema.org/description> "<p>​​Spectacle de cirque (planche coréenne)<br>Pour toute la famille<br>Tout public, à partir de 10 ans<br></p><p><br></p>"@fr;
   <http://schema.org/endDate> "2024-12-07T22:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2024/grand-public-ghost-light-335x215.jpg>;
   <http://schema.org/keywords> "Expositions et spectacles",
@@ -8389,7 +8649,7 @@ Le hérisson, un nouveau spectacle de ZEUGMA DANSE destiné à un public de 3 an
     <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
     <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>,
     <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>;
-  <http://schema.org/description> "<p>​Spectacle de danse<br>Public cible &#58; 10 ans et plus<br></p><p><br></p>"@fr;
+  <http://schema.org/description> "<p>​​Spectacle de danse<br>Public cible &#58; 10 ans et plus<br></p><p><br></p>"@fr;
   <http://schema.org/endDate> "2024-11-24T20:05:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2024/jeune-public-alexis-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
@@ -8912,52 +9172,6 @@ Durée &#58; 35 minutes </div>"""@fr;
   <http://schema.org/startDate> "2024-08-01T04:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/momo-coffre-jeux.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/momo-entre-deux-artistique-kumpania.aspx#2024-09-03T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/b2263ec5-6cbf-4c6f-8887-6acf6b2188fe>,
-    <https://www.laval.ca/9031058b-f604-4bbe-9bdd-1ef83d30a194>,
-    <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
-    <https://www.laval.ca/748dbb96-8c5e-4ec8-8875-e5540a7c41e8>,
-    <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/44223d12-74ea-46ce-9f12-8e7441091318>;
-  <http://schema.org/description> "<p>En septembre, les mardis midi à la station culturelle Momo, laissez-vous surprendre et émerveiller pendant votre pause du dîner! Au menu &#58; des performances artistiques allant de la danse aux percussions en passant par le théâtre d'improvisation. L’occasion parfaite de nourrir votre esprit tout en savourant votre repas!<br></p>"@fr;
-  <http://schema.org/endDate> "2024-09-03T16:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/momo/2024/kumpa-nia-335x215.jpg>;
-  <http://schema.org/keywords> "Dehors",
-    "Bouger",
-    "Expositions et spectacles",
-    "Danse",
-    "Événements et festivals",
-    "Laval-des-Rapides",
-    "Ateliers culturels";
-  <http://schema.org/name> "L’entre-deux artistique : KUMPA’NIA"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-09-03T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/momo-entre-deux-artistique-kumpania.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/momo-entre-deux-artistique-kumpania.aspx#2024-09-03T16-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/b2263ec5-6cbf-4c6f-8887-6acf6b2188fe>,
-    <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf>,
-    <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
-    <https://www.laval.ca/9031058b-f604-4bbe-9bdd-1ef83d30a194>,
-    <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf>,
-    <https://www.laval.ca/748dbb96-8c5e-4ec8-8875-e5540a7c41e8>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>;
-  <http://schema.org/description> "<p>En septembre, les mardis midi à la station culturelle Momo, laissez-vous surprendre et émerveiller pendant votre pause du dîner! Au menu &#58; des performances artistiques allant de la danse aux percussions en passant par le théâtre d'improvisation. L’occasion parfaite de nourrir votre esprit tout en savourant votre repas!<br></p>"@fr;
-  <http://schema.org/endDate> "2024-09-03T17:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/momo/2024/kumpa-nia-335x215.jpg>;
-  <http://schema.org/keywords> "Dehors",
-    "Arts de la scène",
-    "Expositions et spectacles",
-    "Bouger",
-    "Événements et festivals",
-    "Danse",
-    "Laval-des-Rapides";
-  <http://schema.org/name> "L’entre-deux artistique : KUMPA’NIA"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-09-03T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/momo-entre-deux-artistique-kumpania.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/momo-entre-deux-artistique-paillettes-sans-yeux.aspx#2024-09-10T16-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/b2263ec5-6cbf-4c6f-8887-6acf6b2188fe>,
     <https://www.laval.ca/9031058b-f604-4bbe-9bdd-1ef83d30a194>,
@@ -9078,29 +9292,6 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/startDate> "2024-09-12T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/momo-humour-rachelle-elie.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/momo-humour-sam-vigneault.aspx#2024-09-05T23-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
-    <https://www.laval.ca/22ea72c1-f4ac-4873-be24-c94e7d742d5f>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf>,
-    <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf>,
-    <https://www.laval.ca/21042c97-019f-420f-af22-df0a18f83f24>;
-  <http://schema.org/description> "<p>Tous les jeudis soir à partir de 19h, Co-Motion anime la station culturelle Momo avec une programmation variée &#58; hip-hop, électro, humour ou battles de danse. Venez profiter de la scène locale et du bar dans une ambiance festive!<br><br></p><br>"@fr;
-  <http://schema.org/endDate> "2024-09-05T23:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/momo/momo-jeudi-comotion-sam-vigneault-335x215.png>;
-  <http://schema.org/keywords> "Expositions et spectacles",
-    "co-motion",
-    "Activités de la ville",
-    "Laval-des-Rapides",
-    "Événements et festivals",
-    "Arts de la scène",
-    "Cet été dans mon quartier";
-  <http://schema.org/name> "Spectacle d'humour : Sam Vigneault et ses invités"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-09-05T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/momo-humour-sam-vigneault.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/momo-jeudi-comotion-naomi.aspx#2024-09-13T00-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/b2263ec5-6cbf-4c6f-8887-6acf6b2188fe>,
     <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf>,
@@ -9150,31 +9341,6 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-09-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/momo-jeudi-comotion-parazar.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/momo-jeudi-comotion-raccoon.aspx#2024-09-06T00-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/b2263ec5-6cbf-4c6f-8887-6acf6b2188fe>,
-    <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf>,
-    <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
-    <https://www.laval.ca/22ea72c1-f4ac-4873-be24-c94e7d742d5f>,
-    <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/21042c97-019f-420f-af22-df0a18f83f24>;
-  <http://schema.org/description> "<p>Tous les jeudis soir à partir de 19h, Co-Motion&#160; anime la station culturelle Momo avec une programmation variée &#58; hip-hop, électro, humour ou battles de danse. Venez profiter de la scène locale et du bar dans une ambiance festive!<br><br></p><br>"@fr;
-  <http://schema.org/endDate> "2024-09-06T01:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/momo/2024/raccoon-335x215.jpg>;
-  <http://schema.org/keywords> "Dehors",
-    "Arts de la scène",
-    "Expositions et spectacles",
-    "co-motion",
-    "Événements et festivals",
-    "Laval-des-Rapides",
-    "Activités de la ville",
-    "Cet été dans mon quartier";
-  <http://schema.org/name> "Spectacle de Raccoon"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-09-06T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/momo-jeudi-comotion-raccoon.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/momo-mosaique-elage-diouf.aspx#2024-09-06T23-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
@@ -9562,7 +9728,7 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
     <https://www.laval.ca/b82c3b94-fa4b-411b-b8f4-1d329c36e14d>;
   <http://schema.org/description> "<p>Dans le cadre de la Semaine lavalloise des aînés, la Ville de Laval vous invite à une marche animée du parcours Zoom Art.<br><br></p>"@fr;
   <http://schema.org/endDate> "2024-10-04T15:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Culture/activites-culturelles/zoom-art/journees-culture-zoom-art-visite-335x215.jpg>;
+  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/semaine-lavalloise-aines/marche-zoom-art-335x215-caroline-boileau-sorciere-cosmique.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
     "Aînés",
     "Laval-des-Rapides",
@@ -9636,25 +9802,6 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-10-06T18:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/semaine-lavalloise-aines-spectacle.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/zoom-art-2024-conference-caroline-boileau.aspx#2024-09-29T20-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
-    <https://www.laval.ca/1f7a945a-da07-4183-a3aa-247b76faaa6b>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121>,
-    <https://www.laval.ca/19ee1148-8969-416f-8c54-e9d1c69042ff>;
-  <http://schema.org/description> "<p>L'artiste Caroline Boileau participe au Projet Zoom Art où deux de ses œuvres sont reproduites sur un espace d’affichage du Métro Montmorency. Cette conférence lui permet de rencontrer les Lavallois pour leur présenter son parcours artistique.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-09-29T20:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/keywords> "Expositions et spectacles",
-    "Art public",
-    "Chomedey",
-    "Exposition",
-    "Journées de la culture";
-  <http://schema.org/location> <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6>;
-  <http://schema.org/name> "À toi Zoom Art : Conférence-échange avec l'artiste Caroline Boileau et la commissaire du Projet Zoom Art"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-09-29T20:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/zoom-art-2024-conference-caroline-boileau.aspx> .
 
 <https://www.laval.ca/afa7201f-6aab-4196-b349-66674653729b> a <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
@@ -9915,26 +10062,6 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/name> "Fêtes de quartier"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/de905d46-f9e9-418c-8761-edd7c676b66c> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/streetAddress> "4749 boulevard Arthur-Sauvé"
-  ];
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,55275659";
-    <http://schema.org/longitude> "-73,86850185"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/4749+boulevard+Arthur-Sauvé,+Laval,+QC+>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
-  <http://schema.org/name> "Parc Ringuet"@fr,
-    "Parc Ringuet";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/parc-ringuet.aspx> .
-
 <https://www.laval.ca/lieux/Pages/Fr/bois-et-boises.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Bois et boisés" .
 
@@ -10048,6 +10175,22 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
 
 <https://www.laval.ca/lieux/Pages/Fr/centre-art-sainte-rose.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Centre d’art de Sainte-Rose" .
+
+<https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-acces.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> "Centre communautaire Accès"@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> "Centre communautaire Accès"@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/centre-communautaire-acces.aspx"@fr-fr;
+  <http://schema.org/name> "Centre communautaire Accès" .
+
+<https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-auteuil.aspx> a <http://schema.org/Thing>;
+  <http://ogp.me/ns#description> ""@fr-fr;
+  <http://ogp.me/ns#image> ""@fr-fr;
+  <http://ogp.me/ns#title> ""@fr-fr;
+  <http://ogp.me/ns#type> "place"@fr-fr;
+  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/centre-communautaire-auteuil.aspx"@fr-fr;
+  <http://schema.org/name> "Centre communautaire Auteuil" .
 
 <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-laval-ouest.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> "​​​​Centre communautaire Laval-Ouest​"@fr-fr;
@@ -10175,14 +10318,6 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-labelle.aspx"@fr-fr;
   <http://schema.org/name> "Parc Labelle" .
 
-<https://www.laval.ca/lieux/Pages/Fr/parc-ringuet.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "​Parc Ringuet"@fr-fr;
-  <http://ogp.me/ns#image> ""@fr-fr;
-  <http://ogp.me/ns#title> "Parc Ringuet"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/parc-ringuet.aspx"@fr-fr;
-  <http://schema.org/name> "Parc Ringuet" .
-
 <https://www.laval.ca/lieux/Pages/Fr/parc-saint-norbert.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> ""@fr-fr;
   <http://ogp.me/ns#image> ""@fr-fr;
@@ -10230,27 +10365,24 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/name> "Parents"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
+<https://www.laval.ca/44223d12-74ea-46ce-9f12-8e7441091318> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Ateliers culturels"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
 <https://www.laval.ca/88b4373e-7b96-4f3f-ae5d-088b117d4967> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Noël"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/9031058b-f604-4bbe-9bdd-1ef83d30a194> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Bouger"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/bc6cc6d1-9f2c-4851-bf2c-44a7305eaf98> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Musiques du monde"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/c5344ab2-4101-46eb-aea3-528f4ebef18c> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Informatique et technologies"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
 <https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Édifices municipaux" .
-
-<https://www.laval.ca/44223d12-74ea-46ce-9f12-8e7441091318> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Ateliers culturels"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Centres communautaires" .
 
 <https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Histoire"@fr;
@@ -10260,16 +10392,23 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/name> "Communautaire et organismes"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
-<https://www.laval.ca/9031058b-f604-4bbe-9bdd-1ef83d30a194> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Bouger"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
 <https://www.laval.ca/1f7a945a-da07-4183-a3aa-247b76faaa6b> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Art public"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/8e534c66-0d1a-4a34-b9b1-f2473fb3f56c> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Escapades"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Centres communautaires" .
+
+<https://www.laval.ca/c5344ab2-4101-46eb-aea3-528f4ebef18c> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Informatique et technologies"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/22ea72c1-f4ac-4873-be24-c94e7d742d5f> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "co-motion"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/4d9e9803-3763-432c-a437-d0f8315f20e8> a <http://www.w3.org/2004/02/skos/core#Concept>;
@@ -10284,27 +10423,19 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/name> "Yoga"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Bibliothèques" .
-
-<https://www.laval.ca/22ea72c1-f4ac-4873-be24-c94e7d742d5f> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "co-motion"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/lieux/Pages/Fr/parcs.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Parcs" .
-
 <https://www.laval.ca/21042c97-019f-420f-af22-df0a18f83f24> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Cet été dans mon quartier"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
+<https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Bibliothèques" .
+
+<https://www.laval.ca/lieux/Pages/Fr/parcs.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Parcs" .
+
 <https://www.laval.ca/748dbb96-8c5e-4ec8-8875-e5540a7c41e8> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Danse"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Aînés"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
 <https://www.laval.ca/b82c3b94-fa4b-411b-b8f4-1d329c36e14d> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Semaine lavalloise des aînés"@fr;
@@ -10318,6 +10449,10 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/name> "Activités virtuelles"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
+<https://www.laval.ca/b2263ec5-6cbf-4c6f-8887-6acf6b2188fe> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Dehors"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
+
 <https://www.laval.ca/19ee1148-8969-416f-8c54-e9d1c69042ff> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Journées de la culture"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
@@ -10326,9 +10461,9 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/name> "Théâtre"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/b2263ec5-6cbf-4c6f-8887-6acf6b2188fe> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Dehors"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
+<https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Aînés"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
 <https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Vivre"@fr;
@@ -10338,9 +10473,9 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/name> "Adolescents"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
-<https://www.laval.ca/bde5907b-ecee-45d9-9051-bfc09e259843> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Techno"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+<https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Événements et festivals"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
 <https://www.laval.ca/94191cf9-eee0-4e11-8300-3b066afdbb14> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Découvrir"@fr;
@@ -10350,9 +10485,13 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/name> "Jeune public"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Événements et festivals"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
+<https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Arts de la scène"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/bde5907b-ecee-45d9-9051-bfc09e259843> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Techno"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Jouer"@fr;
@@ -10363,10 +10502,6 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
 
 <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Carte interactive" .
-
-<https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Arts de la scène"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -10395,10 +10530,6 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/telephone> "450 662-4440",
     "Billetterie : 450 667-2040";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx> .
-
-<https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Adultes"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -10433,6 +10564,10 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/name> "Saint-François"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
+<https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Adultes"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
 <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Arts"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
@@ -10440,38 +10575,6 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
 <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Expositions et spectacles"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
-
-<https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7R 5P8";
-    <http://schema.org/streetAddress> "4747 boulevard Arthur-Sauvé"
-  ];
-  <http://schema.org/description> """<p>
-   <span class=\"icon-website\">​</span>Nous joindre &#58;&#160;​<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre​</a></p>​<span>​Autobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 46, 55 et 76​</a><span class=\"icon-website-inline\">​</span><span style=\"color&#58;#333333;font-family&#58;arial;font-weight&#58;bold;\">​</span> 
-<br>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,55251471";
-    <http://schema.org/longitude> "-73,86900361"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/4747+boulevard+Arthur-Sauvé,+Laval,+QC+H7R+5P8>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/philippe_panneton.jpg>;
-  <http://schema.org/name> "Bibliothèque Philippe-Panneton"@fr,
-    "Bibliothèque Philippe-Panneton";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 978-8919";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-philippe-panneton.aspx> .
-
-<https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Laval-Ouest"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Sainte-Rose"@fr;
@@ -10565,6 +10668,34 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
   <http://schema.org/telephone> "450 978-6599";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx> .
 
+<https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7R 5P8";
+    <http://schema.org/streetAddress> "4747 boulevard Arthur-Sauvé"
+  ];
+  <http://schema.org/description> """<p>
+   <span class=\"icon-website\">​</span>Nous joindre &#58;&#160;​<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre​</a></p>​<span>​Autobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 46, 55 et 76​</a><span class=\"icon-website-inline\">​</span><span style=\"color&#58;#333333;font-family&#58;arial;font-weight&#58;bold;\">​</span> 
+<br>""";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,55251471";
+    <http://schema.org/longitude> "-73,86900361"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/4747+boulevard+Arthur-Sauvé,+Laval,+QC+H7R+5P8>;
+  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/philippe_panneton.jpg>;
+  <http://schema.org/name> "Bibliothèque Philippe-Panneton"@fr,
+    "Bibliothèque Philippe-Panneton";
+  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
+    <https://fr-ca.facebook.com/bibliothequeslaval>,
+    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
+  <http://schema.org/telephone> "450 978-8919";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-philippe-panneton.aspx> .
+
 <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Sainte-Dorothée"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
@@ -10575,6 +10706,10 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
 
 <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Vimont"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Laval-Ouest"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea> a <http://www.w3.org/2004/02/skos/core#Concept>;
@@ -11099,27 +11234,6 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-ringuet.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
       <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parc-labelle.aspx>;
       <http://schema.org/position> 4
     ]
@@ -11255,12 +11369,50 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
       <http://schema.org/position> 2
     ], [
       a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-auteuil.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
       <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx>;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
       <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-de-la-nature.aspx>;
       <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-pratique-artistique.aspx>;
+      <http://schema.org/position> 3
     ]
   ] .
 
@@ -11293,8 +11445,12 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
       <http://schema.org/position> 2
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-pratique-artistique.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx>;
       <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-acces.aspx>;
+      <http://schema.org/position> 4
     ]
   ] .
 
@@ -11352,11 +11508,11 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
       <http://schema.org/position> 2
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bois-et-boises.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx>;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bois-equerre.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-le-sorbier.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
@@ -11373,11 +11529,11 @@ Venez profiter de la scène locale et du bar&#160;dans une ambiance festive !<br
       <http://schema.org/position> 2
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bois-et-boises.aspx>;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-le-sorbier.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bois-equerre.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
