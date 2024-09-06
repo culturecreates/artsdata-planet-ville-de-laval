@@ -33,7 +33,8 @@ Description of the directories and the files they contain.
 dumps
 ------
 
-The converted RDF in turtle. This file is versioned with each load of the data from Donnees Quebec.
+* File from Données Québec in JSON
+* File of data converted to RDF turtle
 
 mapping
 -------
@@ -45,10 +46,10 @@ sparqls
 * replace-blank-nodes.sparql assigns a place URI to all schema:Place and subtypes including schema:LocalBusiness.
 * add-derived-from.sparql adds the webpage to the Place for reference
 
-Minting
+laval.ca URIs
 ========
-This data pipeline assumes that events can be consistently minted using the page url + date (without time).
-<https://www.laval.ca/Pages/Fr/Calendrier/rencontrez-votre-elue-louise-lortie.aspx#2023-06-14> 
+This data pipeline assumes that event URIs can be consistently generated using the page url + date + time(hour,mintues)
+<https://www.laval.ca/Pages/Fr/Calendrier/rencontrez-votre-elue-louise-lortie.aspx#2023-06-14T16-00> 
 
 
 Editing the Mapping file
@@ -64,7 +65,6 @@ To edit RDF mapping:
 - Export > Export project configurations into Github /ontorefine/config.json
 
 
-
 History
 ==========
 * In the summer of 2023 the City of Laval fixed their export of JSON event data which is sent to the Données Quebec Portal.
@@ -76,7 +76,7 @@ History
 * 2023-09-11: Culture Creates starting loading City of Laval events into Artsdata.
 * 2023-09-18: Culture Creates confirms that the feed from Ville de Laval is broken.
 * 2023-11-07: Culture Creates confirms that the feed from Ville de Laval is starting to work again.
-* 2023-12-04: CUlture Creates resumes weekly imports to  Artsdata.
+* 2023-12-04: CUlture Creates resumes weekly imports to Artsdata.
 * 2024-03-15: Culture Creates automates pull from Donnees Quebec using this repo's [workflow](https://github.com/culturecreates/artsdata-planet-ville-de-laval/blob/main/.github/workflows/ville-de-laval-entities.yml)
 
 
@@ -84,9 +84,5 @@ History
 Artsdata Export to Footlight CMS
 ===========
 The events are loaded into Footlight CMS on a schedule located in the [Footlight Aggregator workflow](https://github.com/culturecreates/footlight-aggregator/blob/main/.github/workflows/import-data-ville-de-laval.yml).
-
-Manual check [5 events JSON](http://api.artsdata.ca/query.json?limit=5&frame=event_footlight&sparql=query_footlight_events&source=http://kg.artsdata.ca/culture-creates/artsdata-planet-ville-de-laval/calendrier-activites) 
-
-
 
 Future improvement: Check date of event within 23 hrs instead of truncating dateTime.
