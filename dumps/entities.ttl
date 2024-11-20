@@ -25,48 +25,6 @@
   <http://schema.org/telephone> "450 662-4964 ";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/piscine-du-centre-sportif-josee-faucher.aspx> .
 
-<https://www.laval.ca/1d2037c7-b56e-4a73-b83d-15df2aee2d93> a <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7M 0B4";
-    <http://schema.org/streetAddress> "455 rue de Lausanne"
-  ];
-  <http://schema.org/description> "<div><span style=\"color&#58;#0a0a0a;font-family&#58;roboto, arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">&#160;</span><span style=\"color&#58;#0a0a0a;font-family&#58;roboto, arial, helvetica, sans-serif;font-size&#58;16px;font-weight&#58;400;\">Le centre communautaire a obtenu la certification LEED&#160;Or&#160;en janvier&#160;2020.</span><br></div>";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,618461681700000";
-    <http://schema.org/longitude> "-73,719247395500000"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/455+rue+de+Lausanne,+Laval,+QC+H7M+0B4>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/centre_communautaire/centre-communautaire-lausanne-175x110.jpg>;
-  <http://schema.org/name> "Centre communautaire Régent-Martimbeau";
-  <http://schema.org/telephone> "450 978-6888 poste 4976";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-regent-martimbeau.aspx> .
-
-<https://www.laval.ca/52caaaa2-2df3-45fb-8f4f-024abf189411> a <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7V 3C1";
-    <http://schema.org/streetAddress> "1450 boulevard Pie-X"
-  ];
-  <http://schema.org/description> "<p><br><br></p>";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,55025381";
-    <http://schema.org/longitude> "-73,74954185"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/1450+boulevard+Pie-X,+Laval,+QC+H7V+3C1>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/centre_communautaire/saint_joseph.jpg>;
-  <http://schema.org/name> "Centre communautaire Saint-Joseph";
-  <http://schema.org/telephone> "450 978-8963";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-saint-joseph.aspx> .
-
 <https://www.laval.ca/5a785148-8eda-4423-a235-2844c9336205> a <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
@@ -96,10 +54,6 @@
     <http://schema.org/postalCode> "H7E 2T7";
     <http://schema.org/streetAddress> "901 avenue du Parc"
   ];
-  <http://schema.org/description> """<p>
- <span class=\"icon-important\"></span>Des travaux pour l’aménagement d’une aire d’exercice pour chiens sont présentement en cours au Centre de la nature, à proximité du Centre horticole de Laval. 
- <a href=\"/Pages/Fr/Citoyens/travaux-dans-parcs-et-espaces-verts.aspx#saintvincentdepaul\" target=\"_blank\">Consultez tous les détails&#160;</a><br></p>
-<br>""";
   <http://schema.org/email> "centrenature@laval.ca";
   <http://schema.org/geo> [
     a <http://schema.org/GeoCoordinates>;
@@ -291,26 +245,6 @@
   <http://schema.org/startDate> "2024-11-20T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-ados-creation-contenu-passionnes-jeux-video.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-ados-histoire-famille.aspx#2024-11-16T19-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222>,
-    <https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>;
-  <http://schema.org/description> "<p>Avec sa plume sensible et son style direct, nourri par l'envie de raconter une partie de son histoire, l'auteur, marionnettiste et dramaturge Jocelyn Sioui partage des outils qu'il a développés à travers son processus créatif unique et son approche documentaire.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-16T20:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/jocelyn-sioui-335x215.png>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Adolescents",
-    "Histoire",
-    "Activités de la ville",
-    "Sainte-Rose";
-  <http://schema.org/location> <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>;
-  <http://schema.org/name> "Une histoire de famille"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-16T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-ados-histoire-famille.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-ados-improvisation-ecc.aspx#2024-11-29T23-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222>,
@@ -334,27 +268,6 @@
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-11-29T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-ados-improvisation-ecc.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-ados-pogne-beigne-jase-changements-familiaux.aspx#2024-11-13T23-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>;
-  <http://schema.org/description> "<p><span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">Viens échanger sur les changements familiaux en compagnie d'autres jeunes qui vivent une réalité similaire à la tienne, en mangeant des beignes!&#160;</span><br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-14T01:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-ados-changements-familiaux-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Adolescents",
-    "Chomedey",
-    "Activités de la ville",
-    "Sainte-Rose";
-  <http://schema.org/location> <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>;
-  <http://schema.org/name> "On se pogne le beigne & on jase des changements familiaux"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-13T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-ados-pogne-beigne-jase-changements-familiaux.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-ados-soiree-go-on-lit.aspx#2024-12-01T00-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -399,32 +312,6 @@
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-11-28T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-art-estampe-bois-ecc.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-atelier-creation-oeuvre-art-sarah-galarneau.aspx#2024-11-17T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/94191cf9-eee0-4e11-8300-3b066afdbb14>;
-  <http://schema.org/description> "<p>Même si la collection d'œuvres d'art de Laval existe depuis 1975, elle est encore un secret bien gardé. Venez découvrir les&#160;<span style=\"font-family&#58;arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">œuvres&#160;</span>à travers une courte visite animée et ludique adaptée pour les familles, suivie d'un atelier de création.&#160;<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-17T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/icone-atelier-creation-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Arts",
-    "Activités de la ville",
-    "Jeunesse",
-    "Expositions et spectacles",
-    "Laval-des-Rapides",
-    "Découvrir";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>;
-  <http://schema.org/name> "Atelier de création inspirés du travail de Sarah Galarneau, artiste de la Collection d’œuvres d'art de Laval"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-17T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-atelier-creation-oeuvre-art-sarah-galarneau.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-cafe-casse-tetes.aspx#2024-12-05T15-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -485,23 +372,6 @@
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-12-17T18:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-club-lecture-oeuvrelue.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-club-lecture-virtuel.aspx#2024-11-15T00-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/2fc6ba3c-690b-452b-a79e-6452816d68ad>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>;
-  <http://schema.org/description> "<p>Chaque participant est invité à discuter du livre dans une ambiance conviviale sur la thématique de la saison &#58; être témoin.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-15T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-club-lecture-virturel-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Activités virtuelles",
-    "Activités de la ville",
-    "Arts";
-  <http://schema.org/name> "Club de lecture en virtuel"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-15T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-club-lecture-virtuel.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-club-lecture-virtuel.aspx#2024-12-13T00-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -580,26 +450,6 @@
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-01-20T05:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-litterature-jean-philippe-baril-guerard.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-litterature-oh-plaisir-lire-no1.aspx#2024-11-13T18-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>;
-  <http://schema.org/description> "<p>Un espace de discussion animé par Karine Fortin autour d’un même livre lu par tous les participants.&#160;<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-13T20:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-karine-fortin-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Adultes",
-    "Activités de la ville",
-    "Fabreville",
-    "Arts";
-  <http://schema.org/location> <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>;
-  <http://schema.org/name> "Oh! Plaisir de lire (No 1)"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-13T18:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-litterature-oh-plaisir-lire-no1.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-litterature-oh-plaisir-lire-no1.aspx#2024-12-04T18-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -732,74 +582,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/startDate> "2024-12-12T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-photographie-ecc.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-projection-documentaire-peres-lumiere.aspx#2024-11-17T18-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a>;
-  <http://schema.org/description> "<p>Pères en lumière, de la réalisatrice Marie-France Laval, présente cinq pères lavallois à travers autant de courts métrages.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-17T19:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/peres-en-lumiere-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Arts",
-    "Activités de la ville",
-    "Chomedey",
-    "Vivre";
-  <http://schema.org/location> <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>;
-  <http://schema.org/name> "Projection du documentaire Pères en lumière"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-17T18:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-projection-documentaire-peres-lumiere.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-rencontre-oeuvres-art-sarah-galarneau.aspx#2024-11-17T18-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/94191cf9-eee0-4e11-8300-3b066afdbb14>;
-  <http://schema.org/description> "<p>Venez rencontrer l'artiste Sarah Galarneau, de la Collection d'œuvres d'art de&#160;Laval dans votre bibliothèque de quartier. La rencontre d'échanges avec l'artiste sera menée par la responsable de la Collection d'œuvres d'art de&#160;Laval et sera suivie d'une visite animée par une spécialiste de l'histoire de l'art contemporain.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-17T20:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/Sarah-Galarneau-credits-Karine-Larocque-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Arts",
-    "Activités de la ville",
-    "Laval-des-Rapides",
-    "Expositions et spectacles",
-    "Jeunesse",
-    "Découvrir";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>;
-  <http://schema.org/name> "Visite animée et rencontre avec l'artiste Sarah Galarneau, de la Collection d’œuvres d’art de Laval"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-17T18:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-rencontre-oeuvres-art-sarah-galarneau.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-serie-lettres-attachees-rencontre-chrystine-brouillet-romanciere.aspx#2024-11-16T19-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>;
-  <http://schema.org/description> "<p>La romancière Chrystine Brouillet, en direct de la Côte-Nord par visioconférence, animera cet atelier d'écriture qui vous amènera à produire un texte de votre cru tout en explorant un aspect de son œuvre. Après une rencontre sympathique avec l'animateur Nicolas Ouellet, l'autrice vous proposera des exercices d'écriture pour créer une courte scène comme on peut en lire dans ses romans. <br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-16T21:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-arts-chrystine-brouillet-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Arts",
-    "Activités de la ville",
-    "Adultes",
-    "Chomedey";
-  <http://schema.org/location> <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>;
-  <http://schema.org/name> "Série Lettres attachées : rencontre avec Chrystine Brouillet, romancière"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-16T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-serie-lettres-attachees-rencontre-chrystine-brouillet-romanciere.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-virus-versa.aspx#2024-12-13T23-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
@@ -826,26 +608,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-12-13T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-virus-versa.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-escapade-bretagne-cote-sud.aspx#2024-11-14T00-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/8e534c66-0d1a-4a34-b9b1-f2473fb3f56c>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>;
-  <http://schema.org/description> "<p>Partez à la découverte des côtes sauvages de la Bretagne, avec ses îles séduisantes, ses plages immenses, ses villes historiques et son riche patrimoine maritime et culturel.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-14T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-escapade-bretagne-sud-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Adultes",
-    "Activités de la ville",
-    "Escapades",
-    "Fabreville";
-  <http://schema.org/location> <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>;
-  <http://schema.org/name> "La Bretagne côté Sud"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-14T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-escapade-bretagne-cote-sud.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-escapade-offrir-bonheur-rando.aspx#2024-11-20T19-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -906,30 +668,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-histoire-tour-horizon-actualite-internationale.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-abc-zoom.aspx#2024-11-16T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45>,
-    <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
-    <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>;
-  <http://schema.org/description> "<p>Ce parcours d'apprentissage regroupe plusieurs activités qui permettront aux tout-petits de jouer avec les lettres et les chiffres. Une médiatrice spécialisée sera présente pour les guider tout au long de la matinée.&#160;<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-16T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-jeunesse-abc-zoom-335x215.png>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Jeunesse",
-    "Activités de la ville",
-    "Jouer",
-    "Auteuil",
-    "Vimont";
-  <http://schema.org/location> <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>;
-  <http://schema.org/name> "ABC Zoom"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-16T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-abc-zoom.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-abc-zoom.aspx#2024-12-01T15-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -1168,33 +906,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-11-30T18:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-couture-cache-cou-ecc.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-creation-cartes-postales-sara-hebert.aspx#2024-11-17T19-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
-  <http://schema.org/description> "<p>Venez créer une carte postale à l'aide de la technique du collage en compagnie de Sara Hébert, éditrice, collagiste et autrice du livre Bijou de banlieue.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-17T20:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/carte-postale.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Arts",
-    "Activités de la ville",
-    "Jeunesse",
-    "Jeune public",
-    "Laval-des-Rapides",
-    "Laval-Ouest";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>;
-  <http://schema.org/name> "Création de cartes postales avec Sara Hébert"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-17T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-creation-cartes-postales-sara-hebert.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-creation-cartes-postales-sara-hebert.aspx#2024-12-14T19-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -1466,239 +1177,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-12-08T15:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-festivites-leon-ecc.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-gribouillage-doodle-art-ecc.aspx#2024-11-17T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>,
-    <https://www.laval.ca/70c0c2b8-cd58-4b34-b5ad-d518be8f5658>,
-    <https://www.laval.ca/0967a7b1-6aae-4fb8-aec5-683d1e0a43c1>;
-  <http://schema.org/description> "<p>De l'anglais « Doodle art », cet art s'appuie sur une mécanique de répétition. Le principe est l'empilement et le remplissage de la page par de petites formes et des personnages mignons très expressif.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-17T17:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/gribouillage-doodle-art-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Arts",
-    "Activités de la ville",
-    "Jeunesse",
-    "Saint-François",
-    "Espace citoyen Confluents",
-    "Pour une première fois";
-  <http://schema.org/location> <https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897>;
-  <http://schema.org/name> "Gribouillage (Doodle art)"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-17T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-gribouillage-doodle-art-ecc.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-1-12-mois.aspx#2024-11-18T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45>;
-  <http://schema.org/description> """<p>Une activité ludique durant laquelle votre bébé&#160;est&#160;stimulé par la lecture, les comptines et le massage.&#160;<br></p>
-<p></p>"""@fr;
-  <http://schema.org/endDate> "2024-11-18T16:15:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Activites/bibliotheques/biblio-heure-conte-12mois-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Jeunesse",
-    "Activités de la ville",
-    "Laval-des-Rapides",
-    "Jouer";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>;
-  <http://schema.org/name> "Heure du conte pour les poupons"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-18T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-1-12-mois.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx#2024-11-12T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>,
-    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>,
-    <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>;
-  <http://schema.org/description> "<p>Initiez vos enfants aux livres et au plaisir de la lecture grâce à des animations ludiques et conviviales telles que des histoires, du bricolage et des comptines.<br><br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-12T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/conte-3-5-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Auteuil",
-    "Activités de la ville",
-    "Chomedey",
-    "Fabreville",
-    "Duvernay",
-    "Jeunesse",
-    "Laval-des-Rapides",
-    "Laval-Ouest",
-    "Sainte-Dorothée",
-    "Sainte-Rose",
-    "Saint-François",
-    "Vimont";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
-    <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>,
-    <https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>,
-    <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Heure du conte 3 - 5 ans"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-12T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx#2024-11-15T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>,
-    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>,
-    <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>;
-  <http://schema.org/description> "<p>Initiez vos enfants aux livres et au plaisir de la lecture grâce à des animations ludiques et conviviales telles que des histoires, du bricolage et des comptines.<br><br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-15T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/conte-3-5-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Auteuil",
-    "Activités de la ville",
-    "Chomedey",
-    "Fabreville",
-    "Duvernay",
-    "Jeunesse",
-    "Laval-des-Rapides",
-    "Laval-Ouest",
-    "Sainte-Dorothée",
-    "Sainte-Rose",
-    "Saint-François",
-    "Vimont";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
-    <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>,
-    <https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>,
-    <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Heure du conte 3 - 5 ans"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-15T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx#2024-11-16T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>,
-    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>,
-    <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>;
-  <http://schema.org/description> "<p>Initiez vos enfants aux livres et au plaisir de la lecture grâce à des animations ludiques et conviviales telles que des histoires, du bricolage et des comptines.<br><br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-16T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/conte-3-5-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Auteuil",
-    "Activités de la ville",
-    "Chomedey",
-    "Fabreville",
-    "Duvernay",
-    "Jeunesse",
-    "Laval-des-Rapides",
-    "Laval-Ouest",
-    "Sainte-Dorothée",
-    "Sainte-Rose",
-    "Saint-François",
-    "Vimont";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
-    <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>,
-    <https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>,
-    <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Heure du conte 3 - 5 ans"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-16T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx#2024-11-17T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>,
-    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>,
-    <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>;
-  <http://schema.org/description> "<p>Initiez vos enfants aux livres et au plaisir de la lecture grâce à des animations ludiques et conviviales telles que des histoires, du bricolage et des comptines.<br><br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-17T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/conte-3-5-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Auteuil",
-    "Activités de la ville",
-    "Chomedey",
-    "Fabreville",
-    "Duvernay",
-    "Jeunesse",
-    "Laval-des-Rapides",
-    "Laval-Ouest",
-    "Sainte-Dorothée",
-    "Sainte-Rose",
-    "Saint-François",
-    "Vimont";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
-    <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>,
-    <https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>,
-    <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Heure du conte 3 - 5 ans"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-17T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx#2024-11-19T15-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -2528,31 +2006,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/startDate> "2024-12-22T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-bilingue-francais-espagnol.aspx#2024-11-17T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/94191cf9-eee0-4e11-8300-3b066afdbb14>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>;
-  <http://schema.org/description> """<p>Venez nous rencontrer pour une heure du conte en espagnol et en français !<br></p><p></p>
-<p></p>"""@fr;
-  <http://schema.org/endDate> "2024-11-17T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/heure-conte-bilingue-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Auteuil",
-    "Activités de la ville",
-    "Découvrir",
-    "Jeunesse",
-    "Vimont";
-  <http://schema.org/location> <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>;
-  <http://schema.org/name> "Heure du conte bilingue français - espagnol"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-17T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-bilingue-francais-espagnol.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-bilingue-francais-espagnol.aspx#2024-12-07T15-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
@@ -2597,30 +2050,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-11-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heures-contes-5-7-ans.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-initiation-origami-ecc.aspx#2024-11-16T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>,
-    <https://www.laval.ca/70c0c2b8-cd58-4b34-b5ad-d518be8f5658>,
-    <https://www.laval.ca/0967a7b1-6aae-4fb8-aec5-683d1e0a43c1>;
-  <http://schema.org/description> "<p>Cet atelier de groupe permettra aux enfants de découvrir et d'approfondir les techniques de pliage de papier pour réaliser facilement toutes sortes d'origamis japonais.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-16T17:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/initiation-origami-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Jeunesse",
-    "Activités de la ville",
-    "Saint-François",
-    "Espace citoyen Confluents",
-    "Pour une première fois";
-  <http://schema.org/location> <https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897>;
-  <http://schema.org/name> "Initiation à l'origami"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-16T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-initiation-origami-ecc.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-instant-musical-ecc.aspx#2024-11-19T15-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -2791,180 +2220,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2024-12-29T18:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-panne-tortue-berlue.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-petits-droits-3-5-ans.aspx#2024-11-15T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/ac53b24e-bc88-4443-9911-0dfae4535f6f>;
-  <http://schema.org/description> "<p>Heure du conte pour les 3-5 ans autour de la thématique des droits de l'enfant, dans le cadre de la Journée internationale des droits de l'enfant, qui aura lieu le 20 novembre 2024.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-15T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-jeunesse-petits-droits-335x215.png>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Jeunesse",
-    "Activités de la ville",
-    "Jeune public",
-    "Duvernay",
-    "Chomedey",
-    "Sainte-Dorothée",
-    "Journée internationale des droits de l'enfant";
-  <http://schema.org/location> <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Mes petits droits"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-15T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-petits-droits-3-5-ans.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-petits-droits-3-5-ans.aspx#2024-11-16T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/ac53b24e-bc88-4443-9911-0dfae4535f6f>;
-  <http://schema.org/description> "<p>Heure du conte pour les 3-5 ans autour de la thématique des droits de l'enfant, dans le cadre de la Journée internationale des droits de l'enfant, qui aura lieu le 20 novembre 2024.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-16T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-jeunesse-petits-droits-335x215.png>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Jeunesse",
-    "Activités de la ville",
-    "Jeune public",
-    "Duvernay",
-    "Chomedey",
-    "Sainte-Dorothée",
-    "Journée internationale des droits de l'enfant";
-  <http://schema.org/location> <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Mes petits droits"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-16T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-petits-droits-3-5-ans.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-petits-droits-3-5-ans.aspx#2024-11-17T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/ac53b24e-bc88-4443-9911-0dfae4535f6f>;
-  <http://schema.org/description> "<p>Heure du conte pour les 3-5 ans autour de la thématique des droits de l'enfant, dans le cadre de la Journée internationale des droits de l'enfant, qui aura lieu le 20 novembre 2024.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-17T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-jeunesse-petits-droits-335x215.png>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Jeunesse",
-    "Activités de la ville",
-    "Jeune public",
-    "Duvernay",
-    "Chomedey",
-    "Sainte-Dorothée",
-    "Journée internationale des droits de l'enfant";
-  <http://schema.org/location> <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Mes petits droits"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-17T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-petits-droits-3-5-ans.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-piege-mot.aspx#2024-11-16T18-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>,
-    <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
-  <http://schema.org/description> "<p>Piège à mots, c'est quatre défis à résoudre en groupe afin de pouvoir débloquer la valise à surprises! C'est par la lecture de courts textes que les jeunes seront amenés à trouver des indices leur permettant de déchiffrer les combinaisons nécessaires pour ouvrir plusieurs contenants cadenassés.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-16T20:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/piege-mots-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Auteuil",
-    "Activités de la ville",
-    "Fabreville",
-    "Chomedey",
-    "Duvernay",
-    "Jeunesse",
-    "Jouer",
-    "Laval-des-Rapides",
-    "Sainte-Dorothée",
-    "Sainte-Rose",
-    "Vimont",
-    "Laval-Ouest";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
-    <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>,
-    <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Piège à mots "@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-16T18:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-piege-mot.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-piege-mot.aspx#2024-11-17T13-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>,
-    <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
-  <http://schema.org/description> "<p>Piège à mots, c'est quatre défis à résoudre en groupe afin de pouvoir débloquer la valise à surprises! C'est par la lecture de courts textes que les jeunes seront amenés à trouver des indices leur permettant de déchiffrer les combinaisons nécessaires pour ouvrir plusieurs contenants cadenassés.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-17T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/piege-mots-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Auteuil",
-    "Activités de la ville",
-    "Fabreville",
-    "Chomedey",
-    "Duvernay",
-    "Jeunesse",
-    "Jouer",
-    "Laval-des-Rapides",
-    "Sainte-Dorothée",
-    "Sainte-Rose",
-    "Vimont",
-    "Laval-Ouest";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
-    <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>,
-    <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Piège à mots "@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-17T13:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-piege-mot.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-piege-mot.aspx#2024-11-23T18-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -3525,96 +2780,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/startDate> "2024-12-15T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-tout-petits-contes.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-yogistoires-tout-petits.aspx#2024-11-15T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/cf97f0d9-fdbc-4a9a-a9df-4642d0e88ea5>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
-    <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
-  <http://schema.org/description> "<p>​​Venez passer un moment de qualité parent-enfant avec les Yogistoires!<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-15T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-yoga-histoire-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Jeunesse",
-    "Activités de la ville",
-    "Yoga",
-    "Chomedey",
-    "Laval-des-Rapides",
-    "Auteuil",
-    "Vimont",
-    "Sainte-Dorothée",
-    "Duvernay",
-    "Sainte-Rose",
-    "Fabreville",
-    "Laval-Ouest";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>,
-    <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
-    <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>,
-    <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>;
-  <http://schema.org/name> "Yogistoires pour tout-petits"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-15T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-yogistoires-tout-petits.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-yogistoires-tout-petits.aspx#2024-11-17T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/cf97f0d9-fdbc-4a9a-a9df-4642d0e88ea5>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
-    <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
-  <http://schema.org/description> "<p>​​Venez passer un moment de qualité parent-enfant avec les Yogistoires!<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-17T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-yoga-histoire-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Jeunesse",
-    "Activités de la ville",
-    "Yoga",
-    "Chomedey",
-    "Laval-des-Rapides",
-    "Auteuil",
-    "Vimont",
-    "Sainte-Dorothée",
-    "Duvernay",
-    "Sainte-Rose",
-    "Fabreville",
-    "Laval-Ouest";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>,
-    <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
-    <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>,
-    <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>;
-  <http://schema.org/name> "Yogistoires pour tout-petits"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-17T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-yogistoires-tout-petits.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-yogistoires-tout-petits.aspx#2024-11-22T15-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
@@ -3843,26 +3008,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/startDate> "2024-12-10T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-aines-branches.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-club-image-par-image.aspx#2024-11-12T23-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222>,
-    <https://www.laval.ca/bde5907b-ecee-45d9-9051-bfc09e259843>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>;
-  <http://schema.org/description> "<p>Plonge dans l'aventure passionnante de la création de films d'animation image par image, avec la technique du stop motion. Viens scénariser tes films avec des figurines en impression 3D, un écran vert et tes propres décors!<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-13T01:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-techno-image-par-image-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Adolescents",
-    "Techno",
-    "Activités de la ville",
-    "Chomedey";
-  <http://schema.org/location> <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>;
-  <http://schema.org/name> "Club Image par image"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-12T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-club-image-par-image.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-club-image-par-image.aspx#2024-11-19T23-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222>,
@@ -4039,30 +3184,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/startDate> "2024-11-26T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-initiation-bd-numerique-ecc.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-initiation-modelisation-3D-art-numerique-ecc.aspx#2024-11-12T23-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222>,
-    <https://www.laval.ca/bde5907b-ecee-45d9-9051-bfc09e259843>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>,
-    <https://www.laval.ca/70c0c2b8-cd58-4b34-b5ad-d518be8f5658>,
-    <https://www.laval.ca/1f9b8de6-997a-48f1-b984-26c1f892ed79>;
-  <http://schema.org/description> "<p>Apprend à numériser, modéliser et transformer des objets en 3D pour leur donner vie dans un environnement numérique et les matérialiser avec une imprimante 3D.<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-13T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/mardis-techno-modelisation-3d-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Adolescents",
-    "Techno",
-    "Activités de la ville",
-    "Saint-François",
-    "Espace citoyen Confluents",
-    "Mardis technos";
-  <http://schema.org/location> <https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897>;
-  <http://schema.org/name> "Initiation à la modélisation 3D et à l'art numérique"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-12T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-initiation-modelisation-3D-art-numerique-ecc.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-initiation-modelisation-3D-art-numerique-ecc.aspx#2024-11-19T23-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222>,
@@ -4194,26 +3315,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/startDate> "2024-11-26T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-sauvegarde-documents-gestion-fichiers-sur-ordinateur.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-comment-devenir-proactif-commencer-planifier-retraite.aspx#2024-11-15T00-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a>,
-    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>;
-  <http://schema.org/description> "<p>Cette conférence mettra en lumière les avantages liés à l'utilisation des possibilités de report et d'économie d'impôt offertes par les gouvernements, à la participation aux régimes de retraite des employeurs et à l'inclusion de placements non enregistrés dans le plan de retraite.&#160;<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-15T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-vivre-prendre-soin-335x215.png>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Fabreville",
-    "Activités de la ville",
-    "Vivre",
-    "Adultes";
-  <http://schema.org/location> <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>;
-  <http://schema.org/name> "Comment devenir proactif et commencer tôt à planifier sa retraite"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-15T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-comment-devenir-proactif-commencer-planifier-retraite.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-credit.aspx#2024-12-06T00-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
@@ -4278,34 +3379,6 @@ participants.<br></p>"""@fr;
   <http://schema.org/startDate> "2024-11-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-manda-veritable-meditation-couleur.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-manger-mieux-bouger-plus-stimuler-cerveau.aspx#2024-11-15T00-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/2fc6ba3c-690b-452b-a79e-6452816d68ad>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>;
-  <http://schema.org/description> "<p>Venez découvrir des astuces fondées sur la science pour adopter de nouvelles habitudes dans le plaisir et de façon durable. On vous présentera également Luci, un programme en ligne conçu pour vous aider à passer de la théorie à la pratique en fixant des objectifs réalistes et motivants. Le programme vous intéresse?<br></p>"@fr;
-  <http://schema.org/endDate> "2024-11-15T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/biblio-vieillir-seinement-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Adultes",
-    "Activités de la ville",
-    "Vivre",
-    "Duvernay",
-    "Activités virtuelles",
-    "Laval-des-Rapides",
-    "Laval-Ouest";
-  <http://schema.org/location> <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>;
-  <http://schema.org/name> "Manger mieux, bouger plus et stimuler son cerveau : trois leviers puissants pour vieillir sainement"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-15T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-manger-mieux-bouger-plus-stimuler-cerveau.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-manger-mieux-bouger-plus-stimuler-cerveau.aspx#2024-11-28T00-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
@@ -4359,7 +3432,7 @@ participants.<br></p>"""@fr;
     <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
     <https://www.laval.ca/ac53b24e-bc88-4443-9911-0dfae4535f6f>,
     <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>;
-  <http://schema.org/description> "<p>Dans le cadre de la Journée internationale des droits de l'enfant, les jeunes de 6 à 12 ans sont invités à prendre part à une activité au cours de laquelle ils partegeront&#160;des moments ludiques avec un policier&#160;en jouant à des jeux de société.&#160;<br></p>"@fr;
+  <http://schema.org/description> "<p>Dans le cadre de la Journée internationale des droits de l'Enfant, les jeunes de 6 à 12 ans sont invités à prendre part à une activité au cours de laquelle ils partegeront&#160;des moments ludiques avec un policier&#160;en jouant à des jeux de société.&#160;<br></p>"@fr;
   <http://schema.org/endDate> "2024-11-21T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/jeux-policier-2-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
@@ -4816,22 +3889,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/startDate> "2024-12-15T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/mda-jeune-public-petite-boule-amour.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/mda-jeune-public-toqaq-mecimi-puwiht-delphine-reve.aspx#2024-11-17T19-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>,
-    <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>;
-  <http://schema.org/description> "<p>Spectacle théâtre<br>Artistes autochtones et allochtones<br><span style=\"font-size&#58;16px;background-color&#58;transparent;\">6 ans et plus</span></p>"@fr;
-  <http://schema.org/endDate> "2024-11-17T19:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2024/delphine-335x215.jpg>;
-  <http://schema.org/keywords> "Activités de la ville",
-    "Jeune public",
-    "Expositions et spectacles";
-  <http://schema.org/location> <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6>;
-  <http://schema.org/name> "Jeune Public - TOQAQ MECIMI PUWIHT / Delphine rêve toujours"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2024-11-17T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/mda-jeune-public-toqaq-mecimi-puwiht-delphine-reve.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/mda-petits-bonheurs-coucou.aspx#2025-05-04T15-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
     <https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50>,
@@ -4990,7 +4047,7 @@ Durée &#58; 50 minutes <br></div>"""@fr;
     <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
     <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
     <https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3>;
-  <http://schema.org/description> "<p>Théâtre d'improvisation&#160;<br>Théâtre de la LNI<br></p>"@fr;
+  <http://schema.org/description> "<p>​​Théâtre d'improvisation&#160;<br>Théâtre de la LNI<br></p>"@fr;
   <http://schema.org/endDate> "2025-02-14T02:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2024/grand-public-usine-theatre-potentiel-335x215.jpg>;
   <http://schema.org/keywords> "Activités de la ville",
@@ -5062,6 +4119,40 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/startDate> "2025-02-16T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/mda-vernissage-raymond-torres.aspx> .
 
+<https://www.laval.ca/Pages/Fr/Calendrier/mda-visite-commentee-david-lafrance-ilana-pichon.aspx#2025-01-12T19-00> a <http://schema.org/Event>;
+  <http://schema.org/additionalType> <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
+    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>,
+    <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121>;
+  <http://schema.org/description> "<p>Visite commentée en compagnie des artistes et de la commissaire<br></p>"@fr;
+  <http://schema.org/endDate> "2025-01-12T21:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/image> <https://www.laval.ca/maisondesarts/PublishingImages/Pages/Fr/accueil/2024-2025/david-lafrance-riviere-richelieu-300x200.jpg>;
+  <http://schema.org/keywords> "Expositions et spectacles",
+    "Arts",
+    "Exposition";
+  <http://schema.org/location> <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6>;
+  <http://schema.org/name> "Visite commentée David Lafrance et Ilana Pichon"@fr;
+  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
+  <http://schema.org/startDate> "2025-01-12T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/mda-visite-commentee-david-lafrance-ilana-pichon.aspx> .
+
+<https://www.laval.ca/Pages/Fr/Calendrier/mda-visite-commentee-ianick-raymond-cecilia-torres.aspx#2025-03-16T18-00> a <http://schema.org/Event>;
+  <http://schema.org/additionalType> <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
+    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>,
+    <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121>,
+    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>;
+  <http://schema.org/description> "<p>​​​Visite commentée de l'exposition de Ianick Raymond et Cecilia Torres en compagnie de la commissaire et des artistes<br></p>"@fr;
+  <http://schema.org/endDate> "2025-03-16T20:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/image> <https://www.laval.ca/maisondesarts/PublishingImages/Pages/Fr/accueil/2024-2025/ianick-raymond-glass-beach-300x200.jpg>;
+  <http://schema.org/keywords> "Expositions et spectacles",
+    "Arts",
+    "Exposition",
+    "Laval-des-Rapides";
+  <http://schema.org/location> <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6>;
+  <http://schema.org/name> "Visite commentée Ianick Raymond et Cecilia Torres"@fr;
+  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
+  <http://schema.org/startDate> "2025-03-16T18:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/mda-visite-commentee-ianick-raymond-cecilia-torres.aspx> .
+
 <https://www.laval.ca/Pages/Fr/Calendrier/osl-decouverte-bryan-cheng-joue-jaell.aspx#2025-05-14T23-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
     <https://www.laval.ca/2fe63b33-f6e8-4c18-8496-6e3240f36082>;
@@ -5102,52 +4193,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2025-04-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/osl-unique-jazz-symphonique-rieu-belmondo.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/visitecommentee-dlfrance-ipichon.aspx#2025-01-12T19-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>,
-    <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222>,
-    <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121>,
-    <https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5>;
-  <http://schema.org/description> "<p>Visite commentée en compagnie des artistes et de la commissaire<br></p>"@fr;
-  <http://schema.org/endDate> "2025-01-12T21:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/maisondesarts/PublishingImages/Pages/Fr/accueil/2024-2025/david-lafrance-riviere-richelieu-300x200.jpg>;
-  <http://schema.org/keywords> "Expositions et spectacles",
-    "Familles",
-    "Arts",
-    "Adolescents",
-    "Exposition",
-    "Aînés";
-  <http://schema.org/location> <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6>;
-  <http://schema.org/name> "Visite commentée David Lafrance et Ilana Pichon"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2025-01-12T19:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/visitecommentee-dlfrance-ipichon.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/visitecommentee-iraymond-ctorres.aspx#2025-03-16T18-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>,
-    <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
-    <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222>,
-    <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>;
-  <http://schema.org/description> "<p>Visite commentée de l'exposition de Ianick Raymond et Cecilia Torres en compagnie de la commissaire et des artistes<br></p>"@fr;
-  <http://schema.org/endDate> "2025-03-16T20:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/maisondesarts/PublishingImages/Pages/Fr/accueil/2024-2025/ianick-raymond-glass-beach-300x200.jpg>;
-  <http://schema.org/keywords> "Activités de la ville",
-    "Familles",
-    "Arts",
-    "Expositions et spectacles",
-    "Adolescents",
-    "Exposition",
-    "Laval-des-Rapides";
-  <http://schema.org/location> <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6>;
-  <http://schema.org/name> "Visite commentée Ianick Raymond et Cecilia Torres"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2025-03-16T18:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/visitecommentee-iraymond-ctorres.aspx> .
 
 <https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3> a <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
@@ -5236,12 +4281,20 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/telephone> "450 686-5641, poste 1";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/musee-armand-frappier.aspx> .
 
+<https://www.laval.ca/8e534c66-0d1a-4a34-b9b1-f2473fb3f56c> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Escapades"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
 <https://www.laval.ca/8f39fafb-9ebc-469c-b84f-8aa5224b47e8> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Cirque"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/9cb3c8ed-5e8f-4e54-8e1c-d04bd07a92f2> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Danser"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/ac53b24e-bc88-4443-9911-0dfae4535f6f> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Journée internationale des droits de l'enfant"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/cf8bb052-56d6-4cec-88ac-4877fe0cde59> a <http://schema.org/Place>;
@@ -5253,8 +4306,15 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 <https://www.laval.ca/lieux/Pages/Fr/centre-sportif-honore-mercier.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Centre sportif Honoré-Mercier" .
 
+<https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Centres communautaires" .
+
 <https://www.laval.ca/lieux/Pages/Fr/parcs.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Parcs" .
+
+<https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Histoire"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/3e79ae30-b8d7-41e2-a729-af0a366b4a83> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Parents"@fr;
@@ -5263,10 +4323,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 <https://www.laval.ca/685b3eae-7097-4a44-8e72-1c769ed8f6cf> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Événements et festivals"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
-
-<https://www.laval.ca/8e534c66-0d1a-4a34-b9b1-f2473fb3f56c> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Escapades"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/c8a7a9e7-61d8-4dab-8a97-a3fd64eaecb8> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Secondaire"@fr;
@@ -5360,22 +4416,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/centre-communautaire-le-sorbier.aspx"@fr-fr;
   <http://schema.org/name> "Centre communautaire Le Sorbier" .
 
-<https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-regent-martimbeau.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "Centre communautaire Régent-Martimbeau"@fr-fr;
-  <http://ogp.me/ns#image> "https://www.laval.ca/lieux/PublishingImages/centre_communautaire/centre-communautaire-lausanne-175x110.jpg"@fr-fr;
-  <http://ogp.me/ns#title> "Centre communautaire Régent-Martimbeau"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/centre-communautaire-regent-martimbeau.aspx"@fr-fr;
-  <http://schema.org/name> "Centre communautaire Régent-Martimbeau" .
-
-<https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-saint-joseph.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "​​​​​​​Centre communautaire Saint-Joseph​"@fr-fr;
-  <http://ogp.me/ns#image> "https://www.laval.ca/lieux/PublishingImages/centre_communautaire/saint_joseph.jpg"@fr-fr;
-  <http://ogp.me/ns#title> "Centre communautaire Saint-Joseph"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/centre-communautaire-saint-joseph.aspx"@fr-fr;
-  <http://schema.org/name> "Centre communautaire Saint-Joseph" .
-
 <https://www.laval.ca/lieux/Pages/Fr/centre-de-la-nature.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> "Voyez les informations générales du Centre de la nature et les conditions de ses plateaux sportifs."@fr-fr;
   <http://ogp.me/ns#image> "https://www.laval.ca/centredelanature/PublishingImages/Pages/Fr/visite-parc/activites-hiver/medias-sociaux-hiver-1200x628.jpg"@fr-fr;
@@ -5443,9 +4483,9 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 <https://www.laval.ca/lieux/Pages/Fr/piscines-interieures.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Piscines intérieures" .
 
-<https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Histoire"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+<https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Aînés"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
 <https://www.laval.ca/22ea72c1-f4ac-4873-be24-c94e7d742d5f> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "co-motion"@fr;
@@ -5459,23 +4499,24 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Bouger"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Centres communautaires" .
-
-<https://www.laval.ca/0565c58b-556e-4807-86b1-a543c72972e5> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Aînés"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
-
-<https://www.laval.ca/ac53b24e-bc88-4443-9911-0dfae4535f6f> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Journée internationale des droits de l'enfant"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
 <https://www.laval.ca/c5344ab2-4101-46eb-aea3-528f4ebef18c> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Informatique et technologies"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
+<https://www.laval.ca/cf97f0d9-fdbc-4a9a-a9df-4642d0e88ea5> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Yoga"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
 <https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Édifices municipaux" .
+
+<https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Vivre"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/1f9b8de6-997a-48f1-b984-26c1f892ed79> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Mardis technos"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/748dbb96-8c5e-4ec8-8875-e5540a7c41e8> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Danse"@fr;
@@ -5483,18 +4524,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 
 <https://www.laval.ca/88b4373e-7b96-4f3f-ae5d-088b117d4967> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Noël"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/1f9b8de6-997a-48f1-b984-26c1f892ed79> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Mardis technos"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/cf97f0d9-fdbc-4a9a-a9df-4642d0e88ea5> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Yoga"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Vivre"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/2fc6ba3c-690b-452b-a79e-6452816d68ad> a <http://www.w3.org/2004/02/skos/core#Concept>;
@@ -5512,29 +4541,33 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Arts de la scène"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Théâtre"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
 <https://www.laval.ca/94191cf9-eee0-4e11-8300-3b066afdbb14> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Découvrir"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Adolescents"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
+
+<https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Jouer"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/0967a7b1-6aae-4fb8-aec5-683d1e0a43c1> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Pour une première fois"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Jouer"@fr;
+<https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Théâtre"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/bde5907b-ecee-45d9-9051-bfc09e259843> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Techno"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Adolescents"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
+<https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Jeune public"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Accueil" .
@@ -5544,10 +4577,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 
 <https://www.laval.ca/70c0c2b8-cd58-4b34-b5ad-d518be8f5658> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Espace citoyen Confluents"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/db9f974a-e5ae-4857-bab3-c4cde4c07f50> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Jeune public"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a <http://www.w3.org/2004/02/skos/core#Concept>;
@@ -5581,10 +4610,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/telephone> "450 662-4440",
     "Billetterie : 450 667-2040";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx> .
-
-<https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Expositions et spectacles"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
 <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Arts"@fr;
@@ -5622,6 +4647,10 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/telephone> "450 978-3940";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-sylvain-garneau.aspx> .
 
+<https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Expositions et spectacles"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
+
 <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Fabreville"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
@@ -5654,37 +4683,31 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/telephone> "450 978-8909";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-gabrielle-roy.aspx> .
 
-<https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897> a <http://schema.org/Place>,
+<https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
     a <http://schema.org/PostalAddress>;
     <http://schema.org/addressCountry> "CA";
     <http://schema.org/addressLocality> "Laval";
     <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7A 0K3";
-    <http://schema.org/streetAddress> "1000 rue Marie-Uguay"
+    <http://schema.org/postalCode> "H7N 2J5";
+    <http://schema.org/streetAddress> "325 boulevard Cartier Ouest"
   ];
-  <http://schema.org/description> """<p>
- <span class=\"icon-website\" style=\"display&#58;none;\"></span>Nous joindre &#58;&#160;<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre</a></p>
-<span>Autobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 42,&#160;52, 252, 925</a><span class=\"icon-website-inline\"></span>&#160;<br>""";
+  <http://schema.org/description> "<br><p></p>";
   <http://schema.org/geo> [
     a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,6650545716";
-    <http://schema.org/longitude> "-73,591843981"
+    <http://schema.org/latitude> "45,5521693";
+    <http://schema.org/longitude> "-73,70786895"
   ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/1000+rue+Marie-Uguay,+Laval,+QC+H7A+0K3>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/bibliotheque-marius-barbeau-335x215-2.jpg>;
-  <http://schema.org/name> "Bibliothèque Marius-Barbeau"@fr,
-    "Bibliothèque Marius-Barbeau";
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/325+boulevard+Cartier+Ouest,+Laval,+QC+H7N+2J5>;
+  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/emile_nelligan.jpg>;
+  <http://schema.org/name> "Bibliothèque Émile-Nelligan"@fr,
+    "Bibliothèque Émile-Nelligan";
   <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
     <https://fr-ca.facebook.com/bibliothequeslaval>,
     <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 662-4005";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-marius-barbeau.aspx> .
-
-<https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Saint-François"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+  <http://schema.org/telephone> "450 662-4973";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-emile-nelligan.aspx> .
 
 <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5712,6 +4735,10 @@ Durée &#58; 50 minutes <br></div>"""@fr;
     <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
   <http://schema.org/telephone> "450 978-6599";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx> .
+
+<https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Sainte-Dorothée"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
@@ -5745,10 +4772,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Laval-Ouest"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Sainte-Dorothée"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
 <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
@@ -5780,36 +4803,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Auteuil"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7N 2J5";
-    <http://schema.org/streetAddress> "325 boulevard Cartier Ouest"
-  ];
-  <http://schema.org/description> "<br><p></p>";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,5521693";
-    <http://schema.org/longitude> "-73,70786895"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/325+boulevard+Cartier+Ouest,+Laval,+QC+H7N+2J5>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/emile_nelligan.jpg>;
-  <http://schema.org/name> "Bibliothèque Émile-Nelligan"@fr,
-    "Bibliothèque Émile-Nelligan";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 662-4973";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-emile-nelligan.aspx> .
-
-<https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Vimont"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
 <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45> a <http://schema.org/Place>,
     <http://schema.org/LocalBusiness>;
   <http://schema.org/address> [
@@ -5839,8 +4832,44 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/telephone> "450 662-4002";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-germaine-guevremont.aspx> .
 
+<https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Vimont"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
 <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Duvernay"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897> a <http://schema.org/Place>,
+    <http://schema.org/LocalBusiness>;
+  <http://schema.org/address> [
+    a <http://schema.org/PostalAddress>;
+    <http://schema.org/addressCountry> "CA";
+    <http://schema.org/addressLocality> "Laval";
+    <http://schema.org/addressRegion> "Québec";
+    <http://schema.org/postalCode> "H7A 0K3";
+    <http://schema.org/streetAddress> "1000 rue Marie-Uguay"
+  ];
+  <http://schema.org/description> """<p>
+ <span class=\"icon-website\" style=\"display&#58;none;\"></span>Nous joindre &#58;&#160;<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre</a></p>
+<span>Autobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 42,&#160;52, 252, 925</a><span class=\"icon-website-inline\"></span>&#160;<br>""";
+  <http://schema.org/geo> [
+    a <http://schema.org/GeoCoordinates>;
+    <http://schema.org/latitude> "45,6650545716";
+    <http://schema.org/longitude> "-73,591843981"
+  ];
+  <http://schema.org/hasMap> <https://www.google.ca/maps/place/1000+rue+Marie-Uguay,+Laval,+QC+H7A+0K3>;
+  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/bibliotheque-marius-barbeau-335x215-2.jpg>;
+  <http://schema.org/name> "Bibliothèque Marius-Barbeau"@fr,
+    "Bibliothèque Marius-Barbeau";
+  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
+    <https://fr-ca.facebook.com/bibliothequeslaval>,
+    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
+  <http://schema.org/telephone> "450 662-4005";
+  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-marius-barbeau.aspx> .
+
+<https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Saint-François"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d> a <http://schema.org/Place>,
@@ -5883,16 +4912,16 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Chomedey"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Laval-des-Rapides"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
 <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Familles"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Clienteles> .
 
 <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Jeunesse"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Laval-des-Rapides"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a> a <http://www.w3.org/2004/02/skos/core#Concept>;
@@ -6104,8 +5133,12 @@ Durée &#58; 50 minutes <br></div>"""@fr;
       <http://schema.org/position> 2
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/musee-armand-frappier.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx>;
       <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/hotel-de-ville.aspx>;
+      <http://schema.org/position> 4
     ]
   ] .
 
@@ -6121,12 +5154,8 @@ Durée &#58; 50 minutes <br></div>"""@fr;
       <http://schema.org/position> 2
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/musee-armand-frappier.aspx>;
       <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/hotel-de-ville.aspx>;
-      <http://schema.org/position> 4
     ]
   ] .
 
@@ -6209,74 +5238,32 @@ Durée &#58; 50 minutes <br></div>"""@fr;
       <http://schema.org/position> 2
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-saint-joseph.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centres-communautaires.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-communautaire-regent-martimbeau.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
       <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bois-et-boises.aspx>;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
       <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bois-papineau.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
