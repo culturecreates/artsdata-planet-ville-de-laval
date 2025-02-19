@@ -8,11 +8,12 @@
     <http://schema.org/postalCode> "H7N 2T6";
     <http://schema.org/streetAddress> "125 boulevard des Prairies"
   ];
-  <http://schema.org/description> """<p>Le port du bonnet de bain est obligatoire.</p><p>
- <a href=\"/Documents/Pages/Fr/Activites/sports-et-loisirs/regles-securite-regles-hygiene-consignes-piscines-interieures.pdf\" target=\"_blank\"><img class=\"ms-asset-icon ms-rtePosition-4\" src=\"/_layouts/images/icpdf.png\" alt=\"\" />Consultez les règles de sécurité, règles d'hygiène et consignes</a>, 90 ko<br></p><p>
- <br>
-</p><p></p>
-<strong>Sauveteurs et moniteurs</strong>
+  <http://schema.org/description> """<p>Le port du bonnet de bain est obligatoire.</p><p> 
+ <a href=\"/Documents/Pages/Fr/Activites/sports-et-loisirs/regles-securite-regles-hygiene-consignes-piscines-interieures.pdf\" target=\"_blank\">
+ <img class=\"ms-asset-icon ms-rtePosition-4\" src=\"/_layouts/images/icpdf.png\" alt=\"\" />Consultez les règles de sécurité, règles d'hygiène et consignes</a>, 90 ko<br></p><p> 
+ <br> 
+</p><p></p> 
+<strong>Sauveteurs et moniteurs</strong> 
 <p>La surveillance et la sécurité sont assurées par un personnel compétent et qualifié. Les sauveteurs et les moniteurs ont suivi des formations reconnus par la Société de sauvetage. Pour votre sécurité, vous devez respecter leurs consignes en tout temps. Les sauveteurs peuvent interdire l’accès à la piscine, à la partie profonde, au tremplin ou à la glissoire à toute personne qu’ils jugent inapte à les utiliser.<br></p>""";
   <http://schema.org/geo> [
     a <http://schema.org/GeoCoordinates>;
@@ -34,12 +35,16 @@
     <http://schema.org/postalCode> "H7L 2S9";
     <http://schema.org/streetAddress> "2465 rue Honoré-Mercier"
   ];
-  <http://schema.org/description> """<p> Le port du bonnet de bain est obligatoire.</p><div><p></p><p>
- <a href=\"/Documents/Pages/Fr/Activites/sports-et-loisirs/regles-securite-regles-hygiene-consignes-piscines-interieures.pdf\" target=\"_blank\"><img class=\"ms-asset-icon ms-rtePosition-4\" src=\"/_layouts/images/icpdf.png\" alt=\"\" />Consultez les règles de sécurité, règles d'hygiène et consignes</a>, 90 ko<br></p><p> 
- <span class=\"icon-important\"></span>En raison de l'achalandage, nous ne pouvons garantir aux citoyens une place lors du bain libre du&#160;dimanche (15&#160;h&#160;15 à 18&#160;h).<br></p><p><br></p><p>
+  <http://schema.org/description> """<p> Le port du bonnet de bain est obligatoire.</p><p>En raison de l'achalandage, nous ne pouvons garantir aux citoyens une place lors du bain libre du&#160;dimanche (15&#160;h&#160;15 à 18&#160;h).
  <br>
- </p>
- <strong>Sauveteurs et moniteurs</strong>
+</p><div><p></p><p> 
+ <a href=\"/Documents/Pages/Fr/Activites/sports-et-loisirs/regles-securite-regles-hygiene-consignes-piscines-interieures.pdf\" target=\"_blank\"><img class=\"ms-asset-icon ms-rtePosition-4\" src=\"/_layouts/images/icpdf.png\" alt=\"\" />Consultez les règles de sécurité, règles d'hygiène et consignes</a>, 90 ko<br></p> 
+ <p>
+ <br>
+ </p><p> 
+ <br> 
+ </p> 
+ <strong>Sauveteurs et moniteurs</strong> 
  <p>La surveillance et la sécurité sont assurées par un personnel compétent et qualifié. Les sauveteurs et les moniteurs ont suivi des formations reconnus par la Société de sauvetage. Pour votre sécurité, vous devez respecter leurs consignes en tout temps. Les sauveteurs peuvent interdire l’accès à la piscine, à la partie profonde, au tremplin ou à la glissoire à toute personne qu’ils jugent inapte à les utiliser.</p></div>""";
   <http://schema.org/geo> [
     a <http://schema.org/GeoCoordinates>;
@@ -1220,31 +1225,6 @@
   <http://schema.org/startDate> "2025-03-27T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-parcours-lavallois-12-ans-plus-60e.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-parcours-lavallois-60e-18-ans-plus.aspx#2025-02-12T18-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/aa035589-cbcc-4e4c-a3f1-a01312b815fd>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
-    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>;
-  <http://schema.org/description> "<p>L’artiste lavalloise Jocelyne Thibault vous propose de créer votre propre capsule temporelle, dans une série d’ateliers où le dessin, l’impression, le collage et la reliure seront à l’honneur.&#160;Cette activité vous est présentée dans le cadre du 60<sup>e</sup> anniversaire de la Ville de Laval.&#160;<br><br></p>"@fr;
-  <http://schema.org/endDate> "2025-02-12T20:45:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/histoire-arts-parcours-lavallois-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "60e Laval",
-    "Activités de la ville",
-    "Adultes",
-    "Arts",
-    "Laval-des-Rapides",
-    "Sainte-Rose";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>;
-  <http://schema.org/name> "Parcours lavallois"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2025-02-12T18:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-parcours-lavallois-60e-18-ans-plus.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-arts-parcours-lavallois-60e-18-ans-plus.aspx#2025-02-19T18-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/aa035589-cbcc-4e4c-a3f1-a01312b815fd>,
@@ -1585,28 +1565,6 @@
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2025-02-19T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-histoire-laval-temps-seigneurie-jesuites-60e.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-histoire-richesse-langue-quebecoise.aspx#2025-02-12T00-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/120836d9-e77a-4c6b-a300-87071827c2a0>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>,
-    <https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc>;
-  <http://schema.org/description> "<p>La langue québécoise est riche d’expressions, d’images et de mots issus des parlers régionaux de France. Ce langage venu en Amérique par la bouche des colons immigrants a donné naissance à de nombreuses expressions colorées uniques à notre belle langue commune.<br></p>"@fr;
-  <http://schema.org/endDate> "2025-02-12T01:15:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/histoire-langue-quebecoise-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Adultes",
-    "Activités de la ville",
-    "Arts",
-    "Laval-Ouest",
-    "Histoire";
-  <http://schema.org/location> <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>;
-  <http://schema.org/name> "La richesse de la langue québécoise"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2025-02-12T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-histoire-richesse-langue-quebecoise.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-activite-scientifique-kokobrik-univers-fascinant-abeilles.aspx#2025-05-16T17-30> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
@@ -2666,52 +2624,6 @@
   <http://schema.org/name> "Heure du conte 3 - 5 ans"@fr;
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2025-01-26T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx#2025-02-11T15-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/019b445a-815c-49a2-8adc-2ceb9b48cd9a>,
-    <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea>,
-    <https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05>,
-    <https://www.laval.ca/6f430cdc-7ce4-4770-aaae-9ddbfe1cd3b9>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>,
-    <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d>,
-    <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360>,
-    <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9>,
-    <https://www.laval.ca/cb5f24bc-8b43-4afe-9233-33960a97a039>,
-    <https://www.laval.ca/fe639097-75cf-4e8d-8733-ecb9b808d2eb>;
-  <http://schema.org/description> "<p>Initiez vos enfants aux livres et au plaisir de la lecture grâce à des animations ludiques et conviviales telles que des histoires, du bricolage et des comptines.<br><br></p>"@fr;
-  <http://schema.org/endDate> "2025-02-11T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/conte-3-5-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Familles",
-    "Auteuil",
-    "Activités de la ville",
-    "Chomedey",
-    "Fabreville",
-    "Duvernay",
-    "Jeunesse",
-    "Laval-des-Rapides",
-    "Laval-Ouest",
-    "Sainte-Dorothée",
-    "Sainte-Rose",
-    "Saint-François",
-    "Vimont";
-  <http://schema.org/location> <https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5>,
-    <https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55>,
-    <https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45>,
-    <https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b>,
-    <https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897>,
-    <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>,
-    <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774>,
-    <https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba>,
-    <https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8>;
-  <http://schema.org/name> "Heure du conte 3 - 5 ans"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2025-02-11T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-jeunesse-heure-conte-3-5-ans.aspx#2025-02-15T15-30> a <http://schema.org/Event>;
@@ -5824,28 +5736,6 @@
   <http://schema.org/startDate> "2025-03-03T15:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-techno-relache-studio.aspx> .
 
-<https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-astuces-devoirs.aspx#2025-02-13T00-00> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
-    <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
-    <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/94191cf9-eee0-4e11-8300-3b066afdbb14>,
-    <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9>,
-    <https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a>;
-  <http://schema.org/description> "<p>Pas facile pour votre enfant de se retrouver seul devant ses devoirs? Vous voulez l'aider, mais votre séjour sur les bancs d'école est loin dans vos souvenirs? Venez découvrir des astuces qui vous permettront d'augmenter le niveau d'autonomie de votre enfant lors de la période de devoirs.<br></p>"@fr;
-  <http://schema.org/endDate> "2025-02-13T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/bibliotheque/vivre-astuces-devoirs-335x215.jpg>;
-  <http://schema.org/keywords> "Bibliothèques",
-    "Adultes",
-    "Activités de la ville",
-    "Découvrir",
-    "Chomedey",
-    "Vivre";
-  <http://schema.org/location> <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d>;
-  <http://schema.org/name> "Astuces devoirs : découvrir les bons outils et stratégies pour une période de devoirs réussie"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2025-02-13T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-astuces-devoirs.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/biblio-vivre-consommation-choix-influences-ecc.aspx#2025-05-27T23-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>,
     <https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6>,
@@ -6275,26 +6165,6 @@
   <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
   <http://schema.org/startDate> "2025-01-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/maison-grands-parents-rencontres-interculturelles-intergenerationnelles.aspx> .
-
-<https://www.laval.ca/Pages/Fr/Calendrier/mda-conference-dansee-minuit-avant-minuit.aspx#2025-02-12T00-30> a <http://schema.org/Event>;
-  <http://schema.org/additionalType> <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
-    <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf>,
-    <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
-    <https://www.laval.ca/748dbb96-8c5e-4ec8-8875-e5540a7c41e8>,
-    <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617>;
-  <http://schema.org/description> "<p>Conférence dansée en lien avec le spectacle Minuit quelque part, présenté le 2 avril 2025.<br></p>"@fr;
-  <http://schema.org/endDate> "2025-02-12T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Calendrier-des-activites/maison-des-arts/2024/minuit-avant-minuit-335x215.jpg>;
-  <http://schema.org/keywords> "Activités de la ville",
-    "Arts de la scène",
-    "Expositions et spectacles",
-    "Danse",
-    "Laval-des-Rapides";
-  <http://schema.org/location> <https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6>;
-  <http://schema.org/name> "Conférence dansée - Minuit avant minuit"@fr;
-  <http://schema.org/organizer> <http://kg.artsdata.ca/resource/K16-116>;
-  <http://schema.org/startDate> "2025-02-12T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-  <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/mda-conference-dansee-minuit-avant-minuit.aspx> .
 
 <https://www.laval.ca/Pages/Fr/Calendrier/mda-conte-fille-laitier.aspx#2025-04-26T21-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593>,
@@ -6769,13 +6639,16 @@ Durée &#58; 50 minutes <br></div>"""@fr;
     <http://schema.org/streetAddress> "3578 boulevard Sainte-Rose"
   ];
   <http://schema.org/description> """<p>Le port du bonnet de bain est obligatoire.<br></p><p>
- <a href=\"/Documents/Pages/Fr/Activites/sports-et-loisirs/regles-securite-regles-hygiene-consignes-piscines-interieures.pdf\" target=\"_blank\"><img class=\"ms-asset-icon ms-rtePosition-4\" src=\"/_layouts/images/icpdf.png\" alt=\"\" />Consultez les règles de sécurité, règles d'hygiène et consignes</a>, 90 ko<br></p>
+ <a href=\"/Documents/Pages/Fr/Activites/sports-et-loisirs/regles-securite-regles-hygiene-consignes-piscines-interieures.pdf\" target=\"_blank\"> 
+ <img class=\"ms-asset-icon ms-rtePosition-4\" src=\"/_layouts/images/icpdf.png\" alt=\"\" />Consultez les règles de sécurité, règles d'hygiène et consignes</a>, 90 ko<br><br></p>
+<p></p>
 <br> 
 <strong>Sauveteurs et moniteurs</strong> 
 <div> 
  <strong></strong> 
  <div> 
- <strong><strong>
+ <strong>
+ <strong>
  <p>La surveillance et la sécurité sont assurées par un personnel compétent et qualifié. Les sauveteurs et les moniteurs ont suivi des formations reconnus par la Société de sauvetage. Pour votre sécurité, vous devez respecter leurs consignes en tout temps. Les sauveteurs peuvent interdire l’accès à la piscine, à la partie profonde, au tremplin ou à la glissoire à toute personne qu’ils jugent inapte à les utiliser.</p> 
  <p></p></strong></strong></div></div>""";
   <http://schema.org/geo> [
@@ -6799,7 +6672,8 @@ Durée &#58; 50 minutes <br></div>"""@fr;
     <http://schema.org/streetAddress> "3995 boulevard Lévesque Est"
   ];
   <http://schema.org/description> """<p>
- <span style=\"font-family&#58;roboto, arial, helvetica, sans-serif;font-size&#58;16px;font-weight&#58;bold;\">S</span><span style=\"font-family&#58;roboto, arial, helvetica, sans-serif;font-size&#58;16px;font-weight&#58;bold;\">auveteurs et moniteurs</span><br></p><p>La surveillance et la sécurité sont assurées par un personnel compétent et qualifié. Les sauveteurs et les moniteurs ont suivi des formations reconnus par la Société de sauvetage et la Croix-Rouge. Pour votre sécurité, vous devez respecter leurs consignes en tout temps. Les sauveteurs peuvent interdire l’accès à la piscine, à la partie profonde, au tremplin ou à la glissoire à toute personne qu’ils jugent inapte à les utiliser.</p><br><br>""";
+ <span style=\"font-size&#58;16px;font-family&#58;roboto, arial, helvetica, sans-serif;font-weight&#58;bold;\">S</span><span style=\"font-size&#58;16px;font-family&#58;roboto, arial, helvetica, sans-serif;font-weight&#58;bold;\">auveteurs et moniteurs</span></p><br>
+<p>La surveillance et la sécurité sont assurées par un personnel compétent et qualifié. Les sauveteurs et les moniteurs ont suivi des formations reconnus par la Société de sauvetage et la Croix-Rouge. Pour votre sécurité, vous devez respecter leurs consignes en tout temps. Les sauveteurs peuvent interdire l’accès à la piscine, à la partie profonde, au tremplin ou à la glissoire à toute personne qu’ils jugent inapte à les utiliser.<br></p>""";
   <http://schema.org/geo> [
     a <http://schema.org/GeoCoordinates>;
     <http://schema.org/latitude> "45,59904905";
@@ -6865,6 +6739,10 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 <https://www.laval.ca/6f9829c4-7499-4341-84d3-c9c2e1cf749a> a <http://schema.org/Place>;
   <http://schema.org/name> "Centre de la nature"@fr .
 
+<https://www.laval.ca/748dbb96-8c5e-4ec8-8875-e5540a7c41e8> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Danse"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
 <https://www.laval.ca/8f39fafb-9ebc-469c-b84f-8aa5224b47e8> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Cirque"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
@@ -6885,14 +6763,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 
 <https://www.laval.ca/e63ee82a-da16-4247-bc91-6710773eb4cf> a <http://schema.org/Place>;
   <http://schema.org/name> "Bois de l'Équerre"@fr .
-
-<https://www.laval.ca/lieux/Pages/Fr/bibliotheque-emile-nelligan.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> ""@fr-fr;
-  <http://ogp.me/ns#image> ""@fr-fr;
-  <http://ogp.me/ns#title> ""@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/bibliotheque-emile-nelligan.aspx"@fr-fr;
-  <http://schema.org/name> "Bibliothèque Émile-Nelligan" .
 
 <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-gabrielle-roy.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> ""@fr-fr;
@@ -6941,14 +6811,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://ogp.me/ns#type> "place"@fr-fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/bibliotheque-philippe-panneton.aspx"@fr-fr;
   <http://schema.org/name> "Bibliothèque Philippe-Panneton" .
-
-<https://www.laval.ca/lieux/Pages/Fr/bibliotheque-sylvain-garneau.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "​​​​​​​La bibliothèque Sylvain-Garneau est située dans le quartier historique de Sainte-Rose Pour les amateurs d'histoire et de patrimoine, la bibliothèque compte aussi une section de livres sur l'histoire locale permettant de découvrir les différentes étapes du développement de Sainte-Rose et de l'Île Jésus.​"@fr-fr;
-  <http://ogp.me/ns#image> "https://www.laval.ca/lieux/PublishingImages/bibliotheque/sylvain_garneau.jpg"@fr-fr;
-  <http://ogp.me/ns#title> "Bibliothèque Sylvain-Garneau"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/bibliotheque-sylvain-garneau.aspx"@fr-fr;
-  <http://schema.org/name> "Bibliothèque Sylvain-Garneau" .
 
 <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx> a <http://schema.org/Thing>;
   <http://ogp.me/ns#description> ""@fr-fr;
@@ -6999,19 +6861,19 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Piscine Poly-Jeunesse" .
 
 <https://www.laval.ca/lieux/Pages/Fr/piscine-vanier.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> ""@fr-fr;
+  <http://ogp.me/ns#description> "Piscine Vanier"@fr-fr;
   <http://ogp.me/ns#image> ""@fr-fr;
-  <http://ogp.me/ns#title> ""@fr-fr;
+  <http://ogp.me/ns#title> "Piscine Vanier"@fr-fr;
   <http://ogp.me/ns#type> "place"@fr-fr;
   <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/piscine-vanier.aspx"@fr-fr;
   <http://schema.org/name> "Piscine Vanier" .
 
-<https://www.laval.ca/2fe63b33-f6e8-4c18-8496-6e3240f36082> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Orchestre symphonique de Laval"@fr;
+<https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Histoire"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/748dbb96-8c5e-4ec8-8875-e5540a7c41e8> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Danse"@fr;
+<https://www.laval.ca/2fe63b33-f6e8-4c18-8496-6e3240f36082> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Orchestre symphonique de Laval"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx> a <http://schema.org/Thing>;
@@ -7019,10 +6881,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 
 <https://www.laval.ca/lieux/Pages/Fr/piscines-interieures.aspx> a <http://schema.org/Thing>;
   <http://schema.org/name> "Piscines intérieures" .
-
-<https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Histoire"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/2fc6ba3c-690b-452b-a79e-6452816d68ad> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Activités virtuelles"@fr;
@@ -7044,6 +6902,10 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Saint-Valentin"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
+<https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Vivre"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
 <https://www.laval.ca/4762f5c1-c60c-4d99-aff1-a30d460495e3> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Festival Petits bonheurs"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
@@ -7052,28 +6914,24 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Pâques"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/137817ca-3f2b-4269-a8f3-839c395db32a> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Vivre"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+<https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Bibliothèques" .
 
 <https://www.laval.ca/6722dd24-a6cf-4dd5-8669-f9cbe1756922> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Cet hiver dans mon quartier"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/cf97f0d9-fdbc-4a9a-a9df-4642d0e88ea5> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Yoga"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/71245944-c666-484c-9885-16598009f4bf> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Arts de la scène"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
+<https://www.laval.ca/cf97f0d9-fdbc-4a9a-a9df-4642d0e88ea5> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Yoga"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
 <https://www.laval.ca/d1a01a8d-f1ab-4bf6-aa31-c2b0df375121> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Exposition"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Bibliothèques" .
 
 <https://www.laval.ca/3d20d9e1-f593-47b8-8993-c95c977416f3> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Théâtre"@fr;
@@ -7091,6 +6949,12 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Communautaire et organismes"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
+<https://www.laval.ca/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Accueil" .
+
+<https://www.laval.ca/lieux/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
+  <http://schema.org/name> "Carte interactive" .
+
 <https://www.laval.ca/b2263ec5-6cbf-4c6f-8887-6acf6b2188fe> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Dehors"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
@@ -7098,12 +6962,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 <https://www.laval.ca/985427f3-f98a-48de-9c33-8a5bfa32975b> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Relâche scolaire"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Accueil" .
-
-<https://www.laval.ca/lieux/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Carte interactive" .
 
 <https://www.laval.ca/0272c940-f2e7-41db-9eb1-549fd4dbe222> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Adolescents"@fr;
@@ -7153,12 +7011,12 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Espace citoyen Confluents"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Jouer"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
 <https://www.laval.ca/aa035589-cbcc-4e4c-a3f1-a01312b815fd> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "60e Laval"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/84db1b61-2f48-4879-9ca7-f5ffe4299e45> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Jouer"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb> a <http://www.w3.org/2004/02/skos/core#Concept>;
@@ -7167,6 +7025,10 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 
 <https://www.laval.ca/94191cf9-eee0-4e11-8300-3b066afdbb14> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Découvrir"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Adultes"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d> a <http://schema.org/Place>,
@@ -7205,10 +7067,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/telephone> "450 978-5995";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-multiculturelle.aspx> .
 
-<https://www.laval.ca/c125b9cb-bd62-48c0-a347-84e8c7f8dca6> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Adultes"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
 <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Chomedey"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
@@ -7217,63 +7075,15 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Arts"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7L 1L5";
-    <http://schema.org/streetAddress> "187 boulevard Sainte-Rose"
-  ];
-  <http://schema.org/description> """<p> 
-   <span class=\"icon-website\">​</span>Nous joindre &#58;&#160;​<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre​</a></p>​<span>Autobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 63 et 73​</a><span>​</span><span class=\"icon-website-inline\"></span> 
-<br>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,61538067";
-    <http://schema.org/longitude> "-73,78493513"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/187+boulevard+Sainte-Rose,+Laval,+QC+H7L+1L5>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/sylvain_garneau.jpg>;
-  <http://schema.org/name> "Bibliothèque Sylvain-Garneau"@fr,
-    "Bibliothèque Sylvain-Garneau";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 978-3940";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-sylvain-garneau.aspx> .
+<https://www.laval.ca/8b694188-c831-4cd9-a679-df7613d442ba> a <http://schema.org/Place>;
+  <http://schema.org/name> "Bibliothèque Sylvain-Garneau"@fr .
 
 <https://www.laval.ca/68d3e20f-bbb7-484f-945e-6bf9aeba46d9> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Sainte-Rose"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7N 2J5";
-    <http://schema.org/streetAddress> "325 boulevard Cartier Ouest"
-  ];
-  <http://schema.org/description> "<br><p></p>";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,5521693";
-    <http://schema.org/longitude> "-73,70786895"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/325+boulevard+Cartier+Ouest,+Laval,+QC+H7N+2J5>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/emile_nelligan.jpg>;
-  <http://schema.org/name> "Bibliothèque Émile-Nelligan"@fr,
-    "Bibliothèque Émile-Nelligan";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 662-4973";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-emile-nelligan.aspx> .
+<https://www.laval.ca/a8ade198-5ee7-4f7d-9c79-120c8d0e1be5> a <http://schema.org/Place>;
+  <http://schema.org/name> "Bibliothèque Émile-Nelligan"@fr .
 
 <https://www.laval.ca/e397bf4b-aeed-48cc-aa70-66c277727360> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Sainte-Dorothée"@fr;
@@ -7434,12 +7244,12 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/telephone> "450 662-4002";
   <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-germaine-guevremont.aspx> .
 
-<https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05> a <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://schema.org/name> "Duvernay"@fr;
-  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
 <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Laval-des-Rapides"@fr;
+  <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
+
+<https://www.laval.ca/2a5da81d-9c3c-4d7f-822d-d4593f2afc05> a <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://schema.org/name> "Duvernay"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
 <https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774> a <http://schema.org/Place>,
@@ -7506,91 +7316,7 @@ Durée &#58; 50 minutes <br></div>"""@fr;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-emile-nelligan.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
       <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-gabrielle-roy.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-germaine-guevremont.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-laure-conan.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-marius-barbeau.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
@@ -7632,6 +7358,27 @@ Durée &#58; 50 minutes <br></div>"""@fr;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-germaine-guevremont.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
       <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-philippe-panneton.aspx>;
       <http://schema.org/position> 4
     ]
@@ -7653,7 +7400,7 @@ Durée &#58; 50 minutes <br></div>"""@fr;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-sylvain-garneau.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
@@ -7674,7 +7421,28 @@ Durée &#58; 50 minutes <br></div>"""@fr;
       <http://schema.org/position> 3
     ], [
       a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-marius-barbeau.aspx>;
+      <http://schema.org/position> 4
+    ]
+  ] .
+
+ [
+    a <http://schema.org/BreadcrumbList>;
+    <http://schema.org/itemListElement> [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 1
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
+      <http://schema.org/position> 2
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
+      <http://schema.org/position> 3
+    ], [
+      a <http://schema.org/ListItem>;
+      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-laure-conan.aspx>;
       <http://schema.org/position> 4
     ]
   ] .
