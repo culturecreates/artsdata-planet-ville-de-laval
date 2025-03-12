@@ -1,7 +1,7 @@
 # artsdata-planet-ville-de-laval
 Data pipeline to import events from Ville de Laval to Artsdata.
 
-STOPPED ON 2025-03-12: Ville de Laval publishes events in a file called [calendrier-des-activites](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005) on the Donnees Quebec portal.
+**STOPPED 2025-03-12**: Ville de Laval publishes events in a file called [calendrier-des-activites](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005) on the Donnees Quebec portal.
 
 The [script](https://github.com/culturecreates/artsdata-planet-ville-de-laval/blob/main/.github/workflows/ville-de-laval-entities.yml) in this repository does the following: 
 1. Download the JSON file [calendrier-activites.json](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005) from Donnees Québec.
