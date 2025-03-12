@@ -76,8 +76,9 @@ History
 * 2023-09-11: Culture Creates starting loading City of Laval events into Artsdata.
 * 2023-09-18: Culture Creates confirms that the feed from Ville de Laval is broken.
 * 2023-11-07: Culture Creates confirms that the feed from Ville de Laval is starting to work again.
-* 2023-12-04: CUlture Creates resumes weekly imports to Artsdata.
+* 2023-12-04: Culture Creates resumes weekly imports to Artsdata.
 * 2024-03-15: Culture Creates automates pull from Donnees Quebec using this repo's [workflow](https://github.com/culturecreates/artsdata-planet-ville-de-laval/blob/main/.github/workflows/ville-de-laval-entities.yml)
+* 2025-03-12: Raynald Girard,Chef de division,Données/IA-GDE,Ville de Laval annonces via email that the new laval.ca site is lanched and they are no longer sending data to Données Quebec Portal.
 
 
 
