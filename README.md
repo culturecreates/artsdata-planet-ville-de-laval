@@ -1,7 +1,7 @@
 # artsdata-planet-ville-de-laval
 Data pipeline to import events from Ville de Laval to Artsdata.
 
-Ville de Laval publishes events in a file called [calendrier-des-activites](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005) on the Donnees Quebec portal.
+STOPPED ON 2025-03-12: Ville de Laval publishes events in a file called [calendrier-des-activites](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005) on the Donnees Quebec portal.
 
 The [script](https://github.com/culturecreates/artsdata-planet-ville-de-laval/blob/main/.github/workflows/ville-de-laval-entities.yml) in this repository does the following: 
 1. Download the JSON file [calendrier-activites.json](https://www.donneesquebec.ca/recherche/dataset/calendrier-des-activites/resource/b51a25de-bd06-4247-87ba-2b1ea8228005) from Donnees Québec.
@@ -78,7 +78,7 @@ History
 * 2023-11-07: Culture Creates confirms that the feed from Ville de Laval is starting to work again.
 * 2023-12-04: Culture Creates resumes weekly imports to Artsdata.
 * 2024-03-15: Culture Creates automates pull from Donnees Quebec using this repo's [workflow](https://github.com/culturecreates/artsdata-planet-ville-de-laval/blob/main/.github/workflows/ville-de-laval-entities.yml)
-* 2025-03-12: Raynald Girard,Chef de division,Données/IA-GDE,Ville de Laval annonces via email that the new laval.ca site is lanched and they are no longer sending data to Données Quebec Portal.
+* 2025-03-12: Raynald Girard, Chef de division, Données/IA-GDE, Ville de Laval annonces via email that the new laval.ca site is lanched and they are no longer sending data to Données Quebec Portal.
 
 
 
