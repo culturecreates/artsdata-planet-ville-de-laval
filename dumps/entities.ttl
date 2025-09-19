@@ -1,62 +1,4 @@
 
-<https://www.laval.ca/095e2f7b-9320-48ed-96a2-dfc01327b1e4> a <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7N 2T6";
-    <http://schema.org/streetAddress> "125 boulevard des Prairies"
-  ];
-  <http://schema.org/description> """<p>Le port du bonnet de bain est obligatoire.</p><p> 
- <a href=\"/Documents/Pages/Fr/Activites/sports-et-loisirs/regles-securite-regles-hygiene-consignes-piscines-interieures.pdf\" target=\"_blank\">
- <img class=\"ms-asset-icon ms-rtePosition-4\" src=\"/_layouts/images/icpdf.png\" alt=\"\" />Consultez les règles de sécurité, règles d'hygiène et consignes</a>, 90 ko<br></p><p> 
- <br> 
-</p><p></p> 
-<strong>Sauveteurs et moniteurs</strong> 
-<p>La surveillance et la sécurité sont assurées par un personnel compétent et qualifié. Les sauveteurs et les moniteurs ont suivi des formations reconnus par la Société de sauvetage. Pour votre sécurité, vous devez respecter leurs consignes en tout temps. Les sauveteurs peuvent interdire l’accès à la piscine, à la partie profonde, au tremplin ou à la glissoire à toute personne qu’ils jugent inapte à les utiliser.<br></p>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,55487023";
-    <http://schema.org/longitude> "-73,68891748"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/125+boulevard+des+Prairies,+Laval,+QC+H7N+2T6>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
-  <http://schema.org/name> "Piscine du Centre sportif Josée-Faucher";
-  <http://schema.org/telephone> "450 662-4964 ";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/piscine-du-centre-sportif-josee-faucher.aspx> .
-
-<https://www.laval.ca/71aabb2c-dd54-4bb6-8725-a3b9e97dde34> a <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7L 2S9";
-    <http://schema.org/streetAddress> "2465 rue Honoré-Mercier"
-  ];
-  <http://schema.org/description> """<p> Le port du bonnet de bain est obligatoire.</p><p>En raison de l'achalandage, nous ne pouvons garantir aux citoyens une place lors du bain libre du&#160;dimanche (15&#160;h&#160;15 à 18&#160;h).
- <br>
-</p><div><p></p><p> 
- <a href=\"/Documents/Pages/Fr/Activites/sports-et-loisirs/regles-securite-regles-hygiene-consignes-piscines-interieures.pdf\" target=\"_blank\"><img class=\"ms-asset-icon ms-rtePosition-4\" src=\"/_layouts/images/icpdf.png\" alt=\"\" />Consultez les règles de sécurité, règles d'hygiène et consignes</a>, 90 ko<br></p> 
- <p>
- <br>
- </p><p> 
- <br> 
- </p> 
- <strong>Sauveteurs et moniteurs</strong> 
- <p>La surveillance et la sécurité sont assurées par un personnel compétent et qualifié. Les sauveteurs et les moniteurs ont suivi des formations reconnus par la Société de sauvetage. Pour votre sécurité, vous devez respecter leurs consignes en tout temps. Les sauveteurs peuvent interdire l’accès à la piscine, à la partie profonde, au tremplin ou à la glissoire à toute personne qu’ils jugent inapte à les utiliser.</p></div>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,60394265";
-    <http://schema.org/longitude> "-73,78223355"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/2465+rue+Honoré-Mercier,+Laval,+QC+H7L+2S9>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
-  <http://schema.org/name> "Piscine Honoré-Mercier";
-  <http://schema.org/telephone> "450 622-0936";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/piscine-honore-mercier.aspx> .
-
 <https://www.laval.ca/Pages/Fr/Calendrier/archeomobile-sainte-rose-bibliotheque-philippe-panneton.aspx#2025-03-03T15-00> a <http://schema.org/Event>;
   <http://schema.org/additionalType> <https://www.laval.ca/03e3e7d7-ad9a-4f10-86db-dfc9d49b7abb>,
     <https://www.laval.ca/52ff792f-a72e-4b2b-859e-2b9faf17491a>;
@@ -6608,83 +6550,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/startDate> "2025-04-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <http://schema.org/url> <https://www.laval.ca/Pages/Fr/Calendrier/osl-unique-jazz-symphonique-rieu-belmondo.aspx> .
 
-<https://www.laval.ca/c62843eb-d9d1-440a-9c38-632da61f7ff3> a <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7T 2Z5";
-    <http://schema.org/streetAddress> "3131 boulevard Saint-Martin Ouest"
-  ];
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,5580854068";
-    <http://schema.org/longitude> "-73,7469848687"
-  ];
-  <http://schema.org/hasMap> <https://bit.ly/hoteldeville3131>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/Pages/Fr/Administration/direction-generale-cour-municipale-et-services-municipaux/hotel-ville-demenagement-175x110.jpg>;
-  <http://schema.org/name> "Hôtel de ville";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/A-propos/webdiffusion.aspx>;
-  <http://schema.org/telephone> "311 ou 450 978-8000 (de l'extérieur de Laval)";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/hotel-de-ville.aspx> .
-
-<https://www.laval.ca/c89d6cf9-264c-4f11-bed5-d701716d5b47> a <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7P 4K6";
-    <http://schema.org/streetAddress> "3578 boulevard Sainte-Rose"
-  ];
-  <http://schema.org/description> """<p>Le port du bonnet de bain est obligatoire.<br></p><p>
- <a href=\"/Documents/Pages/Fr/Activites/sports-et-loisirs/regles-securite-regles-hygiene-consignes-piscines-interieures.pdf\" target=\"_blank\"> 
- <img class=\"ms-asset-icon ms-rtePosition-4\" src=\"/_layouts/images/icpdf.png\" alt=\"\" />Consultez les règles de sécurité, règles d'hygiène et consignes</a>, 90 ko<br><br></p>
-<p></p>
-<br> 
-<strong>Sauveteurs et moniteurs</strong> 
-<div> 
- <strong></strong> 
- <div> 
- <strong>
- <strong>
- <p>La surveillance et la sécurité sont assurées par un personnel compétent et qualifié. Les sauveteurs et les moniteurs ont suivi des formations reconnus par la Société de sauvetage. Pour votre sécurité, vous devez respecter leurs consignes en tout temps. Les sauveteurs peuvent interdire l’accès à la piscine, à la partie profonde, au tremplin ou à la glissoire à toute personne qu’ils jugent inapte à les utiliser.</p> 
- <p></p></strong></strong></div></div>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,58654042";
-    <http://schema.org/longitude> "-73,81510143"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/3578+boulevard+Sainte-Rose,+Laval,+QC+H7P+4K6>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
-  <http://schema.org/name> "Piscine Poly-Jeunesse";
-  <http://schema.org/telephone> "438 922-0658";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/piscine-poly-jeunesse.aspx> .
-
-<https://www.laval.ca/f1f90c30-4c81-4a2a-958e-1597929fd804> a <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7E 2R3";
-    <http://schema.org/streetAddress> "3995 boulevard Lévesque Est"
-  ];
-  <http://schema.org/description> """<p>
- <span style=\"font-size&#58;16px;font-family&#58;roboto, arial, helvetica, sans-serif;font-weight&#58;bold;\">S</span><span style=\"font-size&#58;16px;font-family&#58;roboto, arial, helvetica, sans-serif;font-weight&#58;bold;\">auveteurs et moniteurs</span></p><br>
-<p>La surveillance et la sécurité sont assurées par un personnel compétent et qualifié. Les sauveteurs et les moniteurs ont suivi des formations reconnus par la Société de sauvetage et la Croix-Rouge. Pour votre sécurité, vous devez respecter leurs consignes en tout temps. Les sauveteurs peuvent interdire l’accès à la piscine, à la partie profonde, au tremplin ou à la glissoire à toute personne qu’ils jugent inapte à les utiliser.<br></p>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,59904905";
-    <http://schema.org/longitude> "-73,65341447"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/3995+boulevard+Lévesque+Est,+Laval,+QC+H7E+2R3>;
-  <http://schema.org/image> <https://www.laval.ca/PublishingImages/SD/SDDefaultArticleImage.jpg>;
-  <http://schema.org/name> "Piscine Vanier";
-  <http://schema.org/telephone> "450 664-1451";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/piscine-vanier.aspx> .
-
 <https://www.laval.ca/1f7a945a-da07-4183-a3aa-247b76faaa6b> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Art public"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
@@ -6717,9 +6582,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 
 <https://www.laval.ca/e76778b9-1a87-4c2d-9bd1-921f9984a042> a <http://schema.org/Place>;
   <http://schema.org/name> "Parc Jolibourg"@fr .
-
-<https://www.laval.ca/lieux/Pages/Fr/centre-sportif-honore-mercier.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Centre sportif Honoré-Mercier" .
 
 <https://www.laval.ca/22ea72c1-f4ac-4873-be24-c94e7d742d5f> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "co-motion"@fr;
@@ -6764,110 +6626,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 <https://www.laval.ca/e63ee82a-da16-4247-bc91-6710773eb4cf> a <http://schema.org/Place>;
   <http://schema.org/name> "Bois de l'Équerre"@fr .
 
-<https://www.laval.ca/lieux/Pages/Fr/bibliotheque-gabrielle-roy.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> ""@fr-fr;
-  <http://ogp.me/ns#image> ""@fr-fr;
-  <http://ogp.me/ns#title> ""@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/bibliotheque-gabrielle-roy.aspx"@fr-fr;
-  <http://schema.org/name> "Bibliothèque Gabrielle-Roy" .
-
-<https://www.laval.ca/lieux/Pages/Fr/bibliotheque-germaine-guevremont.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "L'équipe de la bibliothèque Germaine-Guèvremont est fière de réserver à sa clientèle,&#160;un accueil chaleureux et un service personnalisé et efficace."@fr-fr;
-  <http://ogp.me/ns#image> "https://www.laval.ca/lieux/PublishingImages/bibliotheque/germaine_guevremont.jpg"@fr-fr;
-  <http://ogp.me/ns#title> "Bibliothèque Germaine-Guèvremont"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/bibliotheque-germaine-guevremont.aspx"@fr-fr;
-  <http://schema.org/name> "Bibliothèque Germaine-Guèvremont" .
-
-<https://www.laval.ca/lieux/Pages/Fr/bibliotheque-laure-conan.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "Vous recherchez un endroit dynamique à fréquenter? La bibliothèque Laure-Conan est un&#160;lieu de culture où l'imaginaire et la découverte prennent tout leur sens. Pour ceux qui s'intéressent à l'art, diverses expositions vous sont également&#160;proposées."@fr-fr;
-  <http://ogp.me/ns#image> "https://www.laval.ca/lieux/PublishingImages/bibliotheque/laure_conan.jpg"@fr-fr;
-  <http://ogp.me/ns#title> "Bibliothèque Laure-Conan"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/bibliotheque-laure-conan.aspx"@fr-fr;
-  <http://schema.org/name> "Bibliothèque Laure-Conan" .
-
-<https://www.laval.ca/lieux/Pages/Fr/bibliotheque-marius-barbeau.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> ""@fr-fr;
-  <http://ogp.me/ns#image> ""@fr-fr;
-  <http://ogp.me/ns#title> ""@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/bibliotheque-marius-barbeau.aspx"@fr-fr;
-  <http://schema.org/name> "Bibliothèque Marius-Barbeau" .
-
-<https://www.laval.ca/lieux/Pages/Fr/bibliotheque-multiculturelle.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "La bibliothèque Multiculturelle&#160;est&#160; pluridisciplinaire et multilingue tout en étant également un centre multimédia. On y retrouve également Le Studio - espace numérique qui permet à tous &#160;d'apprendre et de créer en utlisant des équipements numériques à la fine pointe de la technologie."@fr-fr;
-  <http://ogp.me/ns#image> "https://www.laval.ca/lieux/PublishingImages/bibliotheque/bibliotheque-multiculturelle-175x110.jpg"@fr-fr;
-  <http://ogp.me/ns#title> "Bibliothèque Multiculturelle et Le Studio - espace numérique"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/bibliotheque-multiculturelle.aspx"@fr-fr;
-  <http://schema.org/name> "Bibliothèque Multiculturelle et Le Studio - espace numérique" .
-
-<https://www.laval.ca/lieux/Pages/Fr/bibliotheque-philippe-panneton.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "​​​​​​​​​​​​​​La bibliothèque Philippe-Panneton​&#160;offrent activités, documents et services variés pour tous les âges et tous les goûts, dans des espaces&#160;conçus pour&#160;en&#160;profiter pleinement.​​"@fr-fr;
-  <http://ogp.me/ns#image> "https://www.laval.ca/lieux/PublishingImages/bibliotheque/philippe_panneton.jpg"@fr-fr;
-  <http://ogp.me/ns#title> "Bibliothèque Philippe-Panneton"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/bibliotheque-philippe-panneton.aspx"@fr-fr;
-  <http://schema.org/name> "Bibliothèque Philippe-Panneton" .
-
-<https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> ""@fr-fr;
-  <http://ogp.me/ns#image> ""@fr-fr;
-  <http://ogp.me/ns#title> ""@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/bibliotheque-yves-theriault.aspx"@fr-fr;
-  <http://schema.org/name> "Bibliothèque Yves-Thériault" .
-
-<https://www.laval.ca/lieux/Pages/Fr/hotel-de-ville.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> ""@fr-fr;
-  <http://ogp.me/ns#image> "https://www.laval.ca/PublishingImages/Pages/Fr/Administration/direction-generale-cour-municipale-et-services-municipaux/hotel-ville-demenagement-175x110.jpg"@fr-fr;
-  <http://ogp.me/ns#title> "Hôtel de ville"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/hotel-de-ville.aspx"@fr-fr;
-  <http://schema.org/name> "Hôtel de ville" .
-
-<https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "​​​​​​Maison des arts de Laval, située près du Métro Montmorency"@fr-fr;
-  <http://ogp.me/ns#image> "https://www.laval.ca/lieux/PublishingImages/edifice_municipal/maison-des-arts-175X110.jpg"@fr-fr;
-  <http://ogp.me/ns#title> "Maison des arts de Laval"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/maison-des-arts-de-laval.aspx"@fr-fr;
-  <http://schema.org/name> "Maison des arts de Laval" .
-
-<https://www.laval.ca/lieux/Pages/Fr/piscine-du-centre-sportif-josee-faucher.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "Piscine du centre sportif Josée-Faucher"@fr-fr;
-  <http://ogp.me/ns#image> ""@fr-fr;
-  <http://ogp.me/ns#title> "Piscine du Centre sportif Josée-Faucher"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/piscine-du-centre-sportif-josee-faucher.aspx"@fr-fr;
-  <http://schema.org/name> "Piscine du Centre sportif Josée-Faucher" .
-
-<https://www.laval.ca/lieux/Pages/Fr/piscine-honore-mercier.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "Piscine Honoré-Mercier"@fr-fr;
-  <http://ogp.me/ns#image> ""@fr-fr;
-  <http://ogp.me/ns#title> "Piscine Honoré-Mercier"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/piscine-honore-mercier.aspx"@fr-fr;
-  <http://schema.org/name> "Piscine Honoré-Mercier" .
-
-<https://www.laval.ca/lieux/Pages/Fr/piscine-poly-jeunesse.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "Piscine Poly-Jeunesse"@fr-fr;
-  <http://ogp.me/ns#image> ""@fr-fr;
-  <http://ogp.me/ns#title> "Piscine Poly-Jeunesse"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/piscine-poly-jeunesse.aspx"@fr-fr;
-  <http://schema.org/name> "Piscine Poly-Jeunesse" .
-
-<https://www.laval.ca/lieux/Pages/Fr/piscine-vanier.aspx> a <http://schema.org/Thing>;
-  <http://ogp.me/ns#description> "Piscine Vanier"@fr-fr;
-  <http://ogp.me/ns#image> ""@fr-fr;
-  <http://ogp.me/ns#title> "Piscine Vanier"@fr-fr;
-  <http://ogp.me/ns#type> "place"@fr-fr;
-  <http://ogp.me/ns#url> "https://www.laval.ca/Pages/Fr/piscine-vanier.aspx"@fr-fr;
-  <http://schema.org/name> "Piscine Vanier" .
-
 <https://www.laval.ca/06591f03-ee66-4c31-89ca-78d35dcea4cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Histoire"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
@@ -6875,12 +6633,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 <https://www.laval.ca/2fe63b33-f6e8-4c18-8496-6e3240f36082> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Orchestre symphonique de Laval"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
-
-<https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Édifices municipaux" .
-
-<https://www.laval.ca/lieux/Pages/Fr/piscines-interieures.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Piscines intérieures" .
 
 <https://www.laval.ca/2fc6ba3c-690b-452b-a79e-6452816d68ad> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Activités virtuelles"@fr;
@@ -6914,9 +6666,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Pâques"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Bibliothèques" .
-
 <https://www.laval.ca/6722dd24-a6cf-4dd5-8669-f9cbe1756922> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Cet hiver dans mon quartier"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
@@ -6949,12 +6698,6 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Communautaire et organismes"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
 
-<https://www.laval.ca/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Accueil" .
-
-<https://www.laval.ca/lieux/Pages/Fr/accueil.aspx> a <http://schema.org/Thing>;
-  <http://schema.org/name> "Carte interactive" .
-
 <https://www.laval.ca/b2263ec5-6cbf-4c6f-8887-6acf6b2188fe> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Dehors"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
@@ -6979,33 +6722,8 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Jeune public"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7N 5W1";
-    <http://schema.org/streetAddress> "1395 boulevard de la Concorde Ouest"
-  ];
-  <http://schema.org/email> "maisondesarts@laval.ca";
-  <http://schema.org/faxNumber> "450 662-4428";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,5586752";
-    <http://schema.org/longitude> "-73,71653785"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/1395+boulevard+de+la+Concorde+Ouest,+Laval,+QC+H7N+5W1>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/edifice_municipal/maison-des-arts-175X110.jpg>;
-  <http://schema.org/name> "Maison des arts de Laval"@fr,
-    "Maison des arts de Laval";
-  <http://schema.org/sameAs> <http://maisondesarts.laval.ca/>,
-    <https://www.facebook.com/maisondesartsdelaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27dion9lsLF7NdEek-s3jbEm>;
-  <http://schema.org/telephone> "450 662-4440",
-    "Billetterie : 450 667-2040";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx> .
+<https://www.laval.ca/b881c7a8-00ac-40fc-81d4-296229eb64d6> a <http://schema.org/Place>;
+  <http://schema.org/name> "Maison des arts de Laval"@fr .
 
 <https://www.laval.ca/70c0c2b8-cd58-4b34-b5ad-d518be8f5658> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Espace citoyen Confluents"@fr;
@@ -7031,41 +6749,8 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Adultes"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7V 3R2";
-    <http://schema.org/streetAddress> "1535 boulevard Chomedey"
-  ];
-  <http://schema.org/description> """<p> 
- <span class=\"icon-website\"></span>Nous joindre&#160;&#58; 
- <a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre</a></p><p> 
- <span class=\"icon-website\"></span>Autobus&#160;&#58; 
- <a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">lignes 40, 55, 56, 60, 66 et 902</a><br></p><h3>Le Studio<br></h3><p>Un espace numérique ouvert à tous pour apprendre, créer, explorer, échanger et expérimenter avec des équipements numériques à la fine pointe de la technologie.</p><p> 
- <span class=\"icon-website\"></span>
- <a href=\"/Pages/Fr/Culture/studio-a-propos.aspx\" target=\"_blank\">Site Internet du Studio</a><br></p><p>
- <strong> 
- <br></strong></p><p>
- <strong>Horaire du Studio</strong><br></p><p>
- <span style=\"color&#58;#0a0a0a;font-family&#58;roboto, arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">Du lundi au vendredi&#160;&#58; 15&#160;h à 21&#160;h</span><br style=\"color&#58;#0a0a0a;\"><span style=\"color&#58;#0a0a0a;font-family&#58;roboto, arial, helvetica, sans-serif;font-size&#58;16px;font-style&#58;normal;font-weight&#58;400;\">Samedi et dimanche&#160;&#58; 10&#160;h à 17 h</span><br></p>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,55291699";
-    <http://schema.org/longitude> "-73,74721235"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/1535+boulevard+Chomedey,+Laval,+QC+H7V+3R2>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/bibliotheque-multiculturelle-175x110.jpg>;
-  <http://schema.org/name> "Bibliothèque Multiculturelle"@fr,
-    "Bibliothèque Multiculturelle";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 978-5995";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-multiculturelle.aspx> .
+<https://www.laval.ca/98205b68-5745-4687-b461-2e214e81389d> a <http://schema.org/Place>;
+  <http://schema.org/name> "Bibliothèque Multiculturelle"@fr .
 
 <https://www.laval.ca/bcc29691-ef6f-4449-9d03-656185b4d7f9> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Chomedey"@fr;
@@ -7089,87 +6774,14 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Sainte-Dorothée"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7X 1G1";
-    <http://schema.org/streetAddress> "670 rue de la Place-Publique"
-  ];
-  <http://schema.org/description> """<p>
-   <span class=\"icon-website\">​</span>Nous joindre &#58;&#160;​<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre​</a></p> ​<span>​A​​utobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 46, 56, 66, 144 et 404​</a><span class=\"icon-website-inline\"></span><br>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,52855459";
-    <http://schema.org/longitude> "-73,820769"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/670+rue+de+la+Place-Publique,+Laval,+QC+H7X+1G1>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/bibliotheque-yves-theriault-175x110.jpg>;
-  <http://schema.org/name> "Bibliothèque Yves-Thériault"@fr,
-    "Bibliothèque Yves-Thériault";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 978-6599";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx> .
+<https://www.laval.ca/4fe6717e-916d-4d5f-9c41-59f9f294b1c8> a <http://schema.org/Place>;
+  <http://schema.org/name> "Bibliothèque Yves-Thériault"@fr .
 
-<https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7K 2J4";
-    <http://schema.org/streetAddress> "4660 boulevard des Laurentides"
-  ];
-  <http://schema.org/description> """<p>
- <span class=\"icon-website\"></span>Nous joindre &#58;&#160;<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre</a></p> <span>Autobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 17 et 27</a><span class=\"icon-website-inline\"></span><br>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,6157597";
-    <http://schema.org/longitude> "-73,74072336"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/4660+boulevard+des+Laurentides,+Laval,+QC+H7K+2J4>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/laure_conan.jpg>;
-  <http://schema.org/name> "Bibliothèque Laure-Conan"@fr,
-    "Bibliothèque Laure-Conan";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 662-4975";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-laure-conan.aspx> .
+<https://www.laval.ca/03e1dcf2-1201-4c36-8ba2-4fd7da85b80b> a <http://schema.org/Place>;
+  <http://schema.org/name> "Bibliothèque Laure-Conan"@fr .
 
-<https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7A 0K3";
-    <http://schema.org/streetAddress> "1000 rue Marie-Uguay"
-  ];
-  <http://schema.org/description> """<p>
- <span class=\"icon-website\" style=\"display&#58;none;\"></span>Nous joindre &#58;&#160;<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre</a></p>
-<span>Autobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 42,&#160;52, 252, 925</a><span class=\"icon-website-inline\"></span>&#160;<br>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,6650545716";
-    <http://schema.org/longitude> "-73,591843981"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/1000+rue+Marie-Uguay,+Laval,+QC+H7A+0K3>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/bibliotheque-marius-barbeau-335x215-2.jpg>;
-  <http://schema.org/name> "Bibliothèque Marius-Barbeau"@fr,
-    "Bibliothèque Marius-Barbeau";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 662-4005";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-marius-barbeau.aspx> .
+<https://www.laval.ca/4870618a-b491-4abd-947e-9e1f4888b897> a <http://schema.org/Place>;
+  <http://schema.org/name> "Bibliothèque Marius-Barbeau"@fr .
 
 <https://www.laval.ca/5dadd5e3-e3d3-4881-9d4c-ed6f1cb664cc> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Auteuil"@fr;
@@ -7183,66 +6795,15 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Saint-François"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7P 4V9";
-    <http://schema.org/streetAddress> "3505 boulevard Dagenais Ouest"
-  ];
-  <http://schema.org/description> """<p> 
-   <span class=\"icon-website\">​</span>Nous joindre &#58;&#160;​<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre​</a></p> ​<span>Autobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\" style=\"font-family&#58;arial;\">&#160;lignes 55, 61, 73&#160;et&#160;76​</a><span class=\"icon-website-inline\"></span> 
-<br>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,57767869";
-    <http://schema.org/longitude> "-73,81057226"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/3505+boulevard+Dagenais+Ouest,+Laval,+QC+H7P+4V9>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/gabrielle_roy.jpg>;
-  <http://schema.org/name> "Bibliothèque Gabrielle-Roy"@fr,
-    "Bibliothèque Gabrielle-Roy";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 978-8909";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-gabrielle-roy.aspx> .
+<https://www.laval.ca/f4084c5d-aff7-4998-9e04-16a20732ad55> a <http://schema.org/Place>;
+  <http://schema.org/name> "Bibliothèque Gabrielle-Roy"@fr .
 
 <https://www.laval.ca/eab9ad14-6874-4c9b-8704-3fd73027b0ea> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Fabreville"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7E 2B6";
-    <http://schema.org/streetAddress> "2900 boulevard de la Concorde Est"
-  ];
-  <http://schema.org/description> """<p>
- <span class=\"icon-website\"></span>Nous joindre &#58;&#160;<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre</a></p><div>
- <span>Autobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;ligne&#160;42</a><span class=\"icon-website-inline\"></span>
- <br></div>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,59097657";
-    <http://schema.org/longitude> "-73,66962923"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/2900+boulevard+de+la+Concorde+Est,+Laval,+QC+H7E+2B6>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/germaine_guevremont.jpg>;
-  <http://schema.org/name> "Bibliothèque Germaine-Guèvremont"@fr,
-    "Bibliothèque Germaine-Guèvremont";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 662-4002";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-germaine-guevremont.aspx> .
+<https://www.laval.ca/e38a50b9-3e67-4c0e-84ee-040293125a45> a <http://schema.org/Place>;
+  <http://schema.org/name> "Bibliothèque Germaine-Guèvremont"@fr .
 
 <https://www.laval.ca/bc509603-3c51-46fc-a6a9-b54f2cc27617> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Laval-des-Rapides"@fr;
@@ -7252,33 +6813,8 @@ Durée &#58; 50 minutes <br></div>"""@fr;
   <http://schema.org/name> "Duvernay"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Tags> .
 
-<https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774> a <http://schema.org/Place>,
-    <http://schema.org/LocalBusiness>;
-  <http://schema.org/address> [
-    a <http://schema.org/PostalAddress>;
-    <http://schema.org/addressCountry> "CA";
-    <http://schema.org/addressLocality> "Laval";
-    <http://schema.org/addressRegion> "Québec";
-    <http://schema.org/postalCode> "H7R 5P8";
-    <http://schema.org/streetAddress> "4747 boulevard Arthur-Sauvé"
-  ];
-  <http://schema.org/description> """<p>
-   <span class=\"icon-website\">​</span>Nous joindre &#58;&#160;​<a href=\"https&#58;//bibliopresto.typeform.com/to/Tl4uhb\" target=\"_blank\">biblio.laval.ca/nousjoindre​</a></p>​<span>​Autobus &#58;</span><a href=\"http&#58;//www.stl.laval.qc.ca/fr/horaires-et-trajets/autobus/stl/\" target=\"_blank\">&#160;lignes 46, 55 et 76​</a><span class=\"icon-website-inline\">​</span><span style=\"color&#58;#333333;font-family&#58;arial;font-weight&#58;bold;\">​</span> 
-<br>""";
-  <http://schema.org/geo> [
-    a <http://schema.org/GeoCoordinates>;
-    <http://schema.org/latitude> "45,55251471";
-    <http://schema.org/longitude> "-73,86900361"
-  ];
-  <http://schema.org/hasMap> <https://www.google.ca/maps/place/4747+boulevard+Arthur-Sauvé,+Laval,+QC+H7R+5P8>;
-  <http://schema.org/image> <https://www.laval.ca/lieux/PublishingImages/bibliotheque/philippe_panneton.jpg>;
-  <http://schema.org/name> "Bibliothèque Philippe-Panneton"@fr,
-    "Bibliothèque Philippe-Panneton";
-  <http://schema.org/sameAs> <https://www.laval.ca/Pages/Fr/Culture/bibliotheques.aspx>,
-    <https://fr-ca.facebook.com/bibliothequeslaval>,
-    <https://www.youtube.com/playlist?list=PLQ3OeZ7vE27deKv2VGGBvqFTMxK2XdT_v>;
-  <http://schema.org/telephone> "450 978-8919";
-  <http://www.w3.org/ns/prov#wasDerivedFrom> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-philippe-panneton.aspx> .
+<https://www.laval.ca/8620bd60-4ce9-48a8-b327-90a368764774> a <http://schema.org/Place>;
+  <http://schema.org/name> "Bibliothèque Philippe-Panneton"@fr .
 
 <https://www.laval.ca/ca32aae2-90a6-4767-b4d3-26ab89c40c4d> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Laval-Ouest"@fr;
@@ -7299,280 +6835,3 @@ Durée &#58; 50 minutes <br></div>"""@fr;
 <https://www.laval.ca/ed4057c0-6826-43fb-9211-2ab94429c593> a <http://www.w3.org/2004/02/skos/core#Concept>;
   <http://schema.org/name> "Activités de la ville"@fr;
   <http://www.w3.org/2004/02/skos/core#inScheme> <https://www.laval.ca/ConceptScheme#Categories> .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-gabrielle-roy.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-multiculturelle.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-germaine-guevremont.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-philippe-panneton.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-yves-theriault.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-marius-barbeau.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheques.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/bibliotheque-laure-conan.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/maison-des-arts-de-laval.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/hotel-de-ville.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/piscines-interieures.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/piscine-du-centre-sportif-josee-faucher.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/edifices-municipaux.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/centre-sportif-honore-mercier.aspx>;
-      <http://schema.org/position> 4
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/piscine-honore-mercier.aspx>;
-      <http://schema.org/position> 5
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/piscines-interieures.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/piscine-poly-jeunesse.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
-
- [
-    a <http://schema.org/BreadcrumbList>;
-    <http://schema.org/itemListElement> [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 1
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/accueil.aspx>;
-      <http://schema.org/position> 2
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/piscines-interieures.aspx>;
-      <http://schema.org/position> 3
-    ], [
-      a <http://schema.org/ListItem>;
-      <http://schema.org/item> <https://www.laval.ca/lieux/Pages/Fr/piscine-vanier.aspx>;
-      <http://schema.org/position> 4
-    ]
-  ] .
